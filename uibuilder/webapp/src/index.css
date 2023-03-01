@@ -9,23 +9,56 @@
    * To display "loading...", change to the following:
    *    [v-cloak] > * { display:none }
    *    [v-cloak]::before { content: "loading…"; }
-      
    */
    [v-cloak] > * { display: none; }
    [v-cloak]::before { content: "loading…" }
 
+   /* .img-fluid but based over container's height instead than width */
+   .img-fluid-y {
+      height: 100%;
+      width:auto;
+      max-width:100%;
+   }
+   ::root{
+      /* --gigayellow:#dcb102; */
+   }
+
+   /* *, ::after, ::before {
+      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit * /
+      -moz-box-sizing: border-box;    /* Firefox, other Gecko * /
+      box-sizing: border-box;         /* Opera/IE 8+ * /
+   }*/
+
 /*** DBG ***/
 
-   /**/div, span,    /**/
+   /** /div, span,    /**/
    [dbg-outline] {
-      border: solid 1px rgb(255, 7, 255); 
+      border: dotted 1px rgb(255, 7, 255); 
    }
+   /* space here->* /
+   body > * > *,
+   body > * > * > * > * > * > *{
+      border: solid 1px red;
+   }
+   body > * > * > *,
+   body > * > * > * > * > * > * > *{
+      border: solid 1px green;
+   }
+   body > * > * > * > *,
+   body > * > * > * > * > * > * > *{
+      border: solid 1px darkturquoise;
+   }
+   body > * > * > * > * > *,
+   body > * > * > * > * > * > * > * > * > *{
+      border: solid 1px magenta;
+   }
+   /**/
 
 /*** NAVBAR ***/
    :root{
-      --navbar-h: calc(60px);
-      --appcontainer-h: calc(100vh - var(--navbar-h) - 20px)}
-   .mynavbar,
+      --navbar-h: 60px;
+      --appcontainer-h: calc(100vh - var(--navbar-h))}
+   /*.mynavbar,
    .mynavbar *{
       padding:0px 0px 0px 0px;
       margin: 0px;
@@ -35,17 +68,121 @@
       width:100vw;
       padding:5px;
    }
-   .logo-cont{
+   */
+   .navbar .logo-container{
       box-sizing: border-box;
       background-color: transparent;
       margin: auto 0px auto 0px;
-      
-   }
-   .logo-cont img,
-   .logo-cont b-img{
-      margin:0px;
-      padding:0px;
       height:50px;
+      min-height:100%
+   }
+   
+
+/*** GRID ***/
+   .main-row{
+      height: 50%;
+      width:100%;
+      padding: 1vh 0 1vh 1%;
+   }
+   .main-col{
+      display:inline-block;
+      height:100%;
+      width:24%;
+      margin-right:1%
    }
 
-/*** ????? ***/
+   
+/*** CELLS ***/
+   /* template
+      <div class="main-col">
+         <div class="cell-header">
+         <div class="countdown-container">
+            <..>
+   */
+   .main-col{
+      color:var(--gray-100);
+   }
+   .cell-header{
+      width:80%;/*
+      border: solid 1.5px black;
+      box-shadow: inset -3px 0px 12px -3px var(--gray-600);
+      border-radius:0 30% 30% 0;
+      
+      background-color: white;/**/
+      margin: 0 auto 0 auto;
+      text-align:center;
+      font-size:6vh;
+      max-height:9vh; /* rought estimate, avoids box diplacement due to wrong aspect ratio*/
+      overflow:hidden;
+   }
+   /*** COUNTDOWN ***/
+      /* template
+         <div class="countdown-container">
+            <div class="countdown-clock">
+               <span>18
+                  <span>:40
+            <div class="progress rounded-pill" >
+               <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+      */
+
+      .countdown-container {
+         width:100%;  margin-top:2vh;
+      }
+      .countdown-container .countdown-clock {
+         width:fit-content; margin:0 auto ;
+      }
+      .countdown-container .countdown-clock > span {
+         font-size:12vh;
+      }
+      .countdown-container .countdown-clock > span > span{
+         font-size:60%;
+      }
+      .countdown-container .progress {
+         height:8vh; width:80%; margin:10px auto 0px;
+      }
+
+/*** SIGNALS ***/
+   .signal-noop{ /* aspetto all'avvio del server*/
+      background-color: var(--gray-600);
+   }
+   .signal-A1{ /* chiamata */
+      background-color: hsl(0, 72%, 50%);
+   }
+   .signal-A1.signal-A1-blinkoff{
+      background-color: hsl(0, 72%, 65%);
+   }
+
+   .signal-A2{ /* presa in carico da area SMED */
+      background-color: hsl(0, 72%, 50%);
+   }
+
+   .signal-A3{ /* avviamento */
+      background-color: hsl(56, 86%, 53%);
+   }
+   .signal-A4{ /* timeout avviamento */
+      background-color: hsl(56, 86%, 53%);
+   }
+   .signal-A4.signal-A4-blinkoff{
+      background-color: hsl(56, 86%, 73%);
+   }
+
+   .signal-B{ /* run */
+      background-color: hsl(120, 69%, 37%);
+   }
+
+   .signal-C1{ /* downtime */
+      background-color: var(--gray-400);
+      color: black;
+   }
+
+   .signal-C2{ /* manutenzione */
+      background-color: hsl(206, 72%, 50%);
+   }
+
+   .signal-D{ /* scarto */
+      background-color: purple;
+   }
+
+   .signal-E{ /* carrelli pronti in corsia */
+      background-color: purple;
+   }

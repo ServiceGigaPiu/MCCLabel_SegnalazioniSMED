@@ -8,7 +8,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.10",
     "bootstrap": "^4.6.2",
     "bootstrap-vue": "~2.23.1",
-    "chart.js": "~2.9.4",
+    "jquery": "^3.6.3",
     "justgage": "^1.6.1",
     "vue": "^2.7.14"
   },

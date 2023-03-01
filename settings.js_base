@@ -20,9 +20,11 @@
  *
  **/
 
-let fileWorkingDirectoryVar = ".\\.node-red\\app" //needs to be set here to have all root folders relative to this one //httpStatic for example.
 
-
+process.env.noderedDir = __dirname + "\\";
+let fileWorkingDirectoryVar = process.env.noderedDir+"app"; //needs to be set here to have all root folders relative to this one //httpStatic for example.
+console.log("[setup info] -- process.env.noderedDir: "+process.env.noderedDir);
+console.log("[setup info] -- fileWorkingDirectory: "+fileWorkingDirectoryVar);
 /* my Enviroment Variables ** no nested values like var.prop.prop  */
 
 //process.env.path_fotovoltaico_dati = process.env.path_arch + "\\dati\\"
@@ -48,7 +50,7 @@ module.exports = {
      * node-red from being able to decrypt your existing credentials and they will be
      * lost.
      */
-    //credentialSecret: "a-secret-key",
+    credentialSecret: false,
 
     /** By default, the flow JSON will be formatted over multiple lines making
      * it easier to compare changes when using version control.
@@ -88,6 +90,47 @@ module.exports = {
     //        permissions: "*"
     //    }]
     //},
+	
+   // adminAuth: {
+   //   type: "credentials",
+   //   users: [
+   //         {  username: "admin",
+   //            password: "$2b$08$pkWTWuX3mqthJvpJJx3m/OcJTKuucyT9Yh6xilTba4OazHLh6ZKj.",
+   //            permissions: "*"
+   //         },
+   //         {  username: "andrea.bardelli",
+   //            password: "$2b$08$ZQpQzyiYOTAuRQYBZGw.muXKoeqeOs0sVp12jpw1aFMDuck0s/6/6",
+   //            permissions: "read"
+   //         }
+   //   ],
+   //   default: {
+   //      permissions:"read"
+   //   }
+   //},
+  
+    /*adminAuth: {
+		type:"strategy",
+		strategy: {
+			name: "Passport-GitHub2",
+			label: 'Sign in with Git-Hub',
+			icon:"fa-twitter",
+			strategy: require("passport-github2").Strategy,
+			options: {
+            clientID: "7abbc1d40d8200db93a6",
+            clientSecret: "f67b3e514a95e7e9134739ad2886bf474a4e66a1",
+				callbackURL: "http://localhost:1880/auth/strategy/callback",
+				verify: function(accessToken, refreshToken, profile, done) {
+               return done(null, profile);
+				}
+			},
+		},
+		users: [ 
+			{ username: "ServiceGigaPiu", permissions: ["*"]},
+		],
+		default: {
+			permissions: "read"
+		}
+	},*/
 
     /** The following property can be used to enable HTTPS
      * This property can be either an object, containing both a (private) key
@@ -477,11 +520,20 @@ module.exports = {
      *    functionGlobalContext: { os:require('os') }
      * will allow the `os` module to be accessed in a Function node using:
      *    global.get("os")
+     * --edit--
+     * wrapped with an IIFE to avoid silent parse errors caused by missing modules.
      */
-    functionGlobalContext: {
-        // os:require('os'),
-		dateFns:require('date-fns')
-    },
+    functionGlobalContext: (()=>{
+        try {
+            return {
+                dateFns: require('date-fns'),
+                jsonata: require('jsonata')
+            }
+        } catch (err) {
+            console.log("\n\n[setup warn] -- ERROR PARSING SETTINGS:JS -- functionGlobalContext: missing one or more required modules", "\n\tthe flow most probably won't work\n\n");
+            return {}
+        }
+    })(),
 
     /** The maximum number of messages nodes will buffer internally as part of their
      * operation. This applies across a range of nodes that operate on message sequences.

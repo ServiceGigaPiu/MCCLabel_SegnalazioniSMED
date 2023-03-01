@@ -20,48 +20,70 @@
 
    <!-- stylesheets -->
    <link type="text/css" rel="stylesheet" href="../uibuilder/vendor/bootstrap/dist/css/bootstrap.min.css" />
-   <link type="text/css" rel="stylesheet" href="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.css" />
+   <link type="text/css" rel="stylesheet" href="./bootstrap-vue-with-overrides.css" />
+   <!--link type="text/css" rel="stylesheet" href="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.css" /-->
    <link type="text/css" rel="stylesheet" href="../uibuilder/vendor/@fortawesome/fontawesome-free/css/all.css"> <!-- https://fontawesome.com/docs/web/setup/host-yourself/webfonts#reference-font-awesome-in-your-project -->
     <!-- Your own CSS -->
    <link type="text/css" rel="stylesheet" href="./index.css" media="all">
 </head>
 <body>
-
    <div id="app" class="uib" v-cloak >  <!-- All UI code needs to be in here -->
       
       <!-- NAVBAR HEADER -->
-      <b-navbar toggleable="lg" type="dark" variant="info" class="m-0 p-2">
-         
-         <b-nav-item-dropdown toggle-class="text-decoration-none h-75" left variant="info" no-caret>
-            <template #button-content> <span aria-hidden="true" aria-label="icon"><i class="fa-solid fa-bars" style="color:whitesmoke"></i></span> </template>
-            <b-dropdown-item href="#">page 1</b-dropdown-item>
-            <b-dropdown-item href="#">page 2</b-dropdown-item>
-            <b-dropdown-item href="#">page 3</b-dropdown-item>
-         </b-nav-item-dropdown>
+      <div style="width:100%;">
+         <div style="padding:5px 0px 2px; height:calc(var(--navbar-h) - 6px); width:100%">
+            <div class="logo-container rounded-pill" style="height:100%; width:fit-content; margin:auto auto; padding: 2px 30px;">
+               <a href="http://gigapiu.it/"><img class="img-fluid-y" src="common/images/logoGigapiu.transp.png" alt="GIGAPIU LOGO" /></a>
+            </div>
+         </div>
 
-         <span class="my-auto mx-auto h-75 p-0">
-            <!--span class="logo-cont m-0 h-100 mr-4">
-               <a href="http://ramel.it/"><b-img class="logo-img" src="common/images/logoRamel.transp.png">RAMEL LOGO</b-img></a>
-            </span-->
+         <div class="bg-gigayellow" style="border: none; height:4px; width:100%; margin-top: 2px;"></div>
+      </div>
    
-            <span class="logo-cont m-0 h-100" >
-               <a href="http://gigapiu.it/"><b-img  src="common/images/logoGigapiu.transp.png">GIGAPIU LOGO</b-img></a>
-            </span>
-         </span>
-         
-         <!--template v-for='ref in [{href:'http://gigapiu.it/',src:'common/images/logoGigapiu.transp.png'},{href:'http://gigapiu.it/',src:'common/images/logoGigapiu.transp.png'}]'>
-            
-         </template-->
-      </b-navbar>
-
       <!-- APP BODY -->
-      <div id="app_container" class="m-0 mw-100" style="display:flex;flex-direction:row; align-items:stretch"><!-- Wraps the bootstrap-vue formatting -->
-      
-      
+      <div id="app-body" style="height:var(--appcontainer-h)">
+         <!--template v-for="i in 2">
+            <div class="main-row">
+               <template v-for="j in 4">
+                  <div class="main-col signal-noop" v-bind:id="'r'+i+'c'+j">
+                     <div class="cell-header">
+                        Linea MO41
+                     </div>
+                     <div class="countdown-container">
+                        <div class="countdown-clock" >
+                           <span>18<span>:40</span></span>
+                        </div>
+                        <div class="progress rounded-pill">
+                           <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ></div>
+                        </div>
+                     </div>
+                  </div>
+               </template>
+            </div>
+         </template-->
+         
+         <!--template v-for="(row, i) in cells">
+            <div class="main-row">
+               <template v-for="(cell, j) in row">
+                  <signal-cell class="main-col" :id="'r'+i+'c'+j" >
+                     
+                  </signal-cell>
+               </template>
+            </div>
+         </template-->
+         <div class="main-row">
+            <template v-for="i in 4">
+               <signal-cell class="main-col" >
+                  
+               </signal-cell>
+            </template>
+         </div>
+         <div class="main-row">
+         </div>
       </div>
       
       <!-- ######### END PAGE ########## -->
-      <div style="display:none"> <!-- dbg stuff, templates mostly -->
+      <div style="display:none; position:absolute; top:100vh; left:0px"> <!-- dbg stuff, templates mostly -->
          <b-container>
             <b-img src="./images/node-blue-192x192.png" rounded left v-bind="imgProps" alt="Blue Node-RED" class="mt-1 mr-2"></b-img>
             <h1>uibuilder + Vue.js + bootstrap-vue for Node-RED</h1>
@@ -147,23 +169,27 @@
    </div> <!-- app -->
 
    <!-- #region Supporting Scripts. These MUST be in the right order. Note no leading / -->
+       <!-- DEFAULT -->
       <script src="../uibuilder/vendor/socket.io/socket.io.js">/* REQUIRED: Socket.IO is loaded only once for all instances. Without this, you don't get a websocket connection */</script>
        <!-- Vendor Libraries - Load in the right order, use minified, production versions for speed -->
-      <script src="../uibuilder/vendor/vue/dist/vue.min.js">/* prod version with component compiler */</script>
-      <!-- <script src="../uibuilder/vendor/vue/dist/vue.js">/* dev version with component compiler */</script> -->
-      <!-- <script src="../uibuilder/vendor/vue/dist/vue.runtime.min.js">/* prod version without component compiler */</script> -->
-      <script src="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.min.js">/* remove 'min.' to use dev version */</script> <!--  -->
+      <!--script src="../uibuilder/vendor/vue/dist/vue.min.js">/* prod version with component compiler */</script-->
+      <script src="../uibuilder/vendor/vue/dist/vue.js">/* dev version with component compiler */</script>
+      <!--script src="../uibuilder/vendor/vue/dist/vue.runtime.min.js">/* prod version without component compiler */</script-->
+      <script src="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.js">/* remove 'min.' to use dev version */</script> <!--  -->
       <script src="./uibuilderfe.min.js">/* REQUIRED: remove 'min.' to use dev version */</script>
-   
-       <!-- modules -->
-      <!--script src="../uibuilder/vendor/chart.js/dist/chart.umd.js"> /* opensource lib for graph rendering //useful website:https://quickchart.io/ */</script-->
+       <!-- EXTRA -- >
+      <script src="../uibuilder/vendor/jquery/dist/jquery.min.js">/* boostrap dependency*/</script>
+      <script src="../uibuilder/vendor/bootstrap/dist/js/bootstrap.min.js">/* CAUTION use bootstrap vue for DOM-altering features (almost everything) //grid system is ok */</script>
+       <!-- MODULES -->
+      <!--script src="../uibuilder/vendor/chart.js/dist/chart.umd.js"> /* opensource lib for graph rendering //useful website:https://quickchart.io/ */</script-- >
       <script src="../uibuilder/vendor/chart.js/dist/chart.bundle.js"> /* opensource lib for graph rendering //useful website:https://quickchart.io/ */</script>
       <script src="../uibuilder/vendor/justgage/raphael.min.js">  /* justgage dependency  */ </script> 
       <script src="../uibuilder/vendor/justgage/dist/justgage.min.js"> /* free pure-svg lib for gauges rendering //useful website:https://toorshia.github.io/justgage/ //https://github.com/toorshia/justgage */ </script>
-       <!-- page-bound js -->
+       <!-- PAGE-BOUND JS -->
       <script src="./functions.js">/* function definition only */</script>
       <script src="./app.js">/* Vue App + document load hooks */</script> 
       <!--script src="./index.js">/* default */</script-->
    <!-- #endregion -->
 
-</body></html>
+</body>
+</html>

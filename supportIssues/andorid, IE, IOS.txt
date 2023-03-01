@@ -1,0 +1,2 @@
+https://bootstrap-vue.org/docs#browser-support
+requires a "polyfill" npm package..? + core.js
