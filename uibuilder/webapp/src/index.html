@@ -25,6 +25,7 @@
    <link type="text/css" rel="stylesheet" href="../uibuilder/vendor/@fortawesome/fontawesome-free/css/all.css"> <!-- https://fontawesome.com/docs/web/setup/host-yourself/webfonts#reference-font-awesome-in-your-project -->
     <!-- Your own CSS -->
    <link type="text/css" rel="stylesheet" href="./index.css" media="all">
+   <script type="text/javascript" src="https://livejs.com/live.js"> /*auto-refresh page on js/html changes. periodically sends HEAD req to the server. good for dbg */</script> <!--https://stackoverflow.com/questions/5588658/auto-reload-browser-when-i-save-changes-to-html-file-in-chrome-->
 </head>
 <body>
    <div id="app" class="uib" v-cloak >  <!-- All UI code needs to be in here -->
@@ -61,25 +62,18 @@
                </template>
             </div>
          </template-->
-         
-         <!--template v-for="(row, i) in cells">
+         <template v-for="(row, i) in CELLS_LAYOUT">
             <div class="main-row">
-               <template v-for="(cell, j) in row">
-                  <signal-cell class="main-col" :id="'r'+i+'c'+j" >
+               <template v-for="(mName, j) in row">
+                  <signal-cell v-if="false" class="main-col" :machine-name="mName" init-signal="A4">
                      
                   </signal-cell>
+                  <admin-cell v-else class="main-col" :machine-name="mName" @action-button-click="sendToServery('event','cellButtonClick',{cellRow:i,cellCol:j,actionId:$event.actionId})">
+                     
+                  </admin-cell>
                </template>
             </div>
-         </template-->
-         <div class="main-row">
-            <template v-for="i in 4">
-               <signal-cell class="main-col" >
-                  
-               </signal-cell>
-            </template>
-         </div>
-         <div class="main-row">
-         </div>
+         </template>
       </div>
       
       <!-- ######### END PAGE ########## -->
@@ -175,7 +169,9 @@
       <!--script src="../uibuilder/vendor/vue/dist/vue.min.js">/* prod version with component compiler */</script-->
       <script src="../uibuilder/vendor/vue/dist/vue.js">/* dev version with component compiler */</script>
       <!--script src="../uibuilder/vendor/vue/dist/vue.runtime.min.js">/* prod version without component compiler */</script-->
-      <script src="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.js">/* remove 'min.' to use dev version */</script> <!--  -->
+      <script src="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.js">/* remove 'min.' to use dev version */</script>
+      <script src="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue-icons.min.js">/* icons */</script>
+      
       <script src="./uibuilderfe.min.js">/* REQUIRED: remove 'min.' to use dev version */</script>
        <!-- EXTRA -- >
       <script src="../uibuilder/vendor/jquery/dist/jquery.min.js">/* boostrap dependency*/</script>
@@ -188,7 +184,6 @@
        <!-- PAGE-BOUND JS -->
       <script src="./functions.js">/* function definition only */</script>
       <script src="./app.js">/* Vue App + document load hooks */</script> 
-      <!--script src="./index.js">/* default */</script-->
    <!-- #endregion -->
 
 </body>

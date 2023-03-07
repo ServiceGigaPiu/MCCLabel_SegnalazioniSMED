@@ -74,7 +74,9 @@
             "ee7ff068761aee92"
         ],
         "x": 59,
-        "y": 79
+        "y": 79,
+        "w": 1142,
+        "h": 438
     },
     {
         "id": "da77e7609f045ab9",
@@ -112,7 +114,9 @@
             "b9f8339f0bddcb39"
         ],
         "x": 84,
-        "y": 1844
+        "y": 1844,
+        "w": 1012,
+        "h": 342
     },
     {
         "id": "2cf1ebc3c7549361",
@@ -139,8 +143,10 @@
             "e4b56d5c220355cd",
             "a4d6f2321520f0f5"
         ],
-        "x": 59,
-        "y": 1334
+        "x": 94,
+        "y": 1514,
+        "w": 932,
+        "h": 282
     },
     {
         "id": "5f741e9d0e05f1e2",
@@ -182,10 +188,14 @@
             "d0d9b9c907a6dfeb",
             "bacfab2b6aa8f62e",
             "94ccb2ba33d6be90",
-            "3ca71da5dcaca581"
+            "3ca71da5dcaca581",
+            "76e60fd08eb6f131",
+            "bfbeb3f69de7db05"
         ],
-        "x": 59,
-        "y": 364
+        "x": 54,
+        "y": 364,
+        "w": 1122,
+        "h": 457
     },
     {
         "id": "31f4b8716c51f385",
@@ -207,8 +217,8 @@
             "63cb5672c06fad4e",
             "a2e783d72e228d3a"
         ],
-        "x": 109,
-        "y": 1099,
+        "x": 154,
+        "y": 904,
         "w": 552,
         "h": 232
     },
@@ -298,7 +308,9 @@
             "55e7b1fcf215488e"
         ],
         "x": 104,
-        "y": 1599
+        "y": 1599,
+        "w": 772,
+        "h": 392
     },
     {
         "id": "042f83e60bf4b2b4",
@@ -319,7 +331,9 @@
             "d4e564eac59f8117"
         ],
         "x": 63,
-        "y": 199
+        "y": 199,
+        "w": 1124,
+        "h": 603
     },
     {
         "id": "9bcec7222119e8a3",
@@ -340,7 +354,9 @@
             "2b0d893e266ba428"
         ],
         "x": 754,
-        "y": 1024
+        "y": 1024,
+        "w": 307,
+        "h": 82
     },
     {
         "id": "59b9575558a87ab8",
@@ -363,7 +379,9 @@
             "e16f5eb91fb5c4b4"
         ],
         "x": 789,
-        "y": 859
+        "y": 859,
+        "w": 477,
+        "h": 127
     },
     {
         "id": "ffe7d6539591cabf",
@@ -402,7 +420,9 @@
             "140b055fd622ecf2"
         ],
         "x": 34,
-        "y": 1099
+        "y": 1099,
+        "w": 1377,
+        "h": 382
     },
     {
         "id": "6f1ada98f5867046",
@@ -425,7 +445,9 @@
             "c9aaf418d77c2d5e"
         ],
         "x": 619,
-        "y": 1139
+        "y": 1139,
+        "w": 382,
+        "h": 122
     },
     {
         "id": "a02047ec82263155",
@@ -450,7 +472,9 @@
             "b1111e1050653ac6"
         ],
         "x": 119,
-        "y": 54
+        "y": 54,
+        "w": 712,
+        "h": 227
     },
     {
         "id": "fc6c8637d9b4aad0",
@@ -489,7 +513,9 @@
             "37ea04af9df3d34f"
         ],
         "x": 1189,
-        "y": 744
+        "y": 744,
+        "w": 1232,
+        "h": 307
     },
     {
         "id": "6468e314d57e838e",
@@ -512,7 +538,9 @@
             "d0d35188ca977ce0"
         ],
         "x": 88,
-        "y": 1279
+        "y": 1279,
+        "w": 1559,
+        "h": 1368
     },
     {
         "id": "3d77674313c033de",
@@ -538,7 +566,9 @@
             "49087488e8ed7662"
         ],
         "x": 99,
-        "y": 739
+        "y": 739,
+        "w": 692,
+        "h": 242
     },
     {
         "id": "22fa3a13397fe4f2",
@@ -577,7 +607,9 @@
             "24b155b8ecaf80fd"
         ],
         "x": 279,
-        "y": 319
+        "y": 319,
+        "w": 1102,
+        "h": 372
     },
     {
         "id": "0fd51b35b0ef24fa",
@@ -597,12 +629,16 @@
             "25449877336f3f5c",
             "6b7b42e7a9a2ca07",
             "592ab95d2bbeaf0b",
-            "5da6337e54d3d370",
             "a6da843d5aa39ebd",
-            "2f740e6f90340d55"
+            "2f740e6f90340d55",
+            "a01834730a28a300",
+            "923c36f53ef04eb6",
+            "888789f46e6b2b20"
         ],
         "x": 114,
-        "y": 49
+        "y": 49,
+        "w": 687,
+        "h": 232
     },
     {
         "id": "7a4a549b398c4c30",
@@ -630,9 +666,9 @@
             "d2cc8a993cf033bf",
             "05085880d56d9d9b"
         ],
-        "x": 484,
+        "x": 494,
         "y": 63,
-        "w": 828,
+        "w": 808,
         "h": 449
     },
     {
@@ -654,9 +690,9 @@
             "1eb170112f76f377",
             "445fed90cc9ae04b"
         ],
-        "x": 19,
+        "x": 29,
         "y": 49,
-        "w": 442,
+        "w": 422,
         "h": 127
     },
     {
@@ -687,9 +723,9 @@
             "263134e42e86e47b",
             "c6691944eaed7410"
         ],
-        "x": 24,
+        "x": 34,
         "y": 529,
-        "w": 1242,
+        "w": 1232,
         "h": 348
     },
     {
@@ -716,7 +752,9 @@
             "87b58b85df970e28"
         ],
         "x": 499,
-        "y": 319
+        "y": 319,
+        "w": 667,
+        "h": 172
     },
     {
         "id": "ba95acef3cf1d482",
@@ -738,7 +776,9 @@
             "812eb6cf9a5a2c7a"
         ],
         "x": 309,
-        "y": 184
+        "y": 184,
+        "w": 277,
+        "h": 112
     },
     {
         "id": "e4b56d5c220355cd",
@@ -759,8 +799,10 @@
             "cae2260813cda61f",
             "28569d65c3243a38"
         ],
-        "x": 309,
-        "y": 1414
+        "x": 344,
+        "y": 1594,
+        "w": 312,
+        "h": 82
     },
     {
         "id": "2007df0d560bc337",
@@ -852,7 +894,9 @@
             "fd596e236db59b07"
         ],
         "x": 89,
-        "y": 544
+        "y": 544,
+        "w": 1072,
+        "h": 232
     },
     {
         "id": "d4e564eac59f8117",
@@ -887,7 +931,9 @@
             "6bd020121fe4161b"
         ],
         "x": 89,
-        "y": 304
+        "y": 304,
+        "w": 1057,
+        "h": 202
     },
     {
         "id": "7e5e3a6761c37063",
@@ -909,7 +955,9 @@
             "4c4668d1d8f3b4a4"
         ],
         "x": 519,
-        "y": 1309
+        "y": 1309,
+        "w": 298,
+        "h": 82
     },
     {
         "id": "140b055fd622ecf2",
@@ -931,7 +979,9 @@
             "1df35f685bbae5dc"
         ],
         "x": 1009,
-        "y": 1234
+        "y": 1234,
+        "w": 292,
+        "h": 82
     },
     {
         "id": "df9088f254e94c5e",
@@ -957,7 +1007,9 @@
             "647159f3ed671018"
         ],
         "x": 134,
-        "y": 1774
+        "y": 1774,
+        "w": 892,
+        "h": 172
     },
     {
         "id": "19899f2d110fd419",
@@ -992,7 +1044,9 @@
             "23871617ee198621"
         ],
         "x": 114,
-        "y": 2339
+        "y": 2339,
+        "w": 1202,
+        "h": 282
     },
     {
         "id": "716d4b0a2eeac322",
@@ -1024,7 +1078,9 @@
             "17feef43ab700877"
         ],
         "x": 124,
-        "y": 1969
+        "y": 1969,
+        "w": 1002,
+        "h": 362
     },
     {
         "id": "f9ab78df7bf3b33e",
@@ -1065,7 +1121,9 @@
             "2180a1fb7230451e"
         ],
         "x": 129,
-        "y": 1354
+        "y": 1354,
+        "w": 1492,
+        "h": 382
     },
     {
         "id": "c05cbc581f087383",
@@ -1091,7 +1149,7 @@
         ],
         "x": 524,
         "y": 364,
-        "w": 762,
+        "w": 752,
         "h": 122
     },
     {
@@ -1146,7 +1204,7 @@
         ],
         "x": 254,
         "y": 729,
-        "w": 982,
+        "w": 972,
         "h": 122
     },
     {
@@ -1173,6 +1231,51 @@
         "h": 82
     },
     {
+        "id": "5fd9c13a624f9ed8",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cbdd81ecdc3c11d6",
+            "7a23d2c9ebd1ccb8",
+            "173a4792e388dff6"
+        ],
+        "x": 94,
+        "y": 889,
+        "w": 262,
+        "h": 127
+    },
+    {
+        "id": "6296d8244a1eb427",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5d895375edc5f905",
+            "f8e2ce4e4480269d"
+        ],
+        "x": 499,
+        "y": 1369,
+        "w": 202,
+        "h": 82
+    },
+    {
         "id": "f9afb515793290aa",
         "type": "MySQLdatabase",
         "name": "",
@@ -1191,6 +1294,33 @@
         "db": "fonderiaboccacci_recuperocalore",
         "tz": "",
         "charset": "UTF8"
+    },
+    {
+        "id": "63a4af044d8334e0",
+        "type": "modbus-client",
+        "name": "",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.19.101",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "10",
+        "clientTimeout": "2000",
+        "reconnectOnTimeout": false,
+        "reconnectTimeout": "3000",
+        "parallelUnitIdsAllowed": false
     },
     {
         "id": "8f5e7d5b2511d841",
@@ -2041,8 +2171,8 @@
         "g": "2cf1ebc3c7549361",
         "name": "link in",
         "links": [],
-        "x": 100,
-        "y": 1515,
+        "x": 135,
+        "y": 1695,
         "wires": [
             [
                 "77c107f0b5ae5214"
@@ -2074,8 +2204,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 3,
-        "x": 205,
-        "y": 1515,
+        "x": 240,
+        "y": 1695,
         "wires": [
             [
                 "28569d65c3243a38"
@@ -2101,8 +2231,8 @@
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "utf8",
-        "x": 745,
-        "y": 1455,
+        "x": 780,
+        "y": 1635,
         "wires": [
             [
                 "3797e914cd36dd8a"
@@ -2124,8 +2254,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 376.9999656677246,
-        "y": 1544.9999828338623,
+        "x": 411.9999656677246,
+        "y": 1724.9999828338623,
         "wires": []
     },
     {
@@ -2141,8 +2271,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\n//context.errors={}; //key:value pairs\ncontext.errStack=[];\ncontext.errHead=0;\n//context.maxErrCount=0;\ncontext.timeout=1600;\n//context.maxTimeout=0;\ncontext.isDisplaying=false;\n\n\n\ncontext.displayError = function (errName, duration /*, startTime=0*/) {\n    context.isDisplaying=true;\n    let startTime=0;\n    node.warn(errName); //per qualche motivo tutti i parametri della funzione restano undefined\n\n    node.status({ fill: \"red\", shape: \"dot\", text: errName });\n    setTimeout(() => {\n        node.status({ fill: \"red\", shape: \"ring\", text: errName });\n    }, duration/4 + startTime);\n    setTimeout(() => {\n        node.status({ fill: \"red\", shape: \"dot\", text: errName });\n    }, duration*3/4 + startTime);\n    setTimeout(() => {\n        node.status({ fill: \"gray\", shape: \"ring\", text: \"\" });       \n        context.nextError();\n    }, duration + startTime);\n}\n\ncontext.addErr = function (errName) {\n    if (context.isDisplaying){\n        context.errStack.push(errName);\n        node.log(context.errStack);\n    }\n    else\n        context.displayError(\"someText\", context.timeout);\n}\ncontext.nextError = function () {\n    if (context.errHead == context.errStack.length) {\n        context.isDisplaying=false;\n        node.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\n        context.errStack = new Array()\n        context.errHead = 0;\n        return\n    }\n    else {\n        context.displayError(context.errStack[context.errHead],context.timeout);\n        context.errHead++;\n    }\n}\n\n",
         "finalize": "",
         "libs": [],
-        "x": 235,
-        "y": 1575,
+        "x": 270,
+        "y": 1755,
         "wires": [
             []
         ]
@@ -2155,8 +2285,8 @@
         "g": "2cf1ebc3c7549361",
         "name": "allWeekEnergy",
         "info": "",
-        "x": 260,
-        "y": 1455,
+        "x": 295,
+        "y": 1635,
         "wires": [],
         "l": false
     },
@@ -2175,8 +2305,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 885,
-        "y": 1455,
+        "x": 920,
+        "y": 1635,
         "wires": []
     },
     {
@@ -2189,8 +2319,8 @@
         "property": "payload",
         "action": "str",
         "pretty": false,
-        "x": 640,
-        "y": 1455,
+        "x": 675,
+        "y": 1635,
         "wires": [
             [
                 "6b21ca10d112452a"
@@ -2220,8 +2350,8 @@
         "reduceInit": "",
         "reduceInitType": "",
         "reduceFixup": "",
-        "x": 580,
-        "y": 1455,
+        "x": 615,
+        "y": 1635,
         "wires": [
             [
                 "316bce5bb99571f1"
@@ -2242,8 +2372,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 465,
-        "y": 1455,
+        "x": 500,
+        "y": 1635,
         "wires": [
             [
                 "7a0bd75fedb9f8d1"
@@ -2263,8 +2393,8 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 350,
-        "y": 1455,
+        "x": 385,
+        "y": 1635,
         "wires": [
             [
                 "cae2260813cda61f"
@@ -2280,8 +2410,8 @@
         "g": "2cf1ebc3c7549361",
         "name": "RISPOSTE INTERROGAZIONI",
         "info": "",
-        "x": 235,
-        "y": 1375,
+        "x": 270,
+        "y": 1555,
         "wires": []
     },
     {
@@ -2325,9 +2455,7 @@
         "x": 230,
         "y": 180,
         "wires": [
-            [
-                "5da6337e54d3d370"
-            ]
+            []
         ]
     },
     {
@@ -2339,7 +2467,7 @@
         "func": "//look into start tab",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\nif (global.get(\"inverterUnitId\") === undefined)\n    global.set(\"inverterUnitId\",10);\n\nlet obj = {\n    \"getDefault\": this.from,\n    \"from\": function (address = 0, quantity = 2) {\n        return {\n            'payload': {\n                'value': null,\n                'fc': 3, //mode: Holding Register\n                //'unitid': global.get(\"inverterUnitId\") //overrides default\n                'address': address,\n                'quantity': quantity\n            }\n        };\n    },\n    \"between\": function (from, to, sequenceName = \"\") {\n        if (typeof (from) == \"string\")\n            from = parseInt(from);\n        if (typeof (to) == \"string\")\n            to = parseInt(to);\n        let ret = this.from(from, to - from + 1);\n        ret.name = sequenceName;\n        return ret;\n    },\n    \n    /**\n     * @description //byte order: da 2301 a 3210 //il plc salva le singole coppie di byte in LittleEndian, mentre la coppia di coppie come BigEndian. (originale: 0123 -> 01,23 -> 23,01 :inMemoria)\n     * @param msgPayloadBuffer:Array con lunghezza pari (altrimenti l'ultimo el viene ignorato)\n     * @return Void //swap in-place\n     */\n    \"plcMem2LitEnd\": function (msgPayloadBuffer) {\n        for (let i = 0, tmp, buf = msgPayloadBuffer; i < buf.length - 1; i += 2) {\n            tmp = buf[i];\n            buf[i] = buf[i + 1];\n            buf[i + 1] = tmp;\n        }\n    }\n    \n}\nglobal.set(\"query\", obj);\nnode.status({ fill: \"green\", text: \"defined\" });\n\n/*\nflow.set(\"getDefaultQuery\", function (address = 0, quantity = 2) {\n    return {\n        'payload':{\n            'value': null,\n            'fc': 3, //mode: Holding Register\n            'unitid': 10, //overrides default\n            'address': address,\n            'quantity': quantity\n        }\n    };\n})\n\n//from,to   string|int  hex string like \"ox802\" or int like 2050\nflow.set(\"queryRegistry\", function (from, to,sequenceName=\"\") {\n    if (typeof (from) == \"string\")\n        from = parseInt(from);\n    if (typeof (to) == \"string\")\n        to = parseInt(to);\n    let ret = flow.get(\"getDefaultQuery\")(from, to - from + 1);\n    ret.name=sequenceName;\n    return ret;\n})*/\n",
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nif (global.get(\"inverterUnitId\") === undefined)\n    global.set(\"inverterUnitId\",10);\n\nlet obj = {\n    \"getDefault\": this.from,\n    \"from\": function (address = 0, quantity = 2) {\n        return {\n            'payload': {\n                'value': null,\n                'fc': 3, //mode: Holding Register\n                //'unitid': global.get(\"inverterUnitId\") //overrides default\n                'address': address,\n                'quantity': quantity\n            }\n        };\n    },\n    \"between\": (function (from, to, sequenceName = \"\") {\n        if (typeof (from) == \"string\")\n            from = parseInt(from);\n        if (typeof (to) == \"string\")\n            to = parseInt(to);\n        let ret = this.from(from, to - from + 1);\n        ret.name = sequenceName;\n        return ret;\n    }).bind(this),\n    \n    /**\n     * @description //byte order: da 2301 a 3210 //il plc salva le singole coppie di byte in LittleEndian, mentre la coppia di coppie come BigEndian. (originale: 0123 -> 01,23 -> 23,01 :inMemoria)\n     * @param [Buffer] msgPayloadBuffer Array con lunghezza pari (altrimenti l'ultimo el viene ignorato)\n     * @return Void //swap in-place\n     */\n    \"plcMem2LitEnd\": function (msgPayloadBuffer) {\n        for (let i = 0, tmp, buf = msgPayloadBuffer; i < buf.length - 1; i += 2) {\n            tmp = buf[i];\n            buf[i] = buf[i + 1];\n            buf[i + 1] = tmp;\n        }\n    },\n    /**\n     * @param [number] address <= 65535\n     * @param [any] value <= 65535\n     */\n    \"writeReg\": function (address = 0, value) {\n        return {\n            'payload': {\n                'value': (typeof(value) == \"string\" ? parseInt(value) : value),\n                'fc': 6, //mode: single Register\n                //'unitid': global.get(\"inverterUnitId\") //overrides default\n                'address': address,\n                'quantity': 1\n            }\n        };\n    },\n    \"writeCoil\": function (address = 0, value) {\n        return {\n            'payload': {\n                'value': value,\n                'fc': 5, //mode: single Coil\n                //'unitid': global.get(\"inverterUnitId\") //overrides default\n                'address': address,\n                'quantity': 1\n            }\n        };\n    },\n\n    \n}\nglobal.set(\"query\", obj);\nglobal.set(\"plc\", obj);\n\nnode.status({ fill: \"green\", text: Object.keys(obj).join(' & ') });\n\n/*\nflow.set(\"getDefaultQuery\", function (address = 0, quantity = 2) {\n    return {\n        'payload':{\n            'value': null,\n            'fc': 3, //mode: Holding Register\n            'unitid': 10, //overrides default\n            'address': address,\n            'quantity': quantity\n        }\n    };\n})\n\n//from,to   string|int  hex string like \"ox802\" or int like 2050\nflow.set(\"queryRegistry\", function (from, to,sequenceName=\"\") {\n    if (typeof (from) == \"string\")\n        from = parseInt(from);\n    if (typeof (to) == \"string\")\n        to = parseInt(to);\n    let ret = flow.get(\"getDefaultQuery\")(from, to - from + 1);\n    ret.name=sequenceName;\n    return ret;\n})*/\n",
         "finalize": "",
         "libs": [],
         "x": 445,
@@ -2357,39 +2485,15 @@
         "func": "//look into start tab",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "\nglobal.set(\"utils\", {\n    \"errorBlink\":function(node,last=1500){\n        node.status({ fill: \"red\", text: \"\" });\n        setTimeout(() => {\n            node.status({ fill: \"\", text: \"\" });\n        }, 250);\n        setTimeout(() => {\n            node.status({ fill: \"yellow\", text: \"\" });\n        }, 350);\n        setTimeout(() => {\n            node.status({ fill: \"\", text: \"\" });\n        }, last)\n    },\n    \"##litEndian2int\": function (a, b){\n        return a<<16 | b;\n    }, //msg.payload[0] << 16) | msg.payload[1]\n});\n\nnode.status({ fill: \"green\", text: \"defined\" });\n",
+        "initialize": "\nlet obj = {\n    \"errorBlink\":function(node,last=1500){\n        node.status({ fill: \"red\", text: \"\" });\n        setTimeout(() => {\n            node.status({ fill: \"\", text: \"\" });\n        }, 250);\n        setTimeout(() => {\n            node.status({ fill: \"yellow\", text: \"\" });\n        }, 350);\n        setTimeout(() => {\n            node.status({ fill: \"\", text: \"\" });\n        }, last)\n    },\n\n    \"##litEndian2int\": function (a, b){\n        return a<<16 | b;\n    }, //msg.payload[0] << 16) | msg.payload[1]\n    \n    \"isObject\"(v) {\n        return (typeof (v) == \"object\" && !Array.isArray(v) && v !== null)\n    },\n\n    /**\n    * @summary recursively merge two Objects\n    * @desc overlay sec onto main. keeps properties of both. undefined properties of main are directly assigned from sec.\n    * - ex: main : {a, b:b1} sec:{b:b2, c} -> res:{a , b:b2, c} where:\n    * - -res.a===main.a\n    * - -res.c===sec.c\n    * - -res.b!==sec.b2\n    * @param {Object} main \n    * @param {Object} sec \n    */\n    \"mergeRec\":function thisFun(main, sec){\n        for(let p in sec) {\n            //if(main[p]===undefined) //commented bcs implicitly included in the next if condition //(typeof(undefVar) <=> \"undefined\")\n            //if(deepCopy && typeof(main[p]) ==\"object\") //too big an hustle\n            //main[p] = sec[p];\n            if (sec[p].constructor == Object && typeof (main[p]) == \"object\")\n                thisFun(main[p], sec[p]);\n            else\n                main[p] = sec[p];\n        }\n        return main;\n    }.bind(this)\n\n}\n\nglobal.set(\"utils\", obj);\nnode.send(obj);\nnode.status({ fill: \"green\", text: Object.keys(obj).join(' & ') });\n\n",
         "finalize": "",
         "libs": [],
         "x": 425,
         "y": 180,
         "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5da6337e54d3d370",
-        "type": "change",
-        "z": "c1d4418a6f1f1693",
-        "g": "0fd51b35b0ef24fa",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "queryInverterJson",
-                "pt": "flow",
-                "to": "{\"value\":0,\"fc\":3,\"address\":0,\"quantity\":0}",
-                "tot": "json"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 455,
-        "y": 225,
-        "wires": [
-            []
+            [
+                "888789f46e6b2b20"
+            ]
         ]
     },
     {
@@ -2398,7 +2502,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "0fd51b35b0ef24fa",
         "name": "catchAll",
-        "func": "\n\nif (msg.error) {\n    node.error({ \"err\": msg.error.message, \"full\": msg });\n    //context.set(\"errorCc\", context.get(\"errorCc\")+1);\n}\nelse {\n    node.error(msg);\n}\n",
+        "func": "if(msg.error){\n    node.error({\"err\":msg.error.message,\"src\":msg.error.source.id,\"n\":msg.error.source.name,\"full\":msg});\n    \n}\nelse{\n    node.error(msg);\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\ncontext.set(\"outCc\", 0);\ncontext.set(\"errorCc\", 0);",
@@ -2426,7 +2530,6 @@
         "id": "e788bf33f7250b4e",
         "type": "inject",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "trigger",
         "props": [
@@ -2445,8 +2548,8 @@
         "topic": "query",
         "payload": "",
         "payloadType": "date",
-        "x": 155,
-        "y": 645,
+        "x": 150,
+        "y": 660,
         "wires": [
             [
                 "734a6280c896ee84"
@@ -2457,7 +2560,6 @@
         "id": "734a6280c896ee84",
         "type": "function",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "send query",
         "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n*/\n\nlet query=global.get(\"query\");\n\nfor(let i=0;i<0;i++){\n    node.send(query.from(4400,2));\n}",
@@ -2466,8 +2568,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 645,
+        "x": 335,
+        "y": 660,
         "wires": [
             [
                 "042d220310f4d201"
@@ -2478,7 +2580,6 @@
         "id": "042d220310f4d201",
         "type": "q-gate",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "queue-gate",
         "controlTopic": "queueControl",
@@ -2499,10 +2600,11 @@
         "qToggle": false,
         "persist": false,
         "storeName": "memory",
-        "x": 575,
-        "y": 585,
+        "x": 570,
+        "y": 600,
         "wires": [
             [
+                "76e60fd08eb6f131",
                 "829cb3bdb9fa3035"
             ]
         ]
@@ -2511,7 +2613,6 @@
         "id": "a4ea3b73128da3ca",
         "type": "function",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "queue control",
         "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
@@ -2520,8 +2621,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncontext.set(\"command\", function (command){\n    return { 'topic': \"queueControl\", 'payload':command};\n});",
         "finalize": "",
         "libs": [],
-        "x": 345,
-        "y": 540,
+        "x": 340,
+        "y": 555,
         "wires": [
             [
                 "042d220310f4d201"
@@ -2532,13 +2633,12 @@
         "id": "f31346e5c189cc0d",
         "type": "status",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "",
         "scope": [
             "829cb3bdb9fa3035"
         ],
-        "x": 145,
+        "x": 140,
         "y": 495,
         "wires": [
             [
@@ -2553,15 +2653,14 @@
         "id": "f8f56d1dd1270dfc",
         "type": "catch",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "",
         "scope": [
             "829cb3bdb9fa3035"
         ],
         "uncaught": false,
-        "x": 155,
-        "y": 585,
+        "x": 150,
+        "y": 600,
         "wires": [
             [
                 "b375a71d547e53ec"
@@ -2572,7 +2671,6 @@
         "id": "e3c72d4f0636519a",
         "type": "function",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "unset error",
         "func": "delete msg.error;\nreturn msg;",
@@ -2581,8 +2679,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 355,
-        "y": 585,
+        "x": 350,
+        "y": 600,
         "wires": [
             [
                 "042d220310f4d201"
@@ -2593,12 +2691,11 @@
         "id": "db5d63224303cb8e",
         "type": "comment",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "send msg on high and highhigh, throws warning and error too",
         "info": "",
-        "x": 805,
-        "y": 465,
+        "x": 815,
+        "y": 450,
         "wires": [],
         "l": false
     },
@@ -2606,12 +2703,11 @@
         "id": "cba181767f3c556b",
         "type": "comment",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "when sending fails it flushes the queue appending the error to each processed msg as msg.error",
         "info": "when sending fails it flushes the queue\nappending the error to each processed msg\nas msg.error",
-        "x": 765,
-        "y": 555,
+        "x": 755,
+        "y": 570,
         "wires": [],
         "l": false
     },
@@ -2619,7 +2715,6 @@
         "id": "d8e171d74cfb3f15",
         "type": "inject",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "",
         "props": [
@@ -2638,8 +2733,8 @@
         "topic": "queueControl",
         "payload": "queue",
         "payloadType": "str",
-        "x": 255,
-        "y": 690,
+        "x": 250,
+        "y": 705,
         "wires": [
             [
                 "042d220310f4d201"
@@ -2650,12 +2745,11 @@
         "id": "fae481120ae1669e",
         "type": "comment",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "holds errors and sends them again once modbus is ready. The actual queue is handled by the modbus config node.",
         "info": "holds errors and sends them again once modbus is ready.\nThe actual queue is handled by the modbus config node.",
-        "x": 565,
-        "y": 555,
+        "x": 555,
+        "y": 570,
         "wires": [],
         "l": false
     },
@@ -2663,20 +2757,19 @@
         "id": "829cb3bdb9fa3035",
         "type": "modbus-flex-getter",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "query PLC",
         "showStatusActivities": true,
         "showErrors": true,
         "logIOActivities": false,
-        "server": "37fae351f7b9f19a",
+        "server": "63a4af044d8334e0",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
         "emptyMsgOnFail": true,
         "keepMsgProperties": true,
-        "x": 800,
-        "y": 585,
+        "x": 795,
+        "y": 600,
         "wires": [
             [],
             [
@@ -2688,7 +2781,6 @@
         "id": "586a6d5aedbb7697",
         "type": "modbus-queue-info",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "",
         "topic": "",
@@ -2698,13 +2790,13 @@
         "lowLevel": "5",
         "highLevel": "110",
         "highHighLevel": "115",
-        "server": "37fae351f7b9f19a",
+        "server": "63a4af044d8334e0",
         "errorOnHighLevel": false,
         "showStatusActivities": true,
         "updateOnAllQueueChanges": true,
         "updateOnAllUnitQueues": true,
-        "x": 775,
-        "y": 495,
+        "x": 795,
+        "y": 480,
         "wires": [
             []
         ]
@@ -2713,7 +2805,6 @@
         "id": "8d2faa48c7f2974b",
         "type": "function",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "log errors #1",
         "func": "node.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\n\nif(msg.error!=undefined){\n    node.error([\"queryFailed\",msg.error]);\n    //context.set(\"errorCc\", context.get(\"errorCc\")+1);\n}\nelse{\n    node.warn(msg)\n}\n",
@@ -2722,8 +2813,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\ncontext.set(\"outCc\", 0);\ncontext.set(\"errorCc\", 0);",
         "finalize": "",
         "libs": [],
-        "x": 1085,
-        "y": 555,
+        "x": 1080,
+        "y": 570,
         "wires": [
             []
         ]
@@ -2732,7 +2823,6 @@
         "id": "70f0e9dd596f13dd",
         "type": "function",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "shareConnectionStatus",
         "func": "flow.set(\"modbusStatusString\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill != \"red\"){\n    flow.set(\"modbusIsReady\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady\" });\n}\nelse{\n    flow.set(\"modbusIsReady\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
@@ -2741,7 +2831,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nflow.set(\"modbusStatusString\", \"none\");\nflow.set(\"modbusIsReady\", false);",
         "finalize": "",
         "libs": [],
-        "x": 375,
+        "x": 370,
         "y": 510,
         "wires": [
             []
@@ -2751,27 +2841,25 @@
         "id": "e448cf338d7ce60a",
         "type": "link out",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "PLC Query OUT",
         "mode": "return",
         "links": [],
-        "x": 1020,
-        "y": 615,
+        "x": 1015,
+        "y": 630,
         "wires": []
     },
     {
         "id": "3d7f018e03cb4a74",
         "type": "link in",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "PLC Query IN",
         "links": [
-            "5a8c86f6c56c9b31"
+            "bfbeb3f69de7db05"
         ],
-        "x": 410,
-        "y": 725,
+        "x": 405,
+        "y": 740,
         "wires": [
             [
                 "042d220310f4d201"
@@ -2782,7 +2870,6 @@
         "id": "8738217e5c0cf07c",
         "type": "switch",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "",
         "property": "error",
@@ -2798,8 +2885,8 @@
         "checkall": "false",
         "repair": true,
         "outputs": 2,
-        "x": 900,
-        "y": 585,
+        "x": 895,
+        "y": 600,
         "wires": [
             [
                 "8d2faa48c7f2974b"
@@ -2815,7 +2902,6 @@
         "id": "ceacba052417233a",
         "type": "comment",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "INTERROGAZIONE PLC",
         "info": "",
@@ -2827,7 +2913,6 @@
         "id": "b375a71d547e53ec",
         "type": "delay",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "",
         "pauseType": "delay",
@@ -2842,8 +2927,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 250,
-        "y": 585,
+        "x": 245,
+        "y": 600,
         "wires": [
             [
                 "e3c72d4f0636519a"
@@ -2855,7 +2940,6 @@
         "id": "761d54a566d15f19",
         "type": "inject",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "",
         "props": [],
@@ -2864,8 +2948,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 190,
-        "y": 540,
+        "x": 185,
+        "y": 555,
         "wires": [
             [
                 "a4ea3b73128da3ca"
@@ -2877,7 +2961,6 @@
         "id": "b7e4f98ef65e21b7",
         "type": "inject",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "queueControl:trigger",
         "props": [
@@ -2896,8 +2979,8 @@
         "topic": "queueControl",
         "payload": "trigger",
         "payloadType": "str",
-        "x": 255,
-        "y": 720,
+        "x": 250,
+        "y": 735,
         "wires": [
             [
                 "042d220310f4d201"
@@ -2908,7 +2991,6 @@
         "id": "e548c0432c3393fb",
         "type": "debug",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "debug 5",
         "active": false,
@@ -2919,7 +3001,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 325,
+        "x": 320,
         "y": 450,
         "wires": []
     },
@@ -2927,7 +3009,6 @@
         "id": "d0d9b9c907a6dfeb",
         "type": "inject",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "onStartup",
         "props": [
@@ -2946,8 +3027,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 595,
-        "y": 495,
+        "x": 605,
+        "y": 480,
         "wires": [
             [
                 "586a6d5aedbb7697"
@@ -2958,7 +3039,6 @@
         "id": "bacfab2b6aa8f62e",
         "type": "debug",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "plc output",
         "active": true,
@@ -2969,22 +3049,21 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1035,
-        "y": 660,
+        "x": 1030,
+        "y": 675,
         "wires": []
     },
     {
         "id": "94ccb2ba33d6be90",
         "type": "link out",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "link out 1",
         "mode": "link",
         "links": [
             "c7efc430b35e5347"
         ],
-        "x": 280,
+        "x": 275,
         "y": 480,
         "wires": []
     },
@@ -2992,13 +3071,566 @@
         "id": "3ca71da5dcaca581",
         "type": "comment",
         "z": "c1d4418a6f1f1693",
-        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "freq. aggiornamento",
         "info": "precisione +/- 3s\nvalori relativi alla corrente: ~30s (potenza,tensione..)\ntemperatura: ~30s, sfasata di ~15s\n\ndistanza fra cambiamenti di qualsiasi genere segue pattern irregolare\n9-9-9-15-9-9-18-9-9-9-..\n\n\n-- pm500 --\nsembra lo stesso.\n",
-        "x": 765,
-        "y": 630,
+        "x": 755,
+        "y": 645,
         "wires": []
+    },
+    {
+        "id": "ba0eab6a3ebe51cb",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "name": "write",
+        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n*/\n\nlet query=global.get(\"query\");\n\nfor(let i=0;i<20;i++){\n    node.send(query.write(16, Math.pow(2,13)));\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 455,
+        "y": 1020,
+        "wires": [
+            [
+                "373eabc42a374888"
+            ]
+        ]
+    },
+    {
+        "id": "c1f38be4152e1b73",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "name": "poll 1s",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "x": 180,
+        "y": 1035,
+        "wires": [
+            [
+                "7a23d2c9ebd1ccb8"
+            ]
+        ]
+    },
+    {
+        "id": "bfbeb3f69de7db05",
+        "type": "link out",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "5f741e9d0e05f1e2",
+        "name": "link out 12",
+        "mode": "link",
+        "links": [
+            "3d7f018e03cb4a74"
+        ],
+        "x": 395,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "76e60fd08eb6f131",
+        "type": "debug",
+        "z": "c1d4418a6f1f1693",
+        "g": "5f741e9d0e05f1e2",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 730,
+        "y": 705,
+        "wires": []
+    },
+    {
+        "id": "b4b1c31df83bac21",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 330,
+        "y": 1065,
+        "wires": [
+            [
+                "ba0eab6a3ebe51cb"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "cbdd81ecdc3c11d6",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "g": "5fd9c13a624f9ed8",
+        "name": "toggle",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "control",
+        "payload": "toggle",
+        "payloadType": "str",
+        "x": 200,
+        "y": 975,
+        "wires": [
+            [
+                "7a23d2c9ebd1ccb8"
+            ]
+        ]
+    },
+    {
+        "id": "7a23d2c9ebd1ccb8",
+        "type": "gate",
+        "z": "c1d4418a6f1f1693",
+        "g": "5fd9c13a624f9ed8",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "closed",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": false,
+        "storeName": "memory",
+        "x": 315,
+        "y": 975,
+        "wires": [
+            [
+                "ba0eab6a3ebe51cb"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "173a4792e388dff6",
+        "type": "comment",
+        "z": "c1d4418a6f1f1693",
+        "g": "5fd9c13a624f9ed8",
+        "name": "#dbg toggle",
+        "info": "",
+        "x": 190,
+        "y": 930,
+        "wires": []
+    },
+    {
+        "id": "373eabc42a374888",
+        "type": "modbus-flex-write",
+        "z": "c1d4418a6f1f1693",
+        "name": "write to PLC",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "server": "63a4af044d8334e0",
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "x": 625,
+        "y": 990,
+        "wires": [
+            [],
+            [
+                "0ce5e37237e0feac"
+            ]
+        ]
+    },
+    {
+        "id": "7a6e45d09f2d06fd",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "name": "log errors #1",
+        "func": "node.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\n\nif(msg.error!=undefined){\n    node.error([\"queryFailed\",msg.error]);\n    //context.set(\"errorCc\", context.get(\"errorCc\")+1);\n}\nelse{\n    node.warn(msg)\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\ncontext.set(\"outCc\", 0);\ncontext.set(\"errorCc\", 0);",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 945,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be14c153c3dbc45b",
+        "type": "debug",
+        "z": "c1d4418a6f1f1693",
+        "name": "plc output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 945,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "0ce5e37237e0feac",
+        "type": "switch",
+        "z": "c1d4418a6f1f1693",
+        "name": "",
+        "property": "error",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": true,
+        "outputs": 2,
+        "x": 795,
+        "y": 975,
+        "wires": [
+            [
+                "7a6e45d09f2d06fd",
+                "37e93b55eff70cc6"
+            ],
+            [
+                "be14c153c3dbc45b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "37e93b55eff70cc6",
+        "type": "change",
+        "z": "c1d4418a6f1f1693",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "control",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "toggle",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 580,
+        "y": 915,
+        "wires": [
+            [
+                "7a23d2c9ebd1ccb8"
+            ]
+        ]
+    },
+    {
+        "id": "a01834730a28a300",
+        "type": "comment",
+        "z": "c1d4418a6f1f1693",
+        "g": "0fd51b35b0ef24fa",
+        "name": "GLOBALI",
+        "info": "",
+        "x": 210,
+        "y": 90,
+        "wires": []
+    },
+    {
+        "id": "729e744bdf63be36",
+        "type": "modbus-flex-write",
+        "z": "c1d4418a6f1f1693",
+        "name": "write to PLC",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "server": "63a4af044d8334e0",
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "x": 620,
+        "y": 1245,
+        "wires": [
+            [],
+            [
+                "a144d151e66e7e26"
+            ]
+        ]
+    },
+    {
+        "id": "bd11446d9144fb61",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "name": "queue",
+        "func": "\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 1245,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d895375edc5f905",
+        "type": "link out",
+        "z": "c1d4418a6f1f1693",
+        "g": "6296d8244a1eb427",
+        "name": "initChart",
+        "mode": "link",
+        "links": [
+            "ca2b9f6d1617d974"
+        ],
+        "x": 585,
+        "y": 1410,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "f8e2ce4e4480269d",
+        "type": "link in",
+        "z": "c1d4418a6f1f1693",
+        "g": "6296d8244a1eb427",
+        "name": "initChart in",
+        "links": [
+            "8a869fbf2653f1a4"
+        ],
+        "x": 660,
+        "y": 1410,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a144d151e66e7e26",
+        "type": "change",
+        "z": "c1d4418a6f1f1693",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "writeProcessed",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 835,
+        "y": 1245,
+        "wires": [
+            [
+                "d8f319a1a215e331"
+            ]
+        ]
+    },
+    {
+        "id": "9a4417e8dab08b7b",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "name": "log errors #1",
+        "func": "node.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\n\nif(msg.error!=undefined){\n    node.error([\"queryFailed\",msg.error]);\n    //context.set(\"errorCc\", context.get(\"errorCc\")+1);\n}\nelse{\n    node.warn(msg)\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\ncontext.set(\"outCc\", 0);\ncontext.set(\"errorCc\", 0);",
+        "finalize": "",
+        "libs": [],
+        "x": 1085,
+        "y": 1215,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8703932e9fbcb0c1",
+        "type": "debug",
+        "z": "c1d4418a6f1f1693",
+        "name": "plc output",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 1275,
+        "wires": []
+    },
+    {
+        "id": "d8f319a1a215e331",
+        "type": "switch",
+        "z": "c1d4418a6f1f1693",
+        "name": "",
+        "property": "error",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": true,
+        "outputs": 2,
+        "x": 975,
+        "y": 1245,
+        "wires": [
+            [
+                "9a4417e8dab08b7b"
+            ],
+            [
+                "8703932e9fbcb0c1"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "43bb0021e53007d6",
+        "type": "link in",
+        "z": "c1d4418a6f1f1693",
+        "name": "PLC Write in",
+        "links": [
+            "8aba5c7204608b4a"
+        ],
+        "x": 280,
+        "y": 1305,
+        "wires": [
+            []
+        ],
+        "l": true
+    },
+    {
+        "id": "8aba5c7204608b4a",
+        "type": "link out",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "name": "PLC write out",
+        "mode": "link",
+        "links": [
+            "43bb0021e53007d6"
+        ],
+        "x": 355,
+        "y": 1350,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "923c36f53ef04eb6",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "g": "0fd51b35b0ef24fa",
+        "name": "set global list",
+        "func": "//look in start",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "\nconst list = {\n    newNode(val) {\n        return { value: val, next: null }\n    },\n    newTwoWayNode(val) {\n        return { value: val, prev: null, next: null }\n    },\n    append(el, list) {\n        if (list) {\n            let node = list;\n            while (node.next) {\n                node = node.next;\n            }\n            node.next = (this.isObject(el) ? this.newNode(el) : el)\n            return node.next;\n        }\n        else {\n            return this.newNode(el);\n        }\n    },\n    isObject(v) {\n        return (typeof (v) == \"object\" && !Array.isArray(v) && v !== null)\n    },\n\n    iterator(list) {\n        return {\n            head: list,\n            last: this.head,\n            next() {\n                if (this.last === null)\n                    return { done: true }\n                else {\n                    let ret = { value: this.last.value, done: false }\n                    this.last = this.last.next;\n                }\n            }\n        }\n    }\n}",
+        "finalize": "",
+        "libs": [],
+        "x": 415,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "191e955eb2339ca3",
+        "type": "link out",
+        "z": "c1d4418a6f1f1693",
+        "name": "globalDefined",
+        "mode": "link",
+        "links": [],
+        "x": 990,
+        "y": 195,
+        "wires": []
+    },
+    {
+        "id": "888789f46e6b2b20",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "g": "0fd51b35b0ef24fa",
+        "name": "set global List & utils.list",
+        "func": "let utils = msg;\nvar isObject = utils.isObject;\nclass List {\n    head;\n    //#lastPrev;\n    //get last(){ return (this.#lastPrev ? this.#lastPrev.next : this.head) }\n    last;\n\n    constructor() {\n        this.head = null;\n        this.last = this.head;\n    }\n\n    static isListNode(val){\n        return (isObject(val) && Object.hasOwnProperty(\"next\"))\n    }\n    static isTwoWayListNode(val){\n        return (List.isListNode(val) && Object.hasOwnProperty(\"prev\"));\n    }\n\n    peekFirst() {\n        return (this.head ? this.head.value : null);\n    }\n\n    popFirst() {\n        let res = this.peekFirst();\n        //remove\n        if (this.head && this.head.next)\n            this.head = this.head.next;\n        return res;\n    }\n\n    peekLast() {\n        return (this.last ? this.last.value : null);\n    }\n\n    popLast() {\n        if (!this.head)\n            return null;\n\n        let res = this.peekLast();\n\n        let n = this.head,\n            n2last = null; //'next-to-last' <=> 'penultimate'\n        while (n.next) {\n            n2last = n;\n            n = n.next;\n        }\n        n2last.next = null;\n        this.last = n2last;\n\n        return res;\n    }\n\n    /** creates a one-way list node with value=val */\n    static newNode(val) {\n        return { value: val, next: null }\n    }\n    /** creates a two-way list node with value=val and empty prev */\n    static newTwoWayNode(val) {\n        return { value: val, prev: null, next: null }\n    }\n    /** creates a two-way list node with value=val and empty prev */\n    static _append(el, listHead){\n        if (listHead) {\n            let node = listHead;\n            while (node.next) {\n                node = node.next;\n            }\n            node.next = (List.isListNode(el) ? el : List.newNode(el))\n            return node.next;\n        }\n        else {\n            return (List.isListNode(el) ? el : List.newNode(el));\n        }\n    }\n    append(el) { List._append(el, this.head) }\n\n    static _appendTwoWay(el, listHead) {\n        if (List.isTwoWayListNode(el))\n            List._append(el, listHead)\n        else\n            List._append(List.newTwoWayNode(el), listHead);\n    }\n\n\n    static _prepend(el, listHead){\n        let newHead  = (List.isListNode(el) ? el : List.newNode(el))\n        newHead.next = listHead;\n        return newHead;\n    }\n    prepend(el) {\n        this.head = List._prepend(el, this.head)\n    }\n\n    static _prependTwoWay(el,listHead){\n        let newHead = List._prepend(el, listHead);\n        if(listHead)\n            listHead.prev = newHead;\n        return newHead;\n    }\n\n    static iterator(listHead) {\n        return {\n            last: listHead,\n            next() {\n                if (this.last === null)\n                    return { done: true }\n                else {\n                    let ret = { value: this.last.value, done: false }\n                    this.last = this.last.next;\n                }\n            },\n            return(){} //optional, do cleanup routine (close db connection and such)\n        }\n    }\n\n    *[Symbol.iterator](){\n        return List.iterator(this.head);\n    }\n\n    toArray(){\n        var ret = [];\n        for(let val of this.head)\n            ret.push(val)\n        return ret;\n    }\n\n    toString(){\n        return this.toArray.toString();\n    }\n\n    values(){\n        return this.toArray();\n    }\n\n}\n\nconst twoWayListClass = class TwoWayList extends List {\n    //head\n    //last\n    constructor(){\n        super();\n    }\n\n    popLast(){\n        if(!this.head)\n            return null;\n        //pop\n        let ret = this.last ? this.last.value : null;\n        this.last = this.last.prev;\n        //pop() on \"lenght == 1\" => last===head===null -> skip\n        if(this.last)\n            this.last.next=null;\n        return ret;\n    }\n\n    static _prepend(...args){List._prependTwoWay.apply(null,args)};\n    prepend(el){\n       this.head = List._prependTwoWay(el);\n    }\n\n    static iterator(listHead){\n        let oneWay = List.iterator(listHead);\n        oneWay.prev = (function () {\n            if (this.last === null)\n                return { done: true }\n            else {\n                // @ts-ignore\n                let ret = { value: this.last.prev.value, done: false }\n                // @ts-ignore\n                this.last = this.last.prev;\n            }\n        }).bind(oneWay)\n        return oneWay;\n    }\n\n    inverseIterator(){\n        let it = TwoWayList.iterator(this.last);\n        [it.next, it.prev] = [it.prev, it.next];\n        return it;\n    }\n\n\n    \n}\n\n\nglobal.set(\"List\", List.prototype);\nglobal.set(\"TwoWayList\", twoWayListClass);\n\nutils.List = List; global.set(\"utils\", utils);\n\n\n/* TypeError    \nnode.status({\n    fill: \"green\",\n    text: Object.keys(\n        utils.mergeRec(\n            new List(),\n            new twoWayListClass()\n        )\n    ).join(' & ')\n});\n/**/\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 665,
+        "y": 225,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d302a907fb4b22c5",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "name": "function 2",
+        "func": "const List = global.get(\"List\");\nconsole.warn(Object.keys(global.get(\"utils\")));\n\nconsole.warn(typeof List);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 315,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6fa431e712f8252c",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "name": "onStartup:3",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "3",
+        "topic": "",
+        "x": 755,
+        "y": 315,
+        "wires": [
+            [
+                "d302a907fb4b22c5"
+            ]
+        ]
     },
     {
         "id": "d2907618278aa1be",
@@ -3874,8 +4506,8 @@
         "links": [
             "64690dd246039799"
         ],
-        "x": 205,
-        "y": 1245,
+        "x": 250,
+        "y": 1050,
         "wires": [
             [
                 "2c415eda999050f1"
@@ -3904,8 +4536,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 335,
-        "y": 1245,
+        "x": 380,
+        "y": 1050,
         "wires": [
             [
                 "63cb5672c06fad4e"
@@ -3928,8 +4560,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 460,
-        "y": 1290,
+        "x": 505,
+        "y": 1095,
         "wires": [
             []
         ]
@@ -3942,8 +4574,8 @@
         "name": "uibOn liveDataChartReady",
         "mode": "link",
         "links": [],
-        "x": 515,
-        "y": 1215,
+        "x": 560,
+        "y": 1020,
         "wires": [],
         "l": true
     },
@@ -3954,8 +4586,8 @@
         "g": "31f4b8716c51f385",
         "name": "handle all uib events",
         "info": "",
-        "x": 230,
-        "y": 1140,
+        "x": 275,
+        "y": 945,
         "wires": []
     },
     {
@@ -4290,7 +4922,8 @@
         "name": "initChart in",
         "links": [
             "6d51d6d4d238596a",
-            "5d4e2536bd217ebb"
+            "5d4e2536bd217ebb",
+            "5d895375edc5f905"
         ],
         "x": 420,
         "y": 765,
@@ -4320,7 +4953,8 @@
         "mode": "link",
         "links": [
             "e9e53285a6bea3a0",
-            "8592536a56dff0ec"
+            "8592536a56dff0ec",
+            "f8e2ce4e4480269d"
         ],
         "x": 1125,
         "y": 765,
@@ -6969,7 +7603,7 @@
         "d": true,
         "g": "a02047ec82263155",
         "name": "catchAll",
-        "func": "\n\nif(msg.error){\n    node.error({\"err\":msg.error.message,\"full\":msg});\n    //context.set(\"errorCc\", context.get(\"errorCc\")+1);\n}\nelse{\n    node.error(msg);\n}\n",
+        "func": "if(msg.error){\n    node.error({\"err\":msg.error.message,\"src\":msg.error.source.id,\"n\":msg.error.source.name,\"full\":msg});\n    \n}\nelse{\n    node.error(msg);\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\ncontext.set(\"outCc\", 0);\ncontext.set(\"errorCc\", 0);",
@@ -7050,7 +7684,7 @@
         "d": true,
         "g": "a02047ec82263155",
         "name": "catchPlc",
-        "func": "\n\nif(msg.error){\n    node.error({\"err\":msg.error.message,\"full\":msg});\n    //context.set(\"errorCc\", context.get(\"errorCc\")+1);\n}\nelse{\n    node.error(msg);\n}\n",
+        "func": "if(msg.error){\n    node.error({\"err\":msg.error.message,\"src\":msg.error.source.id,\"n\":msg.error.source.name,\"full\":msg});\n    \n}\nelse{\n    node.error(msg);\n}\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\ncontext.set(\"outCc\", 0);\ncontext.set(\"errorCc\", 0);",

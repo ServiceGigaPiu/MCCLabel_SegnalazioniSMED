@@ -1,6 +1,30 @@
 /* Load the defaults from `<userDir>/node_modules/node-red-contrib-uibuilder/front-end/src/uib-styles.css` 
 @import url("./uib-styles.css"); */
 
+/*** DBG ***/
+
+   /** /div, span,    /**/
+   [dbg-outline] {
+      border: dotted 1px rgb(255, 7, 255); 
+   }
+   /* space here->* /
+   body > * > *,
+   body > * > * > * > * > * > *{
+      border: solid 1px red;
+   }
+   body > * > * > *,
+   body > * > * > * > * > * > * > *{
+      border: solid 1px green;
+   }
+   body > * > * > * > *,
+   body > * > * > * > * > * > * > *{
+      border: solid 1px darkturquoise;
+   }
+   body > * > * > * > * > *,
+   body > * > * > * > * > * > * > * > * > *{
+      border: solid 1px magenta;
+   }
+   /**/
 
 /*** GENERAL ***/
    /* Cloak elements on initial load to hide the possible display of {{ ... }} 
@@ -29,31 +53,6 @@
       box-sizing: border-box;         /* Opera/IE 8+ * /
    }*/
 
-/*** DBG ***/
-
-   /** /div, span,    /**/
-   [dbg-outline] {
-      border: dotted 1px rgb(255, 7, 255); 
-   }
-   /* space here->* /
-   body > * > *,
-   body > * > * > * > * > * > *{
-      border: solid 1px red;
-   }
-   body > * > * > *,
-   body > * > * > * > * > * > * > *{
-      border: solid 1px green;
-   }
-   body > * > * > * > *,
-   body > * > * > * > * > * > * > *{
-      border: solid 1px darkturquoise;
-   }
-   body > * > * > * > * > *,
-   body > * > * > * > * > * > * > * > * > *{
-      border: solid 1px magenta;
-   }
-   /**/
-
 /*** NAVBAR ***/
    :root{
       --navbar-h: 60px;
@@ -79,19 +78,26 @@
    
 
 /*** GRID ***/
+   #app-body{
+      --grid-gap:1vw;
+   }
+   .main-row:first-child { padding-top: var(--grid-gap); padding-bottom:calc(1/2 * var(--grid-gap)); }
    .main-row{
       height: 50%;
       width:100%;
-      padding: 1vh 0 1vh 1%;
+      padding: calc(1/2 * var(--grid-gap)) 0 var(--grid-gap) var(--grid-gap);
+      display:flex;
    }
    .main-col{
-      display:inline-block;
+      /*display:inline-block;*/
       height:100%;
-      width:24%;
-      margin-right:1%
+      width:calc(25% - var(--grid-gap));
+      margin:0 var(--grid-gap) 0 0;
    }
 
-   
+   #app-body {
+      background-color: var(--gray-300);
+   }
 /*** CELLS ***/
    /* template
       <div class="main-col">
@@ -101,9 +107,11 @@
    */
    .main-col{
       color:var(--gray-100);
+      box-shadow:0px 0px 5px 2px var(--gray-600);
+      border: calc(1px) solid var(--gray-500);
    }
    .cell-header{
-      width:80%;/*
+      width:90%;/*
       border: solid 1.5px black;
       box-shadow: inset -3px 0px 12px -3px var(--gray-600);
       border-radius:0 30% 30% 0;
@@ -149,7 +157,8 @@
       background-color: hsl(0, 72%, 50%);
    }
    .signal-A1.signal-A1-blinkoff{
-      background-color: hsl(0, 72%, 65%);
+     /* background-color: hsl(0, 72%, 65%);*/
+     background-color: hsl(0, 86%, 28%);
    }
 
    .signal-A2{ /* presa in carico da area SMED */
@@ -158,12 +167,15 @@
 
    .signal-A3{ /* avviamento */
       background-color: hsl(56, 86%, 53%);
+      color:var(--gray-800);
    }
    .signal-A4{ /* timeout avviamento */
+      color:var(--gray-800);
       background-color: hsl(56, 86%, 53%);
    }
    .signal-A4.signal-A4-blinkoff{
-      background-color: hsl(56, 86%, 73%);
+      color:var(--gray-800);
+      background-color: hsl(54, 63%, 47%);
    }
 
    .signal-B{ /* run */
@@ -185,4 +197,42 @@
 
    .signal-E{ /* carrelli pronti in corsia */
       background-color: purple;
+   }
+
+/*** ADMIN ***/
+   .action-box {
+
+   }
+   .action-box b-button {
+
+   }
+   .pillicon-button {
+      font-size:2vh;
+      text-align:left;
+      position:relative;
+      z-index:111;
+      margin-top:0.375rem;
+   }
+   .pillicon-button.sub{
+      position:absolute;
+      z-index:110;
+      top:0.5rem; /* match .btn-block margin */
+   }
+   .pillicon-button.sub > span:first-child{
+     margin-right:1rem;
+   }
+
+   .pillicon-button > span:first-child{
+      margin-left:-.375rem;
+      border:0.2em solid transparent;
+      border-radius:100%;
+      background-color:white;
+      color:black;
+   }
+
+   .pillicon-button.retracted {
+      padding-right:.375rem;
+      width:fit-content;
+      /*margin-right:calc(1/4 * 24vw);*/
+      background-color: var(--gray-600);
    }

@@ -27,7 +27,7 @@
          arr1.push(val);
    }
 
-   //
+   
    /**
     * @summary recursively merge two Objects
     * @desc overlay sec onto main. keeps properties of both. undefined properties of main are directly assigned from sec.
@@ -38,7 +38,7 @@
     * @param {Object} main 
     * @param {Object} sec 
     */
-   function mergeRec(main,sec,){
+   function mergeRec(main, sec){
       for(let p in sec){
          //if(main[p]===undefined) //commented bcs implicitly included in the next if condition //(typeof(undefVar) <=> "undefined")
             //if(deepCopy && typeof(main[p]) =="object") //too big an hustle
@@ -48,13 +48,14 @@
          else
             main[p] = sec[p];         
       }
+      return main;
    }
 
    function safeStringify(obj){
       var cache = [];
       var cacheKeys = [];
       return JSON.stringify(obj, (key, value) => {
-         if (typeof value === 'object' && value !== null) {
+         if (typeof value === 'object' && value !== null) { //arrays and null are also "objects" //functions are too, but typeof returns "function" instead
             //Duplicate reference found -> discard key / store
             const idx = cache.indexOf(value)
             //if duplicate found
@@ -106,13 +107,14 @@
    //#region
    let ___UIBUILDER__; //vscode outline-view category pseudo-title
    /**
-    * enforce msg standards
-    * send a message to nodered through uibuilder
+    * enforces msg standards
+    * -sends a message to nodered through uibuilder
+    * -by default it queue msgs if websocket is down, toggle this with waitForSocket flag
+    * -the queue is held in socketMsgQueue global, msgs get sent without delays and with FIFO policy
     * @param {"event"|"request"} type 
     * @param {String} topic 
     * @param {null|Object} payload 
     */
-   var socketMsgQueue = [];
    function sendToServer(type, topic, payload=null, waitForSocket=true){
       let msg = {type:type,topic:topic,payload:payload};
       if(waitForSocket){
@@ -122,8 +124,11 @@
             socketMsgQueue.push(msg);
       }
       else
-      uibuilder.send(msg);
+         uibuilder.send(msg);
+      console.log("sendToServer() called");
    }
+   var socketMsgQueue = [];
+
    uibuilder.onChange('ioConnected', function(connected){
       console.info('[indexjs:uibuilder.onChange:ioConnected] Socket.IO Connection Status Changed to:', connected)
       app.socketConnectedState = connected
@@ -138,15 +143,20 @@
 
 //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
 /* ################################################################################################################################
-   ################################### ?????????  ################################################################################# */
+   ################################### SIGNAL CELL  ################################################################################# */
    //#region
-   let ___UNNAMED__; //vscode outline-view category pseudo-title
-   const NROWS = 2;
-   const NCOLS = 4;
-   const MACHINE_NAMES = ["MO41"];
-   const cellTouts = new Array(NROWS*NCOLS);
+   let ___SIGNAL_CELL__; //vscode outline-view category pseudo-title
+   
+   const CELLS_LAYOUT = [ //names are: unique
+      ["F419","F420","F421","F422"],
+      ["F423","OMET","MO41","MO42"],
+   ]
+   const NROWS = CELLS_LAYOUT.length;
+   const NCOLS = CELLS_LAYOUT[0].length;
 
-   const machinesCfg = {
+   const CELLS = new Array(NROWS); for(let r=0; r<CELLS.length; r++) CELLS[r] = new Array(NCOLS);
+   
+   const MACHINE_CFGS = {
       "F419":{ startupTimeout:120*60*1000 },
       "F420":{ startupTimeout:120*60*1000 },
       "F421":{ startupTimeout:120*60*1000 },
@@ -156,6 +166,7 @@
       "MO41":{ startupTimeout:120*60*1000 },
       "MO42":{ startupTimeout:120*60*1000 }
    }
+   const MACHINE_NAMES = Object.keys(MACHINE_CFGS);
    
    function getInitedCell(){
       return {
