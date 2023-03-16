@@ -171,7 +171,6 @@
         },
         "nodes": [
             "e788bf33f7250b4e",
-            "734a6280c896ee84",
             "042d220310f4d201",
             "a4ea3b73128da3ca",
             "f31346e5c189cc0d",
@@ -199,7 +198,9 @@
             "76e60fd08eb6f131",
             "bfbeb3f69de7db05",
             "c854307142509346",
-            "b8bf2e09ac2a846d"
+            "b8bf2e09ac2a846d",
+            "5f94d8c13f129154",
+            "734a6280c896ee84"
         ],
         "x": 64,
         "y": 229,
@@ -228,9 +229,7 @@
             "f25308f6b79bce5d"
         ],
         "x": 89,
-        "y": 1459,
-        "w": 512,
-        "h": 232
+        "y": 1459
     },
     {
         "id": "042f83e60bf4b2b4",
@@ -737,9 +736,7 @@
             "1da30b125f7694b3"
         ],
         "x": 84,
-        "y": 1834,
-        "w": 792,
-        "h": 252
+        "y": 1834
     },
     {
         "id": "478c85d69cf2eb8c",
@@ -763,9 +760,7 @@
             "40e50c217d6a10b3"
         ],
         "x": 79,
-        "y": 34,
-        "w": 347,
-        "h": 202
+        "y": 34
     },
     {
         "id": "2ea4e192d27eab23",
@@ -797,9 +792,7 @@
             "138d917ae417b855"
         ],
         "x": 59,
-        "y": 289,
-        "w": 1242,
-        "h": 277
+        "y": 289
     },
     {
         "id": "abf36b9570f058cc",
@@ -821,9 +814,7 @@
             "5b4db35eee901db4"
         ],
         "x": 68,
-        "y": 589,
-        "w": 1274,
-        "h": 554
+        "y": 589
     },
     {
         "id": "bdb77fbf338dd270",
@@ -884,9 +875,7 @@
             "d610c787b889e968"
         ],
         "x": 119,
-        "y": 64,
-        "w": 592,
-        "h": 172
+        "y": 64
     },
     {
         "id": "ae9407dc27fc42e6",
@@ -924,9 +913,7 @@
             "51320eb4ac48f6d8"
         ],
         "x": 94,
-        "y": 304,
-        "w": 1483,
-        "h": 663
+        "y": 304
     },
     {
         "id": "5fde3697d5308bd9",
@@ -1020,7 +1007,16 @@
             "76bd5f8638bf1573",
             "0e0aa465724c5b30",
             "bd11511613590ced",
-            "7e325d321fc3cadb"
+            "7e325d321fc3cadb",
+            "fb7ec45bd3369999",
+            "38c5a72f3cea31f8",
+            "16b242957a906d15",
+            "5de1722cb0663da5",
+            "fe366f861d0121df",
+            "1fba084d78aab2cd",
+            "11485f19212eaf94",
+            "4f6eab8b88b51294",
+            "859d2c00c87f85bb"
         ],
         "x": 79,
         "y": 2074,
@@ -1099,7 +1095,8 @@
             "fe3fd3e20b792f35",
             "4768db5c30b208a2",
             "b3037e275cf5fc43",
-            "0d4b9b456c6abe1a"
+            "0d4b9b456c6abe1a",
+            "15bb6197c2b1fb58"
         ],
         "x": 64,
         "y": 724,
@@ -1185,6 +1182,82 @@
         "y": 1714,
         "w": 1542,
         "h": 262
+    },
+    {
+        "id": "7efa39f7d2ea1018",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5e8714bebf300e22",
+            "57f0a4be30f7d1d3",
+            "4799a2c9df16f17e",
+            "570ec02d134a5173",
+            "273ce494f7a66fa8",
+            "af118073e63d8f78"
+        ],
+        "x": 1424,
+        "y": 889,
+        "w": 337,
+        "h": 202
+    },
+    {
+        "id": "f3bee686c5a79e51",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e2ea6a04f86a1d13",
+            "1db2445822e94e9a",
+            "81e052072ae8f43d",
+            "a40512ebc39f24e5",
+            "307370bd3db41497"
+        ],
+        "x": 1419,
+        "y": 469,
+        "w": 277,
+        "h": 172
+    },
+    {
+        "id": "83dc8de4ca6f5b85",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3f28a0a7d3f10e1e",
+            "303394b2bfa17df9",
+            "ecb1f7d4b95bd34f",
+            "451ca07396c03dc6",
+            "1a96357a55bd59e2"
+        ],
+        "x": 1154,
+        "y": 1369,
+        "w": 277,
+        "h": 172
     },
     {
         "id": "5c1ba7695a881562",
@@ -1283,9 +1356,7 @@
             "fd99e9a78ed45308"
         ],
         "x": 94,
-        "y": 694,
-        "w": 1222,
-        "h": 172
+        "y": 694
     },
     {
         "id": "5c240797a607a72e",
@@ -1752,9 +1823,7 @@
             "7d42b16fe52425fd"
         ],
         "x": 248,
-        "y": 889,
-        "w": 714,
-        "h": 228
+        "y": 889
     },
     {
         "id": "b99d3df5ef07d131",
@@ -1785,9 +1854,7 @@
             "be6cdfc7a6f5fa2c"
         ],
         "x": 139,
-        "y": 709,
-        "w": 827,
-        "h": 232
+        "y": 709
     },
     {
         "id": "b42e082536c528eb",
@@ -1813,9 +1880,7 @@
             "27a6d7dd43730e07"
         ],
         "x": 639,
-        "y": 514,
-        "w": 462,
-        "h": 172
+        "y": 514
     },
     {
         "id": "3562e00f4ed04fb9",
@@ -1839,9 +1904,7 @@
             "a62e3a70e91d913b"
         ],
         "x": 849,
-        "y": 334,
-        "w": 357,
-        "h": 142
+        "y": 334
     },
     {
         "id": "51320eb4ac48f6d8",
@@ -1865,9 +1928,7 @@
             "1e1402bb46babf61"
         ],
         "x": 1219,
-        "y": 364,
-        "w": 332,
-        "h": 172
+        "y": 364
     },
     {
         "id": "ec19ad21051125fc",
@@ -2011,9 +2072,7 @@
             "8592536a56dff0ec"
         ],
         "x": 469,
-        "y": 754,
-        "w": 227,
-        "h": 82
+        "y": 754
     },
     {
         "id": "7d42b16fe52425fd",
@@ -2038,9 +2097,7 @@
             "533fe7d0158198e3"
         ],
         "x": 274,
-        "y": 964,
-        "w": 662,
-        "h": 127
+        "y": 964
     },
     {
         "id": "c4073df7edfaef3f",
@@ -2090,6 +2147,31 @@
         "y": 1414,
         "w": 392,
         "h": 112
+    },
+    {
+        "id": "9737cb6bd0dadd1f",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1b2801bdd5521603",
+            "a94d27d4fc33b1c2",
+            "d1ff55d5deb88f00",
+            "c26fead50e79fbbb",
+            "e26b945327fe0a7e"
+        ],
+        "x": 1429,
+        "y": 289,
+        "w": 282,
+        "h": 172
     },
     {
         "id": "f9afb515793290aa",
@@ -2174,17 +2256,6 @@
         "hidden": false
     },
     {
-        "id": "1b607212319a17a1",
-        "type": "ui_group",
-        "name": "first",
-        "tab": "f762493b17cce110",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": true,
-        "className": ""
-    },
-    {
         "id": "be3a0c41501390ea",
         "type": "ui_base",
         "theme": {
@@ -2193,7 +2264,8 @@
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
+                "edited": true,
+                "reset": false
             },
             "darkTheme": {
                 "default": "#097479",
@@ -2306,6 +2378,47 @@
         "reconnectOnTimeout": true,
         "reconnectTimeout": "2000",
         "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "0e782a15597a520f",
+        "type": "ui_tab",
+        "name": "dbg",
+        "icon": "fa-bug",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ebd54b01335cee21",
+        "type": "ui_group",
+        "name": "Pulsantiere 23KF1",
+        "tab": "0e782a15597a520f",
+        "order": 2,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "929f87df773632c9",
+        "type": "ui_group",
+        "name": "pulsantiere #2 23KF2",
+        "tab": "0e782a15597a520f",
+        "order": 3,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ff22d246a1b65b24",
+        "type": "ui_group",
+        "name": "Torri ZBRCETH",
+        "tab": "0e782a15597a520f",
+        "order": 4,
+        "disp": true,
+        "width": "8",
+        "collapse": true,
+        "className": ""
     },
     {
         "id": "8f5e7d5b2511d841",
@@ -3119,7 +3232,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "850adb4a2c8b2b3f",
         "name": "sendQuery 40020:4x8",
-        "func": "/*  global.plc:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\nlet plc = global.get(\"plc\");\n\n\nreturn plc.readFrom(16,1);",
+        "func": "/*  global.plc:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\nlet plc = global.get(\"plc\");\n\n\nreturn plc.readFrom(20,1);",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4745,7 +4858,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "850adb4a2c8b2b3f",
         "name": "debug 21",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -5961,6 +6074,195 @@
         "x": 735,
         "y": 1935,
         "wires": []
+    },
+    {
+        "id": "fb7ec45bd3369999",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "5fde3697d5308bd9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 585,
+        "y": 2280,
+        "wires": [
+            [
+                "cb87a1179601d7b8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "38c5a72f3cea31f8",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "5fde3697d5308bd9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 585,
+        "y": 2520,
+        "wires": [
+            [
+                "0ab9b611389e52b7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "16b242957a906d15",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "5fde3697d5308bd9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 435,
+        "y": 2640,
+        "wires": [
+            [
+                "ea5a84d58454a07e"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5de1722cb0663da5",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "5fde3697d5308bd9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 435,
+        "y": 2685,
+        "wires": [
+            [
+                "534b0771447b37e9"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "fe366f861d0121df",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "5fde3697d5308bd9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 585,
+        "y": 2685,
+        "wires": [
+            [
+                "6a9506e901b63554"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1fba084d78aab2cd",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "5fde3697d5308bd9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 585,
+        "y": 2760,
+        "wires": [
+            [
+                "2c9f603eb53ec7c7"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "11485f19212eaf94",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "5fde3697d5308bd9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 585,
+        "y": 2835,
+        "wires": [
+            [
+                "6b16add2d6b04682"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4f6eab8b88b51294",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "5fde3697d5308bd9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 570,
+        "y": 2910,
+        "wires": [
+            [
+                "d1f763dae798b9a3"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "859d2c00c87f85bb",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "5fde3697d5308bd9",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 585,
+        "y": 2355,
+        "wires": [
+            [
+                "06c77a7347c932b1"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "15c00fddf6febcfb",
@@ -7631,26 +7933,6 @@
         ]
     },
     {
-        "id": "734a6280c896ee84",
-        "type": "function",
-        "z": "c1d4418a6f1f1693",
-        "g": "5f741e9d0e05f1e2",
-        "name": "send query",
-        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\nnode.send(plc.writeReg(20,0))\n/* for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 345,
-        "y": 525,
-        "wires": [
-            [
-                "042d220310f4d201"
-            ]
-        ]
-    },
-    {
         "id": "042d220310f4d201",
         "type": "q-gate",
         "z": "c1d4418a6f1f1693",
@@ -7928,6 +8210,7 @@
         "g": "5f741e9d0e05f1e2",
         "name": "PLC Pulsantiere (ZBRN1-23KF1) Query in",
         "links": [
+            "92bab0627eba301d",
             "bfbeb3f69de7db05"
         ],
         "x": 560,
@@ -7968,7 +8251,8 @@
                 "e448cf338d7ce60a",
                 "bacfab2b6aa8f62e",
                 "c854307142509346",
-                "b8bf2e09ac2a846d"
+                "b8bf2e09ac2a846d",
+                "81e052072ae8f43d"
             ]
         ],
         "l": false
@@ -8148,7 +8432,7 @@
         "z": "c1d4418a6f1f1693",
         "d": true,
         "g": "5f741e9d0e05f1e2",
-        "name": "PLC Pulsantiere Query out",
+        "name": "PLC Pulsantiere (ZBRN1-23KF1) Query out",
         "mode": "link",
         "links": [
             "3d7f018e03cb4a74"
@@ -8258,7 +8542,8 @@
             ],
             [
                 "be14c153c3dbc45b",
-                "8aba5c7204608b4a"
+                "8aba5c7204608b4a",
+                "ecb1f7d4b95bd34f"
             ]
         ],
         "l": false
@@ -8524,7 +8809,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "9bc629dadf51c057",
         "name": "send query",
-        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\nnode.send(plc.writeReg(20,0))\n/* for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
+        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\n//node.send(plc.writeReg(20,0))\n\nnode.send(plc.readFrom(20, 1));\n\n/*for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -8856,7 +9141,8 @@
                 "c88815753d244368",
                 "f983b4df40165306",
                 "b3037e275cf5fc43",
-                "0d4b9b456c6abe1a"
+                "0d4b9b456c6abe1a",
+                "af118073e63d8f78"
             ]
         ],
         "l": false
@@ -9057,7 +9343,8 @@
         "name": "PLC Pulsantiere Query out",
         "mode": "link",
         "links": [
-            "8aa45b3643dc2319"
+            "8aa45b3643dc2319",
+            "d7e71f6c5df08492"
         ],
         "x": 405,
         "y": 1140,
@@ -9097,6 +9384,524 @@
         "y": 1110,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "15bb6197c2b1fb58",
+        "type": "comment",
+        "z": "c1d4418a6f1f1693",
+        "g": "9bc629dadf51c057",
+        "name": "PULSANTIERE #2 ZBRN1-23KF2",
+        "info": "",
+        "x": 500,
+        "y": 765,
+        "wires": []
+    },
+    {
+        "id": "5f94d8c13f129154",
+        "type": "comment",
+        "z": "c1d4418a6f1f1693",
+        "g": "5f741e9d0e05f1e2",
+        "name": "PULSANTIERE ZBRN1-23KF1",
+        "info": "",
+        "x": 505,
+        "y": 270,
+        "wires": []
+    },
+    {
+        "id": "5e8714bebf300e22",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "g": "7efa39f7d2ea1018",
+        "group": "929f87df773632c9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "conn status",
+        "format": "{{msg.modbusStatusString}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1645,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "57f0a4be30f7d1d3",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "g": "7efa39f7d2ea1018",
+        "group": "929f87df773632c9",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "isConnectedFlag",
+        "format": "{{flow.modbusIsReady.toString()}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1655,
+        "y": 990,
+        "wires": []
+    },
+    {
+        "id": "4799a2c9df16f17e",
+        "type": "switch",
+        "z": "c1d4418a6f1f1693",
+        "g": "7efa39f7d2ea1018",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1525,
+        "y": 975,
+        "wires": [
+            [
+                "5e8714bebf300e22",
+                "57f0a4be30f7d1d3",
+                "570ec02d134a5173",
+                "273ce494f7a66fa8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "570ec02d134a5173",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "g": "7efa39f7d2ea1018",
+        "group": "929f87df773632c9",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "lastPayload",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1645,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "273ce494f7a66fa8",
+        "type": "ui_template",
+        "z": "c1d4418a6f1f1693",
+        "g": "7efa39f7d2ea1018",
+        "group": "929f87df773632c9",
+        "name": "full msg",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<pre> {{msg}} </pre>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1635,
+        "y": 1050,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2ea6a04f86a1d13",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "g": "f3bee686c5a79e51",
+        "group": "ebd54b01335cee21",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "conn status",
+        "format": "{{flow.modbusStatusString}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1580,
+        "y": 510,
+        "wires": []
+    },
+    {
+        "id": "1db2445822e94e9a",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "g": "f3bee686c5a79e51",
+        "group": "ebd54b01335cee21",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "isConnectedFlag",
+        "format": "{{flow.modbusIsReady}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1590,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "81e052072ae8f43d",
+        "type": "switch",
+        "z": "c1d4418a6f1f1693",
+        "g": "f3bee686c5a79e51",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1460,
+        "y": 525,
+        "wires": [
+            [
+                "e2ea6a04f86a1d13",
+                "1db2445822e94e9a",
+                "a40512ebc39f24e5",
+                "307370bd3db41497"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a40512ebc39f24e5",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "g": "f3bee686c5a79e51",
+        "group": "ebd54b01335cee21",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "lastPayload",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1580,
+        "y": 570,
+        "wires": []
+    },
+    {
+        "id": "307370bd3db41497",
+        "type": "ui_template",
+        "z": "c1d4418a6f1f1693",
+        "g": "f3bee686c5a79e51",
+        "group": "ebd54b01335cee21",
+        "name": "full msg",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<pre> {{msg}} </pre>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1570,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f28a0a7d3f10e1e",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "g": "83dc8de4ca6f5b85",
+        "group": "ff22d246a1b65b24",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "conn status",
+        "format": "{{flow.modbusStatusString}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1315,
+        "y": 1410,
+        "wires": []
+    },
+    {
+        "id": "303394b2bfa17df9",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "g": "83dc8de4ca6f5b85",
+        "group": "ff22d246a1b65b24",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "isConnectedFlag",
+        "format": "{{flow.modbusIsReady}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1325,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "ecb1f7d4b95bd34f",
+        "type": "switch",
+        "z": "c1d4418a6f1f1693",
+        "g": "83dc8de4ca6f5b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1195,
+        "y": 1425,
+        "wires": [
+            [
+                "3f28a0a7d3f10e1e",
+                "303394b2bfa17df9",
+                "451ca07396c03dc6",
+                "1a96357a55bd59e2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "451ca07396c03dc6",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "g": "83dc8de4ca6f5b85",
+        "group": "ff22d246a1b65b24",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "lastPayload",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1315,
+        "y": 1470,
+        "wires": []
+    },
+    {
+        "id": "1a96357a55bd59e2",
+        "type": "ui_template",
+        "z": "c1d4418a6f1f1693",
+        "g": "83dc8de4ca6f5b85",
+        "group": "ff22d246a1b65b24",
+        "name": "full msg",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<pre> {{msg}} </pre>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1305,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "af118073e63d8f78",
+        "type": "change",
+        "z": "c1d4418a6f1f1693",
+        "g": "7efa39f7d2ea1018",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "modbusStatusString",
+                "pt": "msg",
+                "to": "modbusStatusString",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1570,
+        "y": 930,
+        "wires": [
+            [
+                "4799a2c9df16f17e"
+            ]
+        ]
+    },
+    {
+        "id": "92bab0627eba301d",
+        "type": "link out",
+        "z": "c1d4418a6f1f1693",
+        "name": "PLC Pulsantiere (ZBRN1-23KF1) Query out",
+        "mode": "link",
+        "links": [
+            "3d7f018e03cb4a74"
+        ],
+        "x": 2050,
+        "y": 390,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "1b2801bdd5521603",
+        "type": "comment",
+        "z": "c1d4418a6f1f1693",
+        "g": "9737cb6bd0dadd1f",
+        "name": "#dbg toggle",
+        "info": "",
+        "x": 1545,
+        "y": 330,
+        "wires": []
+    },
+    {
+        "id": "a94d27d4fc33b1c2",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "g": "9737cb6bd0dadd1f",
+        "name": "toggle",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "control",
+        "payload": "toggle",
+        "payloadType": "str",
+        "x": 1565,
+        "y": 360,
+        "wires": [
+            [
+                "d1ff55d5deb88f00"
+            ]
+        ]
+    },
+    {
+        "id": "d1ff55d5deb88f00",
+        "type": "gate",
+        "z": "c1d4418a6f1f1693",
+        "g": "9737cb6bd0dadd1f",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "open",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": false,
+        "storeName": "memory",
+        "x": 1670,
+        "y": 390,
+        "wires": [
+            [
+                "2e70c7d55b0e6c9f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c26fead50e79fbbb",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "g": "9737cb6bd0dadd1f",
+        "name": "poll 0.35s",
+        "props": [],
+        "repeat": "0.35",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "x": 1545,
+        "y": 390,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e26b945327fe0a7e",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "g": "9737cb6bd0dadd1f",
+        "name": "poll 2s",
+        "props": [],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "x": 1550,
+        "y": 420,
+        "wires": [
+            [
+                "d1ff55d5deb88f00"
+            ]
+        ]
+    },
+    {
+        "id": "734a6280c896ee84",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "g": "5f741e9d0e05f1e2",
+        "name": "send query",
+        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\nnode.send(plc.writeReg(20,0))\n/* for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 345,
+        "y": 525,
+        "wires": [
+            [
+                "042d220310f4d201"
+            ]
+        ]
+    },
+    {
+        "id": "2e70c7d55b0e6c9f",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "name": "send query",
+        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\nnode.send(plc.readFrom(20, 1))\n\n//node.send(plc.writeReg(20,0))\n/* for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 390,
+        "wires": [
+            [
+                "92bab0627eba301d"
+            ]
         ]
     },
     {
