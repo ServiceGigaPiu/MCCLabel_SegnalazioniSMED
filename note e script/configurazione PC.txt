@@ -1,0 +1,8 @@
+disabilitare firewall
+imposta ip statici
+aggiungi bat a shell:common startup che apra pwsh per avvio pagina a schermo intero
+
+-programmi-
+teamview Host
+filezilla
+

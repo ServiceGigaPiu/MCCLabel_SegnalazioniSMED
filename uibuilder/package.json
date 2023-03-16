@@ -10,7 +10,9 @@
     "bootstrap-vue": "~2.23.1",
     "jquery": "^3.6.3",
     "justgage": "^1.6.1",
-    "vue": "^2.7.14"
+    "three-dots": "^0.3.2",
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5"
   },
   "homepage": "",
   "bugs": "",
@@ -20,41 +22,40 @@
   "uibuilder": {
     "packages": {
       "@fortawesome/fontawesome-free": {
-        "installFolder": "\\Users\\Admin\\.node-red\\projects\\FonderiaBoccacci_RecuperoCalore_readOnlyInterface\\uibuilder\\node_modules\\@fortawesome\\fontawesome-free",
-        "installedVersion": "6.3.0",
-        "estimatedEntryPoint": "js/fontawesome.js",
-        "homepage": "https://fontawesome.com",
-        "packageUrl": "/@fortawesome/fontawesome-free",
-        "url": "../uibuilder/vendor/@fortawesome/fontawesome-free/js/fontawesome.js",
-        "spec": "^6.3.0"
+        "spec": "^6.3.0",
+        "missing": true,
+        "problems": [
+          "missing: @fortawesome/fontawesome-free@^6.3.0, required by uib_root@5.1.1"
+        ],
+        "installedFrom": "npm"
       },
       "@fortawesome/vue-fontawesome": {
-        "installFolder": "\\Users\\Admin\\.node-red\\projects\\FonderiaBoccacci_RecuperoCalore_readOnlyInterface\\uibuilder\\node_modules\\@fortawesome\\vue-fontawesome",
-        "installedVersion": "2.0.10",
-        "estimatedEntryPoint": "index.js",
-        "homepage": "https://github.com/FortAwesome/vue-fontawesome",
-        "packageUrl": "/@fortawesome/vue-fontawesome",
-        "url": "../uibuilder/vendor/@fortawesome/vue-fontawesome/index.js",
-        "spec": "^2.0.10"
+        "spec": "^2.0.10",
+        "missing": true,
+        "problems": [
+          "missing: @fortawesome/vue-fontawesome@^2.0.10, required by uib_root@5.1.1"
+        ],
+        "installedFrom": "npm"
       },
       "bootstrap": {
-        "installFolder": "\\Users\\Admin\\.node-red\\projects\\FonderiaBoccacci_RecuperoCalore_readOnlyInterface\\uibuilder\\node_modules\\bootstrap",
-        "installedVersion": "4.6.2",
-        "estimatedEntryPoint": "dist/js/bootstrap.js",
-        "homepage": "https://getbootstrap.com/",
+        "spec": "^4.6.2",
+        "installFolder": "C:\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\bootstrap",
+        "installedVersion": "5.2.3",
+        "estimatedEntryPoint": "?",
+        "homepage": "https://www.npmjs.com/search?q=bootstrap",
         "packageUrl": "/bootstrap",
-        "url": "../uibuilder/vendor/bootstrap/dist/js/bootstrap.js",
-        "spec": "^4.6.2"
+        "url": "../uibuilder/vendor/bootstrap/?",
+        "installedFrom": "npm"
       },
       "bootstrap-vue": {
-        "installFolder": "\\Users\\Admin\\.node-red\\projects\\FonderiaBoccacci_RecuperoCalore_readOnlyInterface\\uibuilder\\node_modules\\bootstrap-vue",
+        "spec": "~2.23.1",
+        "installFolder": "C:\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\bootstrap-vue",
         "installedVersion": "2.23.1",
-        "estimatedEntryPoint": "./dist/bootstrap-vue.common.js",
-        "homepage": "https://bootstrap-vue.org",
+        "estimatedEntryPoint": "?",
+        "homepage": "https://www.npmjs.com/search?q=bootstrap-vue",
         "packageUrl": "/bootstrap-vue",
-        "url": "../uibuilder/vendor/bootstrap-vue/./dist/bootstrap-vue.common.js",
-        "bootstrap": "^4.6.1",
-        "spec": "~2.23.1"
+        "url": "../uibuilder/vendor/bootstrap-vue/?",
+        "installedFrom": "npm"
       },
       "chart.js": {
         "installFolder": "\\Users\\Admin\\.node-red\\projects\\FonderiaBoccacci_RecuperoCalore_readOnlyInterface\\uibuilder\\node_modules\\chart.js",
@@ -66,22 +67,32 @@
         "spec": "~2.9.4"
       },
       "justgage": {
-        "installFolder": "\\Users\\Admin\\.node-red\\projects\\FonderiaBoccacci_RecuperoCalore_readOnlyInterface\\uibuilder\\node_modules\\justgage",
-        "installedVersion": "1.6.1",
-        "estimatedEntryPoint": "index.js",
-        "homepage": "https://github.com/toorshia/justgage",
-        "packageUrl": "/justgage",
-        "url": "../uibuilder/vendor/justgage/index.js",
-        "spec": "^1.6.1"
+        "spec": "^1.6.1",
+        "missing": true,
+        "problems": [
+          "missing: justgage@^1.6.1, required by uib_root@5.1.1"
+        ],
+        "installedFrom": "npm"
       },
       "vue": {
-        "installFolder": "\\Users\\Admin\\.node-red\\projects\\FonderiaBoccacci_RecuperoCalore_readOnlyInterface\\uibuilder\\node_modules\\vue",
+        "spec": "^2.7.14",
+        "installFolder": "C:\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\vue",
         "installedVersion": "2.7.14",
-        "estimatedEntryPoint": "dist/vue.js",
-        "homepage": "https://github.com/vuejs/vue#readme",
+        "estimatedEntryPoint": "?",
+        "homepage": "https://www.npmjs.com/search?q=vue",
         "packageUrl": "/vue",
-        "url": "../uibuilder/vendor/vue/dist/vue.js",
-        "spec": "^2.7.14"
+        "url": "../uibuilder/vendor/vue/?",
+        "installedFrom": "npm"
+      },
+      "jquery": {
+        "spec": "^3.6.3",
+        "installFolder": "C:\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\jquery",
+        "installedVersion": "3.6.3",
+        "estimatedEntryPoint": "?",
+        "homepage": "https://www.npmjs.com/search?q=jquery",
+        "packageUrl": "/jquery",
+        "url": "../uibuilder/vendor/jquery/?",
+        "installedFrom": "npm"
       }
     }
   }

@@ -53,6 +53,13 @@
       box-sizing: border-box;         /* Opera/IE 8+ * /
    }*/
 
+   .disconnected-popup {
+      width:30vw;
+      margin-top:10vh;
+      margin-left:35vw;
+      text-align:center;
+   }
+
 /*** NAVBAR ***/
    :root{
       --navbar-h: 60px;

@@ -1,0 +1,1 @@
+sass .\sassOnly.scss .\sassOnly.css

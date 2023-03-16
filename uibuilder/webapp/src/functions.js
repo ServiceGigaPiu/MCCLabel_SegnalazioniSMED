@@ -13,6 +13,15 @@
       for(let val of arr)
          this.push(val);
    }
+
+   createFromHTML(html){
+      let d=document.createElement(div);
+      d.innerHTML=html;
+      let el = d.children[0];
+      //document.appendChild(el);
+      //document.removeChild(d);
+      return el;
+   }
    
    /**
     * @summary sequentially push provided values into arr1.
@@ -116,16 +125,15 @@
     * @param {null|Object} payload 
     */
    function sendToServer(type, topic, payload=null, waitForSocket=true){
-      let msg = {type:type,topic:topic,payload:payload};
+      let msg = {type:type,topic:topic,payload:payload,clientId:self.cookies["uibuilder-client-id"]};
       if(waitForSocket){
-         if(uibuilder.ioConnected)
+         if(app.socketConnectedState)
             uibuilder.send(msg);
          else
             socketMsgQueue.push(msg);
       }
       else
          uibuilder.send(msg);
-      console.log("sendToServer() called");
    }
    var socketMsgQueue = [];
 
@@ -141,6 +149,9 @@
       }
    });
 
+   
+
+
 //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
 /* ################################################################################################################################
    ################################### SIGNAL CELL  ################################################################################# */
@@ -148,26 +159,42 @@
    let ___SIGNAL_CELL__; //vscode outline-view category pseudo-title
    
    const CELLS_LAYOUT = [ //names are: unique
-      ["F419","F420","F421","F422"],
-      ["F423","OMET","MO41","MO42"],
+      ["FA419","FA420","FA421","FA422"],
+      ["FA423","OMET","MO41","MO42"],
    ]
    const NROWS = CELLS_LAYOUT.length;
    const NCOLS = CELLS_LAYOUT[0].length;
 
    const CELLS = new Array(NROWS); for(let r=0; r<CELLS.length; r++) CELLS[r] = new Array(NCOLS);
    
+   
    const MACHINE_CFGS = {
-      "F419":{ startupTimeout:120*60*1000 },
-      "F420":{ startupTimeout:120*60*1000 },
-      "F421":{ startupTimeout:120*60*1000 },
-      "F422":{ startupTimeout:120*60*1000 },
-      "F423":{ startupTimeout:120*60*1000 },
+      "FA419":{ startupTimeout:120*60*1000 },
+      "FA420":{ startupTimeout:120*60*1000 },
+      "FA421":{ startupTimeout:120*60*1000 },
+      "FA422":{ startupTimeout:120*60*1000 },
+      "FA423":{ startupTimeout:120*60*1000 },
       "OMET":{ startupTimeout:120*60*1000 },
       "MO41":{ startupTimeout:120*60*1000 },
       "MO42":{ startupTimeout:120*60*1000 }
    }
-   const MACHINE_NAMES = Object.keys(MACHINE_CFGS);
+   for(let mKey in MACHINE_CFGS) { MACHINE_CFGS[mKey].name = mKey }
+
+   const MACHINE_KEYS = Object.keys(MACHINE_CFGS);
+   const MACHINE_NAMES = (()=>{var arr=[]; for(let mKey in MACHINE_CFGS) arr.push(MACHINE_CFGS[mKey].name); return arr})()
    
+   function cellOf(mKey, cells){
+      let r=0,c=0;
+      for(let row of CELLS_LAYOUT){
+         for(let key of row){
+            if(key == mKey)
+               return cells[r][c];
+            c++;
+         }
+         r++;
+      }
+   }
+
    function getInitedCell(){
       return {
          currentSignalKey:"noop",
@@ -350,5 +377,11 @@
    //   clearTimeout(el.touts[XtoX]);
    //   el.touts[XtoX] = setTimeout(applyStyle, 20*60*1000, toState, el);
    //}
+
+
+
+   function connectionLost(){
+
+   }
 
 //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota

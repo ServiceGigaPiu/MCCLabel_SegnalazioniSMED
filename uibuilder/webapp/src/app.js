@@ -48,11 +48,12 @@ var retSignalCellObj=function(){return {
       props:{
          initSignal: { default: "noop", validator:(k) => ["noop","A1", "A2", "A3", "A4","B","C1","C2","D","E"].includes(k) },
          machineName: { type:String, default:"UNKN" },
+         signalKey:{ default: "noop", validator:(k) => ["noop","A1", "A2", "A3", "A4","B","C1","C2","D","E"].includes(k) },
       },
 
       data: function (){   return {
             headerText:"Linea "+this.machineName,
-            currSignalKey:this.initSignal,
+            //signalKey:this.signalKey,
             isBlinkingNow:false, //toggles blinkOff style
             inBlinkMode:false,
                //blinkIntvOn
@@ -77,12 +78,12 @@ var retSignalCellObj=function(){return {
       },
       
       computed: {
-         signalClass(){return "signal-"+this.currSignalKey},
-         blinkClass(){return `signal-${this.currSignalKey}-blinkoff`},
+         signalClass(){return "signal-"+this.signalKey},
+         blinkClass(){return `signal-${this.signalKey}-blinkoff`},
       },
       watch:{
          /** changes the whole cell display, programs events and countdowns */
-         currSignalKey:{
+         signalKey:{
             handler:function switchDisplay(newVal, oldVal){ 
                this.applyStyle(newVal);
             },
@@ -119,27 +120,27 @@ var retSignalCellObj=function(){return {
       },
 
       methods:{
-         /**  apply the configs associated to a certain "currSignalKey".
+         /**  apply the configs associated to a certain "signalKey".
           * invoked by watcher */
-         applyStyle: function(){
+         applyStyle: function(params){
             let blinkTimeOn = 800, 
                blinkTimeOff = 350;
             
             ////reset what needs to be
             //   //stop blinking if you were
-            //if(this.inBlinkMode && !this.currSignalKey.match("A"));
+            //if(this.inBlinkMode && !this.signalKey.match("A"));
             //   this.inBlinkMode = false;
 
             //apply associated style
-            //auto with computed prop //this.signalClass = "signal-"+this.currSignalKey;
+            //auto with computed prop //this.signalClass = "signal-"+this.signalKey;
             
             //set blink timeouts and other stuff
-            switch(this.currSignalKey){
+            switch(this.signalKey){
                case "A1":{
                   this.inBlinkMode = true;
                   this.isCdShown = true; //show countdownBlock
                   this.startCountdown(this.cd, 20*60*1000);
-                  this.setApplyStyleTimeout(this,"A3",20*60*1000,this.currSignalKey);
+                  //this.setApplyStyleTimeout(this,"A3",20*60*1000,this.signalKey);
                   break;
                }
                case "A2":{
@@ -148,7 +149,7 @@ var retSignalCellObj=function(){return {
                }
                case "A3":{
                   this.inBlinkMode = false;
-                  this.blinkIntvRef = setTimeout(()=>{this.currSignalKey = "A4"}, 20*60*1000);
+                  this.blinkIntvRef = setTimeout(()=>{this.signalKey = "A4"}, 20*60*1000);
                   break;
                }
                case "A4":{
@@ -159,9 +160,9 @@ var retSignalCellObj=function(){return {
                   this.inBlinkMode = false;
                   this.isCdShown = false;
                      //cancel programmed state-changes
-                  if(this.touts)
-                  for(key in this.touts)
-                     clearTimeout(this.touts[key]);
+                  //if(this.touts)
+                  //for(key in this.touts)
+                  //   clearTimeout(this.touts[key]);
                }
             }
          },
@@ -178,7 +179,7 @@ var retSignalCellObj=function(){return {
             if(!this.touts)
                this.touts = {};
             clearTimeout(ctx.touts[XtoX]);
-            ctx.touts[XtoX] = setTimeout((ctx)=>{ctx.currSignalKey=toState;}, 20*60*1000);
+            ctx.touts[XtoX] = setTimeout((ctx)=>{ctx.signalKey=toState;}, 20*60*1000);
          },
 
          /**
@@ -288,10 +289,12 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
          </div>
       </div>
    `,
-   data:(function (){let inheritedDataObj = retSignalCellObj().data();
-         return function (app){return mergeRec(inheritedDataObj,{
+   data:(function (){
+      return function (app){
+         let inheritedDataObj = retSignalCellObj().data(); //careful where you place this, or all admin cells will point the same obj.
+         return mergeRec(inheritedDataObj,{
             headerText:"Linea "+app.machineName,
-            currSignalKey:app.initSignal,
+            //signalKey:app.initSignal,
             actionList:[
                { id:"goToA2",extraAttr:{},variant:"danger",separateIconColor:"",buttonText:"Prendi in Carico", subButtonText:"in Carico", iconName:"bell-slash-fill", iconScale:"0.75", innerSpanHTML:""},
                { id:"goToA3",extraAttr:{},variant:"warning",separateIconColor:"",buttonText:"Anticipa Avviamento", iconName:"alarm-fill", iconScale:"0.75", innerSpanHTML:"" },
@@ -302,7 +305,8 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
    methods:{
       actionClick(e, actionItemId){
          //var event = e.click ?? (()=>{console.warn("[iconpill-button][handleClick()] wrong event key. ignored."); for(let k in e) return e[k]; })()
-         e.action = actionItemId;
+         e.actionId = actionItemId;
+         sendToServer("request","setCellSignal",{toSignalKey:"A2", machineName:this.$props.machineName})
          this.$emit("action-button-click",e);
       }
    }
@@ -410,37 +414,62 @@ const app = new Vue({
             inputId     : '',
 
             CELLS_LAYOUT:CELLS_LAYOUT,
-
-            cells: (function (){
-               var ret = new Array(NROWS);
-               for(let r=0; r<NROWS; r++){
-                  ret[r] = new Array(NCOLS);
-                  for(let c=0; c<NCOLS; c++){
-                     ret[r][c]= 
-                     {
-                        /*currSignalKey:"noop",
-                        signalClass:"signal-noop",
-                        blinkClass:"signal-noop-blinkoff",
-                        isBlinking:false,
-                        headerText:"Linea MO41",
-                        //countdown-related //see startCountdown() method for most info
-                           //f() of _ put here and updated with watch() cuz they belong to the cd object and there is no syntax alternative.
-                           //cd should probably be its own component, then those could be std computed props.
-                        isCdShown:false,
-                        cd:{
-                              //refreshIntv
-                           timerLength:1, 
-                           remainingMs:0,
-                           minutes:0, //f() of remainingMs
-                           seconds:0, //f() of remainingMs
-                           onComplete:noop, //non-reactive
-                           progBarWidth:0, //f() of remainingMs & timerLength
-                        }*/
+            MACHINE_CFGS:MACHINE_CFGS,
+            //as {mKey:componetProps}
+            signalCells:(function (){ //this doesn't get inited.. why?
+               var obj={};
+               for(let row of CELLS_LAYOUT)
+                  for(let mKey of row)
+                     obj[mKey]={
+                        signalKey:"noop",
+                        machineName:MACHINE_CFGS[mKey].name,
                      }
-                  }
-               }
-               return ret;
-            })()
+               return obj;
+            })(),
+            //as grid[][] //reference signalCells[mKey]
+            //cells:((app)=>{
+            //   console.log(app);
+            //   var ret = new Array(NROWS);
+            //   for(let r=0; r<NROWS; r++){
+            //      ret[r] = new Array(NCOLS);
+            //      for(let c=0; c<NCOLS; c++){
+            //         ret[r][c]=app.signalCells[CELLS_LAYOUT[r][c]]; //error: $data not yet defined (obviously)
+            //      }
+            //   }
+            //   return ret;
+            //})(this),
+            //xcells: (function (){
+            //   var ret = new Array(NROWS);
+            //   for(let r=0; r<NROWS; r++){
+            //      ret[r] = new Array(NCOLS);
+            //      for(let c=0; c<NCOLS; c++){
+            //         ret[r][c]= 
+            //         {
+            //            signalKey:"noop",
+            //            machineName:MACHINE_CFGS[CELLS_LAYOUT[r][c]].name,
+            //            /*currSignalKey:"noop",
+            //            signalClass:"signal-noop",
+            //            blinkClass:"signal-noop-blinkoff",
+            //            isBlinking:false,
+            //            headerText:"Linea MO41",
+            //            //countdown-related //see startCountdown() method for most info
+            //               //f() of _ put here and updated with watch() cuz they belong to the cd object and there is no syntax alternative.
+            //               //cd should probably be its own component, then those could be std computed props.
+            //            isCdShown:false,
+            //            cd:{
+            //                  //refreshIntv
+            //               timerLength:1, 
+            //               remainingMs:0,
+            //               minutes:0, //f() of remainingMs
+            //               seconds:0, //f() of remainingMs
+            //               onComplete:noop, //non-reactive
+            //               progBarWidth:0, //f() of remainingMs & timerLength
+            //            }*/
+            //         }
+            //      }
+            //   }
+            //   return ret;
+            //})()
 
             //vcharts: charts,
 
@@ -474,8 +503,7 @@ const app = new Vue({
     }, // --- End of computed --- //
     methods: {
         sendToServery(type,topic,msg){
-         console.log("sendToServer() called");
-         sendToServer(type,topic,msg);
+            return sendToServer(type,topic,msg);
         },
         // Called from the increment button - sends a msg to Node-RED
         increment: function(event) {
@@ -576,23 +604,44 @@ const app = new Vue({
     
     /** Called once all Vue component instances have been loaded and the virtual DOM built */
     mounted: function(){
-      //console.debug('[indexjs:Vue.mounted] app mounted - setting up uibuilder watchers')
+      console.debug('[appjs:Vue.mounted] app mounted - setting up uibuilder watchers')
+      
+
 
       var app = this  // Reference to `this` in case we need it for more complex functions
       
       uibuilder.onTopic("setCellSignal",function(msg){
-         app.cell
+         //get macKey //#CHECK remove loose attribute-lookup? enforce names?
+         let macKey = msg.macKey ?? msg.mKey ?? msg.machineKey ?? msg.mName ?? msg.machineName;
+         if(!macKey){
+            let col = msg.col ?? msg.column ?? msg.c;
+            let row = msg.row ?? msg.row ?? msg.r;
+            if(typeof(col)!="number" || typeof("row")!="number"){
+               console.error("missing attributes in onTopic(setCellSignal) response",msg);
+               return
+            }
+            else
+               macKey = CELLS_LAYOUT[row][col];
+         }
+         app.$data.signalCells[macKey].signalKey = msg.toSignalKey;
       })
 
-      // If msg changes //msg is updated when a standard msg is received from Node-RED over Socket.IO
-      uibuilder.onChange('msg', function(msg){
-         console.info('[indexjs:uibuilder.onChange] msg received from Node-RED server:', msg)
-         app.msgRecvd = msg
-         app.msgsReceived = uibuilder.get('msgsReceived')
+      uibuilder.onTopic("dbgData",function(msg){
+         let cont = document.getElementById("dbg-data-container");
+         lastMsg = cont.firstElementChild;
+         cont.appendChild(createFromHTML("<pre>"+safeStringify({a:23,b:8})+"</pre>"));
+         if(cont.children.length > 5)
+            cont.children.pop();
       })
 
       //#region ---- Debug info, can be removed for live use ---- //
 
+         // If msg changes //msg is updated when a standard msg is received from Node-RED over Socket.IO
+         uibuilder.onChange('msg', function(msg){
+            console.info('[indexjs:uibuilder.onChange] msg received from Node-RED server:', msg)
+            app.msgRecvd = msg
+            app.msgsReceived = uibuilder.get('msgsReceived')
+         })
          /** You can use the following to help trace how messages flow back and forth.
           * You can then amend this processing to suite your requirements.
           */
@@ -638,6 +687,8 @@ const app = new Vue({
                console.log('authTokenExpiry: ', uibuilder.get('authTokenExpiry'))
                app.isLoggedOn = isAuthorised
          })
+
+         console.info("[app.js:mountedHook] registered onTopic watchers:",...uibuilder.onTopicCbList)
 
       //#endregion ---- Debug info, can be removed for live use ---- //
          /*
