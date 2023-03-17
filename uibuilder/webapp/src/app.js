@@ -22,6 +22,32 @@
 
 // eslint-disable-next-line no-unused-vars
 
+
+/* ################################################################################################################################
+   ############################    ROUTER   ###################################################################################### * /
+
+const ROUTER = createRouter({
+   routes: [
+      {
+         path: '/display-grid',
+         name: 'displayGridName',
+         component: displayGridView
+      },
+      {
+         path: '/smed-interface',
+         name: 'smedInterfaceName',
+         component: smedInterfaceView
+      }
+   ]
+})
+
+const __DISPLAY_GRID_VIEW_COMPONENT__ = "";
+
+Vue.component("displayGridView",{
+
+})
+
+
 /* ################################################################################################################################
    ############################  COMPONENTS  ###################################################################################### */
 
@@ -49,6 +75,8 @@ var retSignalCellObj=function(){return {
          initSignal: { default: "noop", validator:(k) => ["noop","A1", "A2", "A3", "A4","B","C1","C2","D","E"].includes(k) },
          machineName: { type:String, default:"UNKN" },
          signalKey:{ default: "noop", validator:(k) => ["noop","A1", "A2", "A3", "A4","B","C1","C2","D","E"].includes(k) },
+         timerLength:{ default: 0, type:Number},
+         remainingMs:{ default:0, type:Number}
       },
 
       data: function (){   return {
@@ -65,8 +93,8 @@ var retSignalCellObj=function(){return {
             isCdShown:"setBy_remainingMs",
             cd:{
                   //refreshIntv
-               timerLength:18*60*1000, 
-               remainingMs:18*60*1000,
+               //timerLength:18*60*1000, 
+               //remainingMs:18*60*1000,
                minutes:0, //f() of remainingMs
                seconds:0, //f() of remainingMs
                minutesClockText:"", //f() of minutes
@@ -90,20 +118,34 @@ var retSignalCellObj=function(){return {
             immediate:true
          },
 
-         "cd.remainingMs":{
+         remainingMs:{
             handler:function chainUpdate(newVal, oldVal){
-               if(this.cd.remainingMs <= 0){
-                  this.cd.remainingMs = 0;
-                  this.isCdShown = false;
-               }
-               this.cd.minutes = Math.trunc( this.cd.remainingMs / (60*1000) );
-               this.cd.seconds = Math.round( (this.cd.remainingMs - (this.cd.minutes * 60*1000) ) / 1000 );
+               console.log("remainingMs watcher triggered",{ms:this.$props.remainingMs,tL:this.$props.timerLength});
+
+               this.isCdShown = this.$props.remainingMs > 0;
+               this.cd.minutes = Math.trunc( this.$props.remainingMs / (60*1000) );
+               this.cd.seconds = Math.round( (this.$props.remainingMs - (this.cd.minutes * 60*1000) ) / 1000 );
                this.cd.minutesClockText = this.cd.minutes + '';
                this.cd.secondsClockText = ':'+fixedDigits(this.cd.seconds,2);
-               this.cd.progBarWidth = 100 - Math.round(this.cd.remainingMs / this.cd.timerLength);
+
+               this.cd.progBarWidth = Math.round(100 * this.$props.remainingMs / this.$props.timerLength);
             },
             immediate:true
          },
+         //"cd.remainingMs":{
+         //   handler:function chainUpdate(newVal, oldVal){
+         //      if(this.cd.remainingMs <= 0){
+         //         this.cd.remainingMs = 0;
+         //         this.isCdShown = false;
+         //      }
+         //      this.cd.minutes = Math.trunc( this.cd.remainingMs / (60*1000) );
+         //      this.cd.seconds = Math.round( (this.cd.remainingMs - (this.cd.minutes * 60*1000) ) / 1000 );
+         //      this.cd.minutesClockText = this.cd.minutes + '';
+         //      this.cd.secondsClockText = ':'+fixedDigits(this.cd.seconds,2);
+         //      this.cd.progBarWidth = 100 - Math.round(this.cd.remainingMs / this.cd.timerLength);
+         //   },
+         //   immediate:true
+         //},
 
          inBlinkMode:{
             handler:function toggle(newVal, oldVal){
@@ -122,7 +164,7 @@ var retSignalCellObj=function(){return {
       methods:{
          /**  apply the configs associated to a certain "signalKey".
           * invoked by watcher */
-         applyStyle: function(params){
+         applyStyle: function(params={}){
             let blinkTimeOn = 800, 
                blinkTimeOff = 350;
             
@@ -138,8 +180,8 @@ var retSignalCellObj=function(){return {
             switch(this.signalKey){
                case "A1":{
                   this.inBlinkMode = true;
-                  this.isCdShown = true; //show countdownBlock
-                  this.startCountdown(this.cd, 20*60*1000);
+                  //this.isCdShown = true; //show countdownBlock
+                  //this.startCountdown(this.cd, 20*60*1000);
                   //this.setApplyStyleTimeout(this,"A3",20*60*1000,this.signalKey);
                   break;
                }
@@ -149,7 +191,6 @@ var retSignalCellObj=function(){return {
                }
                case "A3":{
                   this.inBlinkMode = false;
-                  this.blinkIntvRef = setTimeout(()=>{this.signalKey = "A4"}, 20*60*1000);
                   break;
                }
                case "A4":{
@@ -158,7 +199,7 @@ var retSignalCellObj=function(){return {
                }
                default:{
                   this.inBlinkMode = false;
-                  this.isCdShown = false;
+                  //this.isCdShown = false;
                      //cancel programmed state-changes
                   //if(this.touts)
                   //for(key in this.touts)
@@ -219,29 +260,29 @@ var retSignalCellObj=function(){return {
             delete ctx.blinkIntvOff;
          },
 
-         /**
-          * setups the variables and intervals responsible for the countdown elements animations.
-          * - adds to cdObj: timerLenght, end, minutes, seconds, refreshIntv.
-          * - refreshIntv updates both clock and bar.
-          * @param {Object} ctx where to store and retrieve stateful data
-          * @param {number} msFromNow delay in ms, lenght of the countdown.
-          * @param {function} onComplete optional callback
-          */
-         startCountdown: function(ctx, msFromNow, onComplete=noOp){
-            ctx.timerLength = msFromNow; //bar ratio depends on this
-            ctx.end = Date.now() + msFromNow; //unix time in ms when countdown will be completed
-            ctx.remainingMs = msFromNow;
+         ///**
+         // * setups the variables and intervals responsible for the countdown elements animations.
+         // * - adds to cdObj: timerLenght, end, minutes, seconds, refreshIntv.
+         // * - refreshIntv updates both clock and bar.
+         // * @param {Object} ctx where to store and retrieve stateful data
+         // * @param {number} msFromNow delay in ms, lenght of the countdown.
+         // * @param {function} onComplete optional callback
+         // */
+         //startCountdown: function(ctx, msFromNow, onComplete=noOp){
+         //   ctx.timerLength = msFromNow; //bar ratio depends on this
+         //   ctx.end = Date.now() + msFromNow; //unix time in ms when countdown will be completed
+         //   ctx.remainingMs = msFromNow;
 
-            //refresh now and at 1s interval
-            clearInterval(ctx.refreshIntv);
-            ctx.refreshIntv = setInterval(()=>{
-               ctx.remainingMs = Math.max(0, ctx.end - Date.now());
-               if(ctx.remainingMs <= 0){
-                  clearInterval(ctx.refreshIntv);
-                  onComplete();
-               }
-            },1000);
-         }
+         //   //refresh now and at 1s interval
+         //   clearInterval(ctx.refreshIntv);
+         //   ctx.refreshIntv = setInterval(()=>{
+         //      ctx.remainingMs = Math.max(0, ctx.end - Date.now());
+         //      if(ctx.remainingMs <= 0){
+         //         clearInterval(ctx.refreshIntv);
+         //         onComplete();
+         //      }
+         //   },1000);
+         //}
       },
    };
 }
@@ -254,7 +295,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
             <div class="cell-header" style="font-size:5vh; max-height:7vh; text-align:left; ">
                {{headerText}}
             </div>
-            <div class="countdown-container" v-bind:style="{visibility: isCdShown ? 'visible' : 'visible'}" style="margin-top:0px; display:flex;">
+            <div class="countdown-container" v-bind:style="{visibility: isCdShown ? 'visible' : 'hidden'}" style="margin-top:0px; display:flex;">
                <div class="countdown-clock" style="margin-left:5%; display:inline-block;">
                   <span style="font-size:7vh;">{{cd.minutesClockText}}<span>{{cd.secondsClockText}}</span></span>
                </div>
@@ -306,7 +347,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
       actionClick(e, actionItemId){
          //var event = e.click ?? (()=>{console.warn("[iconpill-button][handleClick()] wrong event key. ignored."); for(let k in e) return e[k]; })()
          e.actionId = actionItemId;
-         sendToServer("request","setCellSignal",{toSignalKey:"A2", machineName:this.$props.machineName})
+         sendToServer("event","setCellSignal",{toSignalKey:"A2", machineName:this.$props.machineName})
          this.$emit("action-button-click",e);
       }
    }
@@ -415,15 +456,24 @@ const app = new Vue({
 
             CELLS_LAYOUT:CELLS_LAYOUT,
             MACHINE_CFGS:MACHINE_CFGS,
+            CELL_VIEW:CELL_VIEW,
             //as {mKey:componetProps}
             signalCells:(function (){ //this doesn't get inited.. why?
                var obj={};
                for(let row of CELLS_LAYOUT)
-                  for(let mKey of row)
+                  for(let mKey of row){
+                     let cfg = MACHINE_CFGS[mKey];
                      obj[mKey]={
-                        signalKey:"noop",
-                        machineName:MACHINE_CFGS[mKey].name,
+                        signalKey:cfg.initSignalKey,
+                        machineName:cfg.displayName,
+                        //callStartCd:{trigger:true,params:{}},
+                        cd:{
+                           timerLength:20000,
+                           remainingMs:0,
+                           end:Date.now(),
+                        }
                      }
+                  }
                return obj;
             })(),
             //as grid[][] //reference signalCells[mKey]
@@ -502,6 +552,41 @@ const app = new Vue({
 
     }, // --- End of computed --- //
     methods: {
+         /**
+             * setups the variables and intervals responsible for the countdown elements animations.
+             * - adds to cdObj: timerLenght, end, minutes, seconds, refreshIntv.
+             * - refreshIntv updates both clock and bar.
+             * @param {Object} ctx where to store and retrieve stateful data
+             * @param {number} msFromNow delay in ms, lenght of the countdown.
+             * @param {function} onComplete optional callback
+             */
+         startCountdown: function(ctx, msFromNow, onComplete=noOp){
+            ctx.timerLength = msFromNow; //bar ratio depends on this
+            ctx.end = Date.now() + msFromNow; //unix time in ms when countdown will be completed
+            ctx.remainingMs = msFromNow;
+
+            //refresh now and at 1s interval
+            clearInterval(ctx.refreshIntv);
+            ctx.refreshIntv = setInterval(()=>{
+               ctx.remainingMs = Math.max(0, ctx.end - Date.now());
+               if(ctx.remainingMs <= 0){
+                  clearInterval(ctx.refreshIntv);
+                  onComplete();
+               }
+            },1000);
+         },
+         clearCountdown:function(ctx){
+            ctx.remainingMs=0;
+            clearInterval(ctx.refreshIntv);
+            delete ctx.refreshIntv;
+         },
+         setRemainingMs(mKey,value){
+            this.signalCells[mKey].cd.remainingMs = value;
+         },
+         //setCallStartCd(e, macKey, trigger, params){
+         //   this.$data.signalCells[macKey].callStartCd.params = params;
+         //   this.$data.signalCells[macKey].callStartCd.trigger = trigger;
+         //},
         sendToServery(type,topic,msg){
             return sendToServer(type,topic,msg);
         },
@@ -583,8 +668,11 @@ const app = new Vue({
       const uiBuilder = uibuilder; //alias because camelCase it's the way and i got it wrong too effing many times
       //brutely define method onTopic //use global onTopicCbList to have a reference of all registered onChange for dbg purposes
       uibuilder.onTopicCbList = [];
+      uibuilder.onTopicList = [];
       uibuilder.onTopic = function (topic, callback){
-         uibuilder.onTopicCbList.push(topic);
+         uibuilder.onTopicList.push(topic);
+         uibuilder.onTopicCbList[topic] ? uibuilder.onTopicCbList[topic].push(callback) : uibuilder.onTopicCbList[topic] = [callback];
+
          return uibuilder.onChange('msg',(e) => {
             //e === msg received
             if(e.topic == topic)
@@ -594,9 +682,22 @@ const app = new Vue({
       
       //#DBG //#TMP look for typos
       uiBuilder.onChange(msg => {
-         if(uibuilder.onTopicCbList.indexOf(msg.topic) >= 0)
+         if(uibuilder.onTopicList.indexOf(msg.topic) >= 0)
             console.warn("[typo prevention]: unhandled topic ",msg.topic,msg);
       })
+
+      uibuilder.onTopic("initApp",function(msg){
+         app.CELLS_LAYOUT = msg.cellsLayout;
+         app.MACHINE_CFGS = msg.config.machines;
+         for(let mKey in app.signalCells){
+            app.signalCells.timerLength = msg.signalCellsState.timerLength;
+            app.signalCells.timerLength = msg.signalCellsState.remainingMs;
+            app.signalCells.signalKey = msg.signalCellsState.signalKey;
+            
+         }
+
+         
+      });
 
 
     }, // --- End of created hook --- //
@@ -610,29 +711,63 @@ const app = new Vue({
 
       var app = this  // Reference to `this` in case we need it for more complex functions
       
-      uibuilder.onTopic("setCellSignal",function(msg){
+      /**
+       * expects { macKey: , toSignalKey:}
+       */
+      //uibuilder.onTopic("setSingleCellSignal",function(msg){
+      //   //get macKey //#CHECK remove loose attribute-lookup? enforce names?
+      //   let macKey = msg.macKey ?? msg.mKey ?? msg.machineKey ?? msg.mName ?? msg.machineName;
+      //   if(!macKey){
+      //      let col = msg.col ?? msg.column ?? msg.c;
+      //      let row = msg.row ?? msg.row ?? msg.r;
+      //      if(typeof(col)!="number" || typeof("row")!="number"){
+      //         console.error("missing attributes in onTopic(setSingleCellSignal) response",msg);
+      //         return
+      //      }
+      //      else
+      //         macKey = CELLS_LAYOUT[row][col];
+      //   }
+      //   app.$data.signalCells[macKey].signalKey = msg.toSignalKey;
+      //});
+
+      /**
+       * expects { macKey: , fromSignalCellState: {signalKey: ,timerStart: ,timerEnd: }}
+       */
+      uibuilder.onTopic("setSingleCellState",function(msg){
          //get macKey //#CHECK remove loose attribute-lookup? enforce names?
          let macKey = msg.macKey ?? msg.mKey ?? msg.machineKey ?? msg.mName ?? msg.machineName;
          if(!macKey){
             let col = msg.col ?? msg.column ?? msg.c;
             let row = msg.row ?? msg.row ?? msg.r;
             if(typeof(col)!="number" || typeof("row")!="number"){
-               console.error("missing attributes in onTopic(setCellSignal) response",msg);
+               console.error("missing attributes in onTopic(setSingleCellState) response",msg);
                return
             }
             else
                macKey = CELLS_LAYOUT[row][col];
          }
-         app.$data.signalCells[macKey].signalKey = msg.toSignalKey;
-      })
+         let errCb = (attr,ret=undefined) => {console.error("missing attribute "+attr+" in onTopic(setSingleCellState) response",msg); return undefined};
+         let cell = app.$data.signalCells[macKey];
 
-      uibuilder.onTopic("dbgData",function(msg){
-         let cont = document.getElementById("dbg-data-container");
-         lastMsg = cont.firstElementChild;
-         cont.appendChild(createFromHTML("<pre>"+safeStringify({a:23,b:8})+"</pre>"));
-         if(cont.children.length > 5)
-            cont.children.pop();
-      })
+         cell.signalKey = msg.fromSignalCellState.signalKey ?? errCb("signalKey");
+         //if no timer-related data was sent or time's up
+            //hide timer
+         if(!msg.fromSignalCellState.timerEnd || Date.now() > msg.fromSignalCellState.timerEnd){
+            cell.cd.remainingMs = 0;
+            console.log("cd hidden");
+            app.clearCountdown(cell.cd);
+         }
+         else{
+            cell.cd.timerLength = msg.fromSignalCellState.timerEnd - msg.fromSignalCellState.timerStart
+            cell.cd.remainingMs = Math.max(0, msg.fromSignalCellState.timerEnd - Date.now());
+            console.log("cd shown",cell);
+            app.startCountdown(cell.cd, cell.cd.remainingMs)
+         }
+
+
+      });
+
+      
 
       //#region ---- Debug info, can be removed for live use ---- //
 

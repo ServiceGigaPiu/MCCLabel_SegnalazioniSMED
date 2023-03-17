@@ -14,14 +14,6 @@
          this.push(val);
    }
 
-   createFromHTML(html){
-      let d=document.createElement(div);
-      d.innerHTML=html;
-      let el = d.children[0];
-      //document.appendChild(el);
-      //document.removeChild(d);
-      return el;
-   }
    
    /**
     * @summary sequentially push provided values into arr1.
@@ -158,17 +150,21 @@
    //#region
    let ___SIGNAL_CELL__; //vscode outline-view category pseudo-title
    
-   const CELLS_LAYOUT = [ //names are: unique
+   var CELLS_LAYOUT = [ //names are: unique
       ["FA419","FA420","FA421","FA422"],
       ["FA423","OMET","MO41","MO42"],
    ]
-   const NROWS = CELLS_LAYOUT.length;
-   const NCOLS = CELLS_LAYOUT[0].length;
+   var NROWS = CELLS_LAYOUT.length;
+   var NCOLS = CELLS_LAYOUT[0].length;
 
    const CELLS = new Array(NROWS); for(let r=0; r<CELLS.length; r++) CELLS[r] = new Array(NCOLS);
    
+   const CELL_VIEW=[
+      [0,0,0,0],
+      [1,0,1,1]
+   ]
    
-   const MACHINE_CFGS = {
+   var MACHINE_CFGS = {
       "FA419":{ startupTimeout:120*60*1000 },
       "FA420":{ startupTimeout:120*60*1000 },
       "FA421":{ startupTimeout:120*60*1000 },
@@ -178,10 +174,12 @@
       "MO41":{ startupTimeout:120*60*1000 },
       "MO42":{ startupTimeout:120*60*1000 }
    }
-   for(let mKey in MACHINE_CFGS) { MACHINE_CFGS[mKey].name = mKey }
+   for(let mKey in MACHINE_CFGS) {
+      MACHINE_CFGS[mKey].displayName = mKey
+   }
 
-   const MACHINE_KEYS = Object.keys(MACHINE_CFGS);
-   const MACHINE_NAMES = (()=>{var arr=[]; for(let mKey in MACHINE_CFGS) arr.push(MACHINE_CFGS[mKey].name); return arr})()
+   var MACHINE_KEYS = Object.keys(MACHINE_CFGS);
+   var MACHINE_NAMES = (()=>{var arr=[]; for(let mKey in MACHINE_CFGS) arr.push(MACHINE_CFGS[mKey].name); return arr})()
    
    function cellOf(mKey, cells){
       let r=0,c=0;

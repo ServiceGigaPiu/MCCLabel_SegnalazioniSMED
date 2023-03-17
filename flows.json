@@ -122,9 +122,7 @@
             "b9f8339f0bddcb39"
         ],
         "x": 74,
-        "y": 2234,
-        "w": 1012,
-        "h": 342
+        "y": 2234
     },
     {
         "id": "2cf1ebc3c7549361",
@@ -152,9 +150,7 @@
             "a4d6f2321520f0f5"
         ],
         "x": 84,
-        "y": 1904,
-        "w": 932,
-        "h": 282
+        "y": 1904
     },
     {
         "id": "5f741e9d0e05f1e2",
@@ -171,7 +167,6 @@
         },
         "nodes": [
             "e788bf33f7250b4e",
-            "734a6280c896ee84",
             "042d220310f4d201",
             "a4ea3b73128da3ca",
             "f31346e5c189cc0d",
@@ -199,12 +194,12 @@
             "76e60fd08eb6f131",
             "bfbeb3f69de7db05",
             "c854307142509346",
-            "b8bf2e09ac2a846d"
+            "b8bf2e09ac2a846d",
+            "5f94d8c13f129154",
+            "734a6280c896ee84"
         ],
         "x": 64,
-        "y": 229,
-        "w": 1307,
-        "h": 457
+        "y": 229
     },
     {
         "id": "31f4b8716c51f385",
@@ -227,8 +222,8 @@
             "a2e783d72e228d3a",
             "f25308f6b79bce5d"
         ],
-        "x": 89,
-        "y": 1459,
+        "x": 104,
+        "y": 1744,
         "w": 512,
         "h": 232
     },
@@ -612,9 +607,7 @@
             "f8e2ce4e4480269d"
         ],
         "x": 484,
-        "y": 1729,
-        "w": 202,
-        "h": 82
+        "y": 1729
     },
     {
         "id": "3c0c9289bca3df95",
@@ -635,9 +628,7 @@
             "ba9eb7bdda03ba32"
         ],
         "x": 74,
-        "y": 64,
-        "w": 277,
-        "h": 127
+        "y": 64
     },
     {
         "id": "48f133c168356962",
@@ -736,8 +727,8 @@
             "8c23b9bc.b992b8",
             "1da30b125f7694b3"
         ],
-        "x": 84,
-        "y": 1834,
+        "x": 99,
+        "y": 2119,
         "w": 792,
         "h": 252
     },
@@ -760,46 +751,14 @@
             "02c02a2e46d2ce33",
             "1f9aecc2debca193",
             "110b6c5412ed8d34",
-            "40e50c217d6a10b3"
+            "40e50c217d6a10b3",
+            "3cd18ab46873b7ab",
+            "5e3e280c0613ac32"
         ],
         "x": 79,
-        "y": 34,
-        "w": 347,
+        "y": 109,
+        "w": 847,
         "h": 202
-    },
-    {
-        "id": "2ea4e192d27eab23",
-        "type": "group",
-        "z": "76b05f87a5290cf6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "71bdf71b7ab73ed4",
-            "29da4c340c1c0f16",
-            "c9da44f4b5572f7d",
-            "0c33f8d537e42c41",
-            "6b19a1a58b2b90d0",
-            "16c03e6dc270a0a8",
-            "64690dd246039799",
-            "cb6ba335d3d82d44",
-            "5952d8e029f830cd",
-            "c41737c1cb63ff35",
-            "08e2ef931b839c70",
-            "d23c81a0325ee4c4",
-            "3e1fc30868d42f0c",
-            "138d917ae417b855"
-        ],
-        "x": 59,
-        "y": 289,
-        "w": 1242,
-        "h": 277
     },
     {
         "id": "abf36b9570f058cc",
@@ -818,11 +777,13 @@
             "42b44a1c5d242838",
             "4997d19a44b639d3",
             "d1418df470ae9fa4",
-            "5b4db35eee901db4"
+            "5b4db35eee901db4",
+            "d5841a439d384844",
+            "eb0d22efa4a344c0"
         ],
-        "x": 68,
-        "y": 589,
-        "w": 1274,
+        "x": 79,
+        "y": 874,
+        "w": 1278,
         "h": 554
     },
     {
@@ -881,12 +842,11 @@
             "bd208da1fabb3bcf",
             "64bc50015a2673c3",
             "b6da99b42391a973",
-            "d610c787b889e968"
+            "d610c787b889e968",
+            "b5b49efa8368a832"
         ],
         "x": 119,
-        "y": 64,
-        "w": 592,
-        "h": 172
+        "y": 64
     },
     {
         "id": "ae9407dc27fc42e6",
@@ -924,108 +884,7 @@
             "51320eb4ac48f6d8"
         ],
         "x": 94,
-        "y": 304,
-        "w": 1483,
-        "h": 663
-    },
-    {
-        "id": "5fde3697d5308bd9",
-        "type": "group",
-        "z": "bdc10eb0bfc2c224",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "fbec45079c82c4f6",
-            "cb87a1179601d7b8",
-            "2f1fbbf63057cd82",
-            "f4db294021a89fbf",
-            "84eb44d8938c031b",
-            "c41f4b62a37e0c5a",
-            "cfbba0824276973c",
-            "21a7e4d7b331c67e",
-            "544b15cb3575e299",
-            "8535fcf6403fa45e",
-            "41b676d5ef990a3e",
-            "06c77a7347c932b1",
-            "9467330a7dcfcb9f",
-            "f36ff7fcef01055e",
-            "ab8ca08ba9111f30",
-            "1531adcffdaf7a6b",
-            "c4f475eadc34f078",
-            "f838580e2844b4dd",
-            "c9050cb334d984e8",
-            "0ab9b611389e52b7",
-            "079b24bde6bc7913",
-            "10f77208037dab67",
-            "a0da01db3cddd017",
-            "dfa8cdb9bed3539c",
-            "ea5a84d58454a07e",
-            "6d4bfaadae660075",
-            "f416b5ea2464b4c0",
-            "534b0771447b37e9",
-            "d700156b08ed999b",
-            "2473f05cfebcb6eb",
-            "6a9506e901b63554",
-            "2c9f603eb53ec7c7",
-            "6b16add2d6b04682",
-            "d1f763dae798b9a3",
-            "646a32288f144f73",
-            "51a3daed646e5627",
-            "d18f0a4219d2313a",
-            "111059d7a7373219",
-            "5df722be84205e46",
-            "422c0e4e8c964482",
-            "c3df1f96c4ccd8d6",
-            "e53706c8bd9aadf5",
-            "b12c9185cc37664b",
-            "1b879dfc02869b3a",
-            "5a06c1baf2210989",
-            "4a15af8df8c577ea",
-            "9a51ee5d15da287d",
-            "c091b1c1e75df617",
-            "adc1bdb1d0f71c4b",
-            "223dfe7f51e5c702",
-            "4ed027c90909bb1d",
-            "4bf699bb76b64d11",
-            "51ccbb885d329fc3",
-            "7f3892b70e89d932",
-            "79cb11138bf7c122",
-            "9002b5da933a2cf0",
-            "e07363a0c58b13e0",
-            "a984ae5f89c982aa",
-            "ce367da5b9fce63a",
-            "be30f8352908de40",
-            "9b8b41e6232af923",
-            "6c7b45a7a15ce7ca",
-            "b45f03267df0e0a6",
-            "19df9e22435f0986",
-            "647f4fe681027b71",
-            "7e254c27479ac8aa",
-            "900968b167cd8077",
-            "eba758ecf77571c1",
-            "14eeda19a6a7072a",
-            "d5eb1a41a9c67896",
-            "d7a2c75afa019028",
-            "9250c631a78ab33a",
-            "ba11515a04cebd32",
-            "6f13a43d49cbb006",
-            "590b85c6d709bc3a",
-            "76bd5f8638bf1573",
-            "0e0aa465724c5b30",
-            "bd11511613590ced",
-            "7e325d321fc3cadb"
-        ],
-        "x": 79,
-        "y": 2074,
-        "w": 1467,
-        "h": 1042
+        "y": 304
     },
     {
         "id": "a26408bd8d16deca",
@@ -1052,9 +911,7 @@
             "5c1ba7695a881562"
         ],
         "x": 84,
-        "y": 1279,
-        "w": 1028,
-        "h": 258
+        "y": 1279
     },
     {
         "id": "9bc629dadf51c057",
@@ -1099,12 +956,11 @@
             "fe3fd3e20b792f35",
             "4768db5c30b208a2",
             "b3037e275cf5fc43",
-            "0d4b9b456c6abe1a"
+            "0d4b9b456c6abe1a",
+            "15bb6197c2b1fb58"
         ],
         "x": 64,
-        "y": 724,
-        "w": 1337,
-        "h": 457
+        "y": 724
     },
     {
         "id": "893e4d1c4e6696fc",
@@ -1187,6 +1043,237 @@
         "h": 262
     },
     {
+        "id": "7efa39f7d2ea1018",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5e8714bebf300e22",
+            "57f0a4be30f7d1d3",
+            "4799a2c9df16f17e",
+            "570ec02d134a5173",
+            "273ce494f7a66fa8",
+            "af118073e63d8f78"
+        ],
+        "x": 1424,
+        "y": 889
+    },
+    {
+        "id": "83dc8de4ca6f5b85",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3f28a0a7d3f10e1e",
+            "303394b2bfa17df9",
+            "ecb1f7d4b95bd34f",
+            "451ca07396c03dc6",
+            "1a96357a55bd59e2"
+        ],
+        "x": 1154,
+        "y": 1369
+    },
+    {
+        "id": "2252354aebe355cf",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "92bab0627eba301d",
+            "f3bee686c5a79e51",
+            "9737cb6bd0dadd1f",
+            "2e70c7d55b0e6c9f",
+            "eceeeb3fae3bc7ac"
+        ],
+        "x": 1403,
+        "y": 244
+    },
+    {
+        "id": "14eeda19a6a7072a",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "fb1f9c7dd8ad7a3e",
+            "c4016914ed4edfaf",
+            "eed9d3aa846e26f9",
+            "03890e35a75d43ef"
+        ],
+        "x": 804,
+        "y": 2134,
+        "w": 577,
+        "h": 82
+    },
+    {
+        "id": "d5eb1a41a9c67896",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "dd20009116ca100b",
+            "fb95b4d0741d8db8",
+            "185fc4dc4d7ebafc",
+            "f0c22b02c475661f"
+        ],
+        "x": 124,
+        "y": 2134,
+        "w": 597,
+        "h": 82
+    },
+    {
+        "id": "6a9007c1c483ee16",
+        "type": "group",
+        "z": "76b05f87a5290cf6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "779b95f2b60630ab",
+            "71250fbd9b3d549c",
+            "4a186aab7466a7ac",
+            "943d994766b764b4",
+            "95d394ea8e7e8ad3",
+            "446f1af64d58d0d6",
+            "74bd2959d62a29c6"
+        ],
+        "x": 1469,
+        "y": 499,
+        "w": 717,
+        "h": 187
+    },
+    {
+        "id": "6aa375e2e3177ccc",
+        "type": "group",
+        "z": "76b05f87a5290cf6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "71bdf71b7ab73ed4",
+            "29da4c340c1c0f16",
+            "c9da44f4b5572f7d",
+            "0c33f8d537e42c41",
+            "6b19a1a58b2b90d0",
+            "16c03e6dc270a0a8",
+            "64690dd246039799",
+            "3e1fc30868d42f0c",
+            "d23c81a0325ee4c4",
+            "cb6ba335d3d82d44",
+            "5952d8e029f830cd",
+            "c41737c1cb63ff35",
+            "08e2ef931b839c70",
+            "138d917ae417b855",
+            "201682b5f3dc37e9",
+            "983aa906652d8e1a",
+            "f2e91f6f34f953ec",
+            "67de8630acac041e",
+            "75ef4d5b0e672f1e"
+        ],
+        "x": 59,
+        "y": 364,
+        "w": 1347,
+        "h": 337
+    },
+    {
+        "id": "fe28fb7cb365d682",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d4afd683f2270862",
+            "afee83b9c6a3f479",
+            "ba60486beccc9f83"
+        ],
+        "x": 814,
+        "y": 2044,
+        "w": 322,
+        "h": 82
+    },
+    {
+        "id": "f3bee686c5a79e51",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "g": "2252354aebe355cf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e2ea6a04f86a1d13",
+            "1db2445822e94e9a",
+            "81e052072ae8f43d",
+            "a40512ebc39f24e5",
+            "307370bd3db41497"
+        ],
+        "x": 1429,
+        "y": 454
+    },
+    {
         "id": "5c1ba7695a881562",
         "type": "group",
         "z": "c1d4418a6f1f1693",
@@ -1205,57 +1292,7 @@
             "8aba5c7204608b4a"
         ],
         "x": 849,
-        "y": 1429,
-        "w": 237,
-        "h": 82
-    },
-    {
-        "id": "14eeda19a6a7072a",
-        "type": "group",
-        "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "fb1f9c7dd8ad7a3e",
-            "c4016914ed4edfaf",
-            "eed9d3aa846e26f9"
-        ],
-        "x": 709,
-        "y": 2134,
-        "w": 322,
-        "h": 82
-    },
-    {
-        "id": "d5eb1a41a9c67896",
-        "type": "group",
-        "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "dd20009116ca100b",
-            "fb95b4d0741d8db8",
-            "185fc4dc4d7ebafc"
-        ],
-        "x": 244,
-        "y": 2134,
-        "w": 412,
-        "h": 82
+        "y": 1429
     },
     {
         "id": "d1418df470ae9fa4",
@@ -1280,10 +1317,11 @@
             "fa5fe09d4f7a35d0",
             "d0045f77b9afb1af",
             "84ae7b1a0d4f5b64",
-            "fd99e9a78ed45308"
+            "fd99e9a78ed45308",
+            "c7a39dea36551f43"
         ],
-        "x": 94,
-        "y": 694,
+        "x": 109,
+        "y": 979,
         "w": 1222,
         "h": 172
     },
@@ -1359,9 +1397,7 @@
             "28569d65c3243a38"
         ],
         "x": 334,
-        "y": 1984,
-        "w": 312,
-        "h": 82
+        "y": 1984
     },
     {
         "id": "e02b6f382a6c8813",
@@ -1751,8 +1787,8 @@
             "744fac38edb40465",
             "7d42b16fe52425fd"
         ],
-        "x": 248,
-        "y": 889,
+        "x": 318,
+        "y": 1174,
         "w": 714,
         "h": 228
     },
@@ -1785,9 +1821,7 @@
             "be6cdfc7a6f5fa2c"
         ],
         "x": 139,
-        "y": 709,
-        "w": 827,
-        "h": 232
+        "y": 709
     },
     {
         "id": "b42e082536c528eb",
@@ -1813,9 +1847,7 @@
             "27a6d7dd43730e07"
         ],
         "x": 639,
-        "y": 514,
-        "w": 462,
-        "h": 172
+        "y": 514
     },
     {
         "id": "3562e00f4ed04fb9",
@@ -1839,9 +1871,7 @@
             "a62e3a70e91d913b"
         ],
         "x": 849,
-        "y": 334,
-        "w": 357,
-        "h": 142
+        "y": 334
     },
     {
         "id": "51320eb4ac48f6d8",
@@ -1865,9 +1895,7 @@
             "1e1402bb46babf61"
         ],
         "x": 1219,
-        "y": 364,
-        "w": 332,
-        "h": 172
+        "y": 364
     },
     {
         "id": "ec19ad21051125fc",
@@ -1944,6 +1972,30 @@
         "h": 277
     },
     {
+        "id": "9737cb6bd0dadd1f",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "g": "2252354aebe355cf",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1b2801bdd5521603",
+            "a94d27d4fc33b1c2",
+            "d1ff55d5deb88f00",
+            "c26fead50e79fbbb",
+            "e26b945327fe0a7e"
+        ],
+        "x": 1439,
+        "y": 274
+    },
+    {
         "id": "0739446a5011eb4d",
         "type": "group",
         "z": "bdc10eb0bfc2c224",
@@ -2010,8 +2062,8 @@
             "5d4e2536bd217ebb",
             "8592536a56dff0ec"
         ],
-        "x": 469,
-        "y": 754,
+        "x": 484,
+        "y": 1039,
         "w": 227,
         "h": 82
     },
@@ -2037,8 +2089,8 @@
             "7b854e8aa4029bbe",
             "533fe7d0158198e3"
         ],
-        "x": 274,
-        "y": 964,
+        "x": 344,
+        "y": 1249,
         "w": 662,
         "h": 127
     },
@@ -2090,6 +2142,36 @@
         "y": 1414,
         "w": 392,
         "h": 112
+    },
+    {
+        "id": "389c4cac40ddf2e2",
+        "type": "group",
+        "z": "76b05f87a5290cf6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "90c9fbd734739d25",
+            "32bb7ae2d8f0c7dc",
+            "46843f4e8d02205b",
+            "36bcc822962c6405",
+            "f67411720250268f",
+            "4331798865b98569",
+            "28275fe1c717f466",
+            "7378a8a161a1b05c",
+            "71a72d1959f91e06",
+            "dbc968e9c4b6798b"
+        ],
+        "x": 709,
+        "y": 1639,
+        "w": 802,
+        "h": 277
     },
     {
         "id": "f9afb515793290aa",
@@ -2174,17 +2256,6 @@
         "hidden": false
     },
     {
-        "id": "1b607212319a17a1",
-        "type": "ui_group",
-        "name": "first",
-        "tab": "f762493b17cce110",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": true,
-        "className": ""
-    },
-    {
         "id": "be3a0c41501390ea",
         "type": "ui_base",
         "theme": {
@@ -2193,7 +2264,8 @@
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
+                "edited": true,
+                "reset": false
             },
             "darkTheme": {
                 "default": "#097479",
@@ -2306,6 +2378,47 @@
         "reconnectOnTimeout": true,
         "reconnectTimeout": "2000",
         "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "0e782a15597a520f",
+        "type": "ui_tab",
+        "name": "dbg",
+        "icon": "fa-bug",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ebd54b01335cee21",
+        "type": "ui_group",
+        "name": "Pulsantiere 23KF1",
+        "tab": "0e782a15597a520f",
+        "order": 2,
+        "disp": true,
+        "width": "8",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "929f87df773632c9",
+        "type": "ui_group",
+        "name": "pulsantiere #2 23KF2",
+        "tab": "0e782a15597a520f",
+        "order": 3,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ff22d246a1b65b24",
+        "type": "ui_group",
+        "name": "Torri ZBRCETH",
+        "tab": "0e782a15597a520f",
+        "order": 4,
+        "disp": true,
+        "width": "8",
+        "collapse": true,
+        "className": ""
     },
     {
         "id": "8f5e7d5b2511d841",
@@ -3119,7 +3232,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "850adb4a2c8b2b3f",
         "name": "sendQuery 40020:4x8",
-        "func": "/*  global.plc:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\nlet plc = global.get(\"plc\");\n\n\nreturn plc.readFrom(16,1);",
+        "func": "/*  global.plc:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\nlet plc = global.get(\"plc\");\n\n\nreturn plc.readFrom(20,1);",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3187,11 +3300,12 @@
         "id": "6f8c1f95e51d8102",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "d": true,
         "g": "bdb77fbf338dd270",
         "name": "utils isDefinedEvent",
         "mode": "link",
-        "links": [],
+        "links": [
+            "43d57521a3f55a9a"
+        ],
         "x": 445,
         "y": 180,
         "wires": [],
@@ -3206,7 +3320,7 @@
         "func": "\n//look in on start",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "function callWhenDef(cb, ...globalNames) {\n    for (let name of globalNames)\n        if (global.get(name) === undefined || global.get(name) === null) {\n            setTimeout(callWhenDef, 100, cb, ...globalNames)\n            return\n        }\n    cb();\n}\n\nclass SignalCell {\n    signalKey;\n    programmedStateChanges;\n\n    constructor(cfg={}){\n        this.signalKey = \"noop\"\n        this.programmedStateChanges = {};\n    }\n\n    setTout( toKey, delay){\n        if(this.programmedStateChanges[toKey])\n            this.programmedStateChanges[toKey].push(setTimeout(()=>{}))\n    }\n\n}\n\n//signalCells.OMET.setTout(\"A2\",cb, 3000)\n//signalCells.OMET.clearTouts()\n//signalCells.OMET.clearTout(\"A2\")\n\nconst cb=function(){\n    const towersControl = global.get(\"towersControl\");\n    const def={\n        dictionary:{\n            macKeys:towersControl.dictionary.macKeys,\n            signalKeys:[\"A1\",\"A2\",\"A3\",\"A4\",\"B\",\"C1\",\"C2\",\"D\",\"E\",\"F\"],\n        }\n    }\n\n    for(let macKey of towersControl.dictionary.macKeys){\n        def[macKey] = new SignalCell()\n    }\n\n    \n\n    global.set(\"signalCells\", def);\n    node.send(def);\n    node.status({ fill: \"green\", text: Object.keys(def).join(' & ') });\n\n}\n\ncallWhenDef(cb,\"utils\",\"towersControl\");",
+        "initialize": "function callWhenDef(cb, ...globalNames) {\n    for (let name of globalNames)\n        if (global.get(name) === undefined || global.get(name) === null) {\n            setTimeout(callWhenDef, 100, cb, ...globalNames)\n            return\n        }\n    cb();\n}\n\nclass toutItem {\n    #startTime\n    #endTime\n    //remainingMs\n    #cb\n    #ref\n\n    constructor(cb,delay){\n        this.#startTime = Date.now();\n        this.#endTime = this.startTime + delay;\n        this.#cb = cb;\n        this.#ref = setTimeout(cb,delay);\n    }\n\n    get remainingMs(){ return this.#startTime - this.#endTime }\n    get startTime() { return this.#startTime }\n    get endTime() { return this.#startTime }\n    get cb(){ return this.#cb }\n    get ref(){ return this.#ref }\n}\n\nclass SignalCell {\n    signalKey;\n    programmedStateChanges;\n    timerStart;\n    timerEnd;\n\n    constructor(cfg={}){\n        this.signalKey = \"noop\"\n        this.programmedStateChanges = [];\n        this.timerEnd=0;\n        this.timerStart=0;\n        \n        this.config = cfg;\n        this.cfg = this.config;\n    }\n\n    programStateChange(toKey, delay, nodeRef){\n        this.programmedStateChanges.push({\n            toSignalKey:toKey,\n            tout:new toutItem(()=>{\n                this.signalKey = toKey;\n                \n            },delay)\n        })\n    }\n\n    setTout( toKey, delay){\n        if(this.programmedStateChanges[toKey])\n            this.programmedStateChanges[toKey].push(setTimeout(()=>{}))\n    }\n\n}\n\n//signalCells.OMET.setTout(\"A2\",cb, 3000)\n//signalCells.OMET.clearTouts()\n//signalCells.OMET.clearTout(\"A2\")\n\nconst cb=function(){\n    const towersControl = global.get(\"towersControl\");\n    const config = global.get(\"config\");\n    const def={\n        dictionary:{\n            macKeys:towersControl.dictionary.macKeys,\n            signalKeys:[\"A1\",\"A2\",\"A3\",\"A4\",\"B\",\"C1\",\"C2\",\"D\",\"E\",\"F\"],\n        },\n    }\n\n    for(let macKey of towersControl.dictionary.macKeys){\n        def[macKey] = new SignalCell(config.machines[macKey])\n    }\n\n    \n\n    global.set(\"signalCells\", def);\n    node.send(def);\n    node.status({ fill: \"green\", text: Object.keys(def).join(' & ') });\n\n}\n\ncallWhenDef(cb,\"utils\",\"towersControl\",\"config\");",
         "finalize": "",
         "libs": [],
         "x": 215,
@@ -3243,7 +3357,6 @@
         "id": "fbec45079c82c4f6",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "action",
         "property": "action",
         "propertyType": "msg",
@@ -3340,7 +3453,6 @@
         "id": "cb87a1179601d7b8",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "setA1",
         "property": "payload",
         "propertyType": "msg",
@@ -3359,8 +3471,8 @@
                 "2f1fbbf63057cd82",
                 "21a7e4d7b331c67e",
                 "8535fcf6403fa45e",
-                "c4f475eadc34f078",
-                "d7a2c75afa019028"
+                "d7a2c75afa019028",
+                "47b607147dd37f73"
             ]
         ]
     },
@@ -3368,9 +3480,8 @@
         "id": "2f1fbbf63057cd82",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
-        "name": "send setA4 [120s|dynamic]",
-        "func": "const signalCells = global.get(\"signalCells\")\nlet mKey = msg.topic;\nlet cfg = global.get(\"config\")[mKey];\n\nmsg.payload = \"setA4\";\nmsg.delay = cfg.toA3Timeout + cfg.toA4Timeout;\nreturn msg;",
+        "name": "send setA4 [120m|dynamic]",
+        "func": "const signalCells = global.get(\"signalCells\")\nlet mKey = msg.topic;\nlet cfg = global.get(\"config\").machines[mKey];\n\nnode.send({reset:true,action:\"setA4\",topic:msg.topic});\nmsg.action = \"setA4\";\nmsg.delay = cfg.toA3Timeout + cfg.toA4Timeout;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3423,7 +3534,6 @@
         "id": "f4db294021a89fbf",
         "type": "link in",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "buttonActions in",
         "links": [
             "185fc4dc4d7ebafc",
@@ -3432,14 +3542,16 @@
             "df7b734c7de9fefe",
             "a218e475a04369b9",
             "1255172cf854afec",
-            "e9116e554f7d574d"
+            "e9116e554f7d574d",
+            "46843f4e8d02205b"
         ],
         "x": 185,
         "y": 2505,
         "wires": [
             [
                 "1531adcffdaf7a6b",
-                "f838580e2844b4dd"
+                "f838580e2844b4dd",
+                "fbec45079c82c4f6"
             ]
         ],
         "l": true
@@ -3448,7 +3560,6 @@
         "id": "84eb44d8938c031b",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
@@ -3475,9 +3586,9 @@
         "units": "ms",
         "reset": "",
         "bytopic": "topic",
-        "topic": "topic",
+        "topic": "toutId",
         "outputs": 1,
-        "x": 450,
+        "x": 515,
         "y": 2175,
         "wires": [
             [
@@ -3504,11 +3615,11 @@
             "19df9e22435f0986",
             "eba758ecf77571c1"
         ],
-        "x": 285,
+        "x": 165,
         "y": 2175,
         "wires": [
             [
-                "dd20009116ca100b"
+                "f0c22b02c475661f"
             ]
         ]
     },
@@ -3523,7 +3634,7 @@
             "f4db294021a89fbf",
             "4bd7236cd1df5691"
         ],
-        "x": 615,
+        "x": 680,
         "y": 2175,
         "wires": []
     },
@@ -3531,7 +3642,6 @@
         "id": "c41f4b62a37e0c5a",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "example input: topic:OMET, payload:setA1",
         "info": "",
         "x": 270,
@@ -3542,13 +3652,12 @@
         "id": "cfbba0824276973c",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1075,
+        "x": 1345,
         "y": 2310,
         "wires": [],
         "l": true
@@ -3557,7 +3666,6 @@
         "id": "21a7e4d7b331c67e",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "raise playHorn bit",
         "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].horn = true;\n\n\nreturn msg;",
         "outputs": 1,
@@ -3577,7 +3685,6 @@
         "id": "544b15cb3575e299",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "trigger writetowersBitArray",
         "mode": "link",
         "links": [
@@ -3592,9 +3699,8 @@
         "id": "8535fcf6403fa45e",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
-        "name": "send setA3 20s",
-        "func": "\nmsg.payload = \"setA3\";\nmsg.delay = 20000;\nreturn msg;",
+        "name": "send setA3 20m",
+        "func": "let mKey = msg.topic;\nlet cfg = global.get(\"config\").machines[mKey];\n\n//send programmed State change\nnode.send({ reset: true, action: \"setA3\", topic: msg.topic });\nmsg.action = \"setA3\";\nmsg.delay = cfg.toA3Timeout;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3612,7 +3718,6 @@
         "id": "41b676d5ef990a3e",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
@@ -3627,7 +3732,6 @@
         "id": "06c77a7347c932b1",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "setA2",
         "property": "payload",
         "propertyType": "msg",
@@ -3645,7 +3749,7 @@
             [
                 "9467330a7dcfcb9f",
                 "c9050cb334d984e8",
-                "adc1bdb1d0f71c4b",
+                "71050fa128ba0470",
                 "9250c631a78ab33a"
             ]
         ]
@@ -3654,7 +3758,6 @@
         "id": "9467330a7dcfcb9f",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "lower playHorn bit",
         "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].horn = false;\n\n\nreturn msg;",
         "outputs": 1,
@@ -3674,7 +3777,6 @@
         "id": "f36ff7fcef01055e",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "trigger writetowersBitArray",
         "mode": "link",
         "links": [
@@ -3689,7 +3791,6 @@
         "id": "ab8ca08ba9111f30",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "toWebapp",
         "mode": "link",
         "links": [
@@ -3705,9 +3806,8 @@
         "type": "function",
         "z": "bdc10eb0bfc2c224",
         "d": true,
-        "g": "5fde3697d5308bd9",
         "name": "action set<signalKey>",
-        "func": "\n\nlet matches = msg.action.match(\"/set(\\w+)\");\nif(matches)\n    msg.signalKey\nreturn msg;",
+        "func": "\n\nlet matches = msg.action.match(/set(\\w+)/)[1];\nif(matches)\n    msg.signalKey\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3724,18 +3824,18 @@
         "type": "function",
         "z": "bdc10eb0bfc2c224",
         "g": "14eeda19a6a7072a",
-        "name": "send setCellSignal",
-        "func": "const cellsUI = global.get(\"cellsUI\");\nconst uib = global.get(\"uibuilder\")\nlet signalKey = msg.action.match(\"/set(\\w+)\");\nlet mKey = msg.topic;\n\n\nuib.prepareMsg_setCellSignal(msg,mKey,signalKey)\n\nreturn msg;",
+        "name": "send setSingleCellState",
+        "func": "const uib = global.get(\"uibuilder\")\nlet signalKey = msg.action.match(/set(\\w+)/)[1];\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\nlet cfg = cell.config; //global.get(\"config\")[mKey];\n\ncell.signalKey = signalKey;\n\nuib.prepareMsg_setSingleCellState(msg,mKey,cell);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
+        "x": 975,
         "y": 2175,
         "wires": [
             [
-                "eed9d3aa846e26f9"
+                "03890e35a75d43ef"
             ]
         ]
     },
@@ -3746,7 +3846,7 @@
         "g": "14eeda19a6a7072a",
         "name": "send setCellSignal",
         "links": [],
-        "x": 750,
+        "x": 845,
         "y": 2175,
         "wires": [
             [
@@ -3760,9 +3860,9 @@
         "z": "bdc10eb0bfc2c224",
         "g": "14eeda19a6a7072a",
         "name": "send setCellSignal",
-        "mode": "link",
+        "mode": "return",
         "links": [],
-        "x": 990,
+        "x": 1340,
         "y": 2175,
         "wires": []
     },
@@ -3770,14 +3870,13 @@
         "id": "c4f475eadc34f078",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
-        "name": "send setCellSignal",
+        "name": "send setSingleCellState",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 880,
+        "x": 1095,
         "y": 2310,
         "wires": [
             [
@@ -3790,7 +3889,6 @@
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
         "d": true,
-        "g": "5fde3697d5308bd9",
         "name": "action set<signalKey>",
         "property": "payload",
         "propertyType": "msg",
@@ -3815,7 +3913,6 @@
         "id": "c9050cb334d984e8",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
@@ -3834,7 +3931,6 @@
         "id": "0ab9b611389e52b7",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "setA3",
         "property": "payload",
         "propertyType": "msg",
@@ -3859,7 +3955,6 @@
         "id": "079b24bde6bc7913",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "toWebapp",
         "mode": "link",
         "links": [
@@ -3874,7 +3969,6 @@
         "id": "10f77208037dab67",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
@@ -3893,7 +3987,6 @@
         "id": "a0da01db3cddd017",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "raise tower redLight bit",
         "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].redLight = true;\n\n\nreturn msg;",
         "outputs": 1,
@@ -3913,7 +4006,6 @@
         "id": "dfa8cdb9bed3539c",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "lower tower redLight bit",
         "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].greenLight = false;\n\n\nreturn msg;",
         "outputs": 1,
@@ -3933,7 +4025,6 @@
         "id": "ea5a84d58454a07e",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "setA4",
         "property": "payload",
         "propertyType": "msg",
@@ -3958,7 +4049,6 @@
         "id": "6d4bfaadae660075",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "toWebapp",
         "mode": "link",
         "links": [
@@ -3973,7 +4063,6 @@
         "id": "f416b5ea2464b4c0",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
@@ -3992,7 +4081,6 @@
         "id": "534b0771447b37e9",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "setB",
         "property": "payload",
         "propertyType": "msg",
@@ -4009,7 +4097,7 @@
         "wires": [
             [
                 "d700156b08ed999b",
-                "4ed027c90909bb1d",
+                "e61d6852cebd5731",
                 "7e325d321fc3cadb"
             ]
         ]
@@ -4018,7 +4106,6 @@
         "id": "d700156b08ed999b",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
@@ -4037,7 +4124,6 @@
         "id": "2473f05cfebcb6eb",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "toWebapp",
         "mode": "link",
         "links": [
@@ -4052,7 +4138,6 @@
         "id": "6a9506e901b63554",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "setC1",
         "property": "payload",
         "propertyType": "msg",
@@ -4069,7 +4154,7 @@
         "wires": [
             [
                 "51ccbb885d329fc3",
-                "79cb11138bf7c122",
+                "de15a8e34e10e6de",
                 "590b85c6d709bc3a"
             ]
         ]
@@ -4078,7 +4163,6 @@
         "id": "2c9f603eb53ec7c7",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "setC2",
         "property": "payload",
         "propertyType": "msg",
@@ -4095,7 +4179,7 @@
         "wires": [
             [
                 "e07363a0c58b13e0",
-                "ce367da5b9fce63a",
+                "2c3cc994eb8f94aa",
                 "76bd5f8638bf1573"
             ]
         ]
@@ -4104,7 +4188,6 @@
         "id": "6b16add2d6b04682",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "setD",
         "property": "payload",
         "propertyType": "msg",
@@ -4121,7 +4204,7 @@
         "wires": [
             [
                 "9b8b41e6232af923",
-                "b45f03267df0e0a6",
+                "84f861f523724022",
                 "0e0aa465724c5b30"
             ]
         ]
@@ -4130,7 +4213,6 @@
         "id": "d1f763dae798b9a3",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "setE",
         "property": "payload",
         "propertyType": "msg",
@@ -4148,7 +4230,7 @@
             [
                 "51a3daed646e5627",
                 "647f4fe681027b71",
-                "900968b167cd8077",
+                "cc301d51052bf1ea",
                 "bd11511613590ced"
             ]
         ]
@@ -4157,7 +4239,6 @@
         "id": "646a32288f144f73",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "trigger writetowersBitArray",
         "mode": "link",
         "links": [
@@ -4172,7 +4253,6 @@
         "id": "51a3daed646e5627",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "lower tower redLight bit",
         "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].redLight = false;\n\n\nreturn msg;",
         "outputs": 1,
@@ -4192,7 +4272,6 @@
         "id": "d18f0a4219d2313a",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "raise tower redLight bit",
         "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].greenLight = true;\n\n\nreturn msg;",
         "outputs": 1,
@@ -4212,7 +4291,6 @@
         "id": "111059d7a7373219",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "default: warn",
         "func": "node.warn({\n    txt:\"unknown msg.action in buttonAction\",\n    action:msg.action,\n    fullMsg:msg\n});\nglobal.get(\"utils\").errorBlink(node, 60000);",
         "outputs": 1,
@@ -4230,7 +4308,6 @@
         "id": "5df722be84205e46",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "HANDLE BUTTON ACTIONS",
         "info": "",
         "x": 240,
@@ -4241,7 +4318,6 @@
         "id": "422c0e4e8c964482",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "RUN",
         "info": "",
         "x": 560,
@@ -4252,7 +4328,6 @@
         "id": "c3df1f96c4ccd8d6",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "DOWNTIME",
         "info": "",
         "x": 540,
@@ -4263,7 +4338,6 @@
         "id": "e53706c8bd9aadf5",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "MANUTENZIONE",
         "info": "",
         "x": 530,
@@ -4274,7 +4348,6 @@
         "id": "b12c9185cc37664b",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "SCARTO",
         "info": "",
         "x": 550,
@@ -4285,7 +4358,6 @@
         "id": "1b879dfc02869b3a",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "CARR. PRONTI",
         "info": "",
         "x": 520,
@@ -4296,7 +4368,6 @@
         "id": "5a06c1baf2210989",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "CHIAMATA",
         "info": "",
         "x": 550,
@@ -4307,7 +4378,6 @@
         "id": "4a15af8df8c577ea",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "PR. IN CARICO",
         "info": "",
         "x": 535,
@@ -4318,7 +4388,6 @@
         "id": "9a51ee5d15da287d",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "AVVIAMENTO",
         "info": "",
         "x": 540,
@@ -4329,7 +4398,6 @@
         "id": "c091b1c1e75df617",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "RITARDO AVV.",
         "info": "",
         "x": 530,
@@ -4337,65 +4405,23 @@
         "wires": []
     },
     {
-        "id": "adc1bdb1d0f71c4b",
-        "type": "function",
-        "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
-        "name": "send reset",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 2385,
-        "wires": [
-            [
-                "223dfe7f51e5c702"
-            ]
-        ]
-    },
-    {
         "id": "223dfe7f51e5c702",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1105,
+        "x": 1130,
         "y": 2385,
         "wires": [],
         "l": true
     },
     {
-        "id": "4ed027c90909bb1d",
-        "type": "function",
-        "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
-        "name": "send reset",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 2640,
-        "wires": [
-            [
-                "4bf699bb76b64d11"
-            ]
-        ]
-    },
-    {
         "id": "4bf699bb76b64d11",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
@@ -4410,7 +4436,6 @@
         "id": "51ccbb885d329fc3",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
@@ -4429,7 +4454,6 @@
         "id": "7f3892b70e89d932",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "toWebapp",
         "mode": "link",
         "links": [
@@ -4441,30 +4465,9 @@
         "l": true
     },
     {
-        "id": "79cb11138bf7c122",
-        "type": "function",
-        "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
-        "name": "send reset",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 2715,
-        "wires": [
-            [
-                "9002b5da933a2cf0"
-            ]
-        ]
-    },
-    {
         "id": "9002b5da933a2cf0",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
@@ -4479,7 +4482,6 @@
         "id": "e07363a0c58b13e0",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
@@ -4498,7 +4500,6 @@
         "id": "a984ae5f89c982aa",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "toWebapp",
         "mode": "link",
         "links": [
@@ -4510,30 +4511,9 @@
         "l": true
     },
     {
-        "id": "ce367da5b9fce63a",
-        "type": "function",
-        "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
-        "name": "send reset",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 2790,
-        "wires": [
-            [
-                "be30f8352908de40"
-            ]
-        ]
-    },
-    {
         "id": "be30f8352908de40",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
@@ -4549,7 +4529,6 @@
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
         "d": true,
-        "g": "5fde3697d5308bd9",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
@@ -4569,7 +4548,6 @@
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
         "d": true,
-        "g": "5fde3697d5308bd9",
         "name": "toWebapp",
         "mode": "link",
         "links": [
@@ -4581,32 +4559,10 @@
         "l": true
     },
     {
-        "id": "b45f03267df0e0a6",
-        "type": "function",
-        "z": "bdc10eb0bfc2c224",
-        "d": true,
-        "g": "5fde3697d5308bd9",
-        "name": "send reset",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 2865,
-        "wires": [
-            [
-                "19df9e22435f0986"
-            ]
-        ]
-    },
-    {
         "id": "19df9e22435f0986",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
         "d": true,
-        "g": "5fde3697d5308bd9",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
@@ -4621,7 +4577,7 @@
         "id": "647f4fe681027b71",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
+        "d": true,
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
@@ -4640,7 +4596,7 @@
         "id": "7e254c27479ac8aa",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
+        "d": true,
         "name": "toWebapp",
         "mode": "link",
         "links": [
@@ -4652,30 +4608,10 @@
         "l": true
     },
     {
-        "id": "900968b167cd8077",
-        "type": "function",
-        "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
-        "name": "send reset",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 860,
-        "y": 2940,
-        "wires": [
-            [
-                "eba758ecf77571c1"
-            ]
-        ]
-    },
-    {
         "id": "eba758ecf77571c1",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
+        "d": true,
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
@@ -4745,7 +4681,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "850adb4a2c8b2b3f",
         "name": "debug 21",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -5205,17 +5141,13 @@
         "type": "link in",
         "z": "bdc10eb0bfc2c224",
         "g": "34b9888e09adea38",
-        "name": "buttonActions in",
+        "name": "log buttonActions in",
         "links": [
-            "185fc4dc4d7ebafc",
-            "299a9401493dc34c",
-            "cd8d11132d3664f1",
-            "df7b734c7de9fefe",
-            "a218e475a04369b9",
             "1255172cf854afec",
+            "185fc4dc4d7ebafc",
             "e9116e554f7d574d"
         ],
-        "x": 205,
+        "x": 215,
         "y": 1860,
         "wires": [
             [
@@ -5244,8 +5176,7 @@
         "y": 1860,
         "wires": [
             [
-                "daf05c945ad24c81",
-                "6a8c1e1167beac9f"
+                "daf05c945ad24c81"
             ]
         ],
         "l": false
@@ -5489,7 +5420,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "34b9888e09adea38",
         "name": "WRITTEN BUTTON LOG",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -5523,7 +5454,6 @@
         "id": "d7a2c75afa019028",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "BUTTON SET A1",
         "active": true,
         "tosidebar": true,
@@ -5541,7 +5471,6 @@
         "id": "9250c631a78ab33a",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "BUTTON SET A2",
         "active": true,
         "tosidebar": true,
@@ -5559,7 +5488,6 @@
         "id": "ba11515a04cebd32",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "BUTTON SET A3",
         "active": true,
         "tosidebar": true,
@@ -5577,7 +5505,6 @@
         "id": "6f13a43d49cbb006",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "BUTTON SET A4",
         "active": true,
         "tosidebar": true,
@@ -5595,7 +5522,6 @@
         "id": "590b85c6d709bc3a",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "BUTTON SET C1",
         "active": true,
         "tosidebar": true,
@@ -5613,7 +5539,6 @@
         "id": "76bd5f8638bf1573",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "BUTTON SET C2",
         "active": true,
         "tosidebar": true,
@@ -5631,7 +5556,6 @@
         "id": "0e0aa465724c5b30",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "BUTTON SET D",
         "active": true,
         "tosidebar": true,
@@ -5649,7 +5573,6 @@
         "id": "bd11511613590ced",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "BUTTON SET E",
         "active": true,
         "tosidebar": true,
@@ -5667,7 +5590,6 @@
         "id": "7e325d321fc3cadb",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
-        "g": "5fde3697d5308bd9",
         "name": "BUTTON SET B",
         "active": true,
         "tosidebar": true,
@@ -5951,7 +5873,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "34b9888e09adea38",
         "name": "debug 23",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -5961,6 +5883,571 @@
         "x": 735,
         "y": 1935,
         "wires": []
+    },
+    {
+        "id": "fb7ec45bd3369999",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "OMET",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "setA1",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "OMET",
+        "x": 550,
+        "y": 2280,
+        "wires": [
+            [
+                "cb87a1179601d7b8"
+            ]
+        ]
+    },
+    {
+        "id": "03890e35a75d43ef",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "g": "14eeda19a6a7072a",
+        "name": "_broadcast : true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_broadcast",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1210,
+        "y": 2175,
+        "wires": [
+            [
+                "eed9d3aa846e26f9"
+            ]
+        ]
+    },
+    {
+        "id": "b7f354ce82204d9c",
+        "type": "debug",
+        "z": "bdc10eb0bfc2c224",
+        "name": "PROGRAMMED STATE CHANGE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 535,
+        "y": 2115,
+        "wires": []
+    },
+    {
+        "id": "518eec6998544a20",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 125,
+        "y": 2025,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f0c22b02c475661f",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "g": "d5eb1a41a9c67896",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "toutId",
+                "pt": "msg",
+                "to": "msg.topic & \"_\" & msg.action",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 2175,
+        "wires": [
+            [
+                "dd20009116ca100b",
+                "b7f354ce82204d9c"
+            ]
+        ]
+    },
+    {
+        "id": "df92ee35c74f4455",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "name": "function 5",
+        "func": "const signalCells = global.get(\"signalCells\");\n\nsignalCells.set",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 2070,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "47b607147dd37f73",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "name": "update signalCell",
+        "func": "\nlet signalKey = msg.action.match(/set(\\w+)/)[1]; if(!signalKey) node.warn({txt:\"error extracting signalKey\",sk:signalKey,fullMsg:msg})\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\n\ncell.signalKey = signalKey;\ncell.timerStart = Date.now();\ncell.timerEnd = Date.now() + global.get(\"config\").machines[mKey].toA3Timeout;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 875,
+        "y": 2310,
+        "wires": [
+            [
+                "c4f475eadc34f078"
+            ]
+        ]
+    },
+    {
+        "id": "d4afd683f2270862",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "g": "fe28fb7cb365d682",
+        "name": "send reset all",
+        "func": "msg.reset=true;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 2085,
+        "wires": [
+            [
+                "ba60486beccc9f83"
+            ]
+        ]
+    },
+    {
+        "id": "afee83b9c6a3f479",
+        "type": "link in",
+        "z": "bdc10eb0bfc2c224",
+        "g": "fe28fb7cb365d682",
+        "name": "send reset all",
+        "links": [],
+        "x": 855,
+        "y": 2085,
+        "wires": [
+            [
+                "d4afd683f2270862"
+            ]
+        ]
+    },
+    {
+        "id": "ba60486beccc9f83",
+        "type": "link out",
+        "z": "bdc10eb0bfc2c224",
+        "g": "fe28fb7cb365d682",
+        "name": "send reset all",
+        "mode": "return",
+        "links": [],
+        "x": 1095,
+        "y": 2085,
+        "wires": []
+    },
+    {
+        "id": "de15a8e34e10e6de",
+        "type": "link call",
+        "z": "bdc10eb0bfc2c224",
+        "name": "send reset all",
+        "links": [
+            "afee83b9c6a3f479"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 865,
+        "y": 2715,
+        "wires": [
+            [
+                "9002b5da933a2cf0"
+            ]
+        ]
+    },
+    {
+        "id": "e61d6852cebd5731",
+        "type": "link call",
+        "z": "bdc10eb0bfc2c224",
+        "name": "send reset all",
+        "links": [
+            "afee83b9c6a3f479"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 860,
+        "y": 2640,
+        "wires": [
+            [
+                "4bf699bb76b64d11"
+            ]
+        ]
+    },
+    {
+        "id": "2c3cc994eb8f94aa",
+        "type": "link call",
+        "z": "bdc10eb0bfc2c224",
+        "name": "send reset all",
+        "links": [
+            "afee83b9c6a3f479"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 860,
+        "y": 2790,
+        "wires": [
+            [
+                "be30f8352908de40"
+            ]
+        ]
+    },
+    {
+        "id": "84f861f523724022",
+        "type": "link call",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "name": "send reset all",
+        "links": [
+            "afee83b9c6a3f479"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 865,
+        "y": 2865,
+        "wires": [
+            [
+                "19df9e22435f0986"
+            ]
+        ]
+    },
+    {
+        "id": "cc301d51052bf1ea",
+        "type": "link call",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "name": "send reset all",
+        "links": [
+            "afee83b9c6a3f479"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 860,
+        "y": 2940,
+        "wires": [
+            [
+                "eba758ecf77571c1"
+            ]
+        ]
+    },
+    {
+        "id": "71050fa128ba0470",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "name": "send reset for setA3",
+        "func": "msg.reset=true;\nmsg.action=\"setA3\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 895,
+        "y": 2385,
+        "wires": [
+            [
+                "223dfe7f51e5c702"
+            ]
+        ]
+    },
+    {
+        "id": "0c672d18a9ee0d9d",
+        "type": "comment",
+        "z": "bdc10eb0bfc2c224",
+        "name": "TODO rinomina setCellSignal -> setSingleCellState",
+        "info": "",
+        "x": 1365,
+        "y": 2445,
+        "wires": []
+    },
+    {
+        "id": "749c5b1f3c10cf66",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "OMET",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "setA2",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "OMET",
+        "x": 550,
+        "y": 2355,
+        "wires": [
+            [
+                "06c77a7347c932b1"
+            ]
+        ]
+    },
+    {
+        "id": "b936e4a9ee71f492",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "OMET",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "setA3",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "OMET",
+        "x": 560,
+        "y": 2520,
+        "wires": [
+            [
+                "0ab9b611389e52b7"
+            ]
+        ]
+    },
+    {
+        "id": "a7135869c6f11da0",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "OMET",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "setA4",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "OMET",
+        "x": 385,
+        "y": 2640,
+        "wires": [
+            [
+                "ea5a84d58454a07e"
+            ]
+        ]
+    },
+    {
+        "id": "b8a75ac233598814",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "OMET",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "setB",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "OMET",
+        "x": 385,
+        "y": 2685,
+        "wires": [
+            [
+                "534b0771447b37e9"
+            ]
+        ]
+    },
+    {
+        "id": "3d4f9e766470653e",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "OMET",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "setC1",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "OMET",
+        "x": 550,
+        "y": 2685,
+        "wires": [
+            [
+                "6a9506e901b63554"
+            ]
+        ]
+    },
+    {
+        "id": "23db80ed422b9759",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "OMET",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "setC2",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "OMET",
+        "x": 550,
+        "y": 2760,
+        "wires": [
+            [
+                "2c9f603eb53ec7c7"
+            ]
+        ]
+    },
+    {
+        "id": "24c8d29178389a35",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "OMET",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "setD",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "OMET",
+        "x": 550,
+        "y": 2835,
+        "wires": [
+            [
+                "6b16add2d6b04682"
+            ]
+        ]
+    },
+    {
+        "id": "69720d01f23fd641",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "OMET",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "setE",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "OMET",
+        "x": 535,
+        "y": 2910,
+        "wires": [
+            [
+                "d1f763dae798b9a3"
+            ]
+        ]
     },
     {
         "id": "15c00fddf6febcfb",
@@ -6907,6 +7394,24 @@
         "wires": []
     },
     {
+        "id": "b5b49efa8368a832",
+        "type": "function",
+        "z": "4c238ae3c4c60cc5",
+        "g": "55a9133a1c5a95d1",
+        "name": "onConfigDefined",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 150,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "168519c137046930",
         "type": "inject",
         "z": "c1d4418a6f1f1693",
@@ -7631,26 +8136,6 @@
         ]
     },
     {
-        "id": "734a6280c896ee84",
-        "type": "function",
-        "z": "c1d4418a6f1f1693",
-        "g": "5f741e9d0e05f1e2",
-        "name": "send query",
-        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\nnode.send(plc.writeReg(20,0))\n/* for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 345,
-        "y": 525,
-        "wires": [
-            [
-                "042d220310f4d201"
-            ]
-        ]
-    },
-    {
         "id": "042d220310f4d201",
         "type": "q-gate",
         "z": "c1d4418a6f1f1693",
@@ -7928,6 +8413,7 @@
         "g": "5f741e9d0e05f1e2",
         "name": "PLC Pulsantiere (ZBRN1-23KF1) Query in",
         "links": [
+            "92bab0627eba301d",
             "bfbeb3f69de7db05"
         ],
         "x": 560,
@@ -7968,7 +8454,8 @@
                 "e448cf338d7ce60a",
                 "bacfab2b6aa8f62e",
                 "c854307142509346",
-                "b8bf2e09ac2a846d"
+                "b8bf2e09ac2a846d",
+                "81e052072ae8f43d"
             ]
         ],
         "l": false
@@ -8148,7 +8635,7 @@
         "z": "c1d4418a6f1f1693",
         "d": true,
         "g": "5f741e9d0e05f1e2",
-        "name": "PLC Pulsantiere Query out",
+        "name": "PLC Pulsantiere (ZBRN1-23KF1) Query out",
         "mode": "link",
         "links": [
             "3d7f018e03cb4a74"
@@ -8258,7 +8745,8 @@
             ],
             [
                 "be14c153c3dbc45b",
-                "8aba5c7204608b4a"
+                "8aba5c7204608b4a",
+                "ecb1f7d4b95bd34f"
             ]
         ],
         "l": false
@@ -8524,7 +9012,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "9bc629dadf51c057",
         "name": "send query",
-        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\nnode.send(plc.writeReg(20,0))\n/* for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
+        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\n//node.send(plc.writeReg(20,0))\n\nnode.send(plc.readFrom(20, 1));\n\n/*for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -8856,7 +9344,8 @@
                 "c88815753d244368",
                 "f983b4df40165306",
                 "b3037e275cf5fc43",
-                "0d4b9b456c6abe1a"
+                "0d4b9b456c6abe1a",
+                "af118073e63d8f78"
             ]
         ],
         "l": false
@@ -9057,7 +9546,8 @@
         "name": "PLC Pulsantiere Query out",
         "mode": "link",
         "links": [
-            "8aa45b3643dc2319"
+            "8aa45b3643dc2319",
+            "d7e71f6c5df08492"
         ],
         "x": 405,
         "y": 1140,
@@ -9098,6 +9588,560 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "15bb6197c2b1fb58",
+        "type": "comment",
+        "z": "c1d4418a6f1f1693",
+        "g": "9bc629dadf51c057",
+        "name": "PULSANTIERE #2 ZBRN1-23KF2",
+        "info": "",
+        "x": 500,
+        "y": 765,
+        "wires": []
+    },
+    {
+        "id": "5f94d8c13f129154",
+        "type": "comment",
+        "z": "c1d4418a6f1f1693",
+        "g": "5f741e9d0e05f1e2",
+        "name": "PULSANTIERE ZBRN1-23KF1",
+        "info": "",
+        "x": 505,
+        "y": 270,
+        "wires": []
+    },
+    {
+        "id": "5e8714bebf300e22",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "7efa39f7d2ea1018",
+        "group": "929f87df773632c9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "conn status",
+        "format": "{{msg.modbusStatusString}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1645,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "57f0a4be30f7d1d3",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "7efa39f7d2ea1018",
+        "group": "929f87df773632c9",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "isConnectedFlag",
+        "format": "{{flow.modbusIsReady.toString()}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1655,
+        "y": 990,
+        "wires": []
+    },
+    {
+        "id": "4799a2c9df16f17e",
+        "type": "switch",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "7efa39f7d2ea1018",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1525,
+        "y": 975,
+        "wires": [
+            [
+                "5e8714bebf300e22",
+                "57f0a4be30f7d1d3",
+                "570ec02d134a5173",
+                "273ce494f7a66fa8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "570ec02d134a5173",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "7efa39f7d2ea1018",
+        "group": "929f87df773632c9",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "lastPayload",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1645,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "273ce494f7a66fa8",
+        "type": "ui_template",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "7efa39f7d2ea1018",
+        "group": "929f87df773632c9",
+        "name": "full msg",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<pre> {{msg}} </pre>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1635,
+        "y": 1050,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e2ea6a04f86a1d13",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "f3bee686c5a79e51",
+        "group": "ebd54b01335cee21",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "conn status",
+        "format": "{{flow.modbusStatusString}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1590,
+        "y": 495,
+        "wires": []
+    },
+    {
+        "id": "1db2445822e94e9a",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "f3bee686c5a79e51",
+        "group": "ebd54b01335cee21",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "isConnectedFlag",
+        "format": "{{flow.modbusIsReady}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1600,
+        "y": 525,
+        "wires": []
+    },
+    {
+        "id": "81e052072ae8f43d",
+        "type": "switch",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "f3bee686c5a79e51",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1470,
+        "y": 510,
+        "wires": [
+            [
+                "e2ea6a04f86a1d13",
+                "1db2445822e94e9a",
+                "a40512ebc39f24e5",
+                "307370bd3db41497"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a40512ebc39f24e5",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "f3bee686c5a79e51",
+        "group": "ebd54b01335cee21",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "lastPayload",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1590,
+        "y": 555,
+        "wires": []
+    },
+    {
+        "id": "307370bd3db41497",
+        "type": "ui_template",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "f3bee686c5a79e51",
+        "group": "ebd54b01335cee21",
+        "name": "full msg",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<pre> {{msg}} </pre>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1580,
+        "y": 585,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f28a0a7d3f10e1e",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "83dc8de4ca6f5b85",
+        "group": "ff22d246a1b65b24",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "conn status",
+        "format": "{{flow.modbusStatusString}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1315,
+        "y": 1410,
+        "wires": []
+    },
+    {
+        "id": "303394b2bfa17df9",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "83dc8de4ca6f5b85",
+        "group": "ff22d246a1b65b24",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "isConnectedFlag",
+        "format": "{{flow.modbusIsReady}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1325,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "ecb1f7d4b95bd34f",
+        "type": "switch",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "83dc8de4ca6f5b85",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1195,
+        "y": 1425,
+        "wires": [
+            [
+                "3f28a0a7d3f10e1e",
+                "303394b2bfa17df9",
+                "451ca07396c03dc6",
+                "1a96357a55bd59e2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "451ca07396c03dc6",
+        "type": "ui_text",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "83dc8de4ca6f5b85",
+        "group": "ff22d246a1b65b24",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "lastPayload",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1315,
+        "y": 1470,
+        "wires": []
+    },
+    {
+        "id": "1a96357a55bd59e2",
+        "type": "ui_template",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "83dc8de4ca6f5b85",
+        "group": "ff22d246a1b65b24",
+        "name": "full msg",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "<pre> {{msg}} </pre>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1305,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "af118073e63d8f78",
+        "type": "change",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "7efa39f7d2ea1018",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "modbusStatusString",
+                "pt": "msg",
+                "to": "modbusStatusString",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1570,
+        "y": 930,
+        "wires": [
+            [
+                "4799a2c9df16f17e"
+            ]
+        ]
+    },
+    {
+        "id": "92bab0627eba301d",
+        "type": "link out",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "2252354aebe355cf",
+        "name": "PLC Pulsantiere (ZBRN1-23KF1) Query out",
+        "mode": "link",
+        "links": [
+            "3d7f018e03cb4a74"
+        ],
+        "x": 2060,
+        "y": 375,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "1b2801bdd5521603",
+        "type": "comment",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "9737cb6bd0dadd1f",
+        "name": "#dbg toggle",
+        "info": "",
+        "x": 1555,
+        "y": 315,
+        "wires": []
+    },
+    {
+        "id": "a94d27d4fc33b1c2",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "9737cb6bd0dadd1f",
+        "name": "toggle",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "control",
+        "payload": "toggle",
+        "payloadType": "str",
+        "x": 1575,
+        "y": 345,
+        "wires": [
+            [
+                "d1ff55d5deb88f00"
+            ]
+        ]
+    },
+    {
+        "id": "d1ff55d5deb88f00",
+        "type": "gate",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "9737cb6bd0dadd1f",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "closed",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": false,
+        "storeName": "memory",
+        "x": 1680,
+        "y": 375,
+        "wires": [
+            [
+                "2e70c7d55b0e6c9f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c26fead50e79fbbb",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "9737cb6bd0dadd1f",
+        "name": "poll 0.35s",
+        "props": [],
+        "repeat": "0.35",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "x": 1555,
+        "y": 375,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e26b945327fe0a7e",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "9737cb6bd0dadd1f",
+        "name": "poll 2s",
+        "props": [],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "x": 1560,
+        "y": 405,
+        "wires": [
+            [
+                "d1ff55d5deb88f00"
+            ]
+        ]
+    },
+    {
+        "id": "734a6280c896ee84",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "g": "5f741e9d0e05f1e2",
+        "name": "send query",
+        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\nnode.send(plc.writeReg(20,0))\n/* for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 345,
+        "y": 525,
+        "wires": [
+            [
+                "042d220310f4d201"
+            ]
+        ]
+    },
+    {
+        "id": "2e70c7d55b0e6c9f",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "d": true,
+        "g": "2252354aebe355cf",
+        "name": "send query",
+        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\nnode.send(plc.readFrom(20, 1))\n\n//node.send(plc.writeReg(20,0))\n/* for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1805,
+        "y": 375,
+        "wires": [
+            [
+                "92bab0627eba301d"
+            ]
+        ]
+    },
+    {
+        "id": "eceeeb3fae3bc7ac",
+        "type": "comment",
+        "z": "c1d4418a6f1f1693",
+        "g": "2252354aebe355cf",
+        "name": "TEST CONNESSIONE MODBUS",
+        "info": "",
+        "x": 1855,
+        "y": 285,
+        "wires": []
     },
     {
         "id": "d2907618278aa1be",
@@ -10027,8 +11071,8 @@
         "links": [
             "64690dd246039799"
         ],
-        "x": 185,
-        "y": 1605,
+        "x": 200,
+        "y": 1890,
         "wires": [
             [
                 "2c415eda999050f1",
@@ -10058,8 +11102,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 315,
-        "y": 1605,
+        "x": 330,
+        "y": 1890,
         "wires": [
             [
                 "63cb5672c06fad4e"
@@ -10082,8 +11126,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
-        "y": 1650,
+        "x": 460,
+        "y": 1935,
         "wires": [
             []
         ]
@@ -10098,8 +11142,8 @@
         "links": [
             "32bb7ae2d8f0c7dc"
         ],
-        "x": 475,
-        "y": 1575,
+        "x": 490,
+        "y": 1860,
         "wires": [],
         "l": true
     },
@@ -10110,15 +11154,15 @@
         "g": "31f4b8716c51f385",
         "name": "handle all uib events",
         "info": "",
-        "x": 210,
-        "y": 1500,
+        "x": 225,
+        "y": 1785,
         "wires": []
     },
     {
         "id": "71bdf71b7ab73ed4",
         "type": "uibuilder",
         "z": "76b05f87a5290cf6",
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "webapp",
         "topic": "none",
         "url": "webapp",
@@ -10133,13 +11177,14 @@
         "sourceFolder": "src",
         "deployedVersion": "5.1.1",
         "x": 630,
-        "y": 420,
+        "y": 495,
         "wires": [
             [
                 "0c33f8d537e42c41"
             ],
             [
-                "5952d8e029f830cd"
+                "5952d8e029f830cd",
+                "201682b5f3dc37e9"
             ]
         ]
     },
@@ -10147,7 +11192,7 @@
         "id": "29da4c340c1c0f16",
         "type": "link in",
         "z": "76b05f87a5290cf6",
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "toWebapp in",
         "links": [
             "3f92af885fe4a9d4",
@@ -10167,13 +11212,17 @@
             "7f3892b70e89d932",
             "a984ae5f89c982aa",
             "6c7b45a7a15ce7ca",
-            "7e254c27479ac8aa"
+            "7e254c27479ac8aa",
+            "16644ec203b99989",
+            "446f1af64d58d0d6",
+            "966a2e40f7e7e922"
         ],
         "x": 185,
-        "y": 420,
+        "y": 495,
         "wires": [
             [
-                "c41737c1cb63ff35"
+                "c41737c1cb63ff35",
+                "75ef4d5b0e672f1e"
             ]
         ],
         "l": true
@@ -10183,7 +11232,7 @@
         "type": "link out",
         "z": "76b05f87a5290cf6",
         "d": true,
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "toWebapp out",
         "mode": "link",
         "links": [
@@ -10192,7 +11241,7 @@
             "479573b30e6666e1"
         ],
         "x": 165,
-        "y": 375,
+        "y": 450,
         "wires": [],
         "l": true
     },
@@ -10200,7 +11249,7 @@
         "id": "0c33f8d537e42c41",
         "type": "switch",
         "z": "76b05f87a5290cf6",
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "msg.type",
         "property": "type",
         "propertyType": "msg",
@@ -10228,7 +11277,7 @@
         "repair": false,
         "outputs": 4,
         "x": 840,
-        "y": 405,
+        "y": 480,
         "wires": [
             [
                 "16c03e6dc270a0a8"
@@ -10248,7 +11297,7 @@
         "id": "6b19a1a58b2b90d0",
         "type": "function",
         "z": "76b05f87a5290cf6",
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "default: warn",
         "func": "node.warn({txt:\"unhandled uibuilder msg.type\",topic:msg.type,fullMsg:msg});\n\nglobal.get(\"utils\").errorBlink(node,60000);\n",
         "outputs": 1,
@@ -10257,7 +11306,7 @@
         "finalize": "",
         "libs": [],
         "x": 1000,
-        "y": 450,
+        "y": 525,
         "wires": [
             []
         ]
@@ -10266,7 +11315,7 @@
         "id": "16c03e6dc270a0a8",
         "type": "link out",
         "z": "76b05f87a5290cf6",
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "uib request out",
         "mode": "link",
         "links": [
@@ -10274,7 +11323,7 @@
             "7103451c8f1ce3d3"
         ],
         "x": 1010,
-        "y": 360,
+        "y": 435,
         "wires": [],
         "l": true
     },
@@ -10282,7 +11331,7 @@
         "id": "64690dd246039799",
         "type": "link out",
         "z": "76b05f87a5290cf6",
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "uib event out",
         "mode": "link",
         "links": [
@@ -10290,7 +11339,7 @@
             "d23c81a0325ee4c4"
         ],
         "x": 1000,
-        "y": 420,
+        "y": 495,
         "wires": [],
         "l": true
     },
@@ -10299,13 +11348,13 @@
         "type": "link in",
         "z": "76b05f87a5290cf6",
         "d": true,
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "uib request out",
         "links": [
             "16c03e6dc270a0a8"
         ],
         "x": 1205,
-        "y": 360,
+        "y": 435,
         "wires": [
             []
         ],
@@ -10316,13 +11365,13 @@
         "type": "link in",
         "z": "76b05f87a5290cf6",
         "d": true,
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "uib event out",
         "links": [
             "64690dd246039799"
         ],
         "x": 1195,
-        "y": 435,
+        "y": 510,
         "wires": [
             []
         ],
@@ -10335,8 +11384,8 @@
         "g": "abf36b9570f058cc",
         "name": "handle all uib requests",
         "info": "requests are queries which expect a single response. like an http request.\n\ndb queries, initializations and such",
-        "x": 215,
-        "y": 630,
+        "x": 230,
+        "y": 915,
         "wires": []
     },
     {
@@ -10348,8 +11397,8 @@
         "links": [
             "16c03e6dc270a0a8"
         ],
-        "x": 190,
-        "y": 795,
+        "x": 205,
+        "y": 1080,
         "wires": [
             [
                 "d6a1db03463f5561",
@@ -10379,8 +11428,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 315,
-        "y": 795,
+        "x": 330,
+        "y": 1080,
         "wires": [
             [
                 "5d4e2536bd217ebb"
@@ -10403,8 +11452,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
-        "y": 735,
+        "x": 505,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -10418,10 +11467,11 @@
         "mode": "link",
         "links": [
             "ca2b9f6d1617d974",
-            "8a8226dfe4a11ffa"
+            "8a8226dfe4a11ffa",
+            "1783afc82891b9af"
         ],
-        "x": 565,
-        "y": 795,
+        "x": 580,
+        "y": 1080,
         "wires": [],
         "l": true
     },
@@ -10433,10 +11483,11 @@
         "name": "setCellSignal in",
         "links": [
             "8a869fbf2653f1a4",
-            "7b854e8aa4029bbe"
+            "7b854e8aa4029bbe",
+            "0ddad7d958c8cfec"
         ],
-        "x": 655,
-        "y": 795,
+        "x": 670,
+        "y": 1080,
         "wires": [
             [
                 "84ae7b1a0d4f5b64"
@@ -10455,8 +11506,8 @@
             "0ec40d54c47c43ad",
             "479573b30e6666e1"
         ],
-        "x": 1210,
-        "y": 780,
+        "x": 1225,
+        "y": 1065,
         "wires": [],
         "l": true
     },
@@ -10481,8 +11532,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 1020,
-        "y": 810,
+        "x": 1035,
+        "y": 1095,
         "wires": [
             [
                 "3f92af885fe4a9d4"
@@ -10504,8 +11555,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1185,
-        "y": 825,
+        "x": 1200,
+        "y": 1110,
         "wires": [
             []
         ]
@@ -10514,18 +11565,18 @@
         "id": "cb6ba335d3d82d44",
         "type": "comment",
         "z": "76b05f87a5290cf6",
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "SPLIT BY TYPE",
         "info": "",
         "x": 920,
-        "y": 330,
+        "y": 405,
         "wires": []
     },
     {
         "id": "5952d8e029f830cd",
         "type": "debug",
         "z": "76b05f87a5290cf6",
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "WEBAPP CTRLMSG",
         "active": true,
         "tosidebar": true,
@@ -10535,8 +11586,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1040,
-        "y": 525,
+        "x": 1095,
+        "y": 585,
         "wires": []
     },
     {
@@ -10553,8 +11604,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 425,
-        "y": 1500,
+        "x": 440,
+        "y": 1785,
         "wires": []
     },
     {
@@ -10571,23 +11622,25 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 455,
-        "y": 630,
+        "x": 470,
+        "y": 915,
         "wires": []
     },
     {
         "id": "32bb7ae2d8f0c7dc",
         "type": "link in",
         "z": "76b05f87a5290cf6",
+        "g": "389c4cac40ddf2e2",
         "name": "uibOn cellButtonClick",
         "links": [
             "63cb5672c06fad4e"
         ],
-        "x": 755,
-        "y": 1545,
+        "x": 835,
+        "y": 1830,
         "wires": [
             [
-                "36bcc822962c6405"
+                "36bcc822962c6405",
+                "90c9fbd734739d25"
             ]
         ],
         "l": true
@@ -10596,6 +11649,7 @@
         "id": "36bcc822962c6405",
         "type": "switch",
         "z": "76b05f87a5290cf6",
+        "g": "389c4cac40ddf2e2",
         "name": "actionId",
         "property": "payload.actionId",
         "propertyType": "msg",
@@ -10619,14 +11673,18 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 955,
-        "y": 1545,
+        "x": 1035,
+        "y": 1830,
         "wires": [
             [
                 "f67411720250268f"
             ],
-            [],
-            []
+            [
+                "4331798865b98569"
+            ],
+            [
+                "28275fe1c717f466"
+            ]
         ]
     },
     {
@@ -10638,8 +11696,8 @@
         "links": [
             "5d4e2536bd217ebb"
         ],
-        "x": 315,
-        "y": 1050,
+        "x": 385,
+        "y": 1335,
         "wires": [
             [
                 "ff3fd54c134b19bf"
@@ -10652,14 +11710,14 @@
         "z": "76b05f87a5290cf6",
         "g": "7d42b16fe52425fd",
         "name": "update servSide state",
-        "func": "let macKey = msg.payload.machineName\nconst signal = global.get(\"towersControl\");\n\n\n\nreturn msg;",
+        "func": "//sendToServer(\"request\",\"setCellSignal\",\n    //{ toSignalKey:\"A2\", \n    //  machineName:this.$props.machineName})\n\nlet macKey = msg.payload.machineName\nconst signal = global.get(\"towersControl\");\n\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 475,
-        "y": 1050,
+        "x": 545,
+        "y": 1335,
         "wires": [
             [
                 "f67d481098362b2f"
@@ -10670,16 +11728,16 @@
         "id": "c41737c1cb63ff35",
         "type": "function",
         "z": "76b05f87a5290cf6",
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "warn if implicit broadcast",
-        "func": "/** detect unwanted broadcasting.\n *  Not strictly needed, but a good practice\n *  as such, msgs are passed through anyway\n */\n\nif(!msg._socketId && !(msg._broadcast || msg.broadcast))\n    node.warn({txt:\"implicit broadcast to webapp\", fullMsg:msg});\nglobal.get(\"utils\").errorBlink(node, 60000, msg.topic??\"\");\n\nreturn msg;",
+        "func": "/** detect unwanted broadcasting.\n *  Not strictly needed, but a good practice\n *  as such, msgs are passed through anyway\n */\n\nif(!msg._socketId && !(msg._broadcast || msg.broadcast)){\n    node.warn({txt:\"implicit broadcast to webapp\", fullMsg:msg});\n    global.get(\"utils\").errorBlink(node, 60000, msg.topic??\"\");\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 420,
+        "y": 495,
         "wires": [
             [
                 "71bdf71b7ab73ed4"
@@ -10694,7 +11752,7 @@
         "name": "GLOBALS",
         "info": "",
         "x": 165,
-        "y": 75,
+        "y": 150,
         "wires": []
     },
     {
@@ -10706,11 +11764,11 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "\n/** pseudo random string generator */\nfunction randomHexString4() {\n    return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1); //1.X * 2^16 toString(radix) clipFirst //== 4 characters hex\n}\n\nclass Client {\n    state;\n    sockedId;\n    clientId;\n\n    constructor(clientId, socketId, state){\n        this.state = state;\n        this.sockedId = socketId;\n    }\n}\n\nclass Session{\n    sessionId;\n    createdOn;\n    expiresOn;\n    data;\n\n    constructor(id){\n        this.data={};\n    }\n\n    static generateId(){\n        const gen4 = randomHexString4;\n        return gen4()+gen4()+gen4();\n    }\n}\n\nconst clientStates = [\"connected\",\"ready\"]\n\nconst obj = {\n    \"Client\":Client,\n    \"connectedClients\":[],\n    sessions:[],\n\n    addClient(socketId,state=\"conn\"){}\n}\n\nglobal.set(\"uibuilder\", obj);\nnode.status({ fill: \"green\", text: Object.keys(obj).join(' & ') });\nreturn obj;\n\n\n//onClientConnect()\n    //add to connectedClients{clientId>Client}\n    //add to sessions{clientId>Session}\n\n//onClientDisconnect()\n    //remove from connectedClients\n\n//onClient\n\n//onSendResponse()\n    //if connected\n        //send\n    //else\n        //queue\n        \n    \n\n\n/*** TESTS ***\n\n\n*/\n",
+        "initialize": "\n/** pseudo random string generator */\nfunction randomHexString4() {\n    return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1); //1.X * 2^16 toString(radix) clipFirst //== 4 characters hex\n}\n\nclass Client {\n    state;\n    sockedId;\n    clientId;\n\n    constructor(clientId, socketId, state){\n        this.state = state;\n        this.sockedId = socketId;\n    }\n}\n\nclass Session{\n    sessionId;\n    createdOn;\n    expiresOn;\n    data;\n\n    constructor(id){\n        this.data={};\n    }\n\n    static generateId(){\n        const gen4 = randomHexString4;\n        return gen4()+gen4()+gen4();\n    }\n}\n\nconst clientStates = [\"connected\",\"ready\"]\n\nconst obj = {\n    \"Client\":Client,\n    \"connectedClients\":[],\n    sessions:[],\n\n    addClient(socketId,state=\"conn\"){}\n}\n\nglobal.set(\"uibuilder\", obj);\nnode.status({ fill: \"green\", text: Object.keys(obj).join(' & ') });\nnode.send(obj);\n\n\n//onClientConnect()\n    //add to connectedClients{clientId>Client}\n    //add to sessions{clientId>Session}\n\n//onClientDisconnect()\n    //remove from connectedClients\n\n//onClient\n\n//onSendResponse()\n    //if connected\n        //send\n    //else\n        //queue\n        \n    \n\n\n/*** TESTS ***\n\n\n*/\n",
         "finalize": "",
         "libs": [],
         "x": 195,
-        "y": 135,
+        "y": 210,
         "wires": [
             [
                 "110b6c5412ed8d34"
@@ -10725,7 +11783,7 @@
         "name": "",
         "info": "//things not specified in uibuilder node quick-help-documentation\n\n//CTRL MESSAGES\n{\n\t\"uibuilderCtrl\": \"client disconnect\",\n\t\"reason\": \"transport close\",\n\t\"topic\": \"none\",\n\t\"_socketId\": \"LxI6Ic7eoU-SKsalAAAW\",\n\t\"version\": \"5.1.1\",\n\t\"ip\": \"192.168.52.1\",\n\t\"clientId\": \"TeVOIYq-YLqW-Szx3UC3F\", //cookie set by uibuilder\n\t\"connections\": 0,\n\t\"from\": \"server\",\n\t\"_msgid\": \"cc9a6cbb48577e32\"\n}\n\n/** Client ID set by uibuilder */\n    (from uibuilderfe.js) self.clientId = self.cookies['uibuilder-client-id']",
         "x": 315,
-        "y": 105,
+        "y": 180,
         "wires": []
     },
     {
@@ -10742,8 +11800,8 @@
         "allowStyles": true,
         "copyIndex": true,
         "showfolder": false,
-        "x": 520,
-        "y": 1965,
+        "x": 535,
+        "y": 2250,
         "wires": [
             [
                 "47aeb5cb.97f31c"
@@ -10767,8 +11825,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 700,
-        "y": 1965,
+        "x": 715,
+        "y": 2250,
         "wires": []
     },
     {
@@ -10784,8 +11842,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
-        "y": 1965,
+        "x": 335,
+        "y": 2250,
         "wires": [
             [
                 "ae4ad803.98aa88"
@@ -10805,8 +11863,8 @@
         "tostatus": false,
         "complete": "true",
         "targetType": "full",
-        "x": 730,
-        "y": 2005,
+        "x": 745,
+        "y": 2290,
         "wires": []
     },
     {
@@ -10820,8 +11878,8 @@
             "4c2899fb.1cd318",
             "8c23b9bc.b992b8"
         ],
-        "x": 205,
-        "y": 1965,
+        "x": 220,
+        "y": 2250,
         "wires": [
             [
                 "43f62f54.e076c"
@@ -10838,8 +11896,8 @@
         "links": [
             "122cefe6.c39a7"
         ],
-        "x": 645,
-        "y": 2045,
+        "x": 660,
+        "y": 2330,
         "wires": []
     },
     {
@@ -10850,8 +11908,8 @@
         "g": "67911c84f8ca5874",
         "name": "Caching using simple function by msg.topic",
         "info": "See https://github.com/TotallyInformation/node-red-contrib-uibuilder/wiki/Cache-and-Replay-Messages-without-using-node-red-contrib-infocache\nfor details.\n\nThe uibuilder control messages are used to \nreplay or empty the cache.\n\nFeed in your own data to the cache to see how it\nworks.\n\nThe way it is currently written, the last message\nof each topic passing through the function node\nis retained and then replayed as separate messages\nwhen a new client GETs the uibuilder URL (or when\nand existing client reloads the page).\n\n## Configuration\n\nReplace default `index.html` and `index.js` files\nwith those in the 2 comment nodes.\n\nChange the name of the cache variable if copying this function.",
-        "x": 690,
-        "y": 1925,
+        "x": 705,
+        "y": 2210,
         "wires": []
     },
     {
@@ -10868,8 +11926,8 @@
         "topic": "RANDOM-TEST",
         "payload": "",
         "payloadType": "date",
-        "x": 145,
-        "y": 1925,
+        "x": 160,
+        "y": 2210,
         "wires": [
             [
                 "9d09f684.33be68"
@@ -10901,8 +11959,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 205,
-        "y": 1925,
+        "x": 220,
+        "y": 2210,
         "wires": [
             [
                 "43f62f54.e076c"
@@ -10924,8 +11982,8 @@
         "g": "67911c84f8ca5874",
         "name": "index.html",
         "info": "<!doctype html>\n<html lang=\"en\">\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes\">\n\n    <title>Cache Test : uibuilder</title>\n    <meta name=\"description\" content=\"Node-RED UI Builder Cache Test\">\n\n    <link rel=\"icon\" href=\"./images/node-blue.ico\">\n\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../uibuilder/vendor/bootstrap/dist/css/bootstrap.min.css\" />\n    <link type=\"text/css\" rel=\"stylesheet\" href=\"../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.css\" />\n\n    <link rel=\"stylesheet\" href=\"./index.css\" media=\"all\">\n</head><body>\n    <div id=\"app\">\n        <b-container id=\"app_container\">\n            <h1>\n                UIbuilder Cache Test Example\n            </h1>\n            <p>\n                This is a uibuilder test using a simple function as a cache.\n                Trigger the input a couple of times then load a new window or tab.\n                The value below should almost instantly go from '[Nothing]' to\n                that last sent value. However, the number of received messages should\n                drop back down to 2.\n            </p>\n            <h2>Data from Node-RED</h2>\n            <b-card>\n                Random Number: {{nrRandom}}\n            </b-card>\n\n            <p>\n                Messages: Received={{msgsReceived}}\n            </p>\n\n        </b-container>\n    </div>\n\n    <!-- These MUST be in the right order. Note no leading / -->\n    <!-- REQUIRED: Socket.IO is loaded only once for all instances\n                     Without this, you don't get a websocket connection -->\n    <script src=\"../uibuilder/vendor/socket.io/socket.io.js\"></script>\n\n    <!-- --- Vendor Libraries - Load in the right order --- -->\n    <script src=\"../uibuilder/vendor/vue/dist/vue.js\"></script> <!-- dev version with component compiler -->\n    <!-- <script src=\"../uibuilder/vendor/vue/dist/vue.min.js\"></script>   prod version with component compiler -->\n    <!-- <script src=\"../uibuilder/vendor/vue/dist/vue.runtime.min.js\"></script>   prod version without component compiler -->\n    <!-- <script src=\"https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js\"></script> for older browsers -->\n    <script src=\"../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.js\"></script>\n\n    <!-- REQUIRED: Sets up Socket listeners and the msg object -->\n    <!-- <script src=\"./uibuilderfe.js\"></script>   //dev version -->\n    <script src=\"./uibuilderfe.min.js\"></script> <!--    //prod version -->\n    <!-- OPTIONAL: You probably want this. Put your custom code here -->\n    <script src=\"./index.js\"></script>\n\n</body></html>\n",
-        "x": 310,
-        "y": 1925,
+        "x": 325,
+        "y": 2210,
         "wires": [],
         "icon": "node-red/parser-html.svg"
     },
@@ -10937,8 +11995,8 @@
         "g": "67911c84f8ca5874",
         "name": "index.js",
         "info": "/* jshint browser: true, esversion: 5, asi: true */\n/* globals document,Vue,window,uibuilder */\n// @ts-nocheck\n/*\n  Copyright (c) 2019 Julian Knight (Totally Information)\n\n  Licensed under the Apache License, Version 2.0 (the \"License\");\n  you may not use this file except in compliance with the License.\n  You may obtain a copy of the License at\n\n  http://www.apache.org/licenses/LICENSE-2.0\n\n  Unless required by applicable law or agreed to in writing, software\n  distributed under the License is distributed on an \"AS IS\" BASIS,\n  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n  See the License for the specific language governing permissions and\n  limitations under the License.\n*/\n\n/** @see https://github.com/TotallyInformation/node-red-contrib-uibuilder/wiki/Front-End-Library---available-properties-and-methods */\n\nconst app1 = new Vue({\n    el: '#app',\n    data: {\n        nrRandom    : '[Nothing]',\n        msgsReceived: 0,\n        msgsControl : 0,\n        msgsSent    : 0,\n        msgRecvd    : '[Nothing]',\n        msgSent     : '[Nothing]',\n        msgCtrl     : '[Nothing]',\n    }, // --- End of data --- //\n    computed: {\n    }, // --- End of computed --- //\n    methods: {\n    }, // --- End of methods --- //\n\n    // Available hooks: init,mounted,updated,destroyed\n    mounted: function(){\n\n        /** **REQUIRED** Start uibuilder comms with Node-RED @since v2.0.0-dev3\n         * Pass the namespace and ioPath variables if hosting page is not in the instance root folder\n         * e.g. If you get continual `uibuilderfe:ioSetup: SOCKET CONNECT ERROR` error messages.\n         * e.g. uibuilder.start('/nr/uib', '/nr/uibuilder/vendor/socket.io') // change to use your paths/names\n         */\n        uibuilder.start()\n\n        var vueApp = this\n\n        // If msg changes - msg is updated when a standard msg is received from Node-RED over Socket.IO\n        // Note that you can also listen for 'msgsReceived' as they are updated at the same time\n        // but newVal relates to the attribute being listened to.\n        uibuilder.onChange('msg', function(msg){\n            console.info('[uibuilder.onChange] property msg changed!', msg)\n            vueApp.msgRecvd = msg\n            vueApp.msgsReceived++\n\n            vueApp.nrRandom = msg.payload\n\n        })\n\n    } // --- End of mounted hook --- //\n\n}) // --- End of app1 --- //\n\n// EOF\n",
-        "x": 440,
-        "y": 1925,
+        "x": 455,
+        "y": 2210,
         "wires": [],
         "icon": "font-awesome/fa-code"
     },
@@ -10956,8 +12014,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "str",
-        "x": 205,
-        "y": 2045,
+        "x": 220,
+        "y": 2330,
         "wires": [
             [
                 "27c93453.13df8c"
@@ -10986,8 +12044,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 300,
-        "y": 2045,
+        "x": 315,
+        "y": 2330,
         "wires": [
             [
                 "8c23b9bc.b992b8"
@@ -11004,8 +12062,8 @@
         "links": [
             "122cefe6.c39a7"
         ],
-        "x": 405,
-        "y": 2045,
+        "x": 420,
+        "y": 2330,
         "wires": []
     },
     {
@@ -11016,8 +12074,8 @@
         "g": "67911c84f8ca5874",
         "name": "CACHE CONTROL",
         "info": "from https://flows.nodered.org/flow/b9c7976357c0b67d04c66fa1e1a9ec0a/in/V8yzonL4DaUi\nuibuilder pre-implementa un sistema per il reinvio on-demand di contenuti.\nbanalmente aggiunge una attributo \"cacheControl\" con valore \"CLEAR\"|\"REPLAY\"|undefined.\nricevere REPLAY significa che il client vuole ricevere una copia di questa cache \n        CLEAR che la cache deve essere eliminata.\n\nnon è finora servito, nè prevedo che possa servire.",
-        "x": 230,
-        "y": 1875,
+        "x": 245,
+        "y": 2160,
         "wires": []
     },
     {
@@ -11039,11 +12097,11 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 810,
-        "y": 795,
+        "x": 825,
+        "y": 1080,
         "wires": [
             [
-                "3f92af885fe4a9d4"
+                "c7a39dea36551f43"
             ],
             [
                 "fa5fe09d4f7a35d0"
@@ -11056,14 +12114,14 @@
         "z": "76b05f87a5290cf6",
         "g": "7d42b16fe52425fd",
         "name": "send setSingleCellSignal",
-        "func": "let macKey = msg.payload.machineName\nconst signal = global.get(\"towersControl\");\n\n\n\nreturn msg;",
+        "func": "let macKey = msg.payload.machineName\nconst signal = global.get(\"towersControl\");\n\n\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 725,
-        "y": 1050,
+        "x": 795,
+        "y": 1335,
         "wires": [
             [
                 "7b854e8aa4029bbe"
@@ -11077,8 +12135,8 @@
         "g": "7d42b16fe52425fd",
         "name": "link in 7",
         "links": [],
-        "x": 545,
-        "y": 1005,
+        "x": 615,
+        "y": 1290,
         "wires": [
             [
                 "f67d481098362b2f"
@@ -11097,8 +12155,8 @@
         "links": [
             "8592536a56dff0ec"
         ],
-        "x": 895,
-        "y": 1050,
+        "x": 965,
+        "y": 1335,
         "wires": []
     },
     {
@@ -11108,8 +12166,8 @@
         "g": "d1418df470ae9fa4",
         "name": "WRAPPER",
         "info": "",
-        "x": 200,
-        "y": 735,
+        "x": 215,
+        "y": 1020,
         "wires": []
     },
     {
@@ -11119,8 +12177,8 @@
         "g": "5b4db35eee901db4",
         "name": "HANDLERS",
         "info": "",
-        "x": 350,
-        "y": 930,
+        "x": 420,
+        "y": 1215,
         "wires": []
     },
     {
@@ -11130,30 +12188,32 @@
         "g": "7d42b16fe52425fd",
         "name": "setCellSignal",
         "info": "",
-        "x": 370,
-        "y": 1005,
+        "x": 440,
+        "y": 1290,
         "wires": []
     },
     {
         "id": "08e2ef931b839c70",
         "type": "comment",
         "z": "76b05f87a5290cf6",
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "WEBAPP I/O",
         "info": "",
         "x": 175,
-        "y": 330,
+        "y": 405,
         "wires": []
     },
     {
         "id": "f67411720250268f",
         "type": "link out",
         "z": "76b05f87a5290cf6",
+        "d": true,
+        "g": "389c4cac40ddf2e2",
         "name": "uibOn cellButtonClick goToA2",
         "mode": "link",
         "links": [],
-        "x": 1165,
-        "y": 1500,
+        "x": 1245,
+        "y": 1785,
         "wires": [],
         "l": true
     },
@@ -11161,12 +12221,12 @@
         "id": "138d917ae417b855",
         "type": "link out",
         "z": "76b05f87a5290cf6",
-        "g": "2ea4e192d27eab23",
+        "g": "6aa375e2e3177ccc",
         "name": "uib command out",
         "mode": "link",
         "links": [],
         "x": 1020,
-        "y": 390,
+        "y": 465,
         "wires": [],
         "l": true
     },
@@ -11176,16 +12236,18 @@
         "z": "76b05f87a5290cf6",
         "g": "478c85d69cf2eb8c",
         "name": "msg std enforcer",
-        "func": "let uib = msg;\nconst signalCells = global.get(\"signalCells\");\nconst def={\n\n};\n\nuib.prepareMsg_setCellSignal = (msg, mKey, signalKey)=>{\n    msg.topic = mKey;\n    msg.toSignalKey = signalKey\n    return msg;\n}\n\nreturn msg;",
+        "func": "let uib = msg;\nconst signalCells = global.get(\"signalCells\");\nconst def={\n    \n};\n\nuib.prepareMsg_setCellSignal = (msg, mKey, signalKey) => {\n    msg.macKey = mKey;\n    msg.toSignalKey = signalKey\n    return msg;\n}\n\nuib.prepareMsg_setSingleCellSignal = (msg, mKey, signalKey) => {\n    msg.macKey = mKey;\n    msg.toSignalKey = signalKey\n    return msg;\n}\n\nuib.prepareMsg_setSingleCellState = (msg, macKey, signalCell) => {\n    msg.topic = \"setSingleCellState\";\n    msg.macKey = macKey;\n    msg.fromSignalCellState = {\n        \"signalKey\":signalCell.signalKey,\n        \"timerStart\":signalCell.timerStart,\n        \"timerEnd\":signalCell.timerEnd,\n    }\n    return msg;\n}\n\nuib.prepareMsg_appInit = (msg) => {\n    const cfg = global.get(\"config\");\n    const signalCells = global.get(\"signalCells\");\n\n    if(!cfg || !signalCells) node.error(\"prepareMsg_appInit(): globals are still undefined\")\n\n    msg.topic=\"appInit\";\n    msg.cellsLayout = cfg.cellsLayout;\n    msg.config = cfg;\n    //msg.signalCellsState = (var ret=[] for(let k in signalCells.dictionary.macKeys) ret[macKey]=)();\n\n    return msg;\n}\n\nuib.validate = (msg, additionalProps=true, _node=node)=>{\n    if(!uib[\"prepareMsg_\"+msg.topic]){\n        _node.error(\"unknown uib message topic '\"+msg.topic+\"'\",{txt:\"unknown uib message topic '\"+msg.topic+\"'\",fullMsg:msg})\n        return false;\n    }\n    let template = uib[\"prepareMsg_\"+msg.topic];\n    for(let p in template){\n        if(!msg[p])\n            return false;\n    }\n\n\n}\n\nglobal.set(\"uibuilder\",uib)\n\n\n\nlet allKeys = Object.keys(uib);\nlet definedHere = [];\nfor(let k of allKeys)\n    if(k.match(\"prepareMsg\") || k==\"validate\")\n        definedHere.push(k)\n        \nnode.status({ fill: \"green\", text: definedHere.join(' & ') });\nnode.send(msg);",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 195,
+        "y": 270,
         "wires": [
-            []
+            [
+                "3cd18ab46873b7ab"
+            ]
         ]
     },
     {
@@ -11199,7 +12261,7 @@
             "40e50c217d6a10b3"
         ],
         "x": 330,
-        "y": 135,
+        "y": 210,
         "wires": []
     },
     {
@@ -11212,12 +12274,588 @@
             "110b6c5412ed8d34"
         ],
         "x": 165,
-        "y": 195,
+        "y": 270,
         "wires": [
             [
                 "1f9aecc2debca193"
             ]
         ]
+    },
+    {
+        "id": "d5841a439d384844",
+        "type": "comment",
+        "z": "76b05f87a5290cf6",
+        "g": "abf36b9570f058cc",
+        "name": "machineName:<macKey>",
+        "info": "",
+        "x": 215,
+        "y": 1275,
+        "wires": []
+    },
+    {
+        "id": "eb0d22efa4a344c0",
+        "type": "comment",
+        "z": "76b05f87a5290cf6",
+        "g": "abf36b9570f058cc",
+        "name": "signalKey",
+        "info": "",
+        "x": 240,
+        "y": 1305,
+        "wires": []
+    },
+    {
+        "id": "0c5efc16c514b239",
+        "type": "link in",
+        "z": "76b05f87a5290cf6",
+        "d": true,
+        "name": "setSingleCellSignal",
+        "links": [],
+        "x": 270,
+        "y": 1485,
+        "wires": [
+            [
+                "b1b980c698b44bc8"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "54ab3c8031f9e59c",
+        "type": "change",
+        "z": "76b05f87a5290cf6",
+        "d": true,
+        "name": "_broadcast : true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_broadcast",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 795,
+        "y": 1485,
+        "wires": [
+            [
+                "16644ec203b99989"
+            ]
+        ]
+    },
+    {
+        "id": "16644ec203b99989",
+        "type": "link out",
+        "z": "76b05f87a5290cf6",
+        "d": true,
+        "name": "toWebapp out",
+        "mode": "link",
+        "links": [
+            "29da4c340c1c0f16",
+            "0ec40d54c47c43ad",
+            "479573b30e6666e1"
+        ],
+        "x": 1000,
+        "y": 1485,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "b1b980c698b44bc8",
+        "type": "function",
+        "z": "76b05f87a5290cf6",
+        "d": true,
+        "name": "function 4",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 495,
+        "y": 1485,
+        "wires": [
+            [
+                "54ab3c8031f9e59c"
+            ]
+        ]
+    },
+    {
+        "id": "201682b5f3dc37e9",
+        "type": "switch",
+        "z": "76b05f87a5290cf6",
+        "g": "6aa375e2e3177ccc",
+        "name": "uibuilderCtrl",
+        "property": "uibuilderCtrl",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "client connect",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "client disconnect",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 850,
+        "y": 645,
+        "wires": [
+            [
+                "983aa906652d8e1a"
+            ],
+            [
+                "f2e91f6f34f953ec"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "983aa906652d8e1a",
+        "type": "link out",
+        "z": "76b05f87a5290cf6",
+        "g": "6aa375e2e3177ccc",
+        "name": "uib onClientConnect",
+        "mode": "link",
+        "links": [
+            "67de8630acac041e",
+            "779b95f2b60630ab"
+        ],
+        "x": 1065,
+        "y": 630,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "f2e91f6f34f953ec",
+        "type": "link out",
+        "z": "76b05f87a5290cf6",
+        "d": true,
+        "g": "6aa375e2e3177ccc",
+        "name": "uib onClientDisconnect",
+        "mode": "link",
+        "links": [],
+        "x": 1075,
+        "y": 660,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "67de8630acac041e",
+        "type": "link in",
+        "z": "76b05f87a5290cf6",
+        "d": true,
+        "g": "6aa375e2e3177ccc",
+        "name": "uib onClientConnect",
+        "links": [
+            "983aa906652d8e1a"
+        ],
+        "x": 1290,
+        "y": 630,
+        "wires": [
+            []
+        ],
+        "l": true
+    },
+    {
+        "id": "779b95f2b60630ab",
+        "type": "link in",
+        "z": "76b05f87a5290cf6",
+        "g": "6a9007c1c483ee16",
+        "name": "uib onClientConnect",
+        "links": [
+            "983aa906652d8e1a"
+        ],
+        "x": 1620,
+        "y": 645,
+        "wires": [
+            [
+                "4a186aab7466a7ac"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "71250fbd9b3d549c",
+        "type": "function",
+        "z": "76b05f87a5290cf6",
+        "g": "6a9007c1c483ee16",
+        "name": "send appInit",
+        "func": "\nlet _socketId = msg._socketId\nreturn global.get(\"uibuilder\").prepareMsg_appInit({_socketId:_socketId});",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1895,
+        "y": 645,
+        "wires": [
+            [
+                "446f1af64d58d0d6"
+            ]
+        ]
+    },
+    {
+        "id": "4a186aab7466a7ac",
+        "type": "q-gate",
+        "z": "76b05f87a5290cf6",
+        "g": "6a9007c1c483ee16",
+        "name": "whenDef:utils",
+        "controlTopic": "control",
+        "defaultState": "queueing",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "queueCmd": "queue",
+        "defaultCmd": "default",
+        "triggerCmd": "trigger",
+        "flushCmd": "flush",
+        "resetCmd": "reset",
+        "peekCmd": "peek",
+        "dropCmd": "drop",
+        "statusCmd": "status",
+        "maxQueueLength": "-1",
+        "keepNewest": false,
+        "qToggle": true,
+        "persist": false,
+        "storeName": "memory",
+        "x": 1770,
+        "y": 645,
+        "wires": [
+            [
+                "71250fbd9b3d549c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "943d994766b764b4",
+        "type": "change",
+        "z": "76b05f87a5290cf6",
+        "g": "6a9007c1c483ee16",
+        "name": "open gate",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "control",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "open",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1800,
+        "y": 585,
+        "wires": [
+            [
+                "4a186aab7466a7ac"
+            ]
+        ]
+    },
+    {
+        "id": "c7a39dea36551f43",
+        "type": "change",
+        "z": "76b05f87a5290cf6",
+        "g": "d1418df470ae9fa4",
+        "name": "del _socketId",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "_socketId",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1015,
+        "y": 1065,
+        "wires": [
+            [
+                "3f92af885fe4a9d4"
+            ]
+        ]
+    },
+    {
+        "id": "3cd18ab46873b7ab",
+        "type": "link out",
+        "z": "76b05f87a5290cf6",
+        "g": "478c85d69cf2eb8c",
+        "name": "uibuilder isDefinedEvent",
+        "mode": "link",
+        "links": [
+            "5e3e280c0613ac32",
+            "95d394ea8e7e8ad3"
+        ],
+        "x": 545,
+        "y": 270,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "5e3e280c0613ac32",
+        "type": "link in",
+        "z": "76b05f87a5290cf6",
+        "d": true,
+        "g": "478c85d69cf2eb8c",
+        "name": "uibuilder isDefinedEvent",
+        "links": [
+            "3cd18ab46873b7ab"
+        ],
+        "x": 800,
+        "y": 270,
+        "wires": [
+            []
+        ],
+        "l": true
+    },
+    {
+        "id": "95d394ea8e7e8ad3",
+        "type": "link in",
+        "z": "76b05f87a5290cf6",
+        "g": "6a9007c1c483ee16",
+        "name": "uibuilder isDefinedEvent",
+        "links": [
+            "3cd18ab46873b7ab"
+        ],
+        "x": 1595,
+        "y": 585,
+        "wires": [
+            [
+                "943d994766b764b4"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "446f1af64d58d0d6",
+        "type": "link out",
+        "z": "76b05f87a5290cf6",
+        "g": "6a9007c1c483ee16",
+        "name": "toWebapp out",
+        "mode": "link",
+        "links": [
+            "29da4c340c1c0f16",
+            "0ec40d54c47c43ad",
+            "479573b30e6666e1"
+        ],
+        "x": 2080,
+        "y": 645,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "74bd2959d62a29c6",
+        "type": "comment",
+        "z": "76b05f87a5290cf6",
+        "g": "6a9007c1c483ee16",
+        "name": "RESET APP STATE ON RECONNECT",
+        "info": "",
+        "x": 1640,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "1046031b6653478c",
+        "type": "function",
+        "z": "76b05f87a5290cf6",
+        "name": "setSingleCellState",
+        "func": "\nglobal.get(\"uibuilder\").prepareMsg_setSingleCellState(\"FA420\",global.get(\"signalCells\")[\"FA420\"])\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 750,
+        "wires": [
+            [
+                "966a2e40f7e7e922"
+            ]
+        ]
+    },
+    {
+        "id": "5b2a4a6f12830669",
+        "type": "inject",
+        "z": "76b05f87a5290cf6",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 390,
+        "y": 750,
+        "wires": [
+            [
+                "1046031b6653478c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "966a2e40f7e7e922",
+        "type": "link out",
+        "z": "76b05f87a5290cf6",
+        "name": "toWebapp out",
+        "mode": "link",
+        "links": [
+            "29da4c340c1c0f16",
+            "0ec40d54c47c43ad",
+            "479573b30e6666e1"
+        ],
+        "x": 715,
+        "y": 750,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "75ef4d5b0e672f1e",
+        "type": "debug",
+        "z": "76b05f87a5290cf6",
+        "g": "6aa375e2e3177ccc",
+        "name": "WEBAPP INPUT",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 365,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "4331798865b98569",
+        "type": "link out",
+        "z": "76b05f87a5290cf6",
+        "d": true,
+        "g": "389c4cac40ddf2e2",
+        "name": "uibOn cellButtonClick goToA3",
+        "mode": "link",
+        "links": [],
+        "x": 1250,
+        "y": 1830,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "28275fe1c717f466",
+        "type": "link out",
+        "z": "76b05f87a5290cf6",
+        "d": true,
+        "g": "389c4cac40ddf2e2",
+        "name": "uibOn cellButtonClick goToE",
+        "mode": "link",
+        "links": [],
+        "x": 1250,
+        "y": 1875,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "46843f4e8d02205b",
+        "type": "link out",
+        "z": "76b05f87a5290cf6",
+        "g": "389c4cac40ddf2e2",
+        "name": "buttonActions",
+        "mode": "link",
+        "links": [
+            "f4db294021a89fbf"
+        ],
+        "x": 1310,
+        "y": 1725,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "90c9fbd734739d25",
+        "type": "function",
+        "z": "76b05f87a5290cf6",
+        "g": "389c4cac40ddf2e2",
+        "name": "parse actionId and send buttonAction",
+        "func": "\nlet grid = global.get(\"config\").cellsLayout;\nlet macKey = grid[msg.payload.cellRow][msg.payload.cellCol]\n\nreturn {\n    action:\"set\"+msg.payload.actionId.match(/goTo(\\w+)/)[1],\n    topic:macKey\n};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 1725,
+        "wires": [
+            [
+                "46843f4e8d02205b",
+                "dbc968e9c4b6798b"
+            ]
+        ]
+    },
+    {
+        "id": "7378a8a161a1b05c",
+        "type": "comment",
+        "z": "76b05f87a5290cf6",
+        "g": "389c4cac40ddf2e2",
+        "name": "TODO",
+        "info": "fast, brute solution.\nset up a proper flow, handling single buttons, not depending on config structure etc",
+        "x": 1090,
+        "y": 1695,
+        "wires": []
+    },
+    {
+        "id": "71a72d1959f91e06",
+        "type": "comment",
+        "z": "76b05f87a5290cf6",
+        "g": "389c4cac40ddf2e2",
+        "name": "ADMIN CELL BUTTONS",
+        "info": "",
+        "x": 835,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "dbc968e9c4b6798b",
+        "type": "debug",
+        "z": "76b05f87a5290cf6",
+        "g": "389c4cac40ddf2e2",
+        "name": "SENT VIRTUAL BUTTON",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1355,
+        "y": 1680,
+        "wires": []
     },
     {
         "id": "49bbe311b738bad2",

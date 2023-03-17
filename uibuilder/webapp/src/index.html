@@ -27,6 +27,7 @@
     <!-- Your own CSS -->
    <link type="text/css" rel="stylesheet" href="./index.css" media="all">
    <script type="text/javascript" src="./live.js_edited.js"> /*auto-refresh page on js/html changes. periodically sends HEAD req to the server. good for dbg. //added null type logging at :141 and exceptions catching */</script> <!--https://stackoverflow.com/questions/5588658/auto-reload-browser-when-i-save-changes-to-html-file-in-chrome-->
+   
 </head>
 <style>
    #dbg-data-container{
@@ -46,10 +47,6 @@
 <body>
    <div id="app" class="uib" v-cloak>  <!-- All UI code needs to be in here -->
 
-      <div id="dbg-data-container" style="position:absolute; top10vh">
-
-      </div>
-
       <!-- disconnection popup overlay -->
       <div v-show="!socketConnectedState" style="width:100vw; height:100vh; background-color: hsla(0, 0%, 0%, 0.50); position:absolute; z-index:999;" onclick="noOp()">
          <div class="alert alert-danger disconnected-popup">
@@ -62,7 +59,6 @@
       
       <!-- NAVBAR HEADER -->
       <div style="width:100%;">
-         <RouterLink to="/route1">Route1</RouterLink> <RouterLink to="/route2">Route2</RouterLink>
          <div style="padding:5px 0px 2px; height:calc(var(--navbar-h) - 6px); width:100%">
             <div class="logo-container rounded-pill" style="height:100%; width:fit-content; margin:auto auto; padding: 2px 30px;">
                <a href="http://gigapiu.it/"><img class="img-fluid-y" src="common/images/logoGigapiu.transp.png" alt="GIGAPIU LOGO" /></a>
@@ -71,7 +67,7 @@
 
          <div class="bg-gigayellow" style="border: none; height:4px; width:100%; margin-top: 2px;"></div>
       </div>
-   
+
       <!-- APP BODY -->
       <div id="app-body" style="height:var(--appcontainer-h)">
          <!--template v-for="i in 2">
@@ -93,18 +89,22 @@
                </template>
             </div>
          </template-->
+
+         <!-- working with components -->
          <template v-for="(row, i) in CELLS_LAYOUT">
             <div class="main-row">
                <template v-for="(mKey, j) in row">
-                  <signal-cell v-if="false" class="main-col" :machine-name="signalCells[mKey].machineName" :signal-key="signalCells[mKey].signalKey">
+                  <signal-cell v-if="CELL_VIEW[i][j]" class="main-col" :machine-name="signalCells[mKey].machineName" :signal-key="signalCells[mKey].signalKey" :timer-length="signalCells[mKey].cd.timerLength" :remaining-ms="signalCells[mKey].cd.remainingMs" :end="signalCells[mKey].cd.end">
                      
                   </signal-cell>
-                  <admin-cell v-else class="main-col" :machine-name="signalCells[mKey].machineName" :signal-key="signalCells[mKey].signalKey" @action-button-click="sendToServery('event','cellButtonClick',{cellRow:i,cellCol:j,actionId:$event.actionId})">
+                  <admin-cell v-else class="main-col" :machine-name="signalCells[mKey].machineName" :signal-key="signalCells[mKey].signalKey" @action-button-click="sendToServery('event','cellButtonClick',{cellRow:i,cellCol:j,actionId:$event.actionId})" :timer-length="signalCells[mKey].cd.timerLength" :remaining-ms="signalCells[mKey].cd.remainingMs" :end="signalCells[mKey].cd.end">
                      
                   </admin-cell>
                </template>
             </div>
-         </template>
+         </template> <!-- -->
+         
+         <!--router-view style="border:solid 2px red"/-->
       </div>
       
       <!-- ######### END PAGE ########## -->
