@@ -213,6 +213,9 @@
    .action-box b-button {
 
    }
+   :root .btn-info:disabled{
+      background-color: gray;
+   }
    .pillicon-button {
       font-size:2vh;
       text-align:left;

@@ -337,20 +337,33 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
             headerText:"Linea "+app.machineName,
             //signalKey:app.initSignal,
             actionList:[
-               { id:"goToA2",extraAttr:{},variant:"danger",separateIconColor:"",buttonText:"Prendi in Carico", subButtonText:"in Carico", iconName:"bell-slash-fill", iconScale:"0.75", innerSpanHTML:""},
-               { id:"goToA3",extraAttr:{},variant:"warning",separateIconColor:"",buttonText:"Anticipa Avviamento", iconName:"alarm-fill", iconScale:"0.75", innerSpanHTML:"" },
-               { id:"goToE",extraAttr:{},variant:"success",separateIconColor:"",buttonText:"Segnala Completamento", subButtonText:"completato", iconName:"check-lg", iconScale:"0.9", innerSpanHTML:"" }
+               { id:"goToA2",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Prendi in Carico", subButtonText:"in Carico", iconName:"bell-slash-fill", iconScale:"0.75", innerSpanHTML:"", isDisabled:this.isActBtnDisabled("A2")},
+               { id:"goToA3",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Anticipa Avviamento", iconName:"alarm-fill", iconScale:"0.75", innerSpanHTML:"", isDisabled:"A3" < this.signalKey },
+               { id:"goToE",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Segnala Completamento", subButtonText:"completato", iconName:"check-lg", iconScale:"0.9", innerSpanHTML:"", isDisabled:"E" < this.signalKey }
             ]
          });}
    })(),
    methods:{
+      isActBtnDisabled(key){
+         return key < this.signalKey;
+      },
       actionClick(e, actionItemId){
          //var event = e.click ?? (()=>{console.warn("[iconpill-button][handleClick()] wrong event key. ignored."); for(let k in e) return e[k]; })()
          e.actionId = actionItemId;
          sendToServer("event","setCellSignal",{toSignalKey:"A2", machineName:this.$props.machineName})
          this.$emit("action-button-click",e);
       }
-   }
+   },
+   watch:(()=>{const inherited = retSignalCellObj().watch; return {
+      signalKey:{
+         handler: function (){
+            for(let btn of this.actionList )
+               btn.isDisabled = "goTo"+this.signalKey > btn.id;
+            return inherited.signalKey.handler.bind(this)();
+         },
+         immediate: false || inherited.signalKey.immediate,
+      }
+   }})()
 }));
 
 Vue.component("icon-pill-button",{
@@ -361,7 +374,7 @@ Vue.component("icon-pill-button",{
                   </b-icon></span>
             {{shownSubButtonText}}
          </b-button-->
-         <b-button pill block  :disabled="isDisabled" :variant="variant" class="pillicon-button" :class="{retracted:isRetracted}" @click="handleClick($event)" :style="{marginRight:buttonMarginRight}" >
+         <b-button pill block  :disabled="this.$props.isDisabled" :variant="variant" class="pillicon-button" :class="{retracted:isRetracted}" @click="handleClick($event)" :style="{marginRight:buttonMarginRight}" >
             <span class="pillicon-button-icon" v-bind:style="{color:iconColor}"><b-icon :scale="iconScale" :icon="iconName">
                </b-icon></span>
             <span v-if="innerSpanHTML" v-html="shownInnerSpanHTML" ></span>
@@ -378,6 +391,7 @@ Vue.component("icon-pill-button",{
       iconScale:String|Number,
       innerSpanHTML:String,
       isActive:Boolean,
+      isDisabled:{type:Boolean,default:false},
       subButtonText:{type:String,default:" "},
    },
    computed:{
@@ -392,7 +406,6 @@ Vue.component("icon-pill-button",{
    },
    data(){return {
          isRetracted:false,
-         isDisabled:false,
          isLoading:false,
 
          loadingHTML:`
@@ -456,7 +469,8 @@ const app = new Vue({
 
             CELLS_LAYOUT:CELLS_LAYOUT,
             MACHINE_CFGS:MACHINE_CFGS,
-            CELL_VIEW:CELL_VIEW,
+            CELLS_VIEW:CELLS_VIEW,
+            adminUI:[],
             //as {mKey:componetProps}
             signalCells:(function (){ //this doesn't get inited.. why?
                var obj={};
@@ -567,6 +581,11 @@ const app = new Vue({
 
             //refresh now and at 1s interval
             clearInterval(ctx.refreshIntv);
+            setupCountdownRefresher(ctx, onComplete);
+         },
+         /** expects ctx to contain ctx.end:number */
+         setupCountdownRefresher(ctx,onComplete=noOp){
+            this.clearCountdown(ctx);
             ctx.refreshIntv = setInterval(()=>{
                ctx.remainingMs = Math.max(0, ctx.end - Date.now());
                if(ctx.remainingMs <= 0){
@@ -575,7 +594,7 @@ const app = new Vue({
                }
             },1000);
          },
-         clearCountdown:function(ctx){
+         clearCountdown:function(ctx){ //#TODO 
             ctx.remainingMs=0;
             clearInterval(ctx.refreshIntv);
             delete ctx.refreshIntv;
@@ -686,17 +705,51 @@ const app = new Vue({
             console.warn("[typo prevention]: unhandled topic ",msg.topic,msg);
       })
 
-      uibuilder.onTopic("initApp",function(msg){
-         app.CELLS_LAYOUT = msg.cellsLayout;
-         app.MACHINE_CFGS = msg.config.machines;
-         for(let mKey in app.signalCells){
-            app.signalCells.timerLength = msg.signalCellsState.timerLength;
-            app.signalCells.timerLength = msg.signalCellsState.remainingMs;
-            app.signalCells.signalKey = msg.signalCellsState.signalKey;
+      //use setSingleCellState for all
+      uibuilder.onTopic("appInit",function(msg){
+         try{
+            let errCb = (attr,ret=undefined) => {console.error("missing attribute "+attr+" in onTopic(appInit) response", msg); return undefined};
+            app.CELLS_LAYOUT = msg.cellsLayout ?? errCb("cellsLayout");
+            try{ app.MACHINE_CFGS = msg.config.machines } catch(e) {errCb("config.machines")}; 
             
-         }
+            //set all signalCells from nr_signalCellState (same as onTopic(setSingleSignalCellState) )
+            {let cell,state; for(let macKey in msg.signalCells){
+               cell = app.$data.signalCells[macKey];
+               state = msg.signalCellsStates[macKey];
 
-         
+               cell.signalKey = state.signalKey ?? errCb("signalKey");
+               //if no timer-related data was sent or time's up
+                  //hide timer
+               if(!state.timerEnd || Date.now() > state.timerEnd){
+                  cell.cd.remainingMs = 0;
+                  console.log("cd hidden");
+                  app.clearCountdown(cell.cd);
+               }
+               else{
+                  cell.cd.timerLength = state.timerEnd - state.timerStart
+                  cell.cd.remainingMs = Math.max(0, state.timerEnd - Date.now());
+                  cell.cd.end = state.timerEnd;
+                  console.log("cd shown",cell);
+                  app.setupCountdownRefresher(cell.cd)
+               }
+            }}
+
+            //set CELL_VIEW from config.views[viewKey]
+            let viewKey = msg.viewKey;          if(!msg.config.views || !msg.config.views[viewKey]) throw new TypeError(`[onTopic initApp]: missing viewKey ${viewKey} from msg.config.views `);
+            let viewCfg = msg.config.views[viewKey]; //msg.config.views[viewKey];  
+               //check that all adminUI keys are macKeys
+            //if( !viewCfg.adminUI.every((function(){ let macKeys=app.CELLS_LAYOUT.flat(); return (val) => macKeys.include(val)})()) ) throw new TypeError(`[onTopic initApp]: ${viewCfg.adminUI[i]} is not a valid macKey. valid macKeys:${macKeys}`);//viewCfg.adminUI.forEach( (macKey) => {if(cellsLayout)})
+            //viewCfg.adminUI.forEach( macKey => app.CELL_VIEW[ CELLS_LAYOUT.indexOf(macKey) ] = true );
+            //app.CELL_VIEW.forEach( r,i,row => row.forEach( v,i => app.CELL_VIEW[r][i]=2 ));
+            app.CELLS_LAYOUT.forEach( (row, r) => 
+               row.forEach( (macKey,c) => app.CELLS_VIEW[r][c] = viewCfg.adminUI.includes(macKey) ));
+            app.adminUI = viewCfg.adminUI;
+         }
+         catch(e){
+            if(e instanceof TypeError) console.error(e.message);
+            else throw e;
+         }
+         console.info("[initApp]: inited with",msg," to ",app.CELLS_LAYOUT,app.CELLS_VIEW)
       });
 
 
@@ -760,8 +813,9 @@ const app = new Vue({
          else{
             cell.cd.timerLength = msg.fromSignalCellState.timerEnd - msg.fromSignalCellState.timerStart
             cell.cd.remainingMs = Math.max(0, msg.fromSignalCellState.timerEnd - Date.now());
+            cell.cd.end = msg.fromSignalCellState.timerEnd;
             console.log("cd shown",cell);
-            app.startCountdown(cell.cd, cell.cd.remainingMs)
+            app.setupCountdownRefresher(cell.cd)
          }
 
 

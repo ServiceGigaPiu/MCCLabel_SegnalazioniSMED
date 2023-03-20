@@ -159,7 +159,7 @@
 
    const CELLS = new Array(NROWS); for(let r=0; r<CELLS.length; r++) CELLS[r] = new Array(NCOLS);
    
-   const CELL_VIEW=[
+   const CELLS_VIEW=[
       [0,0,0,0],
       [1,0,1,1]
    ]
