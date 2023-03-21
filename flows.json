@@ -56,6 +56,14 @@
         "env": []
     },
     {
+        "id": "520bb4ac551bd04e",
+        "type": "tab",
+        "label": "config page",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "04b1005a90c8a3c5",
         "type": "group",
         "z": "bdc10eb0bfc2c224",
@@ -85,76 +93,6 @@
         "y": 3289,
         "w": 1142,
         "h": 438
-    },
-    {
-        "id": "da77e7609f045ab9",
-        "type": "group",
-        "z": "c1d4418a6f1f1693",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "168519c137046930",
-            "f1103d4e21a73fdc",
-            "5857ac58e83b5a22",
-            "99f290d09a2d605c",
-            "3da7bb8fa229a82f",
-            "11103fa07a72872e",
-            "905242d162db1caf",
-            "3e316755168c06f6",
-            "cfefef80e9b194d1",
-            "fcf4dd1dc8f9d063",
-            "e94bbfdfafbd2c8d",
-            "e93ee763df9c6153",
-            "05155140ca77bf61",
-            "d20bfd7ca3a2b214",
-            "a6557d27a4ccccf0",
-            "9bc9b1bd765143ca",
-            "1b762b6676faa61a",
-            "f4917f08c9c0b1a1",
-            "372526d485ca01db",
-            "b9f8339f0bddcb39"
-        ],
-        "x": 74,
-        "y": 2234,
-        "w": 1012,
-        "h": 342
-    },
-    {
-        "id": "2cf1ebc3c7549361",
-        "type": "group",
-        "z": "c1d4418a6f1f1693",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "1139a9eb6fcaa7a1",
-            "77c107f0b5ae5214",
-            "6b21ca10d112452a",
-            "8e489dedabd31f4f",
-            "0b9842e3937bb61a",
-            "ba73114a49b89f60",
-            "3797e914cd36dd8a",
-            "316bce5bb99571f1",
-            "e4b56d5c220355cd",
-            "a4d6f2321520f0f5"
-        ],
-        "x": 84,
-        "y": 1904,
-        "w": 932,
-        "h": 282
     },
     {
         "id": "5f741e9d0e05f1e2",
@@ -202,7 +140,7 @@
             "5f94d8c13f129154",
             "734a6280c896ee84"
         ],
-        "x": 64,
+        "x": 74,
         "y": 229,
         "w": 1307,
         "h": 457
@@ -229,9 +167,7 @@
             "f25308f6b79bce5d"
         ],
         "x": 89,
-        "y": 1759,
-        "w": 512,
-        "h": 232
+        "y": 1759
     },
     {
         "id": "042f83e60bf4b2b4",
@@ -539,9 +475,7 @@
             "05085880d56d9d9b"
         ],
         "x": 494,
-        "y": 63,
-        "w": 808,
-        "h": 449
+        "y": 63
     },
     {
         "id": "2bbbe4dc6cfeb097",
@@ -564,9 +498,7 @@
             "aa40c2fd63e42b3c"
         ],
         "x": 34,
-        "y": 49,
-        "w": 422,
-        "h": 172
+        "y": 49
     },
     {
         "id": "015cd5895c17da64",
@@ -597,31 +529,7 @@
             "c6691944eaed7410"
         ],
         "x": 34,
-        "y": 529,
-        "w": 1222,
-        "h": 348
-    },
-    {
-        "id": "6296d8244a1eb427",
-        "type": "group",
-        "z": "c1d4418a6f1f1693",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "5d895375edc5f905",
-            "f8e2ce4e4480269d"
-        ],
-        "x": 484,
-        "y": 1729,
-        "w": 202,
-        "h": 82
+        "y": 529
     },
     {
         "id": "3c0c9289bca3df95",
@@ -668,9 +576,9 @@
             "24b71bc281409a22",
             "da3e31cb0af2a871"
         ],
-        "x": 64,
+        "x": 54,
         "y": 559,
-        "w": 1017,
+        "w": 1027,
         "h": 292
     },
     {
@@ -744,9 +652,7 @@
             "1da30b125f7694b3"
         ],
         "x": 99,
-        "y": 2119,
-        "w": 792,
-        "h": 252
+        "y": 2119
     },
     {
         "id": "478c85d69cf2eb8c",
@@ -772,9 +678,7 @@
             "5e3e280c0613ac32"
         ],
         "x": 79,
-        "y": 109,
-        "w": 847,
-        "h": 202
+        "y": 109
     },
     {
         "id": "abf36b9570f058cc",
@@ -798,9 +702,7 @@
             "eb0d22efa4a344c0"
         ],
         "x": 79,
-        "y": 874,
-        "w": 1278,
-        "h": 554
+        "y": 874
     },
     {
         "id": "bdb77fbf338dd270",
@@ -862,9 +764,7 @@
             "b5b49efa8368a832"
         ],
         "x": 124,
-        "y": 64,
-        "w": 592,
-        "h": 172
+        "y": 64
     },
     {
         "id": "ae9407dc27fc42e6",
@@ -903,9 +803,7 @@
             "360f32459e430863"
         ],
         "x": 94,
-        "y": 304,
-        "w": 1483,
-        "h": 663
+        "y": 304
     },
     {
         "id": "a26408bd8d16deca",
@@ -929,12 +827,14 @@
             "f3ab7ffd9e6e8fc2",
             "a78e59d02fd0d490",
             "182defca8c0e3554",
-            "5c1ba7695a881562"
+            "5c1ba7695a881562",
+            "1504136a4d0bb201",
+            "3320f38a9a46c264"
         ],
-        "x": 84,
-        "y": 1279,
+        "x": 74,
+        "y": 1234,
         "w": 1028,
-        "h": 258
+        "h": 303
     },
     {
         "id": "9bc629dadf51c057",
@@ -1024,9 +924,9 @@
             "ec19ad21051125fc",
             "850adb4a2c8b2b3f"
         ],
-        "x": 62,
+        "x": 54,
         "y": 934,
-        "w": 1670,
+        "w": 1678,
         "h": 678
     },
     {
@@ -1064,7 +964,7 @@
         ],
         "x": 99,
         "y": 1714,
-        "w": 1542,
+        "w": 1552,
         "h": 262
     },
     {
@@ -1090,7 +990,7 @@
         ],
         "x": 1424,
         "y": 889,
-        "w": 337,
+        "w": 347,
         "h": 202
     },
     {
@@ -1115,7 +1015,7 @@
         ],
         "x": 1154,
         "y": 1369,
-        "w": 277,
+        "w": 287,
         "h": 172
     },
     {
@@ -1140,13 +1040,14 @@
         ],
         "x": 1403,
         "y": 244,
-        "w": 843,
+        "w": 853,
         "h": 408
     },
     {
         "id": "14eeda19a6a7072a",
         "type": "group",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -1162,33 +1063,9 @@
             "eed9d3aa846e26f9",
             "03890e35a75d43ef"
         ],
-        "x": 804,
-        "y": 2134,
+        "x": 809,
+        "y": 2179,
         "w": 577,
-        "h": 82
-    },
-    {
-        "id": "d5eb1a41a9c67896",
-        "type": "group",
-        "z": "bdc10eb0bfc2c224",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "dd20009116ca100b",
-            "fb95b4d0741d8db8",
-            "185fc4dc4d7ebafc",
-            "f0c22b02c475661f"
-        ],
-        "x": 124,
-        "y": 2134,
-        "w": 597,
         "h": 82
     },
     {
@@ -1214,9 +1091,7 @@
             "74bd2959d62a29c6"
         ],
         "x": 1469,
-        "y": 499,
-        "w": 847,
-        "h": 187
+        "y": 499
     },
     {
         "id": "6aa375e2e3177ccc",
@@ -1253,14 +1128,13 @@
             "75ef4d5b0e672f1e"
         ],
         "x": 59,
-        "y": 364,
-        "w": 1347,
-        "h": 337
+        "y": 364
     },
     {
         "id": "fe28fb7cb365d682",
         "type": "group",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -1275,8 +1149,8 @@
             "afee83b9c6a3f479",
             "ba60486beccc9f83"
         ],
-        "x": 814,
-        "y": 2044,
+        "x": 819,
+        "y": 2089,
         "w": 322,
         "h": 82
     },
@@ -1307,9 +1181,7 @@
             "22f3a9e34e5ab24e"
         ],
         "x": 694,
-        "y": 1609,
-        "w": 802,
-        "h": 322
+        "y": 1609
     },
     {
         "id": "f3bee686c5a79e51",
@@ -1334,7 +1206,7 @@
         ],
         "x": 1429,
         "y": 454,
-        "w": 277,
+        "w": 287,
         "h": 172
     },
     {
@@ -1355,9 +1227,9 @@
             "425ba106b1db7004",
             "8aba5c7204608b4a"
         ],
-        "x": 849,
+        "x": 829,
         "y": 1429,
-        "w": 237,
+        "w": 247,
         "h": 82
     },
     {
@@ -1387,9 +1259,7 @@
             "c7a39dea36551f43"
         ],
         "x": 109,
-        "y": 979,
-        "w": 1222,
-        "h": 172
+        "y": 979
     },
     {
         "id": "5c240797a607a72e",
@@ -1438,34 +1308,10 @@
             "8615db9870d9365b",
             "812eb6cf9a5a2c7a"
         ],
-        "x": 344,
-        "y": 3394,
-        "w": 267,
-        "h": 112
-    },
-    {
-        "id": "e4b56d5c220355cd",
-        "type": "group",
-        "z": "c1d4418a6f1f1693",
-        "g": "2cf1ebc3c7549361",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "7a0bd75fedb9f8d1",
-            "cae2260813cda61f",
-            "28569d65c3243a38"
-        ],
         "x": 334,
-        "y": 1984,
-        "w": 312,
-        "h": 82
+        "y": 3394,
+        "w": 277,
+        "h": 112
     },
     {
         "id": "e02b6f382a6c8813",
@@ -1736,9 +1582,7 @@
             "d577904798f15058"
         ],
         "x": 524,
-        "y": 364,
-        "w": 752,
-        "h": 122
+        "y": 364
     },
     {
         "id": "d07dfb333aed56ce",
@@ -1762,9 +1606,7 @@
             "4e11b2f45a32813c"
         ],
         "x": 884,
-        "y": 89,
-        "w": 272,
-        "h": 162
+        "y": 89
     },
     {
         "id": "c6691944eaed7410",
@@ -1791,9 +1633,7 @@
             "e60338ef13bfc039"
         ],
         "x": 254,
-        "y": 729,
-        "w": 972,
-        "h": 122
+        "y": 729
     },
     {
         "id": "da3e31cb0af2a871",
@@ -1862,9 +1702,7 @@
             "7d42b16fe52425fd"
         ],
         "x": 318,
-        "y": 1174,
-        "w": 714,
-        "h": 228
+        "y": 1174
     },
     {
         "id": "b99d3df5ef07d131",
@@ -1895,9 +1733,7 @@
             "be6cdfc7a6f5fa2c"
         ],
         "x": 139,
-        "y": 709,
-        "w": 827,
-        "h": 232
+        "y": 709
     },
     {
         "id": "b42e082536c528eb",
@@ -1924,9 +1760,7 @@
             "ea8a17ead36a0d69"
         ],
         "x": 639,
-        "y": 484,
-        "w": 462,
-        "h": 202
+        "y": 484
     },
     {
         "id": "3562e00f4ed04fb9",
@@ -1950,9 +1784,7 @@
             "a62e3a70e91d913b"
         ],
         "x": 849,
-        "y": 334,
-        "w": 357,
-        "h": 142
+        "y": 334
     },
     {
         "id": "51320eb4ac48f6d8",
@@ -1976,9 +1808,7 @@
             "1e1402bb46babf61"
         ],
         "x": 1219,
-        "y": 364,
-        "w": 332,
-        "h": 172
+        "y": 364
     },
     {
         "id": "ec19ad21051125fc",
@@ -2148,9 +1978,7 @@
             "8592536a56dff0ec"
         ],
         "x": 484,
-        "y": 1039,
-        "w": 227,
-        "h": 82
+        "y": 1039
     },
     {
         "id": "7d42b16fe52425fd",
@@ -2175,9 +2003,7 @@
             "533fe7d0158198e3"
         ],
         "x": 344,
-        "y": 1249,
-        "w": 662,
-        "h": 127
+        "y": 1249
     },
     {
         "id": "c4073df7edfaef3f",
@@ -2227,6 +2053,146 @@
         "y": 1414,
         "w": 392,
         "h": 112
+    },
+    {
+        "id": "0459e2a074258c5a",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b7f354ce82204d9c",
+            "f0c22b02c475661f",
+            "fb95b4d0741d8db8",
+            "dd20009116ca100b",
+            "185fc4dc4d7ebafc",
+            "4d56894252d94c10"
+        ],
+        "x": 114,
+        "y": 2134,
+        "w": 637,
+        "h": 127
+    },
+    {
+        "id": "14b96f87412544c1",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "fbec45079c82c4f6",
+            "cb87a1179601d7b8",
+            "2f1fbbf63057cd82",
+            "f4db294021a89fbf",
+            "84eb44d8938c031b",
+            "c41f4b62a37e0c5a",
+            "cfbba0824276973c",
+            "21a7e4d7b331c67e",
+            "544b15cb3575e299",
+            "8535fcf6403fa45e",
+            "41b676d5ef990a3e",
+            "06c77a7347c932b1",
+            "9467330a7dcfcb9f",
+            "f36ff7fcef01055e",
+            "ab8ca08ba9111f30",
+            "1531adcffdaf7a6b",
+            "c4f475eadc34f078",
+            "f838580e2844b4dd",
+            "c9050cb334d984e8",
+            "0ab9b611389e52b7",
+            "079b24bde6bc7913",
+            "10f77208037dab67",
+            "a0da01db3cddd017",
+            "dfa8cdb9bed3539c",
+            "ea5a84d58454a07e",
+            "6d4bfaadae660075",
+            "f416b5ea2464b4c0",
+            "534b0771447b37e9",
+            "d700156b08ed999b",
+            "2473f05cfebcb6eb",
+            "6a9506e901b63554",
+            "2c9f603eb53ec7c7",
+            "6b16add2d6b04682",
+            "d1f763dae798b9a3",
+            "646a32288f144f73",
+            "51a3daed646e5627",
+            "d18f0a4219d2313a",
+            "111059d7a7373219",
+            "5df722be84205e46",
+            "422c0e4e8c964482",
+            "c3df1f96c4ccd8d6",
+            "e53706c8bd9aadf5",
+            "b12c9185cc37664b",
+            "1b879dfc02869b3a",
+            "5a06c1baf2210989",
+            "4a15af8df8c577ea",
+            "9a51ee5d15da287d",
+            "c091b1c1e75df617",
+            "223dfe7f51e5c702",
+            "4bf699bb76b64d11",
+            "51ccbb885d329fc3",
+            "7f3892b70e89d932",
+            "9002b5da933a2cf0",
+            "e07363a0c58b13e0",
+            "a984ae5f89c982aa",
+            "be30f8352908de40",
+            "9b8b41e6232af923",
+            "6c7b45a7a15ce7ca",
+            "19df9e22435f0986",
+            "647f4fe681027b71",
+            "7e254c27479ac8aa",
+            "eba758ecf77571c1",
+            "d7a2c75afa019028",
+            "9250c631a78ab33a",
+            "ba11515a04cebd32",
+            "6f13a43d49cbb006",
+            "590b85c6d709bc3a",
+            "76bd5f8638bf1573",
+            "0e0aa465724c5b30",
+            "bd11511613590ced",
+            "7e325d321fc3cadb",
+            "fb7ec45bd3369999",
+            "df92ee35c74f4455",
+            "47b607147dd37f73",
+            "de15a8e34e10e6de",
+            "e61d6852cebd5731",
+            "2c3cc994eb8f94aa",
+            "84f861f523724022",
+            "cc301d51052bf1ea",
+            "71050fa128ba0470",
+            "0c672d18a9ee0d9d",
+            "749c5b1f3c10cf66",
+            "b936e4a9ee71f492",
+            "a7135869c6f11da0",
+            "b8a75ac233598814",
+            "3d4f9e766470653e",
+            "23db80ed422b9759",
+            "24c8d29178389a35",
+            "69720d01f23fd641",
+            "dd7c1b4a3c0a9b85",
+            "14eeda19a6a7072a",
+            "fe28fb7cb365d682",
+            "0459e2a074258c5a"
+        ],
+        "x": 84,
+        "y": 2059,
+        "w": 1502,
+        "h": 1102
     },
     {
         "id": "f9afb515793290aa",
@@ -2284,7 +2250,7 @@
         "stateLogEnabled": false,
         "queueLogEnabled": false,
         "failureLogEnabled": true,
-        "tcpHost": "192.168.19.101",
+        "tcpHost": "192.168.19.121",
         "tcpPort": "502",
         "tcpType": "DEFAULT",
         "serialPort": "/dev/ttyUSB",
@@ -2295,7 +2261,7 @@
         "serialParity": "none",
         "serialConnectionDelay": "100",
         "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": "1",
+        "unit_id": "248",
         "commandDelay": "100",
         "clientTimeout": "2000",
         "reconnectOnTimeout": true,
@@ -2427,7 +2393,7 @@
         "serialParity": "none",
         "serialConnectionDelay": "100",
         "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": "1",
+        "unit_id": "248",
         "commandDelay": "1",
         "clientTimeout": "1000",
         "reconnectOnTimeout": true,
@@ -2472,6 +2438,17 @@
         "order": 4,
         "disp": true,
         "width": "8",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "fe94e4442a39f9be",
+        "type": "ui_group",
+        "name": "condivise",
+        "tab": "f762493b17cce110",
+        "order": 1,
+        "disp": true,
+        "width": "6",
         "collapse": true,
         "className": ""
     },
@@ -2967,7 +2944,7 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "/* interfaccia per la lettura ed il controllo delle colonnine \n    esempio: signal.FA423.greenLight = true/false\n\n    template finale\n    \n    {\n        /** holds allowed keys as <string>[] //also used for validation purposes on towersControl definition\n         * - {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app.\n         * - {String[]} devices devices that may be associated with each towersBitArray bit * /\n        \"dictionary\":dictionary,\n        /* indexes on the plc * /\n        \"posOf\":posOf,\n        /** array of bits, represented by Bool\n         * - values should be set through towersControl[\"FA22\"].redLight = truthy|falsy\n        * /\n        \"towersBitArray\":(()=>{\n            let len=16; let arr=new Array(len);\n            for(let i=0; i<len;i++) arr[i]=0;\n            return arr\n        })(),\n        \"macHasDevice\": function (macKey, devKey) { return this.posOf[macKey][devKey] !== null }\n        /* \n        \"macKey\":{\n            \"linkedDeviceKey\": truthy|falsy,\n            \"linkedDeviceKey\": truthy|falsy,\n            ..\n        },\n        ..\n        * / \n    }\n*/\n\n/** error logging function */\nfunction onUnconfigKeySet(key, macKey) {\n    node.warn({\n        err: \"[towersControl] trying to set() an unconfigured bit.\",\n        key: key,\n        macKey: macKey\n    });\n}\nfunction onUnconfigKeyGet(key, macKey) {\n    node.warn({\n        err: \"[towersControl] trying to get() an unconfigured bit.\",\n        key: key,\n        macKey: macKey\n    });\n}\n//also used for initial validation\nconst dictionary= {\n    /** {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app. */\n    macKeys: [\"FA419\", \"FA420\", \"FA421\", \"FA422\", \"FA423\", \"MO41\", \"MO42\",\"OMET\"],\n    /**  {String[]} devices devices that may be associated with each towersBitArray bit*/\n    devices: [\"redLight\", \"greenLight\", \"horn\"],\n};\n/** index of various devices on towersBitArray */\nconst posOf = {\n    \"FA423\": {\n        \"redLight\": 0,\n        \"greenLight\": 1,\n        \"horn\": 2\n    },\n    \"FA420\": {\n        \"redLight\": 3,\n        \"greenLight\": 4,\n        \"horn\": 5\n    },\n    \"FA421\": {\n        \"redLight\": 6,\n        \"greenLight\": 7,\n        //set \"horn\"(val) { onUnconfigKey(\"horn\",\"FA419\") }\n        \"horn\": null, \n        },\n    \"FA419\": {\n        \"redLight\": 8,\n        \"greenLight\": 9,\n        \"horn\": 10\n    },\n    \"OMET\": {\n        \"redLight\": 11,\n        \"greenLight\": 12,\n        //\"horn\": null, \n        },\n    \"FA422\": {\n        \"redLight\": 13,\n        \"greenLight\": 14,\n        \"horn\": null, \n        }\n};\n\n//validate syntax\n    //posOf keys are macKeys\n    //posOf[macKey] keys are \"redLight\" | \"greenLight\" | \"horn\"\nfor (let macKey in posOf){\n    if (!dictionary.macKeys.includes(macKey))\n        console.warn(\"[towersControl] Syntax Validation Error: unknown macKey \" + macKey + \" in posOf{}. typo?\");\n    for (let linkedDeviceKey in posOf[macKey]){\n        if(!dictionary.devices.includes(linkedDeviceKey))\n            console.warn(\"[towersControl] Syntax Validation Error: unknown macKey \" + macKey + \" in posOf{}. typo?\");\n    }\n}\n\n//towersControl\nvar obj = {\n    /** holds allowed keys as <string>[] //also used for validation purposes on towersControl definition\n     * - {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app.\n     * - {String[]} devices devices that may be associated with each towersBitArray bit */\n    \"dictionary\":dictionary,\n    /* indexes on the plc */\n    \"posOf\":posOf,\n    /** array of bits, represented by Bool\n     * - values should be set through towersControl[\"FA22\"].redLight = truthy|falsy\n    */\n    \"towersBitArray\":(()=>{\n        let len=16; let arr=new Array(len);\n        for(let i=0; i<len;i++) arr[i]=0;\n        return arr\n    })(),\n    \"macHasDevice\": function (macKey, devKey) { return this.posOf[macKey][devKey] !== null }\n    /* \n    \"macKey\":{\n        \"linkedDeviceKey\": truthy|falsy,\n        \"linkedDeviceKey\": truthy|falsy,\n        ..\n    },\n    ..\n    */ \n}\n\n\n//complete towersControl\n    //adds a setter and getter for each macKey and linkedDeviceKey\n        //they will modify the corresponding towersBitArray's pos instead of themselves.\n        //setters convert the value to either 0 or 1. //not true/false for easier math and conversions\n    //setters&getters paired with unconfigured devices (posOf[][]===null) will be NOT ENUMERABLE and log a warning\n    //adds a NOT ENUMERABLE hasDevice() function, which aliases macHasDevice()\nfor (let macKey of dictionary.macKeys) {\n    obj[macKey] = {};\n    Object.defineProperty(obj[macKey], \"hasDevice\", {\n        value:obj.macHasDevice.bind(obj, macKey)\n    });\n    for (let linkedDeviceKey in posOf[macKey]) {\n        //node.warn(\"setting \"+macKey+ \" \"+linkedDeviceKey)\n        Object.defineProperty(obj[macKey], linkedDeviceKey, {\n            //if bit is registered (typeof posof[][] == \"number\") <=> !== null && >=0\n            set(val){\n                let idx = obj.posOf[macKey][linkedDeviceKey];\n                if(idx !== null && idx!==undefined)\n                    obj.towersBitArray[idx] = ( val ? 1 : 0);\n                else\n                    onUnconfigKeySet(macKey,linkedDeviceKey);\n            },\n            get() {\n                let idx = obj.posOf[macKey][linkedDeviceKey];\n                if (idx !== null && idx !== undefined)\n                    return obj.towersBitArray[obj.posOf[macKey][linkedDeviceKey]]\n                else{\n                    onUnconfigKeyGet(macKey, linkedDeviceKey);\n                    return undefined;\n                }\n            },\n            enumerable: obj.macHasDevice(macKey, linkedDeviceKey)\n        })\n    }\n}\n\n/*\n//complete posOf\n    //attach to each null key an error-logging function\n    //--EDIT--allow for posOf calls on missing one\nfor (let macKey in posOf) {\n    for (let linkedDeviceKey in posOf[macKey]) {\n        if (posOf[macKey][linkedDeviceKey] === null) {\n            Object.defineProperty(posOf[macKey], linkedDeviceKey, {\n                set(val) {\n                    onUnconfigKeySet(linkedDeviceKey, macKey)\n                },\n                get() {\n                    onUnconfigKeyGet(linkedDeviceKey, macKey);\n                    return null;\n                }\n            });\n        }\n    }\n}\n*/\n\nglobal.set(\"towersControl\", obj);\nglobal.set(\"towersBitArray\", global.get(\"towersControl\").towersBitArray)\nnode.send(obj);\nnode.status({ fill: \"green\", text: Object.keys(obj).join(' & ') });\n\n\n/*** TESTS ***\n\nconst sleep = ms => new Promise(r => setTimeout(r, ms));\nfunction bitArrToString(arr){\n    var str=\"\";\n    for(let i=0; i<arr.length; i++){\n        if(i%4==0)\n            str+=\"|\"\n        str+=parseInt(arr[i])+\",\";\n    }\n    return str;\n}\n\n//raise 1 bit at a time, try to raise unset devices\nconst mkList = [\"FA423\", \"FA420\", \"FA421\", \"FA419\", \"OMET\", \"FA422\"]\nfor (let mKey of mkList) {\n    node.warn(\"over \" + mKey)\n    signal[mKey].redLight = 1;\n    node.warn(bitArrToString(sBA));\n    signal[mKey].redLight = 0;\n\n    signal[mKey].greenLight = 1;\n    node.warn(bitArrToString(sBA));\n    signal[mKey].greenLight = 0;\n\n    //this should sometime throw warnings\n    signal[mKey].horn = 1;\n    node.warn(bitArrToString(sBA));\n    signal[mKey].horn = 0;\n\n\n}\n*/\n",
+        "initialize": "/* interfaccia per la lettura ed il controllo delle colonnine \n    esempio: signal.FA423.greenLight = true/false\n\n    template finale\n    \n    {\n        /** holds allowed keys as <string>[] //also used for validation purposes on towersControl definition\n         * - {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app.\n         * - {String[]} devices devices that may be associated with each towersBitArray bit * /\n        \"dictionary\":{\n            \"macKeys\" : macKey[]\n            \"devices\" : device[]\n        },\n\n        /* pairs devices with the corresponding bit index to use in the modbus  queries\n            example: posOf[macKey][device]:number *  /\n        \"posOf\":{\n            {macKey}:{\n                {device}: 0 < number < 2^n //bit index\n            }\n        },\n\n        /** array of bits, represented by Bool\n         * - values should be set through towersControl[\"FA22\"].redLight = truthy|falsy\n        * /\n        \"towersBitArray\":(()=>{\n            let len=16; let arr=new Array(len);\n            for(let i=0; i<len;i++) arr[i]=0;\n            return arr\n        })(),\n\n        \"macHasDevice\": function (macKey, devKey) { return this.posOf[macKey][devKey] !== null }\n        /* \n        \"macKey\":{\n            \"linkedDeviceKey\": truthy|falsy,\n            \"linkedDeviceKey\": truthy|falsy,\n            ..\n        },\n        ..\n        * / \n    }\n*/\n\n/** error logging function */\nfunction onUnconfigKeySet(key, macKey) {\n    node.warn({\n        err: \"[towersControl] trying to set() an unconfigured bit.\",\n        key: key,\n        macKey: macKey\n    });\n}\nfunction onUnconfigKeyGet(key, macKey) {\n    node.warn({\n        err: \"[towersControl] trying to get() an unconfigured bit.\",\n        key: key,\n        macKey: macKey\n    });\n}\n//also used for initial validation\nconst dictionary= {\n    /** {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app. */\n    macKeys: [\"FA419\", \"FA420\", \"FA421\", \"FA422\", \"FA423\", \"MO41\", \"MO42\",\"OMET\"],\n    /**  {String[]} devices devices that may be associated with each towersBitArray bit*/\n    devices: [\"redLight\", \"greenLight\", \"horn\"],\n};\n/** index of various devices on towersBitArray. */\nconst posOf = {\n    \"FA423\": {\n        \"redLight\": 0,\n        \"greenLight\": 1,\n        \"horn\": 2\n    },\n    \"FA420\": {\n        \"redLight\": 3,\n        \"greenLight\": 4,\n        \"horn\": 5\n    },\n    \"FA421\": {\n        \"redLight\": 6,\n        \"greenLight\": 7,\n        //set \"horn\"(val) { onUnconfigKey(\"horn\",\"FA419\") }\n        \"horn\": null, \n        },\n    \"FA419\": {\n        \"redLight\": 8,\n        \"greenLight\": 9,\n        \"horn\": 10\n    },\n    \"OMET\": {\n        \"redLight\": 11,\n        \"greenLight\": 12,\n        //\"horn\": null, \n        },\n    \"FA422\": {\n        \"redLight\": 13,\n        \"greenLight\": 14,\n        \"horn\": null, \n        }\n};\nconst NBITS = 16; //length of towersBitArray\n\n//validate posOf syntax\n    //posOf keys are macKeys\n    //posOf[macKey] keys are \"redLight\" | \"greenLight\" | \"horn\"\nfor (let macKey in posOf){\n    if (!dictionary.macKeys.includes(macKey))\n        console.warn(\"[towersControl] Syntax Validation Error: unknown macKey \" + macKey + \" in posOf{}. typo?\");\n    for (let linkedDeviceKey in posOf[macKey]){\n        if(!dictionary.devices.includes(linkedDeviceKey))\n            console.warn(\"[towersControl] Syntax Validation Error: unknown macKey \" + macKey + \" in posOf{}. typo?\");\n    }\n}\n\n//towersControl\nvar obj = {\n    /** holds allowed keys as <string>[] //also used for validation purposes on towersControl definition\n     * - {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app.\n     * - {String[]} devices devices that may be associated with each towersBitArray bit */\n    \"dictionary\":dictionary,\n    /* indexes on the plc */\n    \"posOf\":posOf,\n    /** array of bits, represented by Bool\n     * - values should be set through towersControl[\"FA22\"].redLight = truthy|falsy\n    */\n    \"towersBitArray\":new Array(16).fill(0),\n    \"macHasDevice\": function (macKey, devKey) { return this.posOf[macKey][devKey] !== null }\n    /* \n    \"macKey\":{\n        \"linkedDeviceKey\": truthy|falsy,\n        \"linkedDeviceKey\": truthy|falsy,\n        ..\n    },\n    ..\n    */ \n}\n\n\n//complete towersControl\n    //adds a setter and getter for each macKey and linkedDeviceKey\n        //they will modify the corresponding towersBitArray's pos instead of themselves.\n        //setters convert the value to either 0 or 1. //not true/false for easier math and conversions\n    //setters&getters paired with unconfigured devices (posOf[][]===null) will be NOT ENUMERABLE and log a warning\n    //adds a NOT ENUMERABLE hasDevice() function, which aliases macHasDevice()\nfor (let macKey of dictionary.macKeys) {\n    obj[macKey] = {};\n    Object.defineProperty(obj[macKey], \"hasDevice\", {\n        value:obj.macHasDevice.bind(obj, macKey)\n    });\n    for (let linkedDeviceKey in posOf[macKey]) {\n        //node.warn(\"setting \"+macKey+ \" \"+linkedDeviceKey)\n        Object.defineProperty(obj[macKey], linkedDeviceKey, {\n            //if bit is registered (typeof posof[][] == \"number\") <=> !== null && >=0\n            set(val){\n                let idx = obj.posOf[macKey][linkedDeviceKey];\n                if(idx !== null && idx!==undefined)\n                    obj.towersBitArray[idx] = ( val ? 1 : 0);\n                else\n                    onUnconfigKeySet(macKey,linkedDeviceKey);\n            },\n            get() {\n                let idx = obj.posOf[macKey][linkedDeviceKey];\n                if (idx !== null && idx !== undefined)\n                    return obj.towersBitArray[obj.posOf[macKey][linkedDeviceKey]]\n                else{\n                    onUnconfigKeyGet(macKey, linkedDeviceKey);\n                    return undefined;\n                }\n            },\n            enumerable: obj.macHasDevice(macKey, linkedDeviceKey)\n        })\n    }\n}\n\n//validate towersBitArray syntax\n\n/*\n//complete posOf\n    //attach to each null key an error-logging function\n    //--EDIT--allow for posOf calls on missing one\nfor (let macKey in posOf) {\n    for (let linkedDeviceKey in posOf[macKey]) {\n        if (posOf[macKey][linkedDeviceKey] === null) {\n            Object.defineProperty(posOf[macKey], linkedDeviceKey, {\n                set(val) {\n                    onUnconfigKeySet(linkedDeviceKey, macKey)\n                },\n                get() {\n                    onUnconfigKeyGet(linkedDeviceKey, macKey);\n                    return null;\n                }\n            });\n        }\n    }\n}\n*/\n\nglobal.set(\"towersControl\", obj);\nglobal.set(\"towersBitArray\", global.get(\"towersControl\").towersBitArray)\nnode.send(obj);\nnode.status({ fill: \"green\", text: Object.keys(obj).join(' & ') });\n\n\n/*** TESTS ***\n\nconst sleep = ms => new Promise(r => setTimeout(r, ms));\nfunction bitArrToString(arr){\n    var str=\"\";\n    for(let i=0; i<arr.length; i++){\n        if(i%4==0)\n            str+=\"|\"\n        str+=parseInt(arr[i])+\",\";\n    }\n    return str;\n}\n\n//raise 1 bit at a time, try to raise unset devices\nconst mkList = [\"FA423\", \"FA420\", \"FA421\", \"FA419\", \"OMET\", \"FA422\"]\nfor (let mKey of mkList) {\n    node.warn(\"over \" + mKey)\n    signal[mKey].redLight = 1;\n    node.warn(bitArrToString(sBA));\n    signal[mKey].redLight = 0;\n\n    signal[mKey].greenLight = 1;\n    node.warn(bitArrToString(sBA));\n    signal[mKey].greenLight = 0;\n\n    //this should sometime throw warnings\n    signal[mKey].horn = 1;\n    node.warn(bitArrToString(sBA));\n    signal[mKey].horn = 0;\n\n\n}\n*/\n",
         "finalize": "",
         "libs": [],
         "x": 275,
@@ -3287,7 +3264,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "850adb4a2c8b2b3f",
         "name": "sendQuery 40020:4x8",
-        "func": "/*  global.plc:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\nlet plc = global.get(\"plc\");\n\n\nreturn plc.readFrom(20,1);",
+        "func": "/*  global.plc:\n    \"from\": function (address = 0, quantity = 2) -> msg -> number[quant] & Buffer[2*quant == nByte]\n    \"between\": function (from, to, sequenceName = \"\") -> msg -> number[quant] & Buffer[2*quant == nByte]\n    \"readCoil\": function (address, nByte ) -> msg -> Boolean[8*nByte] & Buffer[nByte]\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\nlet plc = global.get(\"plc\");\n\nreturn plc.readCoil(0, 4);",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3412,6 +3389,7 @@
         "id": "fbec45079c82c4f6",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "action",
         "property": "action",
         "propertyType": "msg",
@@ -3468,8 +3446,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 10,
-        "x": 380,
-        "y": 2505,
+        "x": 385,
+        "y": 2550,
         "wires": [
             [
                 "cb87a1179601d7b8"
@@ -3508,6 +3486,7 @@
         "id": "cb87a1179601d7b8",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "setA1",
         "property": "payload",
         "propertyType": "msg",
@@ -3519,8 +3498,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 675,
-        "y": 2250,
+        "x": 680,
+        "y": 2295,
         "wires": [
             [
                 "2f1fbbf63057cd82",
@@ -3535,6 +3514,7 @@
         "id": "2f1fbbf63057cd82",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send setA4 [120m|dynamic]",
         "func": "const signalCells = global.get(\"signalCells\")\nlet mKey = msg.topic;\nlet cfg = global.get(\"config\").machines[mKey];\n\nnode.send({reset:true,action:\"setA4\",topic:msg.topic});\nmsg.action = \"setA4\";\nmsg.delay = cfg.toA3Timeout + cfg.toA4Timeout;\nreturn msg;",
         "outputs": 1,
@@ -3542,8 +3522,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 910,
-        "y": 2280,
+        "x": 915,
+        "y": 2325,
         "wires": [
             [
                 "84eb44d8938c031b"
@@ -3589,6 +3569,7 @@
         "id": "f4db294021a89fbf",
         "type": "link in",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "buttonActions in",
         "links": [
             "185fc4dc4d7ebafc",
@@ -3600,8 +3581,8 @@
             "e9116e554f7d574d",
             "46843f4e8d02205b"
         ],
-        "x": 185,
-        "y": 2505,
+        "x": 190,
+        "y": 2550,
         "wires": [
             [
                 "1531adcffdaf7a6b",
@@ -3615,13 +3596,14 @@
         "id": "84eb44d8938c031b",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1180,
-        "y": 2280,
+        "x": 1185,
+        "y": 2325,
         "wires": [],
         "l": true
     },
@@ -3629,7 +3611,7 @@
         "id": "dd20009116ca100b",
         "type": "trigger",
         "z": "bdc10eb0bfc2c224",
-        "g": "d5eb1a41a9c67896",
+        "g": "0459e2a074258c5a",
         "name": "programmedStateChanges",
         "op1": "",
         "op2": "",
@@ -3643,8 +3625,8 @@
         "bytopic": "topic",
         "topic": "toutId",
         "outputs": 1,
-        "x": 515,
-        "y": 2175,
+        "x": 520,
+        "y": 2220,
         "wires": [
             [
                 "185fc4dc4d7ebafc"
@@ -3655,7 +3637,7 @@
         "id": "fb95b4d0741d8db8",
         "type": "link in",
         "z": "bdc10eb0bfc2c224",
-        "g": "d5eb1a41a9c67896",
+        "g": "0459e2a074258c5a",
         "name": "programmedStateChange in",
         "links": [
             "84eb44d8938c031b",
@@ -3670,8 +3652,8 @@
             "19df9e22435f0986",
             "eba758ecf77571c1"
         ],
-        "x": 165,
-        "y": 2175,
+        "x": 170,
+        "y": 2220,
         "wires": [
             [
                 "f0c22b02c475661f"
@@ -3682,38 +3664,40 @@
         "id": "185fc4dc4d7ebafc",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
-        "g": "d5eb1a41a9c67896",
+        "g": "0459e2a074258c5a",
         "name": "buttonActions",
         "mode": "link",
         "links": [
             "f4db294021a89fbf",
             "4bd7236cd1df5691"
         ],
-        "x": 680,
-        "y": 2175,
+        "x": 685,
+        "y": 2220,
         "wires": []
     },
     {
         "id": "c41f4b62a37e0c5a",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "example input: topic:OMET, payload:setA1",
         "info": "",
-        "x": 270,
-        "y": 2595,
+        "x": 275,
+        "y": 2640,
         "wires": []
     },
     {
         "id": "cfbba0824276973c",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1345,
-        "y": 2310,
+        "x": 1350,
+        "y": 2355,
         "wires": [],
         "l": true
     },
@@ -3721,15 +3705,16 @@
         "id": "21a7e4d7b331c67e",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "raise playHorn bit",
-        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].horn = true;\n\n\nreturn msg;",
+        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif(towersControl.machasDevice(\"horn\"))\n    towersControl[mKey].horn = true;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
-        "y": 2340,
+        "x": 885,
+        "y": 2385,
         "wires": [
             [
                 "544b15cb3575e299"
@@ -3740,13 +3725,14 @@
         "id": "544b15cb3575e299",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "trigger writetowersBitArray",
         "mode": "link",
         "links": [
             "0e67b07cc99383b3"
         ],
-        "x": 1120,
-        "y": 2340,
+        "x": 1125,
+        "y": 2385,
         "wires": [],
         "l": true
     },
@@ -3754,6 +3740,7 @@
         "id": "8535fcf6403fa45e",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send setA3 20m",
         "func": "let mKey = msg.topic;\nlet cfg = global.get(\"config\").machines[mKey];\n\n//send programmed State change\nnode.send({ reset: true, action: \"setA3\", topic: msg.topic });\nmsg.action = \"setA3\";\nmsg.delay = cfg.toA3Timeout;\n\n\nreturn msg;",
         "outputs": 1,
@@ -3761,8 +3748,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
-        "y": 2250,
+        "x": 875,
+        "y": 2295,
         "wires": [
             [
                 "41b676d5ef990a3e"
@@ -3773,13 +3760,14 @@
         "id": "41b676d5ef990a3e",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1120,
-        "y": 2250,
+        "x": 1125,
+        "y": 2295,
         "wires": [],
         "l": true
     },
@@ -3787,6 +3775,7 @@
         "id": "06c77a7347c932b1",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "setA2",
         "property": "payload",
         "propertyType": "msg",
@@ -3798,8 +3787,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 680,
-        "y": 2385,
+        "x": 685,
+        "y": 2430,
         "wires": [
             [
                 "9467330a7dcfcb9f",
@@ -3813,15 +3802,16 @@
         "id": "9467330a7dcfcb9f",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "lower playHorn bit",
-        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].horn = false;\n\n\nreturn msg;",
+        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl.machasDevice(\"horn\"))\n    towersControl[mKey].horn = false;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
-        "y": 2445,
+        "x": 885,
+        "y": 2490,
         "wires": [
             [
                 "a0da01db3cddd017"
@@ -3832,13 +3822,14 @@
         "id": "f36ff7fcef01055e",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "trigger writetowersBitArray",
         "mode": "link",
         "links": [
             "0e67b07cc99383b3"
         ],
-        "x": 1150,
-        "y": 2505,
+        "x": 1155,
+        "y": 2550,
         "wires": [],
         "l": true
     },
@@ -3846,13 +3837,14 @@
         "id": "ab8ca08ba9111f30",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1075,
-        "y": 2415,
+        "x": 1080,
+        "y": 2460,
         "wires": [],
         "l": true
     },
@@ -3861,6 +3853,7 @@
         "type": "function",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "14b96f87412544c1",
         "name": "action set<signalKey>",
         "func": "\n\nlet matches = msg.action.match(/set(\\w+)/)[1];\nif(matches)\n    msg.signalKey\nreturn msg;",
         "outputs": 1,
@@ -3868,8 +3861,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
-        "y": 2385,
+        "x": 335,
+        "y": 2430,
         "wires": [
             []
         ]
@@ -3886,8 +3879,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 975,
-        "y": 2175,
+        "x": 980,
+        "y": 2220,
         "wires": [
             [
                 "03890e35a75d43ef"
@@ -3901,8 +3894,8 @@
         "g": "14eeda19a6a7072a",
         "name": "send setCellSignal",
         "links": [],
-        "x": 845,
-        "y": 2175,
+        "x": 850,
+        "y": 2220,
         "wires": [
             [
                 "fb1f9c7dd8ad7a3e"
@@ -3917,22 +3910,23 @@
         "name": "send setCellSignal",
         "mode": "return",
         "links": [],
-        "x": 1340,
-        "y": 2175,
+        "x": 1345,
+        "y": 2220,
         "wires": []
     },
     {
         "id": "c4f475eadc34f078",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send setSingleCellState",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1095,
-        "y": 2310,
+        "x": 1100,
+        "y": 2355,
         "wires": [
             [
                 "cfbba0824276973c"
@@ -3944,6 +3938,7 @@
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "14b96f87412544c1",
         "name": "action set<signalKey>",
         "property": "payload",
         "propertyType": "msg",
@@ -3958,8 +3953,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 1,
-        "x": 330,
-        "y": 2415,
+        "x": 335,
+        "y": 2460,
         "wires": [
             []
         ]
@@ -3968,14 +3963,15 @@
         "id": "c9050cb334d984e8",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 880,
-        "y": 2415,
+        "x": 885,
+        "y": 2460,
         "wires": [
             [
                 "ab8ca08ba9111f30"
@@ -3986,6 +3982,7 @@
         "id": "0ab9b611389e52b7",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "setA3",
         "property": "payload",
         "propertyType": "msg",
@@ -3997,8 +3994,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 675,
-        "y": 2550,
+        "x": 680,
+        "y": 2595,
         "wires": [
             [
                 "10f77208037dab67",
@@ -4010,13 +4007,14 @@
         "id": "079b24bde6bc7913",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1065,
-        "y": 2550,
+        "x": 1070,
+        "y": 2595,
         "wires": [],
         "l": true
     },
@@ -4024,14 +4022,15 @@
         "id": "10f77208037dab67",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 880,
-        "y": 2550,
+        "x": 885,
+        "y": 2595,
         "wires": [
             [
                 "079b24bde6bc7913"
@@ -4042,15 +4041,16 @@
         "id": "a0da01db3cddd017",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "raise tower redLight bit",
-        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].redLight = true;\n\n\nreturn msg;",
+        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl.machasDevice(\"redLight\"))\n    towersControl[mKey].redLight = true;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
-        "y": 2475,
+        "x": 905,
+        "y": 2520,
         "wires": [
             [
                 "dfa8cdb9bed3539c"
@@ -4061,15 +4061,16 @@
         "id": "dfa8cdb9bed3539c",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "lower tower redLight bit",
-        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].greenLight = false;\n\n\nreturn msg;",
+        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl.machasDevice(\"greenLight\"))\n    towersControl[mKey].greenLight = false;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
-        "y": 2505,
+        "x": 905,
+        "y": 2550,
         "wires": [
             [
                 "f36ff7fcef01055e"
@@ -4080,6 +4081,7 @@
         "id": "ea5a84d58454a07e",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "setA4",
         "property": "payload",
         "propertyType": "msg",
@@ -4091,8 +4093,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 675,
-        "y": 2595,
+        "x": 680,
+        "y": 2640,
         "wires": [
             [
                 "f416b5ea2464b4c0",
@@ -4104,13 +4106,14 @@
         "id": "6d4bfaadae660075",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1065,
-        "y": 2595,
+        "x": 1070,
+        "y": 2640,
         "wires": [],
         "l": true
     },
@@ -4118,14 +4121,15 @@
         "id": "f416b5ea2464b4c0",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 880,
-        "y": 2595,
+        "x": 885,
+        "y": 2640,
         "wires": [
             [
                 "6d4bfaadae660075"
@@ -4136,6 +4140,7 @@
         "id": "534b0771447b37e9",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "setB",
         "property": "payload",
         "propertyType": "msg",
@@ -4147,8 +4152,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 675,
-        "y": 2640,
+        "x": 680,
+        "y": 2685,
         "wires": [
             [
                 "d700156b08ed999b",
@@ -4161,14 +4166,15 @@
         "id": "d700156b08ed999b",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 880,
-        "y": 2670,
+        "x": 885,
+        "y": 2715,
         "wires": [
             [
                 "2473f05cfebcb6eb"
@@ -4179,13 +4185,14 @@
         "id": "2473f05cfebcb6eb",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1065,
-        "y": 2670,
+        "x": 1070,
+        "y": 2715,
         "wires": [],
         "l": true
     },
@@ -4193,6 +4200,7 @@
         "id": "6a9506e901b63554",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "setC1",
         "property": "payload",
         "propertyType": "msg",
@@ -4204,8 +4212,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 675,
-        "y": 2715,
+        "x": 680,
+        "y": 2760,
         "wires": [
             [
                 "51ccbb885d329fc3",
@@ -4218,6 +4226,7 @@
         "id": "2c9f603eb53ec7c7",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "setC2",
         "property": "payload",
         "propertyType": "msg",
@@ -4229,8 +4238,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 675,
-        "y": 2790,
+        "x": 680,
+        "y": 2835,
         "wires": [
             [
                 "e07363a0c58b13e0",
@@ -4243,6 +4252,7 @@
         "id": "6b16add2d6b04682",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "setD",
         "property": "payload",
         "propertyType": "msg",
@@ -4254,8 +4264,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 675,
-        "y": 2865,
+        "x": 680,
+        "y": 2910,
         "wires": [
             [
                 "9b8b41e6232af923",
@@ -4268,6 +4278,7 @@
         "id": "d1f763dae798b9a3",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "setE",
         "property": "payload",
         "propertyType": "msg",
@@ -4279,8 +4290,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 665,
-        "y": 2940,
+        "x": 670,
+        "y": 2985,
         "wires": [
             [
                 "51a3daed646e5627",
@@ -4294,13 +4305,14 @@
         "id": "646a32288f144f73",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "trigger writetowersBitArray",
         "mode": "link",
         "links": [
             "0e67b07cc99383b3"
         ],
-        "x": 1150,
-        "y": 3030,
+        "x": 1155,
+        "y": 3075,
         "wires": [],
         "l": true
     },
@@ -4308,15 +4320,16 @@
         "id": "51a3daed646e5627",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "lower tower redLight bit",
-        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].redLight = false;\n\n\nreturn msg;",
+        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl.machasDevice(\"redLight\"))\n    towersControl[mKey].redLight = false;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
-        "y": 3000,
+        "x": 905,
+        "y": 3045,
         "wires": [
             [
                 "d18f0a4219d2313a"
@@ -4327,15 +4340,16 @@
         "id": "d18f0a4219d2313a",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "raise tower redLight bit",
-        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\ntowersControl[mKey].greenLight = true;\n\n\nreturn msg;",
+        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif(towersControl.machasDevice(\"greenLight\"))\n    towersControl[mKey].greenLight = true;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
-        "y": 3030,
+        "x": 905,
+        "y": 3075,
         "wires": [
             [
                 "646a32288f144f73"
@@ -4346,6 +4360,7 @@
         "id": "111059d7a7373219",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "default: warn",
         "func": "node.warn({\n    txt:\"unknown msg.action in buttonAction\",\n    action:msg.action,\n    fullMsg:msg\n});\nglobal.get(\"utils\").errorBlink(node, 60000);",
         "outputs": 1,
@@ -4353,8 +4368,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 3075,
+        "x": 685,
+        "y": 3120,
         "wires": [
             []
         ]
@@ -4363,113 +4378,124 @@
         "id": "5df722be84205e46",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "HANDLE BUTTON ACTIONS",
         "info": "",
-        "x": 240,
-        "y": 2115,
+        "x": 230,
+        "y": 2100,
         "wires": []
     },
     {
         "id": "422c0e4e8c964482",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "RUN",
         "info": "",
-        "x": 560,
-        "y": 2640,
+        "x": 565,
+        "y": 2685,
         "wires": []
     },
     {
         "id": "c3df1f96c4ccd8d6",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "DOWNTIME",
         "info": "",
-        "x": 540,
-        "y": 2715,
+        "x": 545,
+        "y": 2760,
         "wires": []
     },
     {
         "id": "e53706c8bd9aadf5",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "MANUTENZIONE",
         "info": "",
-        "x": 530,
-        "y": 2790,
+        "x": 535,
+        "y": 2835,
         "wires": []
     },
     {
         "id": "b12c9185cc37664b",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "SCARTO",
         "info": "",
-        "x": 550,
-        "y": 2865,
+        "x": 555,
+        "y": 2910,
         "wires": []
     },
     {
         "id": "1b879dfc02869b3a",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "CARR. PRONTI",
         "info": "",
-        "x": 520,
-        "y": 2940,
+        "x": 525,
+        "y": 2985,
         "wires": []
     },
     {
         "id": "5a06c1baf2210989",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "CHIAMATA",
         "info": "",
-        "x": 550,
-        "y": 2250,
+        "x": 555,
+        "y": 2295,
         "wires": []
     },
     {
         "id": "4a15af8df8c577ea",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "PR. IN CARICO",
         "info": "",
-        "x": 535,
-        "y": 2385,
+        "x": 540,
+        "y": 2430,
         "wires": []
     },
     {
         "id": "9a51ee5d15da287d",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "AVVIAMENTO",
         "info": "",
-        "x": 540,
-        "y": 2550,
+        "x": 545,
+        "y": 2595,
         "wires": []
     },
     {
         "id": "c091b1c1e75df617",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "RITARDO AVV.",
         "info": "",
-        "x": 530,
-        "y": 2595,
+        "x": 535,
+        "y": 2640,
         "wires": []
     },
     {
         "id": "223dfe7f51e5c702",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1130,
-        "y": 2385,
+        "x": 1135,
+        "y": 2430,
         "wires": [],
         "l": true
     },
@@ -4477,13 +4503,14 @@
         "id": "4bf699bb76b64d11",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1105,
-        "y": 2640,
+        "x": 1110,
+        "y": 2685,
         "wires": [],
         "l": true
     },
@@ -4491,14 +4518,15 @@
         "id": "51ccbb885d329fc3",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 880,
-        "y": 2745,
+        "x": 885,
+        "y": 2790,
         "wires": [
             [
                 "7f3892b70e89d932"
@@ -4509,13 +4537,14 @@
         "id": "7f3892b70e89d932",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1065,
-        "y": 2745,
+        "x": 1070,
+        "y": 2790,
         "wires": [],
         "l": true
     },
@@ -4523,13 +4552,14 @@
         "id": "9002b5da933a2cf0",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1105,
-        "y": 2715,
+        "x": 1110,
+        "y": 2760,
         "wires": [],
         "l": true
     },
@@ -4537,14 +4567,15 @@
         "id": "e07363a0c58b13e0",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 880,
-        "y": 2820,
+        "x": 885,
+        "y": 2865,
         "wires": [
             [
                 "a984ae5f89c982aa"
@@ -4555,13 +4586,14 @@
         "id": "a984ae5f89c982aa",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1065,
-        "y": 2820,
+        "x": 1070,
+        "y": 2865,
         "wires": [],
         "l": true
     },
@@ -4569,13 +4601,14 @@
         "id": "be30f8352908de40",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1105,
-        "y": 2790,
+        "x": 1110,
+        "y": 2835,
         "wires": [],
         "l": true
     },
@@ -4584,14 +4617,15 @@
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "14b96f87412544c1",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 880,
-        "y": 2895,
+        "x": 885,
+        "y": 2940,
         "wires": [
             [
                 "6c7b45a7a15ce7ca"
@@ -4603,13 +4637,14 @@
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "14b96f87412544c1",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1065,
-        "y": 2895,
+        "x": 1070,
+        "y": 2940,
         "wires": [],
         "l": true
     },
@@ -4618,13 +4653,14 @@
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "14b96f87412544c1",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1105,
-        "y": 2865,
+        "x": 1110,
+        "y": 2910,
         "wires": [],
         "l": true
     },
@@ -4633,14 +4669,15 @@
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "14b96f87412544c1",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 880,
-        "y": 2970,
+        "x": 885,
+        "y": 3015,
         "wires": [
             [
                 "7e254c27479ac8aa"
@@ -4652,13 +4689,14 @@
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "14b96f87412544c1",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1065,
-        "y": 2970,
+        "x": 1070,
+        "y": 3015,
         "wires": [],
         "l": true
     },
@@ -4667,13 +4705,14 @@
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "14b96f87412544c1",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1105,
-        "y": 2940,
+        "x": 1110,
+        "y": 2985,
         "wires": [],
         "l": true
     },
@@ -4798,7 +4837,7 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "\ncallWhenDef(()=>{\n    const signalKeys = global.get(\"signalCells\").dictionary.signalKeys;\n\n    const def = {\n        dictionary:{\n            /** {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app. */\n            macKeys: global.get(\"signalCells\").dictionary.macKeys,\n            /**  {String[]} devices devices that may be associated with each towersBitArray bit*/\n            devices: [\"redBtn\", \"greenBtn\", \"whiteBtn\",\"blackBtn\"],\n            actKeys:[...(( )=>{ return signalKeys.map( v => \"set\"+v) })()]\n        },\n\n        actionOf:{\n            \"blackBtn\": \"setA1\", //chiamata\n            \"redBtn\": \"setD\", //scarto\n            \"greenBtn\": \"setB\", //run\n            \"whiteBtn\": \"setC1\", //downtime\n            \"whiteBtnTwice\": \"setC2\", //manut\n        },\n\n        prepareActionMsg:function (msg, macKey, btnKey){\n            if(!this.actionOf[btnKey] || !this.dictionary.macKeys.includes(macKey))\n                node.error({txt:\"unknown macKey or btnKey\",mac:macKey,btn:btnKey,msg:msg});\n            if(typeof msg != \"object\")\n                node.error({txt:\"expecting msg object, got\",v:msg});\n  \n            msg.topic=macKey;\n            if(btnKey == \"whiteBtn\" && global.get(\"signalCells\")[macKey].signalKey == \"C1\")\n                msg.action=this.actionOf[btnKey+\"Twice\"];\n            else\n                msg.action = this.actionOf[btnKey] ?? node.error(\"UNKNOWN BTNKEY\");\n            return msg;\n        }\n\n    }\n\n\n    global.set(\"buttonsControl\", def);\n    node.status({ fill: \"green\", text: Object.keys(def).join(' & ') });\n},\"utils\",\"signalCells\")\n\n/** @summary repeatedly tries to fetch all globalNames with global.get(). \n        * @param {function} cb called once ALL globalName are defined\n        * @param {Object} opts object holding optional function params. can be omitted passing the first globalName instead.\n        * @param {number} opts.timeout ms delay after which stop trying and either call opts.errorCb() or log an error. defaults to 15000\n        * @param {number} opts.retryDelay ms between each attempt. defaults to 100\n        * @param {function} opts.errorCb function to call after timeout. defaults to falsy, logging a warning\n        * @param  {...any} globalNames series of strings\n        */\nfunction callWhenDef(cb, opts, ...globalNames) {\n    if (typeof (opts) == \"string\")\n        globalNames.push(opts);\n    let { timeout: timeout = 3000, retryDelay: retryDelay = 100, errorCb: errorCb = null } = (typeof (opts) == \"string\" ? opts : {});\n    var tout, intv;\n    //set timeout unless false or not specified\n    if (timeout) {\n        tout = setTimeout(() => {\n            clearInterval(intv);\n            errorCb ? errorCb() : node.warn({ err: \"callWhenDef_Timeout\", arg: arguments })\n        }, timeout);\n    }\n    //set global-chacking interval\n    intv = setInterval(() => {\n        for (let name of globalNames)\n            if (global.get(name) === undefined || global.get(name) === null)\n                return\n        clearTimeout(tout);\n        clearInterval(intv);\n        cb();\n    }, retryDelay)\n}\n\n/*** tests * /\ncallWhenDef(()=>{\n    node.warn(\"[buttonsControl] begin testing\");\n    const utils = global.get(\"utils\");\n    const buttonsControl = global.get(\"buttonsControl\");\n    var results = {};\n\n    //try prepareActionMsg with all dev and macs\n    node.warn(\"[buttonsControl] prepMsgs\");\n    results.prepMsgs = [];\n    for(let dev of buttonsControl.dictionary.devices){\n        for(let mKey of buttonsControl.dictionary.macKeys)\n            results.prepMsgs.push(buttonsControl.prepareActionMsg({},mKey,dev))\n    }\n\n    //try wrong mac and Devs\n    node.warn(\"[buttonsControl] expected fails\");\n    results.fails = [];\n    results.fails.push(buttonsControl.prepareActionMsg({},\"noMac\", buttonsControl.dictionary.devices[0]))\n    results.fails.push(buttonsControl.prepareActionMsg({},buttonsControl.dictionary.macKeys[0],\"noDev\"))\n    node.warn(results);\n\n    \n\n},\"utils\",\"buttonsControl\")\n/**/\n",
+        "initialize": "\ncallWhenDef(()=>{\n    const signalKeys = global.get(\"signalCells\").dictionary.signalKeys;\n\n    const def = {\n        dictionary:{\n            /** {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app. */\n            macKeys: global.get(\"signalCells\").dictionary.macKeys,\n            /**  {String[]} devices devices that may be associated with each towersBitArray bit*/\n            devices: [\"redBtn\", \"greenBtn\", \"whiteBtn\",\"blackBtn\"],\n            actKeys:[...(( )=>{ return signalKeys.map( v => \"set\"+v) })()]\n        },\n\n        actionOf:{\n            \"blackBtn\": \"setA1\", //chiamata\n            \"redBtn\": \"setD\", //scarto\n            \"greenBtn\": \"setB\", //run\n            \"whiteBtn\": \"setC1\", //downtime\n            \"whiteBtnTwice\": \"setC2\", //manut\n        },\n\n        // bitMap:{ //plcKey : {macKey, btnKey}\n        //     \"ZBRN1-23KF1\":[\n        //         {macKey:\"FA420\",btnKey:\"blackBtn\"}\n        //     ]\n        // },\n        // getBitMap(plcKey){\n        //     if(!this.bitMap[plcKey]){ node.error(\"[buttonsControl.getBitMap()]: unknown plcKey: \"+plcKey); return false;}\n        //     return this.bitMap;\n        // },\n\n        prepareActionMsg:function (msg, macKey, btnKey){\n            if(!this.actionOf[btnKey] || !this.dictionary.macKeys.includes(macKey))\n                node.error({txt:\"unknown macKey or btnKey\",mac:macKey,btn:btnKey,msg:msg});\n            if(typeof msg != \"object\")\n                node.error({txt:\"expecting msg object, got\",v:msg});\n  \n            msg.topic=macKey;\n            if(btnKey == \"whiteBtn\" && global.get(\"signalCells\")[macKey].signalKey == \"C1\")\n                msg.action=this.actionOf[btnKey+\"Twice\"];\n            else\n                msg.action = this.actionOf[btnKey] ?? node.error(\"UNKNOWN BTNKEY\");\n            return msg;\n        }\n\n    }\n\n\n    global.set(\"buttonsControl\", def);\n    node.status({ fill: \"green\", text: Object.keys(def).join(' & ') });\n},\"utils\",\"signalCells\")\n\n/** @summary repeatedly tries to fetch all globalNames with global.get(). \n        * @param {function} cb called once ALL globalName are defined\n        * @param {Object} opts object holding optional function params. can be omitted passing the first globalName instead.\n        * @param {number} opts.timeout ms delay after which stop trying and either call opts.errorCb() or log an error. defaults to 15000\n        * @param {number} opts.retryDelay ms between each attempt. defaults to 100\n        * @param {function} opts.errorCb function to call after timeout. defaults to falsy, logging a warning\n        * @param  {...any} globalNames series of strings\n        */\nfunction callWhenDef(cb, opts, ...globalNames) {\n    if (typeof (opts) == \"string\")\n        globalNames.push(opts);\n    let { timeout: timeout = 3000, retryDelay: retryDelay = 100, errorCb: errorCb = null } = (typeof (opts) == \"string\" ? opts : {});\n    var tout, intv;\n    //set timeout unless false or not specified\n    if (timeout) {\n        tout = setTimeout(() => {\n            clearInterval(intv);\n            errorCb ? errorCb() : node.warn({ err: \"callWhenDef_Timeout\", arg: arguments })\n        }, timeout);\n    }\n    //set global-chacking interval\n    intv = setInterval(() => {\n        for (let name of globalNames)\n            if (global.get(name) === undefined || global.get(name) === null)\n                return\n        clearTimeout(tout);\n        clearInterval(intv);\n        cb();\n    }, retryDelay)\n}\n\n/*** tests * /\ncallWhenDef(()=>{\n    node.warn(\"[buttonsControl] begin testing\");\n    const utils = global.get(\"utils\");\n    const buttonsControl = global.get(\"buttonsControl\");\n    var results = {};\n\n    //try prepareActionMsg with all dev and macs\n    node.warn(\"[buttonsControl] prepMsgs\");\n    results.prepMsgs = [];\n    for(let dev of buttonsControl.dictionary.devices){\n        for(let mKey of buttonsControl.dictionary.macKeys)\n            results.prepMsgs.push(buttonsControl.prepareActionMsg({},mKey,dev))\n    }\n\n    //try wrong mac and Devs\n    node.warn(\"[buttonsControl] expected fails\");\n    results.fails = [];\n    results.fails.push(buttonsControl.prepareActionMsg({},\"noMac\", buttonsControl.dictionary.devices[0]))\n    results.fails.push(buttonsControl.prepareActionMsg({},buttonsControl.dictionary.macKeys[0],\"noDev\"))\n    node.warn(results);\n\n    \n\n},\"utils\",\"buttonsControl\")\n/**/\n",
         "finalize": "",
         "libs": [],
         "x": 220,
@@ -4896,7 +4935,7 @@
         "d": true,
         "g": "ec19ad21051125fc",
         "name": "sendQuery 40016:1x8",
-        "func": "/*  global.plc:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\nlet plc = global.get(\"plc\");\n\n\nreturn plc.readFrom(20,1);",
+        "func": "/*  global.plc:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\nlet plc = global.get(\"plc\");\n\n\nreturn plc.readFrom(16, 1);",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5509,6 +5548,7 @@
         "id": "d7a2c75afa019028",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "BUTTON SET A1",
         "active": true,
         "tosidebar": true,
@@ -5518,14 +5558,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1415,
-        "y": 2250,
+        "x": 1420,
+        "y": 2295,
         "wires": []
     },
     {
         "id": "9250c631a78ab33a",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "BUTTON SET A2",
         "active": true,
         "tosidebar": true,
@@ -5535,14 +5576,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 2385,
+        "x": 1425,
+        "y": 2430,
         "wires": []
     },
     {
         "id": "ba11515a04cebd32",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "BUTTON SET A3",
         "active": true,
         "tosidebar": true,
@@ -5552,14 +5594,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 2550,
+        "x": 1425,
+        "y": 2595,
         "wires": []
     },
     {
         "id": "6f13a43d49cbb006",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "BUTTON SET A4",
         "active": true,
         "tosidebar": true,
@@ -5569,14 +5612,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 2595,
+        "x": 1425,
+        "y": 2640,
         "wires": []
     },
     {
         "id": "590b85c6d709bc3a",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "BUTTON SET C1",
         "active": true,
         "tosidebar": true,
@@ -5586,14 +5630,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 2715,
+        "x": 1425,
+        "y": 2760,
         "wires": []
     },
     {
         "id": "76bd5f8638bf1573",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "BUTTON SET C2",
         "active": true,
         "tosidebar": true,
@@ -5603,14 +5648,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 2790,
+        "x": 1425,
+        "y": 2835,
         "wires": []
     },
     {
         "id": "0e0aa465724c5b30",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "BUTTON SET D",
         "active": true,
         "tosidebar": true,
@@ -5620,14 +5666,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 2865,
+        "x": 1425,
+        "y": 2910,
         "wires": []
     },
     {
         "id": "bd11511613590ced",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "BUTTON SET E",
         "active": true,
         "tosidebar": true,
@@ -5637,14 +5684,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 2940,
+        "x": 1425,
+        "y": 2985,
         "wires": []
     },
     {
         "id": "7e325d321fc3cadb",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "BUTTON SET B",
         "active": true,
         "tosidebar": true,
@@ -5654,8 +5702,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1415,
-        "y": 2640,
+        "x": 1420,
+        "y": 2685,
         "wires": []
     },
     {
@@ -5676,7 +5724,7 @@
         "d": true,
         "g": "ec19ad21051125fc",
         "name": "parse button MWord and send buttonContolActionMsg",
-        "func": "\n//will output { topic:\"OMET\", action:\"setC1\"}\n\n/* const getActionMsg = (function () {\n    const f = global.get(\"btnControl\").prepareActionMsg.bind(global.get(\"btnControl\"));\n    return function (...args) { return f({},...args) }\n})(); */\n\nfunction prepareActionMsg(...args) {\n    return global.get(\"buttonControl\").prepareActionMsg(new Object(), ...args)\n}\n\n\n/** @summary converts a single integer number to its binary array rappresentation\n * @param {number} val integer\n * @return {number[]} array of NUMBERS, only 0 and 1\n * @throws TypeError if val is not an integer\n * @throws Error if detects possible infinite loop\n */\nfunction intToBitArray(val) {\n    var bitArr = [];\n\n    if (typeof (val) != \"number\" || val % 1 != 0) throw new TypeError(`[${intToBitArray.name}()]:val must be an integer number`);\n    //trova il primo ottetto != 0\n    /*var minBytes=4-1; //stops 1 too early\n    for(let i=0; i<4 && (val>>(32-8*i))!=0; i++)\n        minBytes--;\n    node.warn({minBytes:minBytes,for:val})\n    */\n\n    let nByte = 0;\n    do {\n        //copia un bit alla volta * 8bit\n        for (let i = 0; i < 8; i++)\n            bitArr.push((val >> i) & 0x00000001);\n        nByte++;\n        //node.warn(nByte);node.warn(val >> 8*nByte)\n        if (nByte >= 50) throw new Error(\"triggered infinite loop guard. possible infinite loop at \" + intToBitArray.name);\n    } while (val >> 8 * nByte)\n\n    return bitArr;\n}\n\nfunction intArrToBitArray(arr) {\n    var ret = []\n    for (let val of arr)\n        ret.push(intToBitArray(val))\n    return ret;\n}\n\n//---------------------------------------------------------------------------------------------\n\nconst bitMap = [\n    () => { node.send(prepareActionMsg(\"M041\", \"redBtn\")) },\n    () => { node.send(prepareActionMsg(\"M041\", \"greenBtn\")) },\n    () => { node.send(prepareActionMsg(\"M041\", \"whiteBtn\")) },\n    () => { node.send(prepareActionMsg(\"M041\", \"blackBtn\")) },\n\n    () => { node.send(prepareActionMsg(\"M042\", \"redBtn\")) },\n    () => { node.send(prepareActionMsg(\"M042\", \"greenBtn\")) },\n    () => { node.send(prepareActionMsg(\"M042\", \"whiteBtn\")) },\n    () => { node.send(prepareActionMsg(\"M042\", \"blackBtn\")) },\n];\nconst NBITS = bitMap.length;\n\nconst last = context.get(\"bitArray\") ?? (new Array(NBITS)).map( v => 0 );\ntry{\n    var bitArr = intArrToBitArray(msg.payload.buffer);\n    if(!bitArr || bitArr.length < NBITS){\n        node.warn({ txt: \"INCONSISTENT BITARR-BITMAP LENGTHS appended 0s\", bitArr: bitArr, bitMap:bitMap,buf:msg.payload.buffer,fullMsg:msg})\n        for(let i=bitArr.length;i<bitMap.length;i++)\n            bitArr.push(0);\n    }\n}catch(e) { node.error(e, e); return}\n\nbitArr.forEach((bit, i) => {\n    if(bit && bit != last[i])\n        bitMap[i]()\n});\ncontext.set(\"bitArray\",bitArr);\n\n/*\n//let buf = msg.buffer;\nlet buf = Buffer.from( new Uint8Array([5,9]) );\n\nfunction bitArrToString(arr) {\n    var str = \"\";\n    for (let i = 0; i < arr.length; i++) {\n        if (i % 4 == 0 && i)\n            str += \"|\"\n        str += parseInt(0+arr[i]) + \",\";\n    }\n    return str;\n}\n\n//buf[15] <=> bit[15]\nfunction bufToBitArray(buf){\n    var octStrs = [],\n        bitArr = [];\n    //buf to array of strings\n    for(let oct of buf )\n        octStrs.push(oct.toString(2).padStart(8,'0'));\n    //arr of strings to array of bits\n    for(let octStr of octStrs)\n        for(let i=0; i<octStr.length; i++)\n            bitArr.push(octStr[i]=='0' ? 0 : 1)\n            \n    node.warn({o:octStrs.toString(),b:bitArr.toString(), \"octStrs\": octStrs, bitArr: bitArr })\n    return bitArr;\n}\n\n\n\nfor(let i=0;i<1;i++)\n    node.warn( intToBitArray(300).toString() )\n\n\n\n\n/* let arr=[];\nfor(let i=0,s=0xAA.toString(2).padStart(16,'0'); i<s.length;i++)\n    arr.push(parseInt(s[i])) * /\n\n\nnode.warn({\n    \"intToBit\": intArrToBitArray(msg.payload.buffer).toString(), \n    \"arrToArr\": bitArrToString(bufToBitArray(msg.payload.buffer))\n})\n\nconst bitArr=intArrToBitArray(msg.payload.buffer)\n\nconst btnActionMsg(action){\n    return {action:action}\n}\n\nconst cbMap=[\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n]\n\nbitArr.forEach( (bit,i) => node.send(bitMap[i])) )\n\nfor(let i=0; i<bitArr.length; i++)\n    if(bitArr[i])\n        node.send(cbMap[i]())\n\n//embed switch in this funcion, setting up 1 output per expected bit (16 outputs)\n    //node.send(bitArr.forEach((bit,i) => (bit ? cbMap[i]() : null )))\n\n\n/*node.warn(\"msg received\")\nnode.warn(buf)\nnode.warn(buf.buffer)\nnode.warn(bitArrToString(bufToBitArray([0xAA, 0xAA]))) */",
+        "func": "//will output { topic:\"OMET\", action:\"setC1\"}\n\n//should receive a stream of bits at least bitMap.length long\n//if received.len < bitMap.len -> warn & append zeros to received\n//if received.len > bitMap.len -> silently use only the first bitMap.len bits \n\n\n\n/* const getActionMsg = (function () {\n    const f = global.get(\"btnControl\").prepareActionMsg.bind(global.get(\"btnControl\"));\n    return function (...args) { return f({},...args) }\n})(); */\n\nfunction prepareActionMsg(...args) {\n    return global.get(\"buttonsControl\").prepareActionMsg(new Object(), ...args)\n}\n\n/** associates a function to each bit retrieved from the ZBRN1.\n * - the f() will send a message like {topic: 'OMET', payload:'setC1'} aka { macKey,  btnActId }\n */\nconst bitMap = [\n    //PB7\n    () => { node.send(prepareActionMsg(\"M041\", \"redBtn\")) },\n    () => { node.send(prepareActionMsg(\"M041\", \"greenBtn\")) },\n    () => { node.send(prepareActionMsg(\"M041\", \"whiteBtn\")) },\n    () => { node.send(prepareActionMsg(\"M041\", \"blackBtn\")) },\n    //PB8\n    () => { node.send(prepareActionMsg(\"M042\", \"redBtn\")) },\n    () => { node.send(prepareActionMsg(\"M042\", \"greenBtn\")) },\n    () => { node.send(prepareActionMsg(\"M042\", \"whiteBtn\")) },\n    () => { node.send(prepareActionMsg(\"M042\", \"blackBtn\")) },\n];\nconst NBITS = bitMap.length;\n\n//convert to bit array\ntry {\n    var bitArr = intArrToBitArray(msg.payload.buffer);\n    if (!bitArr || bitArr.length < NBITS) {\n        node.warn({ txt: \"INCONSISTENT BITARR-BITMAP LENGTHS appended 0s\", bitArr: bitArr, bitMap: bitMap, buf: msg.payload.buffer, fullMsg: msg })\n        for (let i = bitArr.length; i < bitMap.length; i++)\n            bitArr.push(0);\n    }\n} catch (e) { node.error(e, e); return }\n\n//map to bitMap functions\nconst last = context.get(\"bitArray\") ?? (new Array(NBITS)).fill(0);\nnode.warn({ \"bitArr\": bitArr.toString(), \"last\": last.toString() });\n\nfor (let i = 0; i < bitArr.length; i++) {\n    if (bitArr[i] && bitArr[i] != last[i]) {\n        bitMap[i]()\n    }\n};\ncontext.set(\"bitArray\", bitArr);\n\n\n//------FUNCTIONS-------------------------------------------------------------------------------------------\n\n\n/** @summary converts a single integer number to its binary array rappresentation\n * @param {number} val integer\n * @return {number[]} array of NUMBERS, only 0 and 1\n * @throws TypeError if val is not an integer\n * @throws Error if detects possible infinite loop\n */\nfunction intToBitArray(val) {\n    var bitArr = [];\n\n    if (typeof (val) != \"number\" || val % 1 != 0) throw new TypeError(`[${intToBitArray.name}()]:val must be an integer number`);\n    //trova il primo ottetto != 0\n    /*var minBytes=4-1; //stops 1 too early\n    for(let i=0; i<4 && (val>>(32-8*i))!=0; i++)\n        minBytes--;\n    node.warn({minBytes:minBytes,for:val})\n    */\n\n    let nByte = 0;\n    do {\n        //copia un bit alla volta * 8bit\n        for (let i = 0; i < 8; i++)\n            bitArr.push((val >> i) & 0x00000001);\n        nByte++;\n        //node.warn(nByte);node.warn(val >> 8*nByte)\n        if (nByte >= 50) throw new Error(\"triggered infinite loop guard. possible infinite loop at \" + intToBitArray.name);\n    } while (val >> 8 * nByte)\n\n    return bitArr;\n}\n\nfunction intArrToBitArray(arr) {\n    var ret = []\n    for (let val of arr)\n        intToBitArray(val).forEach(bit => ret.push(bit))\n    return ret;\n}\n\n\n\n\n\n\n/*\n//let buf = msg.buffer;\nlet buf = Buffer.from( new Uint8Array([5,9]) );\n\nfunction bitArrToString(arr) {\n    var str = \"\";\n    for (let i = 0; i < arr.length; i++) {\n        if (i % 4 == 0 && i)\n            str += \"|\"\n        str += parseInt(0+arr[i]) + \",\";\n    }\n    return str;\n}\n\n//buf[15] <=> bit[15]\nfunction bufToBitArray(buf){\n    var octStrs = [],\n        bitArr = [];\n    //buf to array of strings\n    for(let oct of buf )\n        octStrs.push(oct.toString(2).padStart(8,'0'));\n    //arr of strings to array of bits\n    for(let octStr of octStrs)\n        for(let i=0; i<octStr.length; i++)\n            bitArr.push(octStr[i]=='0' ? 0 : 1)\n            \n    node.warn({o:octStrs.toString(),b:bitArr.toString(), \"octStrs\": octStrs, bitArr: bitArr })\n    return bitArr;\n}\n\n\n\nfor(let i=0;i<1;i++)\n    node.warn( intToBitArray(300).toString() )\n\n\n\n\n/* let arr=[];\nfor(let i=0,s=0xAA.toString(2).padStart(16,'0'); i<s.length;i++)\n    arr.push(parseInt(s[i])) * /\n\n\nnode.warn({\n    \"intToBit\": intArrToBitArray(msg.payload.buffer).toString(), \n    \"arrToArr\": bitArrToString(bufToBitArray(msg.payload.buffer))\n})\n\nconst bitArr=intArrToBitArray(msg.payload.buffer)\n\nconst btnActionMsg(action){\n    return {action:action}\n}\n\nconst cbMap=[\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n]\n\nbitArr.forEach( (bit,i) => node.send(bitMap[i])) )\n\nfor(let i=0; i<bitArr.length; i++)\n    if(bitArr[i])\n        node.send(cbMap[i]())\n\n//embed switch in this funcion, setting up 1 output per expected bit (16 outputs)\n    //node.send(bitArr.forEach((bit,i) => (bit ? cbMap[i]() : null )))\n\n\n/*node.warn(\"msg received\")\nnode.warn(buf)\nnode.warn(buf.buffer)\nnode.warn(bitArrToString(bufToBitArray([0xAA, 0xAA]))) */",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5718,7 +5766,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "850adb4a2c8b2b3f",
         "name": "parse button MWord and send buttonContolActionMsg",
-        "func": "//will output { topic:\"OMET\", action:\"setC1\"}\n\n\n\n/* const getActionMsg = (function () {\n    const f = global.get(\"btnControl\").prepareActionMsg.bind(global.get(\"btnControl\"));\n    return function (...args) { return f({},...args) }\n})(); */\n\nfunction prepareActionMsg(...args) {\n    return global.get(\"buttonsControl\").prepareActionMsg(new Object(), ...args)\n}\n\n/** @summary converts a single integer number to its binary array rappresentation\n * @param {number} val integer\n * @return {number[]} array of NUMBERS, only 0 and 1\n * @throws TypeError if val is not an integer\n * @throws Error if detects possible infinite loop\n */\nfunction intToBitArray(val) {\n    var bitArr = [];\n\n    if (typeof (val) != \"number\" || val % 1 != 0) throw new TypeError(`[${intToBitArray.name}()]:val must be an integer number`);\n    //trova il primo ottetto != 0\n    /*var minBytes=4-1; //stops 1 too early\n    for(let i=0; i<4 && (val>>(32-8*i))!=0; i++)\n        minBytes--;\n    node.warn({minBytes:minBytes,for:val})\n    */\n\n    let nByte = 0;\n    do {\n        //copia un bit alla volta * 8bit\n        for (let i = 0; i < 8; i++)\n            bitArr.push((val >> i) & 0x00000001);\n        nByte++;\n        //node.warn(nByte);node.warn(val >> 8*nByte)\n        if (nByte >= 50) throw new Error(\"triggered infinite loop guard. possible infinite loop at \" + intToBitArray.name);\n    } while (val >> 8 * nByte)\n\n    return bitArr;\n}\n\nfunction intArrToBitArray(arr) {\n    var ret = []\n    for (let val of arr)\n        intToBitArray(val).forEach(bit => ret.push(bit))\n    return ret;\n}\n\n//---------------------------------------------------------------------------------------------\n\nconst bitMap = [\n    ()=>{ node.send(prepareActionMsg(\"FA421\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA421\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA421\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA421\", \"blackBtn\")) },\n\n    ()=>{ node.send(prepareActionMsg(\"FA420\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA420\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA420\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA420\", \"blackBtn\")) },\n\n\n    ()=>{ node.send(prepareActionMsg(\"FA419\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA419\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA419\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA419\", \"blackBtn\")) },\n\n    ()=>{ node.send(prepareActionMsg(\"FA422\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA422\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA422\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA422\", \"blackBtn\")) },\n\n\n    ()=>{ node.send(prepareActionMsg(\"FA423\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA423\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA423\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA423\", \"blackBtn\")) },\n\n    ()=>{ node.send(prepareActionMsg(\"OMET\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"OMET\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"OMET\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"OMET\", \"blackBtn\")) },\n];\nconst NBITS = bitMap.length;\n\n//convert to bit array\ntry{\n    var bitArr = intArrToBitArray(msg.payload.buffer);\n    if(!bitArr || bitArr.length < NBITS){\n        node.warn({ txt: \"INCONSISTENT BITARR-BITMAP LENGTHS appended 0s\", bitArr: bitArr, bitMap:bitMap,buf:msg.payload.buffer,fullMsg:msg})\n        for(let i=bitArr.length;i<bitMap.length;i++)\n            bitArr.push(0);\n    }\n}catch(e) { node.error(e, e); return}\n\n//map to bitMap functions\nconst last = context.get(\"bitArray\") ?? (new Array(NBITS)).fill(0);\nnode.warn({\"bitArr\":bitArr.toString(),\"last\":last.toString()});\n\nfor(let i=0;i<bitArr.length;i++){\n    if(bitArr[i] && bitArr[i] != last[i]){\n        bitMap[i]()\n    }\n};\ncontext.set(\"bitArray\",bitArr);\n\n/*\n//let buf = msg.buffer;\nlet buf = Buffer.from( new Uint8Array([5,9]) );\n\nfunction bitArrToString(arr) {\n    var str = \"\";\n    for (let i = 0; i < arr.length; i++) {\n        if (i % 4 == 0 && i)\n            str += \"|\"\n        str += parseInt(0+arr[i]) + \",\";\n    }\n    return str;\n}\n\n//buf[15] <=> bit[15]\nfunction bufToBitArray(buf){\n    var octStrs = [],\n        bitArr = [];\n    //buf to array of strings\n    for(let oct of buf )\n        octStrs.push(oct.toString(2).padStart(8,'0'));\n    //arr of strings to array of bits\n    for(let octStr of octStrs)\n        for(let i=0; i<octStr.length; i++)\n            bitArr.push(octStr[i]=='0' ? 0 : 1)\n            \n    node.warn({o:octStrs.toString(),b:bitArr.toString(), \"octStrs\": octStrs, bitArr: bitArr })\n    return bitArr;\n}\n\n\n\nfor(let i=0;i<1;i++)\n    node.warn( intToBitArray(300).toString() )\n\n\n\n\n/* let arr=[];\nfor(let i=0,s=0xAA.toString(2).padStart(16,'0'); i<s.length;i++)\n    arr.push(parseInt(s[i])) * /\n\n\nnode.warn({\n    \"intToBit\": intArrToBitArray(msg.payload.buffer).toString(), \n    \"arrToArr\": bitArrToString(bufToBitArray(msg.payload.buffer))\n})\n\nconst bitArr=intArrToBitArray(msg.payload.buffer)\n\nconst btnActionMsg(action){\n    return {action:action}\n}\n\nconst cbMap=[\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n]\n\nbitArr.forEach( (bit,i) => node.send(bitMap[i])) )\n\nfor(let i=0; i<bitArr.length; i++)\n    if(bitArr[i])\n        node.send(cbMap[i]())\n\n//embed switch in this funcion, setting up 1 output per expected bit (16 outputs)\n    //node.send(bitArr.forEach((bit,i) => (bit ? cbMap[i]() : null )))\n\n\n/*node.warn(\"msg received\")\nnode.warn(buf)\nnode.warn(buf.buffer)\nnode.warn(bitArrToString(bufToBitArray([0xAA, 0xAA]))) */",
+        "func": "//will output { topic:\"OMET\", action:\"setC1\"}\n\n//should receive a stream of bits at least bitMap.length long\n    //if received.len < bitMap.len -> warn & append zeros to received\n    //if received.len > bitMap.len -> silently use only the first bitMap.len bits \n\n\n\n/* const getActionMsg = (function () {\n    const f = global.get(\"btnControl\").prepareActionMsg.bind(global.get(\"btnControl\"));\n    return function (...args) { return f({},...args) }\n})(); */\n\nfunction prepareActionMsg(...args) {\n    return global.get(\"buttonsControl\").prepareActionMsg(new Object(), ...args)\n}\n\n/** associates a function to each bit retrieved from the ZBRN1.\n * - the f() will send a message like {topic: 'OMET', payload:'setC1'} aka { macKey,  btnActId }\n */\nconst bitMap = [\n    //PB1\n    ()=>{ node.send(prepareActionMsg(\"FA421\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA421\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA421\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA421\", \"blackBtn\")) },\n    //PB2\n    ()=>{ node.send(prepareActionMsg(\"FA420\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA420\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA420\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA420\", \"blackBtn\")) },\n\n\n    //PB3 //8+\n    ()=>{ node.send(prepareActionMsg(\"FA419\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA419\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA419\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA419\", \"blackBtn\")) },\n    //PB4\n    ()=>{ node.send(prepareActionMsg(\"FA422\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA422\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA422\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA422\", \"blackBtn\")) },\n\n\n    //PB5 //16+\n    ()=>{ node.send(prepareActionMsg(\"FA423\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA423\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA423\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"FA423\", \"blackBtn\")) },\n    //PB6\n    ()=>{ node.send(prepareActionMsg(\"OMET\", \"redBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"OMET\", \"greenBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"OMET\", \"whiteBtn\")) },\n    ()=>{ node.send(prepareActionMsg(\"OMET\", \"blackBtn\")) },\n];\nconst NBITS = bitMap.length;\n\n//convert to bit array\ntry{\n    var bitArr = intArrToBitArray(msg.payload.buffer);\n    if(!bitArr || bitArr.length < NBITS){\n        node.warn({ txt: \"INCONSISTENT BITARR-BITMAP LENGTHS appended 0s\", bitArr: bitArr, bitMap:bitMap,buf:msg.payload.buffer,fullMsg:msg})\n        for(let i=bitArr.length;i<bitMap.length;i++)\n            bitArr.push(0);\n    }\n}catch(e) { node.error(e, e); return}\n\n//map to bitMap functions\nconst last = context.get(\"bitArray\") ?? (new Array(NBITS)).fill(0);\nnode.warn({\"bitArr\":bitArr.toString(),\"last\":last.toString()});\n\nfor(let i=0; i<NBITS; i++){\n    if(bitArr[i] && bitArr[i] != last[i]){\n        bitMap[i]()\n    }\n};\ncontext.set(\"bitArray\",bitArr);\n\n\n//------FUNCTIONS-------------------------------------------------------------------------------------------\n\n\n/** @summary converts a single integer number to its binary array rappresentation\n * @param {number} val integer\n * @return {number[]} array of NUMBERS, only 0 and 1\n * @throws TypeError if val is not an integer\n * @throws Error if detects possible infinite loop\n */\nfunction intToBitArray(val) {\n    var bitArr = [];\n\n    if (typeof (val) != \"number\" || val % 1 != 0) throw new TypeError(`[${intToBitArray.name}()]:val must be an integer number`);\n    //trova il primo ottetto != 0\n    /*var minBytes=4-1; //stops 1 too early\n    for(let i=0; i<4 && (val>>(32-8*i))!=0; i++)\n        minBytes--;\n    node.warn({minBytes:minBytes,for:val})\n    */\n\n    let nByte = 0;\n    do {\n        //copia un bit alla volta * 8bit\n        for (let i = 0; i < 8; i++)\n            bitArr.push((val >> i) & 0x00000001);\n        nByte++;\n        //node.warn(nByte);node.warn(val >> 8*nByte)\n        if (nByte >= 50) throw new Error(\"triggered infinite loop guard. possible infinite loop at \" + intToBitArray.name);\n    } while (val >> 8 * nByte)\n\n    return bitArr;\n}\n\nfunction intArrToBitArray(arr) {\n    var ret = []\n    for (let val of arr)\n        intToBitArray(val).forEach(bit => ret.push(bit))\n    return ret;\n}\n\n\n\n\n\n\n/*\n//let buf = msg.buffer;\nlet buf = Buffer.from( new Uint8Array([5,9]) );\n\nfunction bitArrToString(arr) {\n    var str = \"\";\n    for (let i = 0; i < arr.length; i++) {\n        if (i % 4 == 0 && i)\n            str += \"|\"\n        str += parseInt(0+arr[i]) + \",\";\n    }\n    return str;\n}\n\n//buf[15] <=> bit[15]\nfunction bufToBitArray(buf){\n    var octStrs = [],\n        bitArr = [];\n    //buf to array of strings\n    for(let oct of buf )\n        octStrs.push(oct.toString(2).padStart(8,'0'));\n    //arr of strings to array of bits\n    for(let octStr of octStrs)\n        for(let i=0; i<octStr.length; i++)\n            bitArr.push(octStr[i]=='0' ? 0 : 1)\n            \n    node.warn({o:octStrs.toString(),b:bitArr.toString(), \"octStrs\": octStrs, bitArr: bitArr })\n    return bitArr;\n}\n\n\n\nfor(let i=0;i<1;i++)\n    node.warn( intToBitArray(300).toString() )\n\n\n\n\n/* let arr=[];\nfor(let i=0,s=0xAA.toString(2).padStart(16,'0'); i<s.length;i++)\n    arr.push(parseInt(s[i])) * /\n\n\nnode.warn({\n    \"intToBit\": intArrToBitArray(msg.payload.buffer).toString(), \n    \"arrToArr\": bitArrToString(bufToBitArray(msg.payload.buffer))\n})\n\nconst bitArr=intArrToBitArray(msg.payload.buffer)\n\nconst btnActionMsg(action){\n    return {action:action}\n}\n\nconst cbMap=[\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n\n    ()=>{},\n    ()=>{},\n    ()=>{},\n    ()=>{},\n]\n\nbitArr.forEach( (bit,i) => node.send(bitMap[i])) )\n\nfor(let i=0; i<bitArr.length; i++)\n    if(bitArr[i])\n        node.send(cbMap[i]())\n\n//embed switch in this funcion, setting up 1 output per expected bit (16 outputs)\n    //node.send(bitArr.forEach((bit,i) => (bit ? cbMap[i]() : null )))\n\n\n/*node.warn(\"msg received\")\nnode.warn(buf)\nnode.warn(buf.buffer)\nnode.warn(bitArrToString(bufToBitArray([0xAA, 0xAA]))) */",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5943,6 +5991,7 @@
         "id": "fb7ec45bd3369999",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "OMET",
         "props": [
             {
@@ -5960,8 +6009,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 550,
-        "y": 2280,
+        "x": 555,
+        "y": 2325,
         "wires": [
             [
                 "cb87a1179601d7b8"
@@ -5988,8 +6037,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1210,
-        "y": 2175,
+        "x": 1215,
+        "y": 2220,
         "wires": [
             [
                 "eed9d3aa846e26f9"
@@ -6000,6 +6049,7 @@
         "id": "b7f354ce82204d9c",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "0459e2a074258c5a",
         "name": "PROGRAMMED STATE CHANGE",
         "active": true,
         "tosidebar": true,
@@ -6009,40 +6059,15 @@
         "targetType": "full",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 535,
-        "y": 2115,
+        "x": 565,
+        "y": 2175,
         "wires": []
-    },
-    {
-        "id": "518eec6998544a20",
-        "type": "change",
-        "z": "bdc10eb0bfc2c224",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 125,
-        "y": 2025,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "f0c22b02c475661f",
         "type": "change",
         "z": "bdc10eb0bfc2c224",
-        "g": "d5eb1a41a9c67896",
+        "g": "0459e2a074258c5a",
         "name": "",
         "rules": [
             {
@@ -6058,8 +6083,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 290,
-        "y": 2175,
+        "x": 295,
+        "y": 2220,
         "wires": [
             [
                 "dd20009116ca100b",
@@ -6072,6 +6097,7 @@
         "type": "function",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "14b96f87412544c1",
         "name": "function 5",
         "func": "const signalCells = global.get(\"signalCells\");\n\nsignalCells.set",
         "outputs": 1,
@@ -6079,8 +6105,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
-        "y": 2070,
+        "x": 515,
+        "y": 2115,
         "wires": [
             []
         ]
@@ -6089,6 +6115,7 @@
         "id": "47b607147dd37f73",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "update signalCell",
         "func": "\nlet signalKey = msg.action.match(/set(\\w+)/)[1]; if(!signalKey) node.warn({txt:\"error extracting signalKey\",sk:signalKey,fullMsg:msg})\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\n\ncell.signalKey = signalKey;\ncell.timerStart = Date.now();\ncell.timerEnd = Date.now() + global.get(\"config\").machines[mKey].toA3Timeout;\n\nreturn msg;",
         "outputs": 1,
@@ -6096,8 +6123,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 875,
-        "y": 2310,
+        "x": 880,
+        "y": 2355,
         "wires": [
             [
                 "c4f475eadc34f078"
@@ -6116,8 +6143,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 980,
-        "y": 2085,
+        "x": 985,
+        "y": 2130,
         "wires": [
             [
                 "ba60486beccc9f83"
@@ -6131,8 +6158,8 @@
         "g": "fe28fb7cb365d682",
         "name": "send reset all",
         "links": [],
-        "x": 855,
-        "y": 2085,
+        "x": 860,
+        "y": 2130,
         "wires": [
             [
                 "d4afd683f2270862"
@@ -6147,22 +6174,23 @@
         "name": "send reset all",
         "mode": "return",
         "links": [],
-        "x": 1095,
-        "y": 2085,
+        "x": 1100,
+        "y": 2130,
         "wires": []
     },
     {
         "id": "de15a8e34e10e6de",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send reset all",
         "links": [
             "afee83b9c6a3f479"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 865,
-        "y": 2715,
+        "x": 870,
+        "y": 2760,
         "wires": [
             [
                 "9002b5da933a2cf0"
@@ -6173,14 +6201,15 @@
         "id": "e61d6852cebd5731",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send reset all",
         "links": [
             "afee83b9c6a3f479"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 860,
-        "y": 2640,
+        "x": 865,
+        "y": 2685,
         "wires": [
             [
                 "4bf699bb76b64d11"
@@ -6191,14 +6220,15 @@
         "id": "2c3cc994eb8f94aa",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send reset all",
         "links": [
             "afee83b9c6a3f479"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 860,
-        "y": 2790,
+        "x": 865,
+        "y": 2835,
         "wires": [
             [
                 "be30f8352908de40"
@@ -6210,14 +6240,15 @@
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "14b96f87412544c1",
         "name": "send reset all",
         "links": [
             "afee83b9c6a3f479"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 865,
-        "y": 2865,
+        "x": 870,
+        "y": 2910,
         "wires": [
             [
                 "19df9e22435f0986"
@@ -6229,14 +6260,15 @@
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "14b96f87412544c1",
         "name": "send reset all",
         "links": [
             "afee83b9c6a3f479"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 860,
-        "y": 2940,
+        "x": 865,
+        "y": 2985,
         "wires": [
             [
                 "eba758ecf77571c1"
@@ -6247,6 +6279,7 @@
         "id": "71050fa128ba0470",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "send reset for setA3",
         "func": "msg.reset=true;\nmsg.action=\"setA3\"\nreturn msg;",
         "outputs": 1,
@@ -6254,8 +6287,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 895,
-        "y": 2385,
+        "x": 900,
+        "y": 2430,
         "wires": [
             [
                 "223dfe7f51e5c702"
@@ -6266,16 +6299,18 @@
         "id": "0c672d18a9ee0d9d",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "TODO rinomina setCellSignal -> setSingleCellState",
         "info": "",
-        "x": 1365,
-        "y": 2445,
+        "x": 1370,
+        "y": 2490,
         "wires": []
     },
     {
         "id": "749c5b1f3c10cf66",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "OMET",
         "props": [
             {
@@ -6293,8 +6328,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 550,
-        "y": 2355,
+        "x": 555,
+        "y": 2400,
         "wires": [
             [
                 "06c77a7347c932b1"
@@ -6305,6 +6340,7 @@
         "id": "b936e4a9ee71f492",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "OMET",
         "props": [
             {
@@ -6322,8 +6358,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 560,
-        "y": 2520,
+        "x": 565,
+        "y": 2565,
         "wires": [
             [
                 "0ab9b611389e52b7"
@@ -6334,6 +6370,7 @@
         "id": "a7135869c6f11da0",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "OMET",
         "props": [
             {
@@ -6351,8 +6388,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 385,
-        "y": 2640,
+        "x": 390,
+        "y": 2685,
         "wires": [
             [
                 "ea5a84d58454a07e"
@@ -6363,6 +6400,7 @@
         "id": "b8a75ac233598814",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "OMET",
         "props": [
             {
@@ -6380,8 +6418,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 385,
-        "y": 2685,
+        "x": 390,
+        "y": 2730,
         "wires": [
             [
                 "534b0771447b37e9"
@@ -6392,6 +6430,7 @@
         "id": "3d4f9e766470653e",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "OMET",
         "props": [
             {
@@ -6409,8 +6448,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 550,
-        "y": 2685,
+        "x": 555,
+        "y": 2730,
         "wires": [
             [
                 "6a9506e901b63554"
@@ -6421,6 +6460,7 @@
         "id": "23db80ed422b9759",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "OMET",
         "props": [
             {
@@ -6438,8 +6478,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 550,
-        "y": 2760,
+        "x": 555,
+        "y": 2805,
         "wires": [
             [
                 "2c9f603eb53ec7c7"
@@ -6450,6 +6490,7 @@
         "id": "24c8d29178389a35",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "OMET",
         "props": [
             {
@@ -6467,8 +6508,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 550,
-        "y": 2835,
+        "x": 555,
+        "y": 2880,
         "wires": [
             [
                 "6b16add2d6b04682"
@@ -6479,6 +6520,7 @@
         "id": "69720d01f23fd641",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "OMET",
         "props": [
             {
@@ -6496,8 +6538,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 535,
-        "y": 2910,
+        "x": 540,
+        "y": 2955,
         "wires": [
             [
                 "d1f763dae798b9a3"
@@ -6508,6 +6550,7 @@
         "id": "dd7c1b4a3c0a9b85",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "14b96f87412544c1",
         "name": "FA420",
         "props": [
             {
@@ -6525,13 +6568,24 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "FA420",
-        "x": 550,
-        "y": 2310,
+        "x": 555,
+        "y": 2355,
         "wires": [
             [
                 "cb87a1179601d7b8"
             ]
         ]
+    },
+    {
+        "id": "4d56894252d94c10",
+        "type": "comment",
+        "z": "bdc10eb0bfc2c224",
+        "g": "0459e2a074258c5a",
+        "name": "delay programmed state changes",
+        "info": "",
+        "x": 270,
+        "y": 2175,
+        "wires": []
     },
     {
         "id": "15c00fddf6febcfb",
@@ -7535,700 +7589,6 @@
         "l": false
     },
     {
-        "id": "168519c137046930",
-        "type": "inject",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "2",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 250,
-        "y": 2475,
-        "wires": [
-            [
-                "f1103d4e21a73fdc"
-            ]
-        ]
-    },
-    {
-        "id": "f1103d4e21a73fdc",
-        "type": "function",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "send query",
-        "func": "\n//# functionOutputs must be = or > than returned array length\n\nvar msgStack=new Array();\n\n\n\n//for(let i=0;i<7;i++){\n    node.send(flow.queryRegistry(\"0x802\", \"0x803\"));\n    //node.send(flow.queryRegistry(4400, 4401));\n//}\n\n\n//return {\"payload\":msgStack}; //se usi nodo split\n//node.send(flow.queryRegistry(\"0x0001\", \"0x0009\"));\n\n\n//for(let i=0; i<msgStack.length;i++)\n//    node.send(msgStack[i]);\n\n/*\nreturn msgStack.map( (query,index) => { return {\n    \"payload\":query,\n    \"queryIndex\":index,\n    \"topic\": ((query.topic===undefined) ? null : query.topic)\n}});//[{ 'a': 1 }, { 'a': 2 }, { 'a': 3 }];\n\n/**/",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\nif (global.inverterUnitId===undefined)\n    global.inverterUnitId=10;\n\nflow.getDefaultQuery = function (address = 0, quantity = 2) {\n    return {\n        'payload':{\n            'value': null,\n            'fc': 3, //mode: Holding Register\n            //'unitid': global.inverterUnitId //overrides default\n            'address': address,\n            'quantity': quantity\n        }\n    };\n}\n\n//from,to   string|int  hex string like \"ox802\" or int like 2050\nflow.queryRegistry= function (from, to,sequenceName=\"\") {\n    if (typeof (from) == \"string\")\n        from = parseInt(from);\n    if (typeof (to) == \"string\")\n        to = parseInt(to);\n    let ret = flow.getDefaultQuery(from, to - from + 1);\n    ret.name=sequenceName;\n    return ret;\n}",
-        "finalize": "",
-        "libs": [],
-        "x": 410,
-        "y": 2475,
-        "wires": [
-            [
-                "99f290d09a2d605c"
-            ]
-        ]
-    },
-    {
-        "id": "5857ac58e83b5a22",
-        "type": "inject",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "resetQueue",
-                "v": "true",
-                "vt": "bool"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 640,
-        "y": 2335,
-        "wires": [
-            [
-                "d20bfd7ca3a2b214"
-            ]
-        ]
-    },
-    {
-        "id": "99f290d09a2d605c",
-        "type": "q-gate",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "queue-gate",
-        "controlTopic": "queueControl",
-        "defaultState": "open",
-        "openCmd": "open",
-        "closeCmd": "close",
-        "toggleCmd": "toggle",
-        "queueCmd": "queue",
-        "defaultCmd": "default",
-        "triggerCmd": "trigger",
-        "flushCmd": "flush",
-        "resetCmd": "reset",
-        "peekCmd": "peek",
-        "dropCmd": "drop",
-        "statusCmd": "status",
-        "maxQueueLength": "100",
-        "keepNewest": true,
-        "qToggle": false,
-        "persist": false,
-        "storeName": "memory",
-        "x": 630,
-        "y": 2435,
-        "wires": [
-            [
-                "05155140ca77bf61"
-            ]
-        ]
-    },
-    {
-        "id": "3da7bb8fa229a82f",
-        "type": "function",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "queue control",
-        "func": "\n  //when channel status changes\nif(msg.status!==undefined){\n    if(flow.get(\"modbusIsReady\")){\n      setTimeout(()=>{\n        node.send(context.command(\"flush\"));\n        node.send(context.command(\"open\"));\n      },1000); //delay messages to avoid an immediate new crash \n      return;\n    }\n    else{\n      return context.command(\"queue\")\n    }\n}\n\n\n\n/* info:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncontext.command= function (command){\n    return { 'topic': \"queueControl\", 'payload':command};\n}",
-        "finalize": "",
-        "libs": [],
-        "x": 400,
-        "y": 2395,
-        "wires": [
-            [
-                "99f290d09a2d605c"
-            ]
-        ]
-    },
-    {
-        "id": "11103fa07a72872e",
-        "type": "status",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "",
-        "scope": [
-            "05155140ca77bf61"
-        ],
-        "x": 200,
-        "y": 2355,
-        "wires": [
-            [
-                "1b762b6676faa61a",
-                "3da7bb8fa229a82f"
-            ]
-        ]
-    },
-    {
-        "id": "905242d162db1caf",
-        "type": "catch",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "",
-        "scope": [
-            "05155140ca77bf61"
-        ],
-        "uncaught": false,
-        "x": 150,
-        "y": 2435,
-        "wires": [
-            [
-                "a6557d27a4ccccf0",
-                "b9f8339f0bddcb39"
-            ]
-        ]
-    },
-    {
-        "id": "3e316755168c06f6",
-        "type": "function",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "unset error",
-        "func": "delete msg.error;\nmsg.unitId=10;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 410,
-        "y": 2435,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "cfefef80e9b194d1",
-        "type": "comment",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "send msg on high and highhigh, throws warning and error too",
-        "info": "",
-        "x": 845,
-        "y": 2315,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "fcf4dd1dc8f9d063",
-        "type": "comment",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "when sending fails it flushes the queue appending the error to each processed msg as msg.error",
-        "info": "when sending fails it flushes the queue\nappending the error to each processed msg\nas msg.error",
-        "x": 865,
-        "y": 2415,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "e94bbfdfafbd2c8d",
-        "type": "inject",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "queueControl",
-        "payload": "reset",
-        "payloadType": "str",
-        "x": 390,
-        "y": 2535,
-        "wires": [
-            [
-                "99f290d09a2d605c"
-            ]
-        ]
-    },
-    {
-        "id": "e93ee763df9c6153",
-        "type": "comment",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "holds errors and sends them again once modbus is ready. The actual queue is handled by the modbus config node.",
-        "info": "holds errors and sends them again once modbus is ready.\nThe actual queue is handled by the modbus config node.",
-        "x": 645,
-        "y": 2395,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "05155140ca77bf61",
-        "type": "modbus-flex-getter",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "query inverter",
-        "showStatusActivities": false,
-        "showErrors": true,
-        "logIOActivities": false,
-        "server": "215f97f57dbdc3e9",
-        "useIOFile": false,
-        "ioFile": "",
-        "useIOForPayload": false,
-        "emptyMsgOnFail": true,
-        "keepMsgProperties": true,
-        "x": 820,
-        "y": 2435,
-        "wires": [
-            [
-                "9bc9b1bd765143ca"
-            ],
-            [
-                "372526d485ca01db"
-            ]
-        ]
-    },
-    {
-        "id": "d20bfd7ca3a2b214",
-        "type": "modbus-queue-info",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "",
-        "topic": "",
-        "unitid": "0",
-        "queueReadIntervalTime": "100",
-        "lowLowLevel": "5",
-        "lowLevel": "5",
-        "highLevel": "10",
-        "highHighLevel": "15",
-        "server": "37fae351f7b9f19a",
-        "errorOnHighLevel": false,
-        "showStatusActivities": true,
-        "updateOnAllQueueChanges": false,
-        "updateOnAllUnitQueues": true,
-        "x": 810,
-        "y": 2335,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a6557d27a4ccccf0",
-        "type": "switch",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "empty"
-            },
-            {
-                "t": "null"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 270,
-        "y": 2435,
-        "wires": [
-            [],
-            [],
-            [
-                "3e316755168c06f6"
-            ]
-        ]
-    },
-    {
-        "id": "9bc9b1bd765143ca",
-        "type": "function",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "log errors",
-        "func": "node.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\n\nif(msg.error!=undefined){\n    node.error(msg.error);\n    context.set(\"errorCc\", context.get(\"errorCc\")+1);\n}\nelse{\n    node.log(msg.payload)\n}\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\ncontext.set(\"outCc\", 0);\ncontext.set(\"errorCc\", 0);",
-        "finalize": "",
-        "libs": [],
-        "x": 980,
-        "y": 2395,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1b762b6676faa61a",
-        "type": "function",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "shareConnectionStatus",
-        "func": "flow.set(\"modbusStatusString\", (msg.status.text ? msg.status.text : \"none\"));\nif(msg.status.fill==\"green\"){\n    flow.set(\"modbusIsReady\", true);\n}\nelse{\n    flow.set(\"modbusIsReady\", false);\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\nflow.set(\"modbusStatusString\", \"none\");\nflow.set(\"modbusIsReady\", false);",
-        "finalize": "",
-        "libs": [],
-        "x": 410,
-        "y": 2355,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f4917f08c9c0b1a1",
-        "type": "comment",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "BKP query inverter",
-        "info": "",
-        "x": 290,
-        "y": 2275,
-        "wires": []
-    },
-    {
-        "id": "372526d485ca01db",
-        "type": "debug",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 980,
-        "y": 2455,
-        "wires": []
-    },
-    {
-        "id": "b9f8339f0bddcb39",
-        "type": "debug",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "da77e7609f045ab9",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 180,
-        "y": 2395,
-        "wires": []
-    },
-    {
-        "id": "1139a9eb6fcaa7a1",
-        "type": "link in",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "2cf1ebc3c7549361",
-        "name": "link in",
-        "links": [],
-        "x": 125,
-        "y": 2085,
-        "wires": [
-            [
-                "77c107f0b5ae5214"
-            ]
-        ]
-    },
-    {
-        "id": "77c107f0b5ae5214",
-        "type": "switch",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "2cf1ebc3c7549361",
-        "name": "",
-        "property": "topic",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "allWeekEnergy",
-                "vt": "str"
-            },
-            {
-                "t": "else"
-            },
-            {
-                "t": "else"
-            }
-        ],
-        "checkall": "false",
-        "repair": false,
-        "outputs": 3,
-        "x": 230,
-        "y": 2085,
-        "wires": [
-            [
-                "28569d65c3243a38"
-            ],
-            [
-                "8e489dedabd31f4f"
-            ],
-            [
-                "0b9842e3937bb61a"
-            ]
-        ]
-    },
-    {
-        "id": "6b21ca10d112452a",
-        "type": "file",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "2cf1ebc3c7549361",
-        "name": "storeDati",
-        "filename": "${path_fotovoltaico_dati}\\allWeekEnergy.dat",
-        "filenameType": "env",
-        "appendNewline": true,
-        "createDir": true,
-        "overwriteFile": "true",
-        "encoding": "utf8",
-        "x": 770,
-        "y": 2025,
-        "wires": [
-            [
-                "3797e914cd36dd8a"
-            ]
-        ]
-    },
-    {
-        "id": "8e489dedabd31f4f",
-        "type": "debug",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "2cf1ebc3c7549361",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 401.9999656677246,
-        "y": 2114.9999828338623,
-        "wires": []
-    },
-    {
-        "id": "0b9842e3937bb61a",
-        "type": "function",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "2cf1ebc3c7549361",
-        "name": "log errors #2",
-        "func": "/*\nif(context.isDisplaying)\n    context.addErr(\"msgNonSmistato\");\nelse\n    context.displayError()\nnode.warn(\"msgNonSmistato\");\n\n*/\nnode.warn([\"missingTopicException\",msg]);",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\n//context.errors={}; //key:value pairs\ncontext.errStack=[];\ncontext.errHead=0;\n//context.maxErrCount=0;\ncontext.timeout=1600;\n//context.maxTimeout=0;\ncontext.isDisplaying=false;\n\n\n\ncontext.displayError = function (errName, duration /*, startTime=0*/) {\n    context.isDisplaying=true;\n    let startTime=0;\n    node.warn(errName); //per qualche motivo tutti i parametri della funzione restano undefined\n\n    node.status({ fill: \"red\", shape: \"dot\", text: errName });\n    setTimeout(() => {\n        node.status({ fill: \"red\", shape: \"ring\", text: errName });\n    }, duration/4 + startTime);\n    setTimeout(() => {\n        node.status({ fill: \"red\", shape: \"dot\", text: errName });\n    }, duration*3/4 + startTime);\n    setTimeout(() => {\n        node.status({ fill: \"gray\", shape: \"ring\", text: \"\" });       \n        context.nextError();\n    }, duration + startTime);\n}\n\ncontext.addErr = function (errName) {\n    if (context.isDisplaying){\n        context.errStack.push(errName);\n        node.log(context.errStack);\n    }\n    else\n        context.displayError(\"someText\", context.timeout);\n}\ncontext.nextError = function () {\n    if (context.errHead == context.errStack.length) {\n        context.isDisplaying=false;\n        node.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\n        context.errStack = new Array()\n        context.errHead = 0;\n        return\n    }\n    else {\n        context.displayError(context.errStack[context.errHead],context.timeout);\n        context.errHead++;\n    }\n}\n\n",
-        "finalize": "",
-        "libs": [],
-        "x": 260,
-        "y": 2145,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ba73114a49b89f60",
-        "type": "comment",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "2cf1ebc3c7549361",
-        "name": "allWeekEnergy",
-        "info": "",
-        "x": 285,
-        "y": 2025,
-        "wires": [],
-        "l": false
-    },
-    {
-        "id": "3797e914cd36dd8a",
-        "type": "debug",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "2cf1ebc3c7549361",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 910,
-        "y": 2025,
-        "wires": []
-    },
-    {
-        "id": "316bce5bb99571f1",
-        "type": "json",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "2cf1ebc3c7549361",
-        "name": "",
-        "property": "payload",
-        "action": "str",
-        "pretty": false,
-        "x": 665,
-        "y": 2025,
-        "wires": [
-            [
-                "6b21ca10d112452a"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "7a0bd75fedb9f8d1",
-        "type": "join",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "e4b56d5c220355cd",
-        "name": "",
-        "mode": "auto",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 605,
-        "y": 2025,
-        "wires": [
-            [
-                "316bce5bb99571f1"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "cae2260813cda61f",
-        "type": "function",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "e4b56d5c220355cd",
-        "name": "composeBigEndian",
-        "func": "msg.payload = msg.payload[0] | (msg.payload[1] << 16);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 490,
-        "y": 2025,
-        "wires": [
-            [
-                "7a0bd75fedb9f8d1"
-            ]
-        ]
-    },
-    {
-        "id": "28569d65c3243a38",
-        "type": "split",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "e4b56d5c220355cd",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": "2",
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "x": 375,
-        "y": 2025,
-        "wires": [
-            [
-                "cae2260813cda61f"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "a4d6f2321520f0f5",
-        "type": "comment",
-        "z": "c1d4418a6f1f1693",
-        "d": true,
-        "g": "2cf1ebc3c7549361",
-        "name": "RISPOSTE INTERROGAZIONI",
-        "info": "",
-        "x": 260,
-        "y": 1945,
-        "wires": []
-    },
-    {
         "id": "e788bf33f7250b4e",
         "type": "inject",
         "z": "c1d4418a6f1f1693",
@@ -8250,7 +7610,7 @@
         "topic": "query",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
+        "x": 170,
         "y": 525,
         "wires": [
             [
@@ -8282,7 +7642,7 @@
         "qToggle": false,
         "persist": false,
         "storeName": "memory",
-        "x": 580,
+        "x": 590,
         "y": 465,
         "wires": [
             [
@@ -8303,7 +7663,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncontext.set(\"command\", function (command){\n    return { 'topic': \"queueControl\", 'payload':command};\n});",
         "finalize": "",
         "libs": [],
-        "x": 350,
+        "x": 360,
         "y": 420,
         "wires": [
             [
@@ -8320,7 +7680,7 @@
         "scope": [
             "829cb3bdb9fa3035"
         ],
-        "x": 150,
+        "x": 160,
         "y": 360,
         "wires": [
             [
@@ -8341,7 +7701,7 @@
             "829cb3bdb9fa3035"
         ],
         "uncaught": false,
-        "x": 160,
+        "x": 170,
         "y": 465,
         "wires": [
             [
@@ -8361,7 +7721,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
+        "x": 370,
         "y": 465,
         "wires": [
             []
@@ -8374,7 +7734,7 @@
         "g": "5f741e9d0e05f1e2",
         "name": "send msg on high and highhigh, throws warning and error too",
         "info": "",
-        "x": 825,
+        "x": 835,
         "y": 315,
         "wires": [],
         "l": false
@@ -8386,7 +7746,7 @@
         "g": "5f741e9d0e05f1e2",
         "name": "when sending fails it flushes the queue appending the error to each processed msg as msg.error",
         "info": "when sending fails it flushes the queue\nappending the error to each processed msg\nas msg.error",
-        "x": 765,
+        "x": 775,
         "y": 435,
         "wires": [],
         "l": false
@@ -8413,7 +7773,7 @@
         "topic": "queueControl",
         "payload": "queue",
         "payloadType": "str",
-        "x": 260,
+        "x": 270,
         "y": 570,
         "wires": [
             [
@@ -8428,7 +7788,7 @@
         "g": "5f741e9d0e05f1e2",
         "name": "holds errors and sends them again once modbus is ready. The actual queue is handled by the modbus config node.",
         "info": "holds errors and sends them again once modbus is ready.\nThe actual queue is handled by the modbus config node.",
-        "x": 565,
+        "x": 575,
         "y": 435,
         "wires": [],
         "l": false
@@ -8448,7 +7808,7 @@
         "useIOForPayload": false,
         "emptyMsgOnFail": true,
         "keepMsgProperties": true,
-        "x": 870,
+        "x": 880,
         "y": 465,
         "wires": [
             [],
@@ -8475,7 +7835,7 @@
         "showStatusActivities": true,
         "updateOnAllQueueChanges": true,
         "updateOnAllUnitQueues": true,
-        "x": 805,
+        "x": 815,
         "y": 345,
         "wires": [
             []
@@ -8493,7 +7853,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\ncontext.set(\"outCc\", 0);\ncontext.set(\"errorCc\", 0);",
         "finalize": "",
         "libs": [],
-        "x": 1235,
+        "x": 1245,
         "y": 435,
         "wires": [
             []
@@ -8511,7 +7871,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nflow.set(\"modbusStatusString\", \"none\");\nflow.set(\"modbusIsReady\", false);",
         "finalize": "",
         "libs": [],
-        "x": 380,
+        "x": 390,
         "y": 375,
         "wires": [
             []
@@ -8525,7 +7885,7 @@
         "name": "PLC Query OUT",
         "mode": "return",
         "links": [],
-        "x": 1170,
+        "x": 1180,
         "y": 495,
         "wires": []
     },
@@ -8539,7 +7899,7 @@
             "92bab0627eba301d",
             "bfbeb3f69de7db05"
         ],
-        "x": 560,
+        "x": 570,
         "y": 605,
         "wires": [
             [
@@ -8567,7 +7927,7 @@
         "checkall": "false",
         "repair": true,
         "outputs": 2,
-        "x": 1050,
+        "x": 1060,
         "y": 465,
         "wires": [
             [
@@ -8588,9 +7948,9 @@
         "type": "comment",
         "z": "c1d4418a6f1f1693",
         "g": "5f741e9d0e05f1e2",
-        "name": "INTERROGAZIONE PLC",
+        "name": "INTERROGAZIONE MODBUS",
         "info": "",
-        "x": 250,
+        "x": 280,
         "y": 270,
         "wires": []
     },
@@ -8612,7 +7972,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 255,
+        "x": 265,
         "y": 465,
         "wires": [
             [
@@ -8633,7 +7993,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 195,
+        "x": 205,
         "y": 420,
         "wires": [
             [
@@ -8664,7 +8024,7 @@
         "topic": "queueControl",
         "payload": "trigger",
         "payloadType": "str",
-        "x": 260,
+        "x": 270,
         "y": 600,
         "wires": [
             [
@@ -8686,7 +8046,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 370,
+        "x": 380,
         "y": 315,
         "wires": []
     },
@@ -8712,7 +8072,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 615,
+        "x": 625,
         "y": 345,
         "wires": [
             [
@@ -8734,7 +8094,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1195,
+        "x": 1205,
         "y": 540,
         "wires": []
     },
@@ -8748,7 +8108,7 @@
         "links": [
             "c7efc430b35e5347"
         ],
-        "x": 285,
+        "x": 295,
         "y": 345,
         "wires": []
     },
@@ -8763,7 +8123,7 @@
         "links": [
             "3d7f018e03cb4a74"
         ],
-        "x": 405,
+        "x": 415,
         "y": 645,
         "wires": []
     },
@@ -8781,7 +8141,7 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 825,
+        "x": 835,
         "y": 525,
         "wires": []
     },
@@ -8796,7 +8156,7 @@
         "server": "63a4af044d8334e0",
         "emptyMsgOnFail": true,
         "keepMsgProperties": true,
-        "x": 585,
+        "x": 575,
         "y": 1425,
         "wires": [
             [],
@@ -8817,7 +8177,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\ncontext.set(\"outCc\", 0);\ncontext.set(\"errorCc\", 0);",
         "finalize": "",
         "libs": [],
-        "x": 930,
+        "x": 920,
         "y": 1380,
         "wires": [
             []
@@ -8837,7 +8197,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 925,
+        "x": 915,
         "y": 1425,
         "wires": []
     },
@@ -8860,7 +8220,7 @@
         "checkall": "false",
         "repair": true,
         "outputs": 2,
-        "x": 790,
+        "x": 780,
         "y": 1425,
         "wires": [
             [
@@ -8875,36 +8235,6 @@
         "l": false
     },
     {
-        "id": "5d895375edc5f905",
-        "type": "link out",
-        "z": "c1d4418a6f1f1693",
-        "g": "6296d8244a1eb427",
-        "name": "initChart",
-        "mode": "link",
-        "links": [
-            "ca2b9f6d1617d974"
-        ],
-        "x": 570,
-        "y": 1770,
-        "wires": [],
-        "l": true
-    },
-    {
-        "id": "f8e2ce4e4480269d",
-        "type": "link in",
-        "z": "c1d4418a6f1f1693",
-        "g": "6296d8244a1eb427",
-        "name": "initChart in",
-        "links": [
-            "8a869fbf2653f1a4"
-        ],
-        "x": 645,
-        "y": 1770,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "8aba5c7204608b4a",
         "type": "link out",
         "z": "c1d4418a6f1f1693",
@@ -8913,7 +8243,7 @@
         "name": "PLC write out",
         "mode": "return",
         "links": [],
-        "x": 945,
+        "x": 935,
         "y": 1470,
         "wires": [],
         "l": true
@@ -8927,7 +8257,7 @@
         "func": "//look into start tab",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "\nlet obj = {\n    \"getDefault\": this.from,\n    \"readFrom\": function (address = 0, quantity = 2) {\n        return {\n            'payload': {\n                'value': null,\n                'fc': 3, //mode: Holding Register\n                //'unitid': flow.get(\"defaultUnitId\") //overrides default\n                'address': address,\n                'quantity': quantity\n            }\n        };\n    },\n    \"readBetween\": (function (from, to, sequenceName = \"\") {\n        if (typeof (from) == \"string\")\n            from = parseInt(from);\n        if (typeof (to) == \"string\")\n            to = parseInt(to);\n        let ret = this.from(from, to - from + 1);\n        ret.name = sequenceName;\n        return ret;\n    }).bind(this),\n\n    /**\n     * @description //byte order: da 2301 a 3210 //il plc salva le singole coppie di byte in LittleEndian, mentre la coppia di coppie come BigEndian. (originale: 0123 -> 01,23 -> 23,01 :inMemoria)\n     * @param [Buffer] msgPayloadBuffer Array con lunghezza pari (altrimenti l'ultimo el viene ignorato)\n     * @return Void //swap in-place\n     */\n    \"plcMem2LitEnd\": function (msgPayloadBuffer) {\n        for (let i = 0, tmp, buf = msgPayloadBuffer; i < buf.length - 1; i += 2) {\n            tmp = buf[i];\n            buf[i] = buf[i + 1];\n            buf[i + 1] = tmp;\n        }\n    },\n    /**\n     * @param [number] address <= 65535\n     * @param [any] value <= 65535\n     */\n    \"writeReg\": function (address, value) {\n        return {\n            'payload': {\n                'value': (typeof (value) == \"string\" ? parseInt(value) : value),\n                'fc': 6, //mode: single Register\n                //'unitid': flow.get(\"defaultUnitId\") //overrides default\n                'address': address,\n                'quantity': 1\n            }\n        };\n    },\n    \"writeCoil\": function (address, value) {\n        return {\n            'payload': {\n                'value': value,\n                'fc': 5, //mode: single Coil\n                //'unitid': flow.get(\"defaultUnitId\") //overrides default\n                'address': address,\n                'quantity': 1\n            }\n        };\n    },\n\n\n}\nglobal.set(\"query\", obj);\nglobal.set(\"plc\", obj);\n\nnode.status({ fill: \"green\", text: Object.keys(obj).join(' & ') });\n\n/*\nflow.set(\"getDefaultQuery\", function (address = 0, quantity = 2) {\n    return {\n        'payload':{\n            'value': null,\n            'fc': 3, //mode: Holding Register\n            'unitid': 10, //overrides default\n            'address': address,\n            'quantity': quantity\n        }\n    };\n})\n\n//from,to   string|int  hex string like \"ox802\" or int like 2050\nflow.set(\"queryRegistry\", function (from, to,sequenceName=\"\") {\n    if (typeof (from) == \"string\")\n        from = parseInt(from);\n    if (typeof (to) == \"string\")\n        to = parseInt(to);\n    let ret = flow.get(\"getDefaultQuery\")(from, to - from + 1);\n    ret.name=sequenceName;\n    return ret;\n})*/\n",
+        "initialize": "\nlet obj = {\n    \"getDefault\": this.readFrom,\n    /**\n    * returns a query message that will retrieve a Number[] from the modbus slave\n    * @param {number} address number between 0 : 65535. The receiving slave prepends a prefix on its own, varying between implementations\n    * @param {number} nByte nByte to request.\n    * @returns {Object} the query message to send\n    */\n    \"readReg\": function (address = 0, quantity = 2) {\n        return {\n            'payload': {\n                'value': null,\n                'fc': 3, //mode: Holding Register\n                //'unitid': flow.get(\"defaultUnitId\") //overrides default\n                'address': address,\n                'quantity': quantity\n            }\n        };\n    },\n\n    \"readRegBetween\": (function (from, to, sequenceName = \"\") {\n        if (typeof (from) == \"string\")\n            from = parseInt(from);\n        if (typeof (to) == \"string\")\n            to = parseInt(to);\n        let ret = this.from(from, to - from + 1);\n        ret.name = sequenceName;\n        return ret;\n    }).bind(this),\n    \n    /**\n    * returns a query message that will retrieve a Boolean[] from the modbus slave\n    * @param {number} address number between 0 : 65535. The receiving slave prepends a prefix on its own, varying between implementations\n    * @param {number} nByte nByte to request.\n    * @returns {Object} the query message to send\n    */\n    \"readCoil\": function (address, nByte = 2){\n        return {\n            'payload': {\n                'value': null,\n                'fc': 1, //mode: Coil Status\n                //'unitid': flow.get(\"defaultUnitId\") //overrides default\n                'address': address,\n                'quantity': 8*nByte, //when reading coils 'quantity' refers to the number of bits and it's rounded to the closest higher multiple of 8\n            }\n        }\n    },\n    /**\n     * @description //byte order: da 2301 a 3210 //il plc salva le singole coppie di byte in LittleEndian, mentre la coppia di coppie come BigEndian. (originale: 0123 -> 01,23 -> 23,01 :inMemoria)\n     * @param [Buffer] msgPayloadBuffer Array con lunghezza pari (altrimenti l'ultimo el viene ignorato)\n     * @return Void //swap in-place\n     */\n    \"plcMem2LitEnd\": function (msgPayloadBuffer) {\n        for (let i = 0, tmp, buf = msgPayloadBuffer; i < buf.length - 1; i += 2) {\n            tmp = buf[i];\n            buf[i] = buf[i + 1];\n            buf[i + 1] = tmp;\n        }\n    },\n    /**\n     * @param [number] address <= 65535\n     * @param [any] value <= 65535\n     */\n    \"writeReg\": function (address, value) {\n        return {\n            'payload': {\n                'value': (typeof (value) == \"string\" ? parseInt(value) : value),\n                'fc': 6, //mode: single Register\n                //'unitid': flow.get(\"defaultUnitId\") //overrides default\n                'address': address,\n                'quantity': 1\n            }\n        };\n    },\n    \"writeCoil\": function (address, value) {\n        return {\n            'payload': {\n                'value': value,\n                'fc': 5, //mode: single Coil\n                //'unitid': flow.get(\"defaultUnitId\") //overrides default\n                'address': address,\n                'quantity': 1\n            }\n        };\n    },\n\n\n}\nglobal.set(\"query\", obj);\nglobal.set(\"plc\", obj);\n\nnode.status({ fill: \"green\", text: Object.keys(obj).join(' & ') });\n\n/*\nflow.set(\"getDefaultQuery\", function (address = 0, quantity = 2) {\n    return {\n        'payload':{\n            'value': null,\n            'fc': 3, //mode: Holding Register\n            'unitid': 10, //overrides default\n            'address': address,\n            'quantity': quantity\n        }\n    };\n})\n\n//from,to   string|int  hex string like \"ox802\" or int like 2050\nflow.set(\"queryRegistry\", function (from, to,sequenceName=\"\") {\n    if (typeof (from) == \"string\")\n        from = parseInt(from);\n    if (typeof (to) == \"string\")\n        to = parseInt(to);\n    let ret = flow.get(\"getDefaultQuery\")(from, to - from + 1);\n    ret.name=sequenceName;\n    return ret;\n})*/\n",
         "finalize": "",
         "libs": [],
         "x": 200,
@@ -8971,7 +8301,7 @@
             "8aba5c7204608b4a"
         ],
         "uncaught": false,
-        "x": 1045,
+        "x": 1035,
         "y": 1470,
         "wires": [
             []
@@ -8988,7 +8318,7 @@
             "24b71bc281409a22",
             "f3ab7ffd9e6e8fc2"
         ],
-        "x": 340,
+        "x": 330,
         "y": 1425,
         "wires": [
             [
@@ -9008,7 +8338,7 @@
         "links": [
             "43bb0021e53007d6"
         ],
-        "x": 315,
+        "x": 305,
         "y": 1380,
         "wires": [],
         "l": true
@@ -9025,7 +8355,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 365,
+        "x": 355,
         "y": 1320,
         "wires": [
             [
@@ -9055,7 +8385,7 @@
         "topic": "query",
         "payload": "",
         "payloadType": "date",
-        "x": 180,
+        "x": 170,
         "y": 1320,
         "wires": [
             [
@@ -9077,7 +8407,7 @@
         "targetType": "jsonata",
         "statusVal": "payload.value",
         "statusType": "auto",
-        "x": 1225,
+        "x": 1235,
         "y": 570,
         "wires": []
     },
@@ -9093,7 +8423,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1200,
+        "x": 1210,
         "y": 615,
         "wires": [
             []
@@ -9135,7 +8465,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "9bc629dadf51c057",
         "name": "send query",
-        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\n//node.send(plc.writeReg(20,0))\n\nnode.send(plc.readFrom(20, 1));\n\n/*for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
+        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2) -> msg -> number[quant] & Buffer[2*quant == nByte]\n    \"between\": function (from, to, sequenceName = \"\") -> msg -> number[quant] & Buffer[2*quant == nByte]\n    \"readCoil\": function (address, nByte ) -> msg -> Boolean[8*nByte] & Buffer[nByte]\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\n//node.send(plc.writeReg(20,0))\n\nnode.send(plc.readFrom(20, 1));\n\n/*for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -9478,9 +8808,9 @@
         "type": "comment",
         "z": "c1d4418a6f1f1693",
         "g": "9bc629dadf51c057",
-        "name": "INTERROGAZIONE PLC",
+        "name": "INTERROGAZIONE MODBUS",
         "info": "",
-        "x": 250,
+        "x": 270,
         "y": 765,
         "wires": []
     },
@@ -9719,7 +9049,7 @@
         "g": "9bc629dadf51c057",
         "name": "PULSANTIERE #2 ZBRN1-23KF2",
         "info": "",
-        "x": 500,
+        "x": 545,
         "y": 765,
         "wires": []
     },
@@ -9730,7 +9060,7 @@
         "g": "5f741e9d0e05f1e2",
         "name": "PULSANTIERE ZBRN1-23KF1",
         "info": "",
-        "x": 505,
+        "x": 550,
         "y": 270,
         "wires": []
     },
@@ -10220,13 +9550,13 @@
         "z": "c1d4418a6f1f1693",
         "g": "5f741e9d0e05f1e2",
         "name": "send query",
-        "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\nnode.send(plc.writeReg(20,0))\n/* for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
+        "func": "/*  flow.query:\n    \"readReg\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\nnode.send(plc.writeReg(20,0))\n/* for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 345,
+        "x": 355,
         "y": 525,
         "wires": [
             [
@@ -10264,6 +9594,28 @@
         "info": "",
         "x": 1855,
         "y": 285,
+        "wires": []
+    },
+    {
+        "id": "1504136a4d0bb201",
+        "type": "comment",
+        "z": "c1d4418a6f1f1693",
+        "g": "a26408bd8d16deca",
+        "name": "SCRITTURA MODBUS",
+        "info": "",
+        "x": 200,
+        "y": 1275,
+        "wires": []
+    },
+    {
+        "id": "3320f38a9a46c264",
+        "type": "comment",
+        "z": "c1d4418a6f1f1693",
+        "g": "a26408bd8d16deca",
+        "name": "Torri ZBRCETH",
+        "info": "",
+        "x": 405,
+        "y": 1275,
         "wires": []
     },
     {
@@ -18226,5 +17578,415 @@
         "x": 315,
         "y": 1395,
         "wires": []
+    },
+    {
+        "id": "32da1070ef6987c6",
+        "type": "ui_dropdown",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "name": "",
+        "label": "stato all'avvio",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "ebd54b01335cee21",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "default",
+                "value": "noop",
+                "type": "str"
+            },
+            {
+                "label": "A1 - chiamata",
+                "value": "A1",
+                "type": "str"
+            },
+            {
+                "label": "A2 - presa in carico",
+                "value": "A2",
+                "type": "str"
+            },
+            {
+                "label": "A3 - avviamento",
+                "value": "A3",
+                "type": "str"
+            },
+            {
+                "label": "A4 - ritardo in avviamento",
+                "value": "A4",
+                "type": "str"
+            },
+            {
+                "label": "B - run",
+                "value": "B",
+                "type": "str"
+            },
+            {
+                "label": "C1 - downtime",
+                "value": "C1",
+                "type": "str"
+            },
+            {
+                "label": "C2 - manutenzione",
+                "value": "C2",
+                "type": "str"
+            },
+            {
+                "label": "D - scarto",
+                "value": "D",
+                "type": "str"
+            },
+            {
+                "label": "E - carrelli pronti in corsia",
+                "value": "E",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 400,
+        "y": 255,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5729c57afa6becc6",
+        "type": "ui_text_input",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "name": "",
+        "label": "A3 to A4 - timer ritardo d'avvio",
+        "tooltip": "",
+        "group": "fe94e4442a39f9be",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 460,
+        "y": 375,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b49ed7ca2f67f91c",
+        "type": "ui_switch",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "name": "",
+        "label": "luce rossa",
+        "tooltip": "",
+        "group": "fe94e4442a39f9be",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 405,
+        "y": 465,
+        "wires": [
+            [
+                "617aa15acd7947e1"
+            ]
+        ]
+    },
+    {
+        "id": "ae551d570a2d3cf8",
+        "type": "ui_switch",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": true,
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": false,
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 385,
+        "y": 510,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c41e8e1c10a70d8b",
+        "type": "ui_switch",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": true,
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": false,
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 380,
+        "y": 570,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "617aa15acd7947e1",
+        "type": "ui_led",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "order": 0,
+        "group": "fe94e4442a39f9be",
+        "width": 0,
+        "height": 0,
+        "label": " ",
+        "labelPlacement": "left",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#c0c0c0",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 550,
+        "y": 465,
+        "wires": []
+    },
+    {
+        "id": "17203ba9b65a8864",
+        "type": "ui_led",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "order": 0,
+        "group": "ui_group",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": false,
+                "valueType": "bool"
+            },
+            {
+                "color": "green",
+                "value": true,
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 545,
+        "y": 510,
+        "wires": []
+    },
+    {
+        "id": "253279e02649722b",
+        "type": "ui_led",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "order": 0,
+        "group": "ui_group",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "red",
+                "value": false,
+                "valueType": "bool"
+            },
+            {
+                "color": "green",
+                "value": true,
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 550,
+        "y": 570,
+        "wires": []
+    },
+    {
+        "id": "d0a0c004a01c09f4",
+        "type": "ui_template",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "group": "fe94e4442a39f9be",
+        "name": "",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<div>Stato iniziale Colonne </div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 465,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f41b85d7a858675c",
+        "type": "ui_text_input",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "name": "",
+        "label": "A1 to A3 - timer di avvio automatico",
+        "tooltip": "minuti",
+        "group": "fe94e4442a39f9be",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 470,
+        "y": 330,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d365ea7a0dfb958b",
+        "type": "ui_template",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "group": "de425a720011e6e9",
+        "name": "localStyle",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .pickColors-title {\n        overflow-y: visible; \n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 945,
+        "y": 390,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "891fb0df439847a5",
+        "type": "ui_template",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "group": "a2dc8e5cbc92778b",
+        "name": "\"utilizza colori di\"",
+        "order": 5,
+        "width": "0",
+        "height": "0",
+        "format": "<span style=\"margin-left:60px;position:relative;top:30px\">utilizza colori di</span>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "pickColors-title",
+        "x": 755,
+        "y": 390,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e3fde88b5f1fc6b0",
+        "type": "ui_template",
+        "z": "520bb4ac551bd04e",
+        "d": true,
+        "group": "a2dc8e5cbc92778b",
+        "name": "\"range\"",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "format": "<span><center> range </center></span>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 730,
+        "y": 300,
+        "wires": [
+            []
+        ]
     }
 ]

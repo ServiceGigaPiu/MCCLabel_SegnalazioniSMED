@@ -733,7 +733,7 @@ const app = new Vue({
                   app.setupCountdownRefresher(cell.cd)
                }
             }}
-
+         
             //set CELL_VIEW from config.views[viewKey]
             let viewKey = msg.viewKey;          if(!msg.config.views || !msg.config.views[viewKey]) throw new TypeError(`[onTopic initApp]: missing viewKey ${viewKey} from msg.config.views `);
             let viewCfg = msg.config.views[viewKey]; //msg.config.views[viewKey];  
