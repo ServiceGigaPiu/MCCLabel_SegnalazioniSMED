@@ -809,7 +809,7 @@ const app = new Vue({
          let errCb = (attr,ret=undefined) => {console.error("missing attribute "+attr+" in onTopic(setSingleCellState) response",msg); return undefined};
          let cell = app.$data.signalCells[macKey];
 
-         
+         msg.fromSignalCellState.diff = msg.fromSignalCellState.timerStart - msg.fromSignalCellState.timerEnd;
          //if no timer-related data was sent or time's up
             //hide timer
          if(!msg.fromSignalCellState.timerEnd || Date.now() >= msg.fromSignalCellState.timerEnd){
