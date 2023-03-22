@@ -814,14 +814,14 @@ const app = new Vue({
             //hide timer
          if(!msg.fromSignalCellState.timerEnd || Date.now() >= msg.fromSignalCellState.timerEnd){
             cell.cd.remainingMs = 0;
-            console.log("cd hidden by setSingleCellState",ObjectClone(cell));
+            console.log("cd hidden by setSingleCellState",msg.fromSignalCellState, ObjectClone(cell));
             app.clearCountdown(cell.cd);
          }
          else{
             cell.cd.timerLength = msg.fromSignalCellState.timerEnd - msg.fromSignalCellState.timerStart
             cell.cd.remainingMs = Math.max(0, msg.fromSignalCellState.timerEnd - Date.now());
             cell.cd.end = msg.fromSignalCellState.timerEnd;
-            console.log("cd shown by setSingleCellState",ObjectClone(cell));
+            console.log("cd shown by setSingleCellState",msg.fromSignalCellState, ObjectClone(cell));
             app.setupCountdownRefresher(cell.cd)
          }
          cell.signalKey = msg.fromSignalCellState.signalKey ?? errCb("signalKey");
