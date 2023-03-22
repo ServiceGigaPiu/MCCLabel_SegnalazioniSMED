@@ -485,7 +485,7 @@ const app = new Vue({
                         cd:{
                            timerLength:20000,
                            remainingMs:0,
-                           end:nrDateNow(),
+                           end:Date.now() - NR_TIME_OFFSET//nrDateNow(),
                         }
                      }
                   }
@@ -607,9 +607,15 @@ const app = new Vue({
          //   this.$data.signalCells[macKey].callStartCd.params = params;
          //   this.$data.signalCells[macKey].callStartCd.trigger = trigger;
          //},
-        sendToServery(type,topic,msg){
-            return sendToServer(type,topic,msg);
-        },
+         sendToServery(type,topic,msg){
+               return sendToServer(type,topic,msg);
+         },
+
+        //app.$data.NR_TIME_OFFSET=null; //set by appInit //difference between Date.now("dateStr") called server side and here.//ST-CT = diff  ->  ST = diff + CT
+         vue_nrDateNow(){
+            app.$data.NR_TIME_OFFSET ?? console.warn("[nrDateNow()]: NR_TIME_OFFSET not set. Assuming 0");
+            return Date.now() + app.$data.NR_TIME_OFFSET
+         },
         // Called from the increment button - sends a msg to Node-RED
         increment: function(event) {
             //console.log('Button Pressed. Event Data: ', event)
