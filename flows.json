@@ -138,9 +138,7 @@
             "f25308f6b79bce5d"
         ],
         "x": 89,
-        "y": 1759,
-        "w": 512,
-        "h": 232
+        "y": 1759
     },
     {
         "id": "042f83e60bf4b2b4",
@@ -555,9 +553,7 @@
             "db0b9650aad24229"
         ],
         "x": 59,
-        "y": 559,
-        "w": 1027,
-        "h": 292
+        "y": 559
     },
     {
         "id": "3f7bd448f06d6712",
@@ -630,9 +626,7 @@
             "1da30b125f7694b3"
         ],
         "x": 99,
-        "y": 2119,
-        "w": 792,
-        "h": 252
+        "y": 2119
     },
     {
         "id": "478c85d69cf2eb8c",
@@ -658,9 +652,7 @@
             "5e3e280c0613ac32"
         ],
         "x": 79,
-        "y": 109,
-        "w": 857,
-        "h": 202
+        "y": 109
     },
     {
         "id": "abf36b9570f058cc",
@@ -684,9 +676,7 @@
             "eb0d22efa4a344c0"
         ],
         "x": 79,
-        "y": 874,
-        "w": 1278,
-        "h": 554
+        "y": 874
     },
     {
         "id": "bdb77fbf338dd270",
@@ -723,9 +713,7 @@
             "481bde1a0ce6c86d"
         ],
         "x": 74,
-        "y": 64,
-        "w": 702,
-        "h": 397
+        "y": 64
     },
     {
         "id": "55a9133a1c5a95d1",
@@ -859,9 +847,7 @@
             "850adb4a2c8b2b3f"
         ],
         "x": 54,
-        "y": 934,
-        "w": 1678,
-        "h": 678
+        "y": 934
     },
     {
         "id": "34b9888e09adea38",
@@ -897,9 +883,7 @@
             "d7111ce4cb4d8b16"
         ],
         "x": 99,
-        "y": 1714,
-        "w": 1552,
-        "h": 262
+        "y": 1714
     },
     {
         "id": "7efa39f7d2ea1018",
@@ -1000,9 +984,7 @@
             "74bd2959d62a29c6"
         ],
         "x": 1459,
-        "y": 499,
-        "w": 857,
-        "h": 187
+        "y": 499
     },
     {
         "id": "6aa375e2e3177ccc",
@@ -1039,9 +1021,7 @@
             "75ef4d5b0e672f1e"
         ],
         "x": 59,
-        "y": 364,
-        "w": 1347,
-        "h": 337
+        "y": 364
     },
     {
         "id": "389c4cac40ddf2e2",
@@ -1070,9 +1050,7 @@
             "22f3a9e34e5ab24e"
         ],
         "x": 684,
-        "y": 1609,
-        "w": 812,
-        "h": 322
+        "y": 1609
     },
     {
         "id": "14eeda19a6a7072a",
@@ -1096,9 +1074,7 @@
             "34c8f3a9767f8cad"
         ],
         "x": 809,
-        "y": 2149,
-        "w": 802,
-        "h": 112
+        "y": 2149
     },
     {
         "id": "fe28fb7cb365d682",
@@ -1119,9 +1095,7 @@
             "ba60486beccc9f83"
         ],
         "x": 829,
-        "y": 2044,
-        "w": 322,
-        "h": 82
+        "y": 2044
     },
     {
         "id": "0459e2a074258c5a",
@@ -1145,9 +1119,7 @@
             "4d56894252d94c10"
         ],
         "x": 114,
-        "y": 2134,
-        "w": 637,
-        "h": 127
+        "y": 2134
     },
     {
         "id": "f36f49dc5a6fb0d2",
@@ -1265,9 +1237,7 @@
             "c7a39dea36551f43"
         ],
         "x": 109,
-        "y": 979,
-        "w": 1222,
-        "h": 172
+        "y": 979
     },
     {
         "id": "e02b6f382a6c8813",
@@ -1612,9 +1582,7 @@
             "c1f38be4152e1b73"
         ],
         "x": 99,
-        "y": 634,
-        "w": 247,
-        "h": 142
+        "y": 634
     },
     {
         "id": "63c531914f3e675f",
@@ -1658,9 +1626,7 @@
             "7d42b16fe52425fd"
         ],
         "x": 318,
-        "y": 1174,
-        "w": 714,
-        "h": 228
+        "y": 1174
     },
     {
         "id": "b99d3df5ef07d131",
@@ -1796,9 +1762,7 @@
             "9e22ac01f2818468"
         ],
         "x": 88,
-        "y": 1309,
-        "w": 1618,
-        "h": 277
+        "y": 1309
     },
     {
         "id": "850adb4a2c8b2b3f",
@@ -1838,9 +1802,7 @@
             "d729db698e92eca4"
         ],
         "x": 88,
-        "y": 1009,
-        "w": 1613,
-        "h": 277
+        "y": 1009
     },
     {
         "id": "9737cb6bd0dadd1f",
@@ -1890,9 +1852,7 @@
             "3a53827df7fd9d3e"
         ],
         "x": 114,
-        "y": 1084,
-        "w": 282,
-        "h": 172
+        "y": 1084
     },
     {
         "id": "7cd6e0abf52051ff",
@@ -1913,9 +1873,7 @@
             "68644d6d8e8ebaf8"
         ],
         "x": 669,
-        "y": 1114,
-        "w": 372,
-        "h": 112
+        "y": 1114
     },
     {
         "id": "9eae3823833d4d69",
@@ -1936,9 +1894,7 @@
             "8592536a56dff0ec"
         ],
         "x": 484,
-        "y": 1039,
-        "w": 227,
-        "h": 82
+        "y": 1039
     },
     {
         "id": "7d42b16fe52425fd",
@@ -1963,9 +1919,7 @@
             "533fe7d0158198e3"
         ],
         "x": 344,
-        "y": 1249,
-        "w": 662,
-        "h": 127
+        "y": 1249
     },
     {
         "id": "c4073df7edfaef3f",
@@ -1989,9 +1943,7 @@
             "93d9ed47f60be558"
         ],
         "x": 114,
-        "y": 1384,
-        "w": 282,
-        "h": 172
+        "y": 1384
     },
     {
         "id": "5bff6168e9472a61",
@@ -2012,9 +1964,7 @@
             "32847fc57a5ed7c0"
         ],
         "x": 669,
-        "y": 1414,
-        "w": 392,
-        "h": 112
+        "y": 1414
     },
     {
         "id": "f9afb515793290aa",
@@ -7214,7 +7164,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "5f741e9d0e05f1e2",
         "name": "queue control",
-        "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady_23KF2\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
+        "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady_23KF1\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncontext.set(\"command\", function (command){\n    return { 'topic': \"queueControl\", 'payload':command};\n});",
@@ -7423,7 +7373,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "5f741e9d0e05f1e2",
         "name": "shareConnectionStatus",
-        "func": "let deviceName = \"_23KF1\"\nflow.set(\"modbusStatusString_23KF1\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill == \"green\"){\n    if(flow.get(\"modbusIsReady_23KF1\"))\n    flow.set(\"modbusIsReady_23KF1\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady_23KF1\" });\n}\nelse{\n    flow.set(\"modbusIsReady_23KF1\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
+        "func": "let deviceName = \"_23KF1\"\nflow.set(\"modbusStatusString_23KF1\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill == \"green\"){\n    flow.set(\"modbusIsReady_23KF1\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady_23KF1\" });\n}\nelse{\n    flow.set(\"modbusIsReady_23KF1\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
         "outputs": 2,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nflow.set(\"modbusStatusString\", \"none\");\nflow.set(\"modbusIsReady\", false);",
@@ -9222,7 +9172,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "f36f49dc5a6fb0d2",
         "name": "shareConnectionStatus",
-        "func": "flow.set(\"modbusStatusString_ZBRCETH_TORRI\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill == \"green\"){\n    flow.set(\"modbusIsReady_ZBRCETH_TORRI\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady_ZBRCETH_TORRI\" });\n}\nelse{\n    flow.set(\"modbusIsReady_ZBRCETH_TORRI\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
+        "func": "flow.set(\"modbusStatusString_ZBRCETH_TORRI\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill == \"green\" || msg.status.text == \"writing done\"){\n    flow.set(\"modbusIsReady_ZBRCETH_TORRI\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady_ZBRCETH_TORRI\" });\n}\nelse{\n    flow.set(\"modbusIsReady_ZBRCETH_TORRI\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nflow.set(\"modbusStatusString\", \"none\");\nflow.set(\"modbusIsReady\", false);",
