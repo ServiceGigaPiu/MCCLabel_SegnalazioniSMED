@@ -585,7 +585,7 @@ const app = new Vue({
          },
          /** expects ctx to contain ctx.end:number */
          setupCountdownRefresher(ctx,onComplete=noOp){
-            this.clearCountdown(ctx);
+            clearInterval(ctx.refreshIntv);
             ctx.refreshIntv = setInterval(()=>{
                ctx.remainingMs = Math.max(0, ctx.end - Date.now());
                if(ctx.remainingMs <= 0){
