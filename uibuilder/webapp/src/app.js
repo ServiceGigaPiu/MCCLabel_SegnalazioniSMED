@@ -757,7 +757,7 @@ const app = new Vue({
             if(e instanceof TypeError) console.error(e.message);
             else throw e;
          }
-         console.info("[initApp]: inited with",msg," to ",app.CELLS_LAYOUT, app.CELLS_VIEW,ObjectClone(app.signalCells))
+         console.info("[initApp]: inited with",msg.viewKey,msg," to ",app.CELLS_LAYOUT, app.CELLS_VIEW,ObjectClone(app.signalCells))
       });
 
 
@@ -768,9 +768,11 @@ const app = new Vue({
     mounted: function(){
       console.debug('[appjs:Vue.mounted] app mounted - setting up uibuilder watchers')
       
+      
 
 
       var app = this  // Reference to `this` in case we need it for more complex functions
+      console.info("VUE REFS",{app:app,data:app.$data})
       
       /**
        * expects { macKey: , toSignalKey:}
