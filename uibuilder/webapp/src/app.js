@@ -812,16 +812,16 @@ const app = new Vue({
          
          //if no timer-related data was sent or time's up
             //hide timer
-         if(!msg.fromSignalCellState.timerEnd || Date.now() > msg.fromSignalCellState.timerEnd){
+         if(!msg.fromSignalCellState.timerEnd || Date.now() >= msg.fromSignalCellState.timerEnd){
             cell.cd.remainingMs = 0;
-            //console.log("cd hidden");
+            console.log("cd hidden by setSingleCellState",cell);
             app.clearCountdown(cell.cd);
          }
          else{
             cell.cd.timerLength = msg.fromSignalCellState.timerEnd - msg.fromSignalCellState.timerStart
             cell.cd.remainingMs = Math.max(0, msg.fromSignalCellState.timerEnd - Date.now());
             cell.cd.end = msg.fromSignalCellState.timerEnd;
-            //console.log("cd shown",cell);
+            console.log("cd shown by setSingleCellState",cell);
             app.setupCountdownRefresher(cell.cd)
          }
          cell.signalKey = msg.fromSignalCellState.signalKey ?? errCb("signalKey");
