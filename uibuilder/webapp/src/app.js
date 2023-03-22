@@ -720,10 +720,10 @@ const app = new Vue({
             try{ app.MACHINE_CFGS = msg.config.machines } catch(e) {errCb("config.machines")};
 
             //sync time between server and client
-            console.warn("timeSync:","result is ",msg.timeSync.result, "of type",typeof(msg.timeSync.result))
-            console.warn("since Date.now is",Date.now(),new Date().toString(), "and parsing ",msg.timeSync.formatString," gives ",Date.parse(msg.timeSync.formatString))
-            NR_TIME_OFFSET = msg.timeSync.result - Date.parse(msg.timeSync.formatString);
-            console.warn("NR_TIME_OFFSET becomes ",NR_TIME_OFFSET," and its function returns ",nrDateNow(),"with a diff of ",new Date(nrDateNow()).toString() )
+            //console.warn("timeSync:","result is ",msg.timeSync.result, "of type",typeof(msg.timeSync.result))
+            //console.warn("since Date.now is",Date.now(),new Date().toString(), "and parsing ",msg.timeSync.formatString," gives ",Date.parse(msg.timeSync.formatString))
+            NR_TIME_OFFSET = msg.timeSync.now + 100 - Date.now();//Date.parse(msg.timeSync.formatString);
+            //console.warn("NR_TIME_OFFSET becomes ",NR_TIME_OFFSET," and its function returns ",nrDateNow(),"with a diff of ",new Date(nrDateNow()).toString() )
 
             //set all signalCells from nr_signalCellState (same as onTopic(setSingleSignalCellState) )
             {let cell,state; for(let macKey of msg.signalCellsStates.dictionary.macKeys){
