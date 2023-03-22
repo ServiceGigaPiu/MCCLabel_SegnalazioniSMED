@@ -165,14 +165,14 @@
    ]
    
    var MACHINE_CFGS = {
-      "FA419":{ startupTimeout:120*60*1000 },
-      "FA420":{ startupTimeout:120*60*1000 },
-      "FA421":{ startupTimeout:120*60*1000 },
-      "FA422":{ startupTimeout:120*60*1000 },
-      "FA423":{ startupTimeout:120*60*1000 },
-      "OMET":{ startupTimeout:120*60*1000 },
-      "MO41":{ startupTimeout:120*60*1000 },
-      "MO42":{ startupTimeout:120*60*1000 }
+      "FA419":{ toA4Timeout:120*60*1000 },
+      "FA420":{ toA4Timeout:120*60*1000 },
+      "FA421":{ toA4Timeout:120*60*1000 },
+      "FA422":{ toA4Timeout:120*60*1000 },
+      "FA423":{ toA4Timeout:120*60*1000 },
+      "OMET":{ toA4Timeout:120*60*1000 },
+      "MO41":{ toA4Timeout:120*60*1000 },
+      "MO42":{ toA4Timeout:120*60*1000 }
    }
    for(let mKey in MACHINE_CFGS) {
       MACHINE_CFGS[mKey].displayName = mKey
@@ -236,7 +236,7 @@
    //         break;
    //      }
    //      case "A3":{
-   //         setApplyStyleTimeout(el, "A4", machinesCfg.startupTimeout, type); //declares el.touts.A3toA4
+   //         setApplyStyleTimeout(el, "A4", machinesCfg.toA4Timeout, type); //declares el.touts.A3toA4
    //         break;
    //      }
    //      case "A4":{

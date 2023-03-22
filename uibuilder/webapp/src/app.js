@@ -120,7 +120,7 @@ var retSignalCellObj=function(){return {
 
          remainingMs:{
             handler:function chainUpdate(newVal, oldVal){
-               console.log("remainingMs watcher triggered",{ms:this.$props.remainingMs,tL:this.$props.timerLength});
+               //console.log("remainingMs watcher triggered",{ms:this.$props.remainingMs,tL:this.$props.timerLength});
 
                this.isCdShown = this.$props.remainingMs > 0;
                this.cd.minutes = Math.trunc( this.$props.remainingMs / (60*1000) );
@@ -149,7 +149,7 @@ var retSignalCellObj=function(){return {
 
          inBlinkMode:{
             handler:function toggle(newVal, oldVal){
-               console.log("inBlinkMode set from",oldVal,newVal);
+               //console.log("inBlinkMode set from",oldVal,newVal);
                if(this.inBlinkMode)
                   this.setupBlinker(this, 500, 300);
                else{
@@ -478,7 +478,7 @@ const app = new Vue({
                   for(let mKey of row){
                      let cfg = MACHINE_CFGS[mKey];
                      obj[mKey]={
-                        signalKey:cfg.initSignalKey,
+                        signalKey:cfg.initCellSignalKey,
                         machineName:cfg.displayName,
                         //callStartCd:{trigger:true,params:{}},
                         cd:{
@@ -611,7 +611,7 @@ const app = new Vue({
         },
         // Called from the increment button - sends a msg to Node-RED
         increment: function(event) {
-            console.log('Button Pressed. Event Data: ', event)
+            //console.log('Button Pressed. Event Data: ', event)
 
             // Increment the count by one
             this.counterBtn += 1
@@ -722,16 +722,23 @@ const app = new Vue({
                   //hide timer
                if(!state.timerEnd || Date.now() > state.timerEnd){
                   cell.cd.remainingMs = 0;
-                  console.log("cd hidden");
+                  //console.log("cd hidden");
                   app.clearCountdown(cell.cd);
                }
                else{
                   cell.cd.timerLength = state.timerEnd - state.timerStart
                   cell.cd.remainingMs = Math.max(0, state.timerEnd - Date.now());
                   cell.cd.end = state.timerEnd;
-                  console.log("cd shown",cell);
+                  //console.log("cd shown",cell);
                   app.setupCountdownRefresher(cell.cd)
                }
+            }}
+            //apply init-time-only configs
+            {let cell,state; for(let macKey in msg.signalCells){
+               cell = app.$data.signalCells[macKey];
+               cfg = msg.config.machines[macKey];
+               
+               cell.displayName = cfg.displayName;
             }}
          
             //set CELL_VIEW from config.views[viewKey]
@@ -807,14 +814,14 @@ const app = new Vue({
             //hide timer
          if(!msg.fromSignalCellState.timerEnd || Date.now() > msg.fromSignalCellState.timerEnd){
             cell.cd.remainingMs = 0;
-            console.log("cd hidden");
+            //console.log("cd hidden");
             app.clearCountdown(cell.cd);
          }
          else{
             cell.cd.timerLength = msg.fromSignalCellState.timerEnd - msg.fromSignalCellState.timerStart
             cell.cd.remainingMs = Math.max(0, msg.fromSignalCellState.timerEnd - Date.now());
             cell.cd.end = msg.fromSignalCellState.timerEnd;
-            console.log("cd shown",cell);
+            //console.log("cd shown",cell);
             app.setupCountdownRefresher(cell.cd)
          }
 
