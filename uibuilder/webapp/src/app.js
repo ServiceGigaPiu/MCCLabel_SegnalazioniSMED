@@ -716,7 +716,7 @@ const app = new Vue({
             {let cell,state; for(let macKey of msg.signalCellsStates.dictionary.macKeys){
                cell = app.$data.signalCells[macKey];
                state = msg.signalCellsStates[macKey];
-               //console.warn("parsing ",macKey,"pointing cell,state:",cell, state)
+               console.warn("parsing ",macKey,"pointing cell,state:",cell, state)
 
                cell.signalKey = state.signalKey ?? errCb("signalCellsStates.[macKey].signalKey");
                //if no timer-related data was sent or time's up
