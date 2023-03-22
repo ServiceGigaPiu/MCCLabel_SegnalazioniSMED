@@ -270,13 +270,13 @@ var retSignalCellObj=function(){return {
          // */
          //startCountdown: function(ctx, msFromNow, onComplete=noOp){
          //   ctx.timerLength = msFromNow; //bar ratio depends on this
-         //   ctx.end = Date.now() + msFromNow; //unix time in ms when countdown will be completed
+         //   ctx.end = nrDateNow() + msFromNow; //unix time in ms when countdown will be completed
          //   ctx.remainingMs = msFromNow;
 
          //   //refresh now and at 1s interval
          //   clearInterval(ctx.refreshIntv);
          //   ctx.refreshIntv = setInterval(()=>{
-         //      ctx.remainingMs = Math.max(0, ctx.end - Date.now());
+         //      ctx.remainingMs = Math.max(0, ctx.end - nrDateNow());
          //      if(ctx.remainingMs <= 0){
          //         clearInterval(ctx.refreshIntv);
          //         onComplete();
@@ -467,6 +467,7 @@ const app = new Vue({
             userPw      : null,
             inputId     : '',
 
+            JS_DATE_OFFSET:0,
             CELLS_LAYOUT:CELLS_LAYOUT,
             MACHINE_CFGS:MACHINE_CFGS,
             CELLS_VIEW:CELLS_VIEW,
@@ -484,7 +485,7 @@ const app = new Vue({
                         cd:{
                            timerLength:20000,
                            remainingMs:0,
-                           end:Date.now(),
+                           end:nrDateNow(),
                         }
                      }
                   }
@@ -576,7 +577,7 @@ const app = new Vue({
              */
          startCountdown: function(ctx, msFromNow, onComplete=noOp){
             ctx.timerLength = msFromNow; //bar ratio depends on this
-            ctx.end = Date.now() + msFromNow; //unix time in ms when countdown will be completed
+            ctx.end = nrDateNow() + msFromNow; //unix time in ms when countdown will be completed
             ctx.remainingMs = msFromNow;
 
             //refresh now and at 1s interval
@@ -587,7 +588,7 @@ const app = new Vue({
          setupCountdownRefresher(ctx,onComplete=noOp){
             clearInterval(ctx.refreshIntv);
             ctx.refreshIntv = setInterval(()=>{
-               ctx.remainingMs = Math.max(0, ctx.end - Date.now());
+               ctx.remainingMs = Math.max(0, ctx.end - nrDateNow());
                if(ctx.remainingMs <= 0){
                   clearInterval(ctx.refreshIntv);
                   onComplete();
@@ -712,6 +713,9 @@ const app = new Vue({
             app.CELLS_LAYOUT = msg.cellsLayout ?? errCb("cellsLayout");
             try{ app.MACHINE_CFGS = msg.config.machines } catch(e) {errCb("config.machines")};
 
+            //sync time between server and client
+            app.NR_TIME_OFFSET = NR_TIME_OFFSET = msg.timeSync.result - Date.parse(msg.timeSync.formatString);
+
             //set all signalCells from nr_signalCellState (same as onTopic(setSingleSignalCellState) )
             {let cell,state; for(let macKey of msg.signalCellsStates.dictionary.macKeys){
                cell = app.$data.signalCells[macKey];
@@ -721,14 +725,14 @@ const app = new Vue({
                cell.signalKey = state.signalKey ?? errCb("signalCellsStates.[macKey].signalKey");
                //if no timer-related data was sent or time's up
                   //hide timer
-               if(!state.timerEnd || Date.now() > state.timerEnd){
+               if(!state.timerEnd || nrDateNow() > state.timerEnd){
                   cell.cd.remainingMs = 0;
                   //console.log("cd hidden");
                   app.clearCountdown(cell.cd);
                }
                else{
                   cell.cd.timerLength = state.timerEnd - state.timerStart
-                  cell.cd.remainingMs = Math.max(0, state.timerEnd - Date.now());
+                  cell.cd.remainingMs = Math.max(0, state.timerEnd - nrDateNow());
                   cell.cd.end = state.timerEnd;
                   //console.log("cd shown",cell);
                   app.setupCountdownRefresher(cell.cd)
@@ -815,14 +819,14 @@ const app = new Vue({
          msg.fromSignalCellState.diff = msg.fromSignalCellState.timerStart - msg.fromSignalCellState.timerEnd;
          //if no timer-related data was sent or time's up
             //hide timer
-         if(!msg.fromSignalCellState.timerEnd || Date.now() >= msg.fromSignalCellState.timerEnd){
+         if(!msg.fromSignalCellState.timerEnd || nrDateNow() >= msg.fromSignalCellState.timerEnd){
             cell.cd.remainingMs = 0;
             console.log("cd hidden by setSingleCellState",msg.fromSignalCellState, ObjectClone(cell));
             app.clearCountdown(cell.cd);
          }
          else{
             cell.cd.timerLength = msg.fromSignalCellState.timerEnd - msg.fromSignalCellState.timerStart
-            cell.cd.remainingMs = Math.max(0, msg.fromSignalCellState.timerEnd - Date.now());
+            cell.cd.remainingMs = Math.max(0, msg.fromSignalCellState.timerEnd - nrDateNow());
             cell.cd.end = msg.fromSignalCellState.timerEnd;
             console.log("cd shown by setSingleCellState",msg.fromSignalCellState, ObjectClone(cell));
             app.setupCountdownRefresher(cell.cd)

@@ -8,6 +8,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.10",
     "bootstrap": "^4.6.2",
     "bootstrap-vue": "~2.23.1",
+    "date-fns": "^2.29.3",
     "jquery": "^3.6.3",
     "justgage": "^1.6.1",
     "three-dots": "^0.3.2",

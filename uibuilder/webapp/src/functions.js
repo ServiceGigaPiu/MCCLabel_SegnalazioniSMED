@@ -106,6 +106,7 @@
          r += Math.random();
       return min + (r/sumRandTimes) * (max-min);
    }
+
    //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
 /* ################################################################################################################################
    ################################### UIBUILDER ################################################################################## */
@@ -145,7 +146,11 @@
       }
    });
 
-   
+   var NR_TIME_OFFSET=null; //set by appInit //difference between Date.now("dateStr") called server side and here.//ST-CT = diff  ->  ST = diff + CT
+   function nrDateNow(){
+      NR_TIME_OFFSET ?? console.warn("[nrDateNow()]: NR_TIME_OFFSET not set. Assuming 0");
+      return Date.now() + NR_TIME_OFFSET
+   }
 
 
 //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
@@ -339,7 +344,7 @@
    //   let clockGroup =  cdBlock.firstElementChild;
    //   let progBar = cdBlock.children[1];
    //   cdBlock.timerLength = msFromNow; //bar ratio depends on this
-   //   cdBlock.end = Date.now() + msFromNow; //unix time in ms when countdown will be completed
+   //   cdBlock.end = nrDateNow() + msFromNow; //unix time in ms when countdown will be completed
 
    //   const refresh = (remainingMs)=>{
    //      //update clock
@@ -355,7 +360,7 @@
    //   clearInterval(cdBlock.refreshIntv);
    //   refresh(msFromNow);
    //   cdBlock.refreshIntv = setInterval(()=>{
-   //      var remainingMs = cdBlock.end - Date.now();
+   //      var remainingMs = cdBlock.end - nrDateNow();
    //      if(remainingMs <= 0){
    //         remainingMs = 0;
    //         clearInterval(cdBlock.refreshIntv);
