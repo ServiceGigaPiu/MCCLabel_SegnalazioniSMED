@@ -107,7 +107,9 @@
             "c854307142509346",
             "5f94d8c13f129154",
             "734a6280c896ee84",
-            "b8bf2e09ac2a846d"
+            "b8bf2e09ac2a846d",
+            "a0979b83808254d4",
+            "4e37b237f31db062"
         ],
         "x": 74,
         "y": 229,
@@ -136,7 +138,9 @@
             "f25308f6b79bce5d"
         ],
         "x": 89,
-        "y": 1759
+        "y": 1759,
+        "w": 512,
+        "h": 232
     },
     {
         "id": "042f83e60bf4b2b4",
@@ -626,7 +630,9 @@
             "1da30b125f7694b3"
         ],
         "x": 99,
-        "y": 2119
+        "y": 2119,
+        "w": 792,
+        "h": 252
     },
     {
         "id": "478c85d69cf2eb8c",
@@ -652,7 +658,9 @@
             "5e3e280c0613ac32"
         ],
         "x": 79,
-        "y": 109
+        "y": 109,
+        "w": 857,
+        "h": 202
     },
     {
         "id": "abf36b9570f058cc",
@@ -676,7 +684,9 @@
             "eb0d22efa4a344c0"
         ],
         "x": 79,
-        "y": 874
+        "y": 874,
+        "w": 1278,
+        "h": 554
     },
     {
         "id": "bdb77fbf338dd270",
@@ -990,7 +1000,9 @@
             "74bd2959d62a29c6"
         ],
         "x": 1459,
-        "y": 499
+        "y": 499,
+        "w": 857,
+        "h": 187
     },
     {
         "id": "6aa375e2e3177ccc",
@@ -1027,7 +1039,9 @@
             "75ef4d5b0e672f1e"
         ],
         "x": 59,
-        "y": 364
+        "y": 364,
+        "w": 1347,
+        "h": 337
     },
     {
         "id": "389c4cac40ddf2e2",
@@ -1056,7 +1070,9 @@
             "22f3a9e34e5ab24e"
         ],
         "x": 684,
-        "y": 1609
+        "y": 1609,
+        "w": 812,
+        "h": 322
     },
     {
         "id": "14eeda19a6a7072a",
@@ -1209,7 +1225,9 @@
             "c7a39dea36551f43"
         ],
         "x": 109,
-        "y": 979
+        "y": 979,
+        "w": 1222,
+        "h": 172
     },
     {
         "id": "e02b6f382a6c8813",
@@ -1600,7 +1618,9 @@
             "7d42b16fe52425fd"
         ],
         "x": 318,
-        "y": 1174
+        "y": 1174,
+        "w": 714,
+        "h": 228
     },
     {
         "id": "b99d3df5ef07d131",
@@ -1876,7 +1896,9 @@
             "8592536a56dff0ec"
         ],
         "x": 484,
-        "y": 1039
+        "y": 1039,
+        "w": 227,
+        "h": 82
     },
     {
         "id": "7d42b16fe52425fd",
@@ -1901,7 +1923,9 @@
             "533fe7d0158198e3"
         ],
         "x": 344,
-        "y": 1249
+        "y": 1249,
+        "w": 662,
+        "h": 127
     },
     {
         "id": "c4073df7edfaef3f",
@@ -7190,7 +7214,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "5f741e9d0e05f1e2",
         "name": "queue control",
-        "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
+        "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady_23KF2\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncontext.set(\"command\", function (command){\n    return { 'topic': \"queueControl\", 'payload':command};\n});",
@@ -7399,7 +7423,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "5f741e9d0e05f1e2",
         "name": "shareConnectionStatus",
-        "func": "let deviceName = \"_23KF1\"\nflow.set(\"modbusStatusString_23KF1\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill == \"green\"){\n    flow.set(\"modbusIsReady_23KF1\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady_23KF1\" });\n}\nelse{\n    flow.set(\"modbusIsReady_23KF1\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
+        "func": "let deviceName = \"_23KF1\"\nflow.set(\"modbusStatusString_23KF1\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill == \"green\"){\n    if(flow.get(\"modbusIsReady_23KF1\"))\n    flow.set(\"modbusIsReady_23KF1\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady_23KF1\" });\n}\nelse{\n    flow.set(\"modbusIsReady_23KF1\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
         "outputs": 2,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nflow.set(\"modbusStatusString\", \"none\");\nflow.set(\"modbusIsReady\", false);",
@@ -8036,7 +8060,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "9bc629dadf51c057",
         "name": "queue control",
-        "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
+        "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady_23KF2\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncontext.set(\"command\", function (command){\n    return { 'topic': \"queueControl\", 'payload':command};\n});",
@@ -9216,7 +9240,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "f36f49dc5a6fb0d2",
         "name": "queue control",
-        "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
+        "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady_TORRI\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncontext.set(\"command\", function (command){\n    return { 'topic': \"queueControl\", 'payload':command};\n});",
@@ -9361,6 +9385,30 @@
                 "164b085390efe789"
             ]
         ]
+    },
+    {
+        "id": "a0979b83808254d4",
+        "type": "link out",
+        "z": "c1d4418a6f1f1693",
+        "g": "5f741e9d0e05f1e2",
+        "name": "onModbusConnect",
+        "mode": "link",
+        "links": [],
+        "x": 585,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "4e37b237f31db062",
+        "type": "link out",
+        "z": "c1d4418a6f1f1693",
+        "g": "5f741e9d0e05f1e2",
+        "name": "onModbusDisconnect",
+        "mode": "link",
+        "links": [],
+        "x": 585,
+        "y": 390,
+        "wires": []
     },
     {
         "id": "d2907618278aa1be",
@@ -12100,6 +12148,71 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "b029fe3fa7485d2e",
+        "type": "inject",
+        "z": "76b05f87a5290cf6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1665,
+        "y": 825,
+        "wires": [
+            [
+                "1579c4111cae40c2"
+            ]
+        ]
+    },
+    {
+        "id": "1579c4111cae40c2",
+        "type": "function",
+        "z": "76b05f87a5290cf6",
+        "name": "send appInit based on msg.ip",
+        "func": "const getViewKeyFor = context.get(\"getViewKeyFor\"); //(ip, views = global.get(\"config\").views) => viewKey\n\n\nreturn global.get(\"uibuilder\").prepareMsg_appInit({_socketId:msg._socketId}, getViewKeyFor(msg.ip));",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\n\ncontext.set(\"getViewKeyFor\", function getViewKeyFor(ip, views = global.get(\"config\").views) {\n    for (let viewKey in views)\n        if (views[viewKey].exactIpList && views[viewKey].exactIpList.includes(ip))\n            return viewKey;\n    node.warn(\"unknown ip \" + ip + \". using default view\");\n    return \"default\";\n});",
+        "finalize": "",
+        "libs": [],
+        "x": 1890,
+        "y": 825,
+        "wires": [
+            [
+                "2f1bf5a2d3ce57b2"
+            ]
+        ]
+    },
+    {
+        "id": "2f1bf5a2d3ce57b2",
+        "type": "debug",
+        "z": "76b05f87a5290cf6",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2115,
+        "y": 825,
+        "wires": []
     },
     {
         "id": "49bbe311b738bad2",

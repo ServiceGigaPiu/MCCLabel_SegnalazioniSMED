@@ -94,10 +94,10 @@
          <template v-for="(row, i) in CELLS_LAYOUT">
             <div class="main-row">
                <template v-for="(mKey, j) in row">
-                  <signal-cell v-if="!CELLS_VIEW[i][j]" class="main-col" :machine-name="signalCells[mKey].machineName" :signal-key="signalCells[mKey].signalKey" :timer-length="signalCells[mKey].cd.timerLength" :remaining-ms="signalCells[mKey].cd.remainingMs" :end="signalCells[mKey].cd.end">
+                  <signal-cell v-if="!CELLS_VIEW[i][j]"  class="main-col" :machine-name="signalCells[mKey].machineName" :signal-key="signalCells[mKey].signalKey" :timer-length="signalCells[mKey].cd.timerLength" :remaining-ms="signalCells[mKey].cd.remainingMs" :end="signalCells[mKey].cd.end">
                      
                   </signal-cell>
-                  <admin-cell v-else class="main-col" :machine-name="signalCells[mKey].machineName" :signal-key="signalCells[mKey].signalKey" @action-button-click="sendToServery('event','cellButtonClick',{cellRow:i,cellCol:j,actionId:$event.actionId})" :timer-length="signalCells[mKey].cd.timerLength" :remaining-ms="signalCells[mKey].cd.remainingMs" :end="signalCells[mKey].cd.end">
+                  <admin-cell v-else                     class="main-col" :machine-name="signalCells[mKey].machineName" :signal-key="signalCells[mKey].signalKey" :timer-length="signalCells[mKey].cd.timerLength" :remaining-ms="signalCells[mKey].cd.remainingMs" :end="signalCells[mKey].cd.end" @action-button-click="sendToServery('event','cellButtonClick',{cellRow:i,cellCol:j,actionId:$event.actionId})" >
                      
                   </admin-cell>
                </template>

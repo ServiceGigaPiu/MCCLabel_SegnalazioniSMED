@@ -659,7 +659,7 @@ const app = new Vue({
 
     /** Called after the Vue app has been created. A good place to put startup code */
     created: function() {
-
+      var app = this; //app defined, app.$data defined
       /*for(let r in this.cells)
          for(let c of this.cells[r]){
             this.$watch(`cells.${r}.${c}.currSignalKey`,{
@@ -706,18 +706,19 @@ const app = new Vue({
       })
 
       //use setSingleCellState for all
-      uibuilder.onTopic("appInit",function(msg){
+      uibuilder.onTopic("appInit",(msg)=>{
          try{
             let errCb = (attr,ret=undefined) => {console.error("missing attribute "+attr+" in onTopic(appInit) response", msg); return undefined};
             app.CELLS_LAYOUT = msg.cellsLayout ?? errCb("cellsLayout");
-            try{ app.MACHINE_CFGS = msg.config.machines } catch(e) {errCb("config.machines")}; 
-            
+            try{ app.MACHINE_CFGS = msg.config.machines } catch(e) {errCb("config.machines")};
+
             //set all signalCells from nr_signalCellState (same as onTopic(setSingleSignalCellState) )
-            {let cell,state; for(let macKey in msg.signalCells){
+            {let cell,state; for(let macKey of msg.signalCellsStates.dictionary.macKeys){
                cell = app.$data.signalCells[macKey];
                state = msg.signalCellsStates[macKey];
+               //console.warn("parsing ",macKey,"pointing cell,state:",cell, state)
 
-               cell.signalKey = state.signalKey ?? errCb("signalKey");
+               cell.signalKey = state.signalKey ?? errCb("signalCellsStates.[macKey].signalKey");
                //if no timer-related data was sent or time's up
                   //hide timer
                if(!state.timerEnd || Date.now() > state.timerEnd){
@@ -756,7 +757,7 @@ const app = new Vue({
             if(e instanceof TypeError) console.error(e.message);
             else throw e;
          }
-         console.info("[initApp]: inited with",msg," to ",app.CELLS_LAYOUT,app.CELLS_VIEW)
+         console.info("[initApp]: inited with",msg," to ",app.CELLS_LAYOUT, app.CELLS_VIEW,ObjectClone(app.signalCells))
       });
 
 
