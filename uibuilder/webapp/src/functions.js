@@ -73,6 +73,10 @@
       });
    }
    
+   function ObjectClone(obj){
+      return JSON.parse(safeStringify(obj));
+   }
+
    /**
     * takes a number and appends '0' until it has AT LEAST [digits] digits
     * @param {number} num value to format
