@@ -110,7 +110,9 @@
             "b8bf2e09ac2a846d"
         ],
         "x": 74,
-        "y": 229
+        "y": 229,
+        "w": 1307,
+        "h": 457
     },
     {
         "id": "31f4b8716c51f385",
@@ -134,9 +136,7 @@
             "f25308f6b79bce5d"
         ],
         "x": 89,
-        "y": 1759,
-        "w": 512,
-        "h": 232
+        "y": 1759
     },
     {
         "id": "042f83e60bf4b2b4",
@@ -519,7 +519,9 @@
             "ba9eb7bdda03ba32"
         ],
         "x": 74,
-        "y": 64
+        "y": 64,
+        "w": 277,
+        "h": 127
     },
     {
         "id": "48f133c168356962",
@@ -624,9 +626,7 @@
             "1da30b125f7694b3"
         ],
         "x": 99,
-        "y": 2119,
-        "w": 792,
-        "h": 252
+        "y": 2119
     },
     {
         "id": "478c85d69cf2eb8c",
@@ -652,9 +652,7 @@
             "5e3e280c0613ac32"
         ],
         "x": 79,
-        "y": 109,
-        "w": 857,
-        "h": 202
+        "y": 109
     },
     {
         "id": "abf36b9570f058cc",
@@ -678,9 +676,7 @@
             "eb0d22efa4a344c0"
         ],
         "x": 79,
-        "y": 874,
-        "w": 1278,
-        "h": 554
+        "y": 874
     },
     {
         "id": "bdb77fbf338dd270",
@@ -742,9 +738,7 @@
             "b5b49efa8368a832"
         ],
         "x": 124,
-        "y": 64,
-        "w": 592,
-        "h": 172
+        "y": 64
     },
     {
         "id": "ae9407dc27fc42e6",
@@ -783,38 +777,7 @@
             "360f32459e430863"
         ],
         "x": 74,
-        "y": 304,
-        "w": 1493,
-        "h": 663
-    },
-    {
-        "id": "a26408bd8d16deca",
-        "type": "group",
-        "z": "c1d4418a6f1f1693",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "373eabc42a374888",
-            "7a6e45d09f2d06fd",
-            "be14c153c3dbc45b",
-            "0ce5e37237e0feac",
-            "43bb0021e53007d6",
-            "f3ab7ffd9e6e8fc2",
-            "a78e59d02fd0d490",
-            "182defca8c0e3554",
-            "5c1ba7695a881562",
-            "1504136a4d0bb201",
-            "3320f38a9a46c264"
-        ],
-        "x": 74,
-        "y": 1234
+        "y": 304
     },
     {
         "id": "9bc629dadf51c057",
@@ -863,7 +826,9 @@
             "15bb6197c2b1fb58"
         ],
         "x": 64,
-        "y": 724
+        "y": 724,
+        "w": 1337,
+        "h": 457
     },
     {
         "id": "6bbed1acc7ad0f13",
@@ -948,7 +913,9 @@
             "af118073e63d8f78"
         ],
         "x": 1424,
-        "y": 889
+        "y": 889,
+        "w": 347,
+        "h": 202
     },
     {
         "id": "83dc8de4ca6f5b85",
@@ -970,8 +937,10 @@
             "451ca07396c03dc6",
             "1a96357a55bd59e2"
         ],
-        "x": 1154,
-        "y": 1369
+        "x": 1439,
+        "y": 1414,
+        "w": 287,
+        "h": 172
     },
     {
         "id": "2252354aebe355cf",
@@ -994,7 +963,9 @@
             "eceeeb3fae3bc7ac"
         ],
         "x": 1403,
-        "y": 244
+        "y": 244,
+        "w": 853,
+        "h": 408
     },
     {
         "id": "6a9007c1c483ee16",
@@ -1019,9 +990,7 @@
             "74bd2959d62a29c6"
         ],
         "x": 1459,
-        "y": 499,
-        "w": 857,
-        "h": 187
+        "y": 499
     },
     {
         "id": "6aa375e2e3177ccc",
@@ -1058,9 +1027,7 @@
             "75ef4d5b0e672f1e"
         ],
         "x": 59,
-        "y": 364,
-        "w": 1347,
-        "h": 337
+        "y": 364
     },
     {
         "id": "389c4cac40ddf2e2",
@@ -1089,9 +1056,7 @@
             "22f3a9e34e5ab24e"
         ],
         "x": 684,
-        "y": 1609,
-        "w": 812,
-        "h": 322
+        "y": 1609
     },
     {
         "id": "14eeda19a6a7072a",
@@ -1190,13 +1155,15 @@
             "307370bd3db41497"
         ],
         "x": 1429,
-        "y": 454
+        "y": 454,
+        "w": 287,
+        "h": 172
     },
     {
         "id": "5c1ba7695a881562",
         "type": "group",
         "z": "c1d4418a6f1f1693",
-        "g": "a26408bd8d16deca",
+        "g": "f36f49dc5a6fb0d2",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -1210,8 +1177,10 @@
             "425ba106b1db7004",
             "8aba5c7204608b4a"
         ],
-        "x": 829,
-        "y": 1429
+        "x": 1114,
+        "y": 1474,
+        "w": 247,
+        "h": 82
     },
     {
         "id": "d1418df470ae9fa4",
@@ -1240,9 +1209,7 @@
             "c7a39dea36551f43"
         ],
         "x": 109,
-        "y": 979,
-        "w": 1222,
-        "h": 172
+        "y": 979
     },
     {
         "id": "e02b6f382a6c8813",
@@ -1633,9 +1600,7 @@
             "7d42b16fe52425fd"
         ],
         "x": 318,
-        "y": 1174,
-        "w": 714,
-        "h": 228
+        "y": 1174
     },
     {
         "id": "b99d3df5ef07d131",
@@ -1666,9 +1631,7 @@
             "be6cdfc7a6f5fa2c"
         ],
         "x": 139,
-        "y": 709,
-        "w": 827,
-        "h": 232
+        "y": 709
     },
     {
         "id": "b42e082536c528eb",
@@ -1695,9 +1658,7 @@
             "ea8a17ead36a0d69"
         ],
         "x": 639,
-        "y": 484,
-        "w": 462,
-        "h": 202
+        "y": 484
     },
     {
         "id": "3562e00f4ed04fb9",
@@ -1721,9 +1682,7 @@
             "a62e3a70e91d913b"
         ],
         "x": 849,
-        "y": 334,
-        "w": 357,
-        "h": 142
+        "y": 334
     },
     {
         "id": "51320eb4ac48f6d8",
@@ -1747,9 +1706,7 @@
             "1e1402bb46babf61"
         ],
         "x": 1219,
-        "y": 364,
-        "w": 322,
-        "h": 172
+        "y": 364
     },
     {
         "id": "ec19ad21051125fc",
@@ -1847,7 +1804,9 @@
             "e26b945327fe0a7e"
         ],
         "x": 1439,
-        "y": 274
+        "y": 274,
+        "w": 282,
+        "h": 172
     },
     {
         "id": "0739446a5011eb4d",
@@ -1917,9 +1876,7 @@
             "8592536a56dff0ec"
         ],
         "x": 484,
-        "y": 1039,
-        "w": 227,
-        "h": 82
+        "y": 1039
     },
     {
         "id": "7d42b16fe52425fd",
@@ -1944,9 +1901,7 @@
             "533fe7d0158198e3"
         ],
         "x": 344,
-        "y": 1249,
-        "w": 662,
-        "h": 127
+        "y": 1249
     },
     {
         "id": "c4073df7edfaef3f",
@@ -1996,6 +1951,46 @@
         "y": 1414,
         "w": 392,
         "h": 112
+    },
+    {
+        "id": "f36f49dc5a6fb0d2",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "373eabc42a374888",
+            "7a6e45d09f2d06fd",
+            "be14c153c3dbc45b",
+            "0ce5e37237e0feac",
+            "43bb0021e53007d6",
+            "f3ab7ffd9e6e8fc2",
+            "a78e59d02fd0d490",
+            "182defca8c0e3554",
+            "1504136a4d0bb201",
+            "3320f38a9a46c264",
+            "490c2ef0e4a8f524",
+            "894e8b7998890f01",
+            "25ad03e0aafb40bc",
+            "3686ed2f16381d14",
+            "433ab3e813861fba",
+            "164b085390efe789",
+            "383509768f174b51",
+            "f17ef08625471675",
+            "bdd1d0aa5c23b884",
+            "5c1ba7695a881562"
+        ],
+        "x": 74,
+        "y": 1234,
+        "w": 1313,
+        "h": 427
     },
     {
         "id": "f9afb515793290aa",
@@ -7272,7 +7267,7 @@
         "g": "5f741e9d0e05f1e2",
         "name": "send msg on high and highhigh, throws warning and error too",
         "info": "",
-        "x": 835,
+        "x": 970,
         "y": 315,
         "wires": [],
         "l": false
@@ -7359,6 +7354,7 @@
         "id": "586a6d5aedbb7697",
         "type": "modbus-queue-info",
         "z": "c1d4418a6f1f1693",
+        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "",
         "topic": "",
@@ -7373,7 +7369,7 @@
         "showStatusActivities": true,
         "updateOnAllQueueChanges": true,
         "updateOnAllUnitQueues": true,
-        "x": 815,
+        "x": 985,
         "y": 345,
         "wires": [
             []
@@ -7403,8 +7399,8 @@
         "z": "c1d4418a6f1f1693",
         "g": "5f741e9d0e05f1e2",
         "name": "shareConnectionStatus",
-        "func": "flow.set(\"modbusStatusString\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill == \"green\"){\n    flow.set(\"modbusIsReady\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady\" });\n}\nelse{\n    flow.set(\"modbusIsReady\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
-        "outputs": 1,
+        "func": "let deviceName = \"_23KF1\"\nflow.set(\"modbusStatusString_23KF1\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill == \"green\"){\n    flow.set(\"modbusIsReady_23KF1\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady_23KF1\" });\n}\nelse{\n    flow.set(\"modbusIsReady_23KF1\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
+        "outputs": 2,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nflow.set(\"modbusStatusString\", \"none\");\nflow.set(\"modbusIsReady\", false);",
         "finalize": "",
@@ -7412,6 +7408,7 @@
         "x": 390,
         "y": 375,
         "wires": [
+            [],
             []
         ]
     },
@@ -7592,6 +7589,7 @@
         "id": "d0d9b9c907a6dfeb",
         "type": "inject",
         "z": "c1d4418a6f1f1693",
+        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "onStartup",
         "props": [
@@ -7610,7 +7608,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 625,
+        "x": 795,
         "y": 345,
         "wires": [
             [
@@ -7671,7 +7669,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "5f741e9d0e05f1e2",
         "name": "MODBUS QUERY",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -7687,15 +7685,15 @@
         "id": "373eabc42a374888",
         "type": "modbus-flex-write",
         "z": "c1d4418a6f1f1693",
-        "g": "a26408bd8d16deca",
+        "g": "f36f49dc5a6fb0d2",
         "name": "write to PLC Torri (ZBRCETH)",
         "showStatusActivities": true,
         "showErrors": true,
         "server": "63a4af044d8334e0",
         "emptyMsgOnFail": true,
         "keepMsgProperties": true,
-        "x": 575,
-        "y": 1425,
+        "x": 875,
+        "y": 1470,
         "wires": [
             [],
             [
@@ -7707,7 +7705,7 @@
         "id": "7a6e45d09f2d06fd",
         "type": "function",
         "z": "c1d4418a6f1f1693",
-        "g": "a26408bd8d16deca",
+        "g": "f36f49dc5a6fb0d2",
         "name": "log errors #1",
         "func": "node.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\n\nif(msg.error!=undefined){\n    node.error([\"queryFailed\",msg.error]);\n    //context.set(\"errorCc\", context.get(\"errorCc\")+1);\n}\nelse{\n    node.warn(msg)\n}\n",
         "outputs": 1,
@@ -7715,8 +7713,8 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\ncontext.set(\"outCc\", 0);\ncontext.set(\"errorCc\", 0);",
         "finalize": "",
         "libs": [],
-        "x": 920,
-        "y": 1380,
+        "x": 1205,
+        "y": 1425,
         "wires": [
             []
         ]
@@ -7725,7 +7723,7 @@
         "id": "be14c153c3dbc45b",
         "type": "debug",
         "z": "c1d4418a6f1f1693",
-        "g": "a26408bd8d16deca",
+        "g": "f36f49dc5a6fb0d2",
         "name": "plc output",
         "active": true,
         "tosidebar": true,
@@ -7735,15 +7733,15 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 915,
-        "y": 1425,
+        "x": 1200,
+        "y": 1470,
         "wires": []
     },
     {
         "id": "0ce5e37237e0feac",
         "type": "switch",
         "z": "c1d4418a6f1f1693",
-        "g": "a26408bd8d16deca",
+        "g": "f36f49dc5a6fb0d2",
         "name": "",
         "property": "error",
         "propertyType": "msg",
@@ -7758,8 +7756,8 @@
         "checkall": "false",
         "repair": true,
         "outputs": 2,
-        "x": 780,
-        "y": 1425,
+        "x": 1065,
+        "y": 1470,
         "wires": [
             [
                 "7a6e45d09f2d06fd"
@@ -7781,8 +7779,8 @@
         "name": "PLC write out",
         "mode": "return",
         "links": [],
-        "x": 935,
-        "y": 1470,
+        "x": 1220,
+        "y": 1515,
         "wires": [],
         "l": true
     },
@@ -7839,8 +7837,8 @@
             "8aba5c7204608b4a"
         ],
         "uncaught": false,
-        "x": 1035,
-        "y": 1470,
+        "x": 1320,
+        "y": 1515,
         "wires": [
             []
         ],
@@ -7850,17 +7848,17 @@
         "id": "43bb0021e53007d6",
         "type": "link in",
         "z": "c1d4418a6f1f1693",
-        "g": "a26408bd8d16deca",
+        "g": "f36f49dc5a6fb0d2",
         "name": "PLC Torri Write in",
         "links": [
             "24b71bc281409a22",
             "f3ab7ffd9e6e8fc2"
         ],
-        "x": 330,
-        "y": 1425,
+        "x": 410,
+        "y": 1515,
         "wires": [
             [
-                "373eabc42a374888"
+                "164b085390efe789"
             ]
         ],
         "l": true
@@ -7870,14 +7868,14 @@
         "type": "link out",
         "z": "c1d4418a6f1f1693",
         "d": true,
-        "g": "a26408bd8d16deca",
+        "g": "f36f49dc5a6fb0d2",
         "name": "PLC Torri Write out",
         "mode": "link",
         "links": [
             "43bb0021e53007d6"
         ],
-        "x": 305,
-        "y": 1380,
+        "x": 355,
+        "y": 1545,
         "wires": [],
         "l": true
     },
@@ -7885,7 +7883,7 @@
         "id": "a78e59d02fd0d490",
         "type": "function",
         "z": "c1d4418a6f1f1693",
-        "g": "a26408bd8d16deca",
+        "g": "f36f49dc5a6fb0d2",
         "name": "send query",
         "func": "/*  flow.query:\n    \"from\": function (address = 0, quantity = 2)\n    \"between\": function (from, to, sequenceName = \"\")\n    \"writeReg\": fucntion (address, value )\n    \"writeCoil\": fucntion (address, value )\n*/\n\nlet plc=global.get(\"plc\");\n\nnode.send(plc.writeReg(20,0))\n/* for(let i=0;i<0;i++){\n    node.send(plc.readFrom(4400,2));\n} */",
         "outputs": 1,
@@ -7893,11 +7891,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 355,
-        "y": 1320,
+        "x": 415,
+        "y": 1470,
         "wires": [
             [
-                "373eabc42a374888"
+                "164b085390efe789"
             ]
         ]
     },
@@ -7905,7 +7903,7 @@
         "id": "182defca8c0e3554",
         "type": "inject",
         "z": "c1d4418a6f1f1693",
-        "g": "a26408bd8d16deca",
+        "g": "f36f49dc5a6fb0d2",
         "name": "trigger",
         "props": [
             {
@@ -7923,8 +7921,8 @@
         "topic": "query",
         "payload": "",
         "payloadType": "date",
-        "x": 170,
-        "y": 1320,
+        "x": 260,
+        "y": 1470,
         "wires": [
             [
                 "a78e59d02fd0d490"
@@ -8246,7 +8244,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "9bc629dadf51c057",
         "name": "shareConnectionStatus",
-        "func": "flow.set(\"modbusStatusString\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill == \"green\"){\n    flow.set(\"modbusIsReady\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady\" });\n}\nelse{\n    flow.set(\"modbusIsReady\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
+        "func": "flow.set(\"modbusStatusString_23KF2\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill == \"green\"){\n    flow.set(\"modbusIsReady_23KF2\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady_23KF2\" });\n}\nelse{\n    flow.set(\"modbusIsReady_23KF2\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nflow.set(\"modbusStatusString\", \"none\");\nflow.set(\"modbusIsReady\", false);",
@@ -8498,7 +8496,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "9bc629dadf51c057",
         "name": "MODBUS QUERY",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -8817,8 +8815,8 @@
         "format": "{{flow.modbusStatusString}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1315,
-        "y": 1410,
+        "x": 1600,
+        "y": 1455,
         "wires": []
     },
     {
@@ -8836,8 +8834,8 @@
         "format": "{{flow.modbusIsReady}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1325,
-        "y": 1440,
+        "x": 1610,
+        "y": 1485,
         "wires": []
     },
     {
@@ -8857,8 +8855,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1195,
-        "y": 1425,
+        "x": 1480,
+        "y": 1470,
         "wires": [
             [
                 "3f28a0a7d3f10e1e",
@@ -8884,8 +8882,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1315,
-        "y": 1470,
+        "x": 1600,
+        "y": 1515,
         "wires": []
     },
     {
@@ -8905,8 +8903,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1305,
-        "y": 1500,
+        "x": 1590,
+        "y": 1545,
         "wires": [
             []
         ]
@@ -9120,7 +9118,7 @@
         "id": "1504136a4d0bb201",
         "type": "comment",
         "z": "c1d4418a6f1f1693",
-        "g": "a26408bd8d16deca",
+        "g": "f36f49dc5a6fb0d2",
         "name": "SCRITTURA MODBUS",
         "info": "",
         "x": 200,
@@ -9131,7 +9129,7 @@
         "id": "3320f38a9a46c264",
         "type": "comment",
         "z": "c1d4418a6f1f1693",
-        "g": "a26408bd8d16deca",
+        "g": "f36f49dc5a6fb0d2",
         "name": "Torri ZBRCETH",
         "info": "",
         "x": 405,
@@ -9155,6 +9153,213 @@
         "y": 615,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "490c2ef0e4a8f524",
+        "type": "status",
+        "z": "c1d4418a6f1f1693",
+        "g": "f36f49dc5a6fb0d2",
+        "name": "",
+        "scope": [
+            "373eabc42a374888"
+        ],
+        "x": 210,
+        "y": 1365,
+        "wires": [
+            [
+                "894e8b7998890f01",
+                "25ad03e0aafb40bc",
+                "3686ed2f16381d14"
+            ]
+        ]
+    },
+    {
+        "id": "894e8b7998890f01",
+        "type": "debug",
+        "z": "c1d4418a6f1f1693",
+        "g": "f36f49dc5a6fb0d2",
+        "name": "PLC STATUS CHANGE",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 1350,
+        "wires": []
+    },
+    {
+        "id": "25ad03e0aafb40bc",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "g": "f36f49dc5a6fb0d2",
+        "name": "shareConnectionStatus",
+        "func": "flow.set(\"modbusStatusString_ZBRCETH_TORRI\", (msg.status.text ? msg.status.text : \"none\"));\n//if (msg.status.fill == \"green\" || msg.status.text == \"activated\" || msg.status.text == \"reading done\" || msg.status.text == \"queueing\"){\nif(msg.status.fill == \"green\"){\n    flow.set(\"modbusIsReady_ZBRCETH_TORRI\", true);\n    node.status({ fill: \"green\", text: \"modbusIsReady_ZBRCETH_TORRI\" });\n}\nelse{\n    flow.set(\"modbusIsReady_ZBRCETH_TORRI\", false);\n    node.status({ fill: \"red\", text: (msg.status.text ? msg.status.text : \"none\") });\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nflow.set(\"modbusStatusString\", \"none\");\nflow.set(\"modbusIsReady\", false);",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3686ed2f16381d14",
+        "type": "function",
+        "z": "c1d4418a6f1f1693",
+        "g": "f36f49dc5a6fb0d2",
+        "name": "queue control",
+        "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncontext.set(\"command\", function (command){\n    return { 'topic': \"queueControl\", 'payload':command};\n});",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 1425,
+        "wires": [
+            [
+                "164b085390efe789"
+            ]
+        ]
+    },
+    {
+        "id": "433ab3e813861fba",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "g": "f36f49dc5a6fb0d2",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 255,
+        "y": 1425,
+        "wires": [
+            [
+                "3686ed2f16381d14"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "164b085390efe789",
+        "type": "q-gate",
+        "z": "c1d4418a6f1f1693",
+        "g": "f36f49dc5a6fb0d2",
+        "name": "queue-gate",
+        "controlTopic": "queueControl",
+        "defaultState": "queueing",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "queueCmd": "queue",
+        "defaultCmd": "default",
+        "triggerCmd": "trigger",
+        "flushCmd": "flush",
+        "resetCmd": "reset",
+        "peekCmd": "peek",
+        "dropCmd": "drop",
+        "statusCmd": "status",
+        "maxQueueLength": "100",
+        "keepNewest": true,
+        "qToggle": false,
+        "persist": false,
+        "storeName": "memory",
+        "x": 640,
+        "y": 1470,
+        "wires": [
+            [
+                "373eabc42a374888",
+                "383509768f174b51"
+            ]
+        ]
+    },
+    {
+        "id": "383509768f174b51",
+        "type": "debug",
+        "z": "c1d4418a6f1f1693",
+        "g": "f36f49dc5a6fb0d2",
+        "name": "MODBUS QUERY",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 829.6666259765625,
+        "y": 1519,
+        "wires": []
+    },
+    {
+        "id": "f17ef08625471675",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "g": "f36f49dc5a6fb0d2",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "queueControl",
+        "payload": "queue",
+        "payloadType": "str",
+        "x": 390,
+        "y": 1590,
+        "wires": [
+            [
+                "164b085390efe789"
+            ]
+        ]
+    },
+    {
+        "id": "bdd1d0aa5c23b884",
+        "type": "inject",
+        "z": "c1d4418a6f1f1693",
+        "g": "f36f49dc5a6fb0d2",
+        "name": "queueControl:trigger",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "queueControl",
+        "payload": "trigger",
+        "payloadType": "str",
+        "x": 390,
+        "y": 1620,
+        "wires": [
+            [
+                "164b085390efe789"
+            ]
         ]
     },
     {
