@@ -748,9 +748,7 @@
             "b5b49efa8368a832"
         ],
         "x": 124,
-        "y": 64,
-        "w": 592,
-        "h": 172
+        "y": 64
     },
     {
         "id": "ae9407dc27fc42e6",
@@ -789,9 +787,7 @@
             "360f32459e430863"
         ],
         "x": 74,
-        "y": 304,
-        "w": 1493,
-        "h": 663
+        "y": 304
     },
     {
         "id": "9bc629dadf51c057",
@@ -1152,6 +1148,46 @@
         "y": 2134,
         "w": 637,
         "h": 127
+    },
+    {
+        "id": "f36f49dc5a6fb0d2",
+        "type": "group",
+        "z": "c1d4418a6f1f1693",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "373eabc42a374888",
+            "7a6e45d09f2d06fd",
+            "be14c153c3dbc45b",
+            "0ce5e37237e0feac",
+            "43bb0021e53007d6",
+            "f3ab7ffd9e6e8fc2",
+            "a78e59d02fd0d490",
+            "182defca8c0e3554",
+            "1504136a4d0bb201",
+            "3320f38a9a46c264",
+            "490c2ef0e4a8f524",
+            "894e8b7998890f01",
+            "25ad03e0aafb40bc",
+            "3686ed2f16381d14",
+            "433ab3e813861fba",
+            "164b085390efe789",
+            "383509768f174b51",
+            "f17ef08625471675",
+            "bdd1d0aa5c23b884",
+            "5c1ba7695a881562"
+        ],
+        "x": 74,
+        "y": 1234,
+        "w": 1313,
+        "h": 427
     },
     {
         "id": "f3bee686c5a79e51",
@@ -1655,9 +1691,7 @@
             "be6cdfc7a6f5fa2c"
         ],
         "x": 139,
-        "y": 709,
-        "w": 827,
-        "h": 232
+        "y": 709
     },
     {
         "id": "b42e082536c528eb",
@@ -1684,9 +1718,7 @@
             "ea8a17ead36a0d69"
         ],
         "x": 639,
-        "y": 484,
-        "w": 462,
-        "h": 202
+        "y": 484
     },
     {
         "id": "3562e00f4ed04fb9",
@@ -1710,9 +1742,7 @@
             "a62e3a70e91d913b"
         ],
         "x": 849,
-        "y": 334,
-        "w": 357,
-        "h": 142
+        "y": 334
     },
     {
         "id": "51320eb4ac48f6d8",
@@ -1736,9 +1766,7 @@
             "1e1402bb46babf61"
         ],
         "x": 1219,
-        "y": 364,
-        "w": 322,
-        "h": 172
+        "y": 364
     },
     {
         "id": "ec19ad21051125fc",
@@ -1987,46 +2015,6 @@
         "y": 1414,
         "w": 392,
         "h": 112
-    },
-    {
-        "id": "f36f49dc5a6fb0d2",
-        "type": "group",
-        "z": "c1d4418a6f1f1693",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "373eabc42a374888",
-            "7a6e45d09f2d06fd",
-            "be14c153c3dbc45b",
-            "0ce5e37237e0feac",
-            "43bb0021e53007d6",
-            "f3ab7ffd9e6e8fc2",
-            "a78e59d02fd0d490",
-            "182defca8c0e3554",
-            "1504136a4d0bb201",
-            "3320f38a9a46c264",
-            "490c2ef0e4a8f524",
-            "894e8b7998890f01",
-            "25ad03e0aafb40bc",
-            "3686ed2f16381d14",
-            "433ab3e813861fba",
-            "164b085390efe789",
-            "383509768f174b51",
-            "f17ef08625471675",
-            "bdd1d0aa5c23b884",
-            "5c1ba7695a881562"
-        ],
-        "x": 74,
-        "y": 1234,
-        "w": 1313,
-        "h": 427
     },
     {
         "id": "f9afb515793290aa",
@@ -9252,7 +9240,7 @@
         "z": "c1d4418a6f1f1693",
         "g": "f36f49dc5a6fb0d2",
         "name": "queue control",
-        "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady_TORRI\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
+        "func": "var command = context.get(\"command\");\n  //when channel status changes\nif(flow.get(\"modbusIsReady_ZBRCETH_TORRI\")){\n  setTimeout(()=>{\n    node.send(command(\"flush\"));\n    node.send(command(\"open\"));\n  },1000); //delay messages to avoid an immediate new crash \n  return;\n}\nelse{\n  return command(\"queue\")\n}\n\n\n\n\n/* queue gate usage info clip:\n\nMessages with the topic Control Topic are control messages,\n which change or display the state of the gate\n  or manage the queue. \nControl messages setting the state are \n**open, close, toggle, queue, and default.\nThose managing the queue are\n**trigger, flush, peek, drop, and reset.\nThe status command refreshes the node status.\nA control message payload may be a string, number, or boolean.\n the payload is converted to a string and then tested against the command definitions.\n If a control message is received but not recognized, there is no output or change of state, and the node issues a warning.\nThe effects of these commands and the status object displayed\n by the node are described on https://github.com/drmibell/node-red-contrib-queue-gate\n */",
         "outputs": 1,
         "noerr": 0,
         "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncontext.set(\"command\", function (command){\n    return { 'topic': \"queueControl\", 'payload':command};\n});",
