@@ -110,9 +110,7 @@
             "b8bf2e09ac2a846d"
         ],
         "x": 74,
-        "y": 229,
-        "w": 1307,
-        "h": 457
+        "y": 229
     },
     {
         "id": "31f4b8716c51f385",
@@ -521,9 +519,7 @@
             "ba9eb7bdda03ba32"
         ],
         "x": 74,
-        "y": 64,
-        "w": 277,
-        "h": 127
+        "y": 64
     },
     {
         "id": "48f133c168356962",
@@ -818,9 +814,7 @@
             "3320f38a9a46c264"
         ],
         "x": 74,
-        "y": 1234,
-        "w": 1028,
-        "h": 303
+        "y": 1234
     },
     {
         "id": "9bc629dadf51c057",
@@ -869,9 +863,7 @@
             "15bb6197c2b1fb58"
         ],
         "x": 64,
-        "y": 724,
-        "w": 1337,
-        "h": 457
+        "y": 724
     },
     {
         "id": "6bbed1acc7ad0f13",
@@ -956,9 +948,7 @@
             "af118073e63d8f78"
         ],
         "x": 1424,
-        "y": 889,
-        "w": 347,
-        "h": 202
+        "y": 889
     },
     {
         "id": "83dc8de4ca6f5b85",
@@ -981,9 +971,7 @@
             "1a96357a55bd59e2"
         ],
         "x": 1154,
-        "y": 1369,
-        "w": 287,
-        "h": 172
+        "y": 1369
     },
     {
         "id": "2252354aebe355cf",
@@ -1006,9 +994,7 @@
             "eceeeb3fae3bc7ac"
         ],
         "x": 1403,
-        "y": 244,
-        "w": 853,
-        "h": 408
+        "y": 244
     },
     {
         "id": "6a9007c1c483ee16",
@@ -1157,6 +1143,32 @@
         "h": 82
     },
     {
+        "id": "0459e2a074258c5a",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b7f354ce82204d9c",
+            "f0c22b02c475661f",
+            "fb95b4d0741d8db8",
+            "dd20009116ca100b",
+            "185fc4dc4d7ebafc",
+            "4d56894252d94c10"
+        ],
+        "x": 114,
+        "y": 2134,
+        "w": 637,
+        "h": 127
+    },
+    {
         "id": "f3bee686c5a79e51",
         "type": "group",
         "z": "c1d4418a6f1f1693",
@@ -1178,9 +1190,7 @@
             "307370bd3db41497"
         ],
         "x": 1429,
-        "y": 454,
-        "w": 287,
-        "h": 172
+        "y": 454
     },
     {
         "id": "5c1ba7695a881562",
@@ -1201,9 +1211,7 @@
             "8aba5c7204608b4a"
         ],
         "x": 829,
-        "y": 1429,
-        "w": 247,
-        "h": 82
+        "y": 1429
     },
     {
         "id": "d1418df470ae9fa4",
@@ -1839,35 +1847,7 @@
             "e26b945327fe0a7e"
         ],
         "x": 1439,
-        "y": 274,
-        "w": 282,
-        "h": 172
-    },
-    {
-        "id": "0459e2a074258c5a",
-        "type": "group",
-        "z": "bdc10eb0bfc2c224",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "b7f354ce82204d9c",
-            "f0c22b02c475661f",
-            "fb95b4d0741d8db8",
-            "dd20009116ca100b",
-            "185fc4dc4d7ebafc",
-            "4d56894252d94c10"
-        ],
-        "x": 114,
-        "y": 2134,
-        "w": 637,
-        "h": 127
+        "y": 274
     },
     {
         "id": "0739446a5011eb4d",
@@ -2437,7 +2417,7 @@
         "g": "da3e31cb0af2a871",
         "name": "",
         "controlTopic": "control",
-        "defaultState": "closed",
+        "defaultState": "open",
         "openCmd": "open",
         "closeCmd": "close",
         "toggleCmd": "toggle",
@@ -2614,7 +2594,7 @@
         "g": "0739446a5011eb4d",
         "name": "",
         "controlTopic": "control",
-        "defaultState": "closed",
+        "defaultState": "open",
         "openCmd": "open",
         "closeCmd": "close",
         "toggleCmd": "toggle",
@@ -6118,7 +6098,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "14eeda19a6a7072a",
         "name": "update signalCell",
-        "func": "\nlet signalKey = msg.action.match(/set(\\w+)/)[1]; if(!signalKey) node.warn({txt:\"error extracting signalKey\",sk:signalKey,fullMsg:msg})\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\n\ncell.signalKey = signalKey;\n//conditionally show cd\nif(signalKey == \"A1\" || signalKey == \"A2\"){\n    cell.timerStart = Date.now();\n    cell.timerEnd = Date.now() + global.get(\"config\").machines[mKey].toA3Timeout;\n}\nelse{\n    cell.timerStart = Date.now();\n    cell.timerEnd = cell.timerStart;\n}\n\nreturn msg;",
+        "func": "\nlet signalKey = msg.action.match(/set(\\w+)/)[1]; if(!signalKey) node.warn({txt:\"error extracting signalKey\",sk:signalKey,fullMsg:msg})\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\n\ncell.signalKey = signalKey;\n//conditionally show cd\nif(signalKey == \"A1\"){\n    cell.timerStart = Date.now();\n    cell.timerEnd = Date.now() + global.get(\"config\").machines[mKey].toA3Timeout;\n}\nelse{\n    if(signalKey != \"A2\"){\n        cell.timerStart = Date.now();\n        cell.timerEnd = cell.timerStart;\n    }\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6619,7 +6599,7 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "\n\n\nconst MACHINE_CFGS = {\n    \"FA419\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA420\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA421\": { toA4Timeout: 120 * 60 * 1000 },\n\n    \"FA422\": { toA4Timeout: 150 * 60 * 1000 },\n    \"FA423\": { toA4Timeout: 150 * 60 * 1000 },\n\n    \"OMET\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO41\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO42\": { toA4Timeout: 210 * 60 * 1000 }\n}\n\n/** {String[]} \"machine keys\". match the ones used in uibuilder's app. */\nconst macKeys = Object.keys(MACHINE_CFGS);\n/**  {String[]} devices that may be associated with each towersBitArray bit*/\nconst towersDevices = [\"redLight\", \"greenLight\", \"horn\"];\n{\n    let cfg;\n    for (let mKey in MACHINE_CFGS) {\n        cfg = MACHINE_CFGS[mKey];\n        cfg.displayName = mKey+\"_\";\n        cfg.cellHeaderText = \"Linea \" + cfg.displayName;\n        cfg.toA3Timeout = 20000;\n        //cfg.toA4Timeout = this.toA4Timeout;\n        cfg.toA3Timeout = 10000;\n        cfg.toA4Timeout = 13000;\n        cfg.initCellSignalKey = \"noop\";\n        cfg.initTowerBits = {};\n        for (let device of towersDevices) {\n            cfg.initTowerBits[device] = false\n        }\n    }\n}\n\nconst cellsLayout = [ //keys are: unique\n    [\"FA419\", \"FA420\", \"FA421\", \"FA422\"],\n    [\"FA423\", \"OMET\", \"MO41\", \"MO42\"],\n];\nflow.set(\"fallbackConfig\", {\n    machines: MACHINE_CFGS,\n    cellsLayout: cellsLayout,\n    /**  */\n    views:{\n        // \"display\":{ adminEnabled:this.cellsLayout.map( r => r.map(v => 0)) },\n        // \"SMED1\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==0 )) }, //admin on row 0\n        // \"SMED2\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==1 )) },\n        \"default\": { adminUI: [] }, //adminUI: <macKey>[] : machines to allow to interact with\n        \"display\":\"default\",\n        \"SMED1\":{ exactIpList:[\"192.168.19.116\", \"192.168.19.112\"], adminUI:cellsLayout[0].map(v => v)},\n        \"SMED2\":{ exactIpList:[\"192.168.19.117\",\"192.168.19.113\"], adminUI:cellsLayout[1].map(v => v)}\n\n    }\n});\n\nnode.send(flow.get(\"fallbackConfig\"))",
+        "initialize": "\n\n\nconst MACHINE_CFGS = {\n    \"FA419\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA420\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA421\": { toA4Timeout: 120 * 60 * 1000 },\n\n    \"FA422\": { toA4Timeout: 150 * 60 * 1000 },\n    \"FA423\": { toA4Timeout: 150 * 60 * 1000 },\n\n    \"OMET\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO41\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO42\": { toA4Timeout: 210 * 60 * 1000 }\n}\n\n/** {String[]} \"machine keys\". match the ones used in uibuilder's app. */\nconst macKeys = Object.keys(MACHINE_CFGS);\n/**  {String[]} devices that may be associated with each towersBitArray bit*/\nconst towersDevices = [\"redLight\", \"greenLight\", \"horn\"];\n{\n    let cfg;\n    for (let mKey in MACHINE_CFGS) {\n        cfg = MACHINE_CFGS[mKey];\n        cfg.displayName = mKey+\"_\";\n        cfg.cellHeaderText = \"Linea \" + cfg.displayName;\n        cfg.toA3Timeout = 20000;\n        //cfg.toA4Timeout = this.toA4Timeout;\n        cfg.toA3Timeout = 10000;\n        cfg.toA4Timeout = 13000;\n        cfg.initCellSignalKey = \"noop\";\n        cfg.initTowerBits = {};\n        for (let device of towersDevices) {\n            cfg.initTowerBits[device] = false\n        }\n    }\n}\n\nconst cellsLayout = [ //keys are: unique\n    [\"FA419\", \"FA420\", \"FA421\", \"FA422\"],\n    [\"FA423\", \"OMET\", \"MO41\", \"MO42\"],\n];\nflow.set(\"fallbackConfig\", {\n    machines: MACHINE_CFGS,\n    cellsLayout: cellsLayout,\n    /**  */\n    views:{\n        // \"display\":{ adminEnabled:this.cellsLayout.map( r => r.map(v => 0)) },\n        // \"SMED1\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==0 )) }, //admin on row 0\n        // \"SMED2\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==1 )) },\n        \"default\": { adminUI: [] }, //adminUI: <macKey>[] : machines to allow to interact with\n        \"display\":\"default\",\n        \"SMED1\":{ exactIpList:[\"192.168.19.116\", \"192.168.19.112\", \"127.0.0.1\"], adminUI:cellsLayout[0].map(v => v)},\n        \"SMED2\":{ exactIpList:[\"192.168.19.117\",\"192.168.19.113\"], adminUI:cellsLayout[1].map(v => v)}\n\n    }\n});\n\nnode.send(flow.get(\"fallbackConfig\"))",
         "finalize": "",
         "libs": [],
         "x": 265,
