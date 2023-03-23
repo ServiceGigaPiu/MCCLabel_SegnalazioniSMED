@@ -548,9 +548,9 @@
             "158e57843e4b74a5",
             "db0b9650aad24229"
         ],
-        "x": 94,
+        "x": 84,
         "y": 559,
-        "w": 1017,
+        "w": 1027,
         "h": 292
     },
     {
@@ -844,9 +844,9 @@
             "ec19ad21051125fc",
             "850adb4a2c8b2b3f"
         ],
-        "x": 62,
+        "x": 54,
         "y": 934,
-        "w": 1670,
+        "w": 1678,
         "h": 678
     },
     {
@@ -884,7 +884,7 @@
         ],
         "x": 99,
         "y": 1714,
-        "w": 1542,
+        "w": 1552,
         "h": 262
     },
     {
@@ -1120,7 +1120,7 @@
         ],
         "x": 114,
         "y": 2134,
-        "w": 627,
+        "w": 637,
         "h": 127
     },
     {
@@ -1160,6 +1160,113 @@
         ],
         "x": 74,
         "y": 1234
+    },
+    {
+        "id": "8dfc8129d51e5740",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cb87a1179601d7b8",
+            "2f1fbbf63057cd82",
+            "84eb44d8938c031b",
+            "cfbba0824276973c",
+            "21a7e4d7b331c67e",
+            "544b15cb3575e299",
+            "8535fcf6403fa45e",
+            "41b676d5ef990a3e",
+            "06c77a7347c932b1",
+            "9467330a7dcfcb9f",
+            "f36ff7fcef01055e",
+            "ab8ca08ba9111f30",
+            "c4f475eadc34f078",
+            "c9050cb334d984e8",
+            "0ab9b611389e52b7",
+            "079b24bde6bc7913",
+            "10f77208037dab67",
+            "a0da01db3cddd017",
+            "dfa8cdb9bed3539c",
+            "ea5a84d58454a07e",
+            "6d4bfaadae660075",
+            "f416b5ea2464b4c0",
+            "534b0771447b37e9",
+            "d700156b08ed999b",
+            "2473f05cfebcb6eb",
+            "6a9506e901b63554",
+            "2c9f603eb53ec7c7",
+            "6b16add2d6b04682",
+            "d1f763dae798b9a3",
+            "646a32288f144f73",
+            "51a3daed646e5627",
+            "d18f0a4219d2313a",
+            "111059d7a7373219",
+            "422c0e4e8c964482",
+            "c3df1f96c4ccd8d6",
+            "e53706c8bd9aadf5",
+            "b12c9185cc37664b",
+            "1b879dfc02869b3a",
+            "5a06c1baf2210989",
+            "4a15af8df8c577ea",
+            "9a51ee5d15da287d",
+            "c091b1c1e75df617",
+            "223dfe7f51e5c702",
+            "4bf699bb76b64d11",
+            "51ccbb885d329fc3",
+            "7f3892b70e89d932",
+            "9002b5da933a2cf0",
+            "e07363a0c58b13e0",
+            "a984ae5f89c982aa",
+            "be30f8352908de40",
+            "9b8b41e6232af923",
+            "6c7b45a7a15ce7ca",
+            "19df9e22435f0986",
+            "647f4fe681027b71",
+            "7e254c27479ac8aa",
+            "eba758ecf77571c1",
+            "d7a2c75afa019028",
+            "9250c631a78ab33a",
+            "ba11515a04cebd32",
+            "6f13a43d49cbb006",
+            "590b85c6d709bc3a",
+            "76bd5f8638bf1573",
+            "0e0aa465724c5b30",
+            "bd11511613590ced",
+            "7e325d321fc3cadb",
+            "47b607147dd37f73",
+            "de15a8e34e10e6de",
+            "e61d6852cebd5731",
+            "2c3cc994eb8f94aa",
+            "84f861f523724022",
+            "cc301d51052bf1ea",
+            "71050fa128ba0470",
+            "0c672d18a9ee0d9d",
+            "b936e4a9ee71f492",
+            "3d4f9e766470653e",
+            "23db80ed422b9759",
+            "24c8d29178389a35",
+            "69720d01f23fd641",
+            "8a1acf9dd291745a",
+            "fbec45079c82c4f6",
+            "f4db294021a89fbf",
+            "c41f4b62a37e0c5a",
+            "1531adcffdaf7a6b",
+            "f838580e2844b4dd",
+            "a7135869c6f11da0",
+            "b8a75ac233598814",
+            "a740b5ba0ed51bd3"
+        ],
+        "x": 83,
+        "y": 2299,
+        "w": 1718,
+        "h": 907
     },
     {
         "id": "f3bee686c5a79e51",
@@ -1831,6 +1938,29 @@
         "y": 274
     },
     {
+        "id": "a740b5ba0ed51bd3",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b40b58043c479a0a",
+            "36f1d48b74bad8dc"
+        ],
+        "x": 109,
+        "y": 2944,
+        "w": 427,
+        "h": 82
+    },
+    {
         "id": "0739446a5011eb4d",
         "type": "group",
         "z": "bdc10eb0bfc2c224",
@@ -1973,6 +2103,30 @@
         "y": 1414,
         "w": 392,
         "h": 112
+    },
+    {
+        "id": "74dd883b5669e797",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4018f9117b219836",
+            "175cc861d4fdc430",
+            "3b7aeec4f66ea82e",
+            "e0acafe1e64fb69d"
+        ],
+        "x": 1294,
+        "y": 529,
+        "w": 247,
+        "h": 142
     },
     {
         "id": "f9afb515793290aa",
@@ -2206,7 +2360,7 @@
         "tab": "0e782a15597a520f",
         "order": 3,
         "disp": true,
-        "width": 8,
+        "width": 9,
         "collapse": false,
         "className": ""
     },
@@ -2217,7 +2371,7 @@
         "tab": "0e782a15597a520f",
         "order": 4,
         "disp": true,
-        "width": "8",
+        "width": 11,
         "collapse": true,
         "className": ""
     },
@@ -2464,8 +2618,7 @@
         "y": 765,
         "wires": [
             [
-                "24b71bc281409a22",
-                "1d97e3472f67af0b"
+                "24b71bc281409a22"
             ]
         ]
     },
@@ -2778,6 +2931,7 @@
         "id": "fbec45079c82c4f6",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "action",
         "property": "action",
         "propertyType": "msg",
@@ -2834,8 +2988,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 10,
-        "x": 385,
-        "y": 2550,
+        "x": 480,
+        "y": 2565,
         "wires": [
             [
                 "cb87a1179601d7b8"
@@ -2874,6 +3028,7 @@
         "id": "cb87a1179601d7b8",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "setA1",
         "property": "payload",
         "propertyType": "msg",
@@ -2885,8 +3040,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 680,
-        "y": 2295,
+        "x": 895,
+        "y": 2340,
         "wires": [
             [
                 "2f1fbbf63057cd82",
@@ -2902,6 +3057,7 @@
         "id": "2f1fbbf63057cd82",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send setA4 [120m|dynamic]",
         "func": "const signalCells = global.get(\"signalCells\")\nlet mKey = msg.topic;\nlet cfg = global.get(\"config\").machines[mKey];\n\nnode.send({reset:true,action:\"setA4\",topic:msg.topic});\nmsg.action = \"setA4\";\nmsg.delay = cfg.toA3Timeout + cfg.toA4Timeout;\nreturn msg;",
         "outputs": 1,
@@ -2909,8 +3065,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 915,
-        "y": 2325,
+        "x": 1130,
+        "y": 2370,
         "wires": [
             [
                 "84eb44d8938c031b"
@@ -2956,6 +3112,7 @@
         "id": "f4db294021a89fbf",
         "type": "link in",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "buttonActions in",
         "links": [
             "185fc4dc4d7ebafc",
@@ -2965,10 +3122,11 @@
             "a218e475a04369b9",
             "1255172cf854afec",
             "e9116e554f7d574d",
-            "46843f4e8d02205b"
+            "46843f4e8d02205b",
+            "f607e3882cb5c331"
         ],
-        "x": 190,
-        "y": 2550,
+        "x": 285,
+        "y": 2565,
         "wires": [
             [
                 "1531adcffdaf7a6b",
@@ -2982,13 +3140,14 @@
         "id": "84eb44d8938c031b",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1185,
-        "y": 2325,
+        "x": 1400,
+        "y": 2370,
         "wires": [],
         "l": true
     },
@@ -3064,23 +3223,25 @@
         "id": "c41f4b62a37e0c5a",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
-        "name": "example input: topic:OMET, payload:setA1",
+        "g": "8dfc8129d51e5740",
+        "name": "example input: topic:OMET, action:setA1",
         "info": "",
-        "x": 275,
-        "y": 2640,
+        "x": 370,
+        "y": 2655,
         "wires": []
     },
     {
         "id": "cfbba0824276973c",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1350,
-        "y": 2355,
+        "x": 1565,
+        "y": 2400,
         "wires": [],
         "l": true
     },
@@ -3088,6 +3249,7 @@
         "id": "21a7e4d7b331c67e",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "raise playHorn bit",
         "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl[mKey].hasDevice(\"horn\"))\n    towersControl[mKey].horn = true;\n\n\nreturn msg;",
         "outputs": 1,
@@ -3095,8 +3257,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 885,
-        "y": 2385,
+        "x": 1100,
+        "y": 2430,
         "wires": [
             [
                 "544b15cb3575e299"
@@ -3107,13 +3269,14 @@
         "id": "544b15cb3575e299",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "trigger writetowersBitArray",
         "mode": "link",
         "links": [
             "0e67b07cc99383b3"
         ],
-        "x": 1125,
-        "y": 2385,
+        "x": 1340,
+        "y": 2430,
         "wires": [],
         "l": true
     },
@@ -3121,6 +3284,7 @@
         "id": "8535fcf6403fa45e",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send setA3 20m",
         "func": "let mKey = msg.topic;\nlet cfg = global.get(\"config\").machines[mKey];\n\n//send programmed State change\nnode.send({ reset: true, action: \"setA3\", topic: msg.topic });\nmsg.action = \"setA3\";\nmsg.delay = cfg.toA3Timeout;\n\n\nreturn msg;",
         "outputs": 1,
@@ -3128,8 +3292,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 875,
-        "y": 2295,
+        "x": 1090,
+        "y": 2340,
         "wires": [
             [
                 "41b676d5ef990a3e"
@@ -3140,13 +3304,14 @@
         "id": "41b676d5ef990a3e",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1125,
-        "y": 2295,
+        "x": 1340,
+        "y": 2340,
         "wires": [],
         "l": true
     },
@@ -3154,6 +3319,7 @@
         "id": "06c77a7347c932b1",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "setA2",
         "property": "payload",
         "propertyType": "msg",
@@ -3165,8 +3331,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 685,
-        "y": 2430,
+        "x": 900,
+        "y": 2475,
         "wires": [
             [
                 "9467330a7dcfcb9f",
@@ -3180,6 +3346,7 @@
         "id": "9467330a7dcfcb9f",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "lower playHorn bit",
         "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl[mKey].hasDevice(\"horn\"))\n    towersControl[mKey].horn = false;\n\n\nreturn msg;",
         "outputs": 1,
@@ -3187,8 +3354,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 885,
-        "y": 2490,
+        "x": 1100,
+        "y": 2535,
         "wires": [
             [
                 "a0da01db3cddd017"
@@ -3199,13 +3366,14 @@
         "id": "f36ff7fcef01055e",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "trigger writetowersBitArray",
         "mode": "link",
         "links": [
             "0e67b07cc99383b3"
         ],
-        "x": 1155,
-        "y": 2550,
+        "x": 1370,
+        "y": 2595,
         "wires": [],
         "l": true
     },
@@ -3213,13 +3381,14 @@
         "id": "ab8ca08ba9111f30",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1080,
-        "y": 2460,
+        "x": 1295,
+        "y": 2505,
         "wires": [],
         "l": true
     },
@@ -3228,6 +3397,7 @@
         "type": "function",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "action set<signalKey>",
         "func": "\n\nlet matches = msg.action.match(/set(\\w+)/)[1];\nif(matches)\n    msg.signalKey\nreturn msg;",
         "outputs": 1,
@@ -3235,8 +3405,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 335,
-        "y": 2430,
+        "x": 430,
+        "y": 2445,
         "wires": [
             []
         ]
@@ -3292,14 +3462,15 @@
         "id": "c4f475eadc34f078",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send setSingleCellState",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1100,
-        "y": 2355,
+        "x": 1315,
+        "y": 2400,
         "wires": [
             [
                 "cfbba0824276973c"
@@ -3311,6 +3482,7 @@
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "action set<signalKey>",
         "property": "payload",
         "propertyType": "msg",
@@ -3325,8 +3497,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 1,
-        "x": 335,
-        "y": 2460,
+        "x": 430,
+        "y": 2475,
         "wires": [
             []
         ]
@@ -3335,14 +3507,15 @@
         "id": "c9050cb334d984e8",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 885,
-        "y": 2460,
+        "x": 1100,
+        "y": 2505,
         "wires": [
             [
                 "ab8ca08ba9111f30"
@@ -3353,6 +3526,7 @@
         "id": "0ab9b611389e52b7",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "setA3",
         "property": "payload",
         "propertyType": "msg",
@@ -3364,8 +3538,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 680,
-        "y": 2595,
+        "x": 895,
+        "y": 2640,
         "wires": [
             [
                 "10f77208037dab67",
@@ -3377,13 +3551,14 @@
         "id": "079b24bde6bc7913",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1070,
-        "y": 2595,
+        "x": 1285,
+        "y": 2640,
         "wires": [],
         "l": true
     },
@@ -3391,14 +3566,15 @@
         "id": "10f77208037dab67",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 885,
-        "y": 2595,
+        "x": 1100,
+        "y": 2640,
         "wires": [
             [
                 "079b24bde6bc7913"
@@ -3409,15 +3585,16 @@
         "id": "a0da01db3cddd017",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "raise tower redLight bit",
-        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nnode.warn(\"raising red\")\nif (towersControl[mKey].hasDevice(\"redLight\"))\n    towersControl[mKey].horn = true;\n\n\nreturn msg;",
+        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nnode.warn(\"raising red\")\nif (towersControl[mKey].hasDevice(\"redLight\"))\n    towersControl[mKey].redLight = true;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 905,
-        "y": 2520,
+        "x": 1120,
+        "y": 2565,
         "wires": [
             [
                 "dfa8cdb9bed3539c"
@@ -3428,6 +3605,7 @@
         "id": "dfa8cdb9bed3539c",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "lower tower greenLight bit",
         "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\n\nnode.warn(\"lowering green\")\nif (towersControl[mKey].hasDevice(\"greenLight\"))\n    towersControl[mKey].greenLight = false;\n\n\nreturn msg;",
         "outputs": 1,
@@ -3435,8 +3613,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 905,
-        "y": 2550,
+        "x": 1120,
+        "y": 2595,
         "wires": [
             [
                 "f36ff7fcef01055e"
@@ -3447,6 +3625,7 @@
         "id": "ea5a84d58454a07e",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "setA4",
         "property": "payload",
         "propertyType": "msg",
@@ -3458,8 +3637,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 680,
-        "y": 2640,
+        "x": 895,
+        "y": 2685,
         "wires": [
             [
                 "f416b5ea2464b4c0",
@@ -3471,13 +3650,14 @@
         "id": "6d4bfaadae660075",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1070,
-        "y": 2640,
+        "x": 1285,
+        "y": 2685,
         "wires": [],
         "l": true
     },
@@ -3485,14 +3665,15 @@
         "id": "f416b5ea2464b4c0",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 885,
-        "y": 2640,
+        "x": 1100,
+        "y": 2685,
         "wires": [
             [
                 "6d4bfaadae660075"
@@ -3503,6 +3684,7 @@
         "id": "534b0771447b37e9",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "setB",
         "property": "payload",
         "propertyType": "msg",
@@ -3514,8 +3696,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 680,
-        "y": 2685,
+        "x": 895,
+        "y": 2730,
         "wires": [
             [
                 "d700156b08ed999b",
@@ -3528,14 +3710,15 @@
         "id": "d700156b08ed999b",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 885,
-        "y": 2715,
+        "x": 1100,
+        "y": 2760,
         "wires": [
             [
                 "2473f05cfebcb6eb"
@@ -3546,13 +3729,14 @@
         "id": "2473f05cfebcb6eb",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1070,
-        "y": 2715,
+        "x": 1285,
+        "y": 2760,
         "wires": [],
         "l": true
     },
@@ -3560,6 +3744,7 @@
         "id": "6a9506e901b63554",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "setC1",
         "property": "payload",
         "propertyType": "msg",
@@ -3571,8 +3756,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 680,
-        "y": 2760,
+        "x": 895,
+        "y": 2805,
         "wires": [
             [
                 "51ccbb885d329fc3",
@@ -3585,6 +3770,7 @@
         "id": "2c9f603eb53ec7c7",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "setC2",
         "property": "payload",
         "propertyType": "msg",
@@ -3596,8 +3782,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 680,
-        "y": 2835,
+        "x": 895,
+        "y": 2880,
         "wires": [
             [
                 "e07363a0c58b13e0",
@@ -3610,6 +3796,7 @@
         "id": "6b16add2d6b04682",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "setD",
         "property": "payload",
         "propertyType": "msg",
@@ -3621,8 +3808,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 680,
-        "y": 2910,
+        "x": 895,
+        "y": 2955,
         "wires": [
             [
                 "9b8b41e6232af923",
@@ -3635,6 +3822,7 @@
         "id": "d1f763dae798b9a3",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "setE",
         "property": "payload",
         "propertyType": "msg",
@@ -3646,8 +3834,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 670,
-        "y": 2985,
+        "x": 885,
+        "y": 3030,
         "wires": [
             [
                 "51a3daed646e5627",
@@ -3661,13 +3849,14 @@
         "id": "646a32288f144f73",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "trigger writetowersBitArray",
         "mode": "link",
         "links": [
             "0e67b07cc99383b3"
         ],
-        "x": 1155,
-        "y": 3075,
+        "x": 1370,
+        "y": 3120,
         "wires": [],
         "l": true
     },
@@ -3675,6 +3864,7 @@
         "id": "51a3daed646e5627",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "lower tower redLight bit",
         "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl[mKey].hasDevice(\"redLight\"))\n    towersControl[mKey].redLight = false;\n\n\nreturn msg;",
         "outputs": 1,
@@ -3682,8 +3872,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 905,
-        "y": 3045,
+        "x": 1120,
+        "y": 3090,
         "wires": [
             [
                 "d18f0a4219d2313a"
@@ -3694,6 +3884,7 @@
         "id": "d18f0a4219d2313a",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "raise tower greenLight bit",
         "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl[mKey].hasDevice(\"greenLight\"))\n    towersControl[mKey].greenLight = true;\n\n\nreturn msg;",
         "outputs": 1,
@@ -3701,8 +3892,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 915,
-        "y": 3075,
+        "x": 1135,
+        "y": 3120,
         "wires": [
             [
                 "646a32288f144f73"
@@ -3713,6 +3904,7 @@
         "id": "111059d7a7373219",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "default: warn",
         "func": "node.warn({\n    txt:\"unknown msg.action in buttonAction\",\n    action:msg.action,\n    fullMsg:msg\n});\nglobal.get(\"utils\").errorBlink(node, 60000);",
         "outputs": 1,
@@ -3720,8 +3912,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 685,
-        "y": 3120,
+        "x": 900,
+        "y": 3165,
         "wires": [
             []
         ]
@@ -3740,90 +3932,99 @@
         "id": "422c0e4e8c964482",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "RUN",
         "info": "",
-        "x": 565,
-        "y": 2685,
+        "x": 780,
+        "y": 2730,
         "wires": []
     },
     {
         "id": "c3df1f96c4ccd8d6",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "DOWNTIME",
         "info": "",
-        "x": 545,
-        "y": 2760,
+        "x": 760,
+        "y": 2805,
         "wires": []
     },
     {
         "id": "e53706c8bd9aadf5",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "MANUTENZIONE",
         "info": "",
-        "x": 535,
-        "y": 2835,
+        "x": 750,
+        "y": 2880,
         "wires": []
     },
     {
         "id": "b12c9185cc37664b",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "SCARTO",
         "info": "",
-        "x": 555,
-        "y": 2910,
+        "x": 770,
+        "y": 2955,
         "wires": []
     },
     {
         "id": "1b879dfc02869b3a",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "CARR. PRONTI",
         "info": "",
-        "x": 525,
-        "y": 2985,
+        "x": 740,
+        "y": 3030,
         "wires": []
     },
     {
         "id": "5a06c1baf2210989",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "CHIAMATA",
         "info": "",
-        "x": 555,
-        "y": 2295,
+        "x": 770,
+        "y": 2340,
         "wires": []
     },
     {
         "id": "4a15af8df8c577ea",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "PR. IN CARICO",
         "info": "",
-        "x": 540,
-        "y": 2430,
+        "x": 755,
+        "y": 2475,
         "wires": []
     },
     {
         "id": "9a51ee5d15da287d",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "AVVIAMENTO",
         "info": "",
-        "x": 545,
-        "y": 2595,
+        "x": 760,
+        "y": 2640,
         "wires": []
     },
     {
         "id": "c091b1c1e75df617",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "RITARDO AVV.",
         "info": "",
-        "x": 535,
-        "y": 2640,
+        "x": 750,
+        "y": 2685,
         "wires": []
     },
     {
@@ -3831,13 +4032,14 @@
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1135,
-        "y": 2430,
+        "x": 1350,
+        "y": 2475,
         "wires": [],
         "l": true
     },
@@ -3845,13 +4047,14 @@
         "id": "4bf699bb76b64d11",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1110,
-        "y": 2685,
+        "x": 1325,
+        "y": 2730,
         "wires": [],
         "l": true
     },
@@ -3859,14 +4062,15 @@
         "id": "51ccbb885d329fc3",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 885,
-        "y": 2790,
+        "x": 1100,
+        "y": 2835,
         "wires": [
             [
                 "7f3892b70e89d932"
@@ -3877,13 +4081,14 @@
         "id": "7f3892b70e89d932",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1070,
-        "y": 2790,
+        "x": 1285,
+        "y": 2835,
         "wires": [],
         "l": true
     },
@@ -3891,13 +4096,14 @@
         "id": "9002b5da933a2cf0",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1110,
-        "y": 2760,
+        "x": 1325,
+        "y": 2805,
         "wires": [],
         "l": true
     },
@@ -3905,14 +4111,15 @@
         "id": "e07363a0c58b13e0",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 885,
-        "y": 2865,
+        "x": 1100,
+        "y": 2910,
         "wires": [
             [
                 "a984ae5f89c982aa"
@@ -3923,13 +4130,14 @@
         "id": "a984ae5f89c982aa",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1070,
-        "y": 2865,
+        "x": 1285,
+        "y": 2910,
         "wires": [],
         "l": true
     },
@@ -3937,13 +4145,14 @@
         "id": "be30f8352908de40",
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1110,
-        "y": 2835,
+        "x": 1325,
+        "y": 2880,
         "wires": [],
         "l": true
     },
@@ -3952,14 +4161,15 @@
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 885,
-        "y": 2940,
+        "x": 1100,
+        "y": 2985,
         "wires": [
             [
                 "6c7b45a7a15ce7ca"
@@ -3971,13 +4181,14 @@
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1070,
-        "y": 2940,
+        "x": 1285,
+        "y": 2985,
         "wires": [],
         "l": true
     },
@@ -3986,13 +4197,14 @@
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1110,
-        "y": 2910,
+        "x": 1325,
+        "y": 2955,
         "wires": [],
         "l": true
     },
@@ -4001,14 +4213,15 @@
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "send setCellSignal",
         "links": [
             "c4016914ed4edfaf"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 885,
-        "y": 3015,
+        "x": 1100,
+        "y": 3060,
         "wires": [
             [
                 "7e254c27479ac8aa"
@@ -4020,13 +4233,14 @@
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "toWebapp",
         "mode": "link",
         "links": [
             "29da4c340c1c0f16"
         ],
-        "x": 1070,
-        "y": 3015,
+        "x": 1285,
+        "y": 3060,
         "wires": [],
         "l": true
     },
@@ -4035,13 +4249,14 @@
         "type": "link out",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "programmedStateChanges",
         "mode": "link",
         "links": [
             "fb95b4d0741d8db8"
         ],
-        "x": 1110,
-        "y": 2985,
+        "x": 1325,
+        "y": 3030,
         "wires": [],
         "l": true
     },
@@ -4875,6 +5090,7 @@
         "id": "d7a2c75afa019028",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "BUTTON SET A1",
         "active": true,
         "tosidebar": true,
@@ -4884,14 +5100,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 2295,
+        "x": 1635,
+        "y": 2340,
         "wires": []
     },
     {
         "id": "9250c631a78ab33a",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "BUTTON SET A2",
         "active": true,
         "tosidebar": true,
@@ -4901,14 +5118,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1425,
-        "y": 2430,
+        "x": 1640,
+        "y": 2475,
         "wires": []
     },
     {
         "id": "ba11515a04cebd32",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "BUTTON SET A3",
         "active": true,
         "tosidebar": true,
@@ -4918,14 +5136,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1425,
-        "y": 2595,
+        "x": 1640,
+        "y": 2640,
         "wires": []
     },
     {
         "id": "6f13a43d49cbb006",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "BUTTON SET A4",
         "active": true,
         "tosidebar": true,
@@ -4935,14 +5154,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1425,
-        "y": 2640,
+        "x": 1640,
+        "y": 2685,
         "wires": []
     },
     {
         "id": "590b85c6d709bc3a",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "BUTTON SET C1",
         "active": true,
         "tosidebar": true,
@@ -4952,14 +5172,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1425,
-        "y": 2760,
+        "x": 1640,
+        "y": 2805,
         "wires": []
     },
     {
         "id": "76bd5f8638bf1573",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "BUTTON SET C2",
         "active": true,
         "tosidebar": true,
@@ -4969,14 +5190,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1425,
-        "y": 2835,
+        "x": 1640,
+        "y": 2880,
         "wires": []
     },
     {
         "id": "0e0aa465724c5b30",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "BUTTON SET D",
         "active": true,
         "tosidebar": true,
@@ -4986,14 +5208,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1425,
-        "y": 2910,
+        "x": 1640,
+        "y": 2955,
         "wires": []
     },
     {
         "id": "bd11511613590ced",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "BUTTON SET E",
         "active": true,
         "tosidebar": true,
@@ -5003,14 +5226,15 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1425,
-        "y": 2985,
+        "x": 1640,
+        "y": 3030,
         "wires": []
     },
     {
         "id": "7e325d321fc3cadb",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "BUTTON SET B",
         "active": true,
         "tosidebar": true,
@@ -5020,8 +5244,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
-        "y": 2685,
+        "x": 1635,
+        "y": 2730,
         "wires": []
     },
     {
@@ -5306,35 +5530,6 @@
         "wires": []
     },
     {
-        "id": "fb7ec45bd3369999",
-        "type": "inject",
-        "z": "bdc10eb0bfc2c224",
-        "name": "OMET",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "action",
-                "v": "setA1",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "OMET",
-        "x": 555,
-        "y": 2325,
-        "wires": [
-            [
-                "cb87a1179601d7b8"
-            ]
-        ]
-    },
-    {
         "id": "03890e35a75d43ef",
         "type": "change",
         "z": "bdc10eb0bfc2c224",
@@ -5432,6 +5627,7 @@
         "type": "function",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "update signalCell",
         "func": "\nlet signalKey = msg.action.match(/set(\\w+)/)[1]; if(!signalKey) node.warn({txt:\"error extracting signalKey\",sk:signalKey,fullMsg:msg})\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\n\ncell.signalKey = signalKey;\ncell.timerStart = Date.now();\ncell.timerEnd = Date.now() + global.get(\"config\").machines[mKey].toA3Timeout;\n\nreturn msg;",
         "outputs": 1,
@@ -5439,8 +5635,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
-        "y": 2355,
+        "x": 1095,
+        "y": 2400,
         "wires": [
             [
                 "c4f475eadc34f078"
@@ -5498,14 +5694,15 @@
         "id": "de15a8e34e10e6de",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send reset all",
         "links": [
             "afee83b9c6a3f479"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 870,
-        "y": 2760,
+        "x": 1085,
+        "y": 2805,
         "wires": [
             [
                 "9002b5da933a2cf0"
@@ -5516,14 +5713,15 @@
         "id": "e61d6852cebd5731",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send reset all",
         "links": [
             "afee83b9c6a3f479"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 865,
-        "y": 2685,
+        "x": 1080,
+        "y": 2730,
         "wires": [
             [
                 "4bf699bb76b64d11"
@@ -5534,14 +5732,15 @@
         "id": "2c3cc994eb8f94aa",
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "send reset all",
         "links": [
             "afee83b9c6a3f479"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 865,
-        "y": 2835,
+        "x": 1080,
+        "y": 2880,
         "wires": [
             [
                 "be30f8352908de40"
@@ -5553,14 +5752,15 @@
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "send reset all",
         "links": [
             "afee83b9c6a3f479"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 870,
-        "y": 2910,
+        "x": 1085,
+        "y": 2955,
         "wires": [
             [
                 "19df9e22435f0986"
@@ -5572,14 +5772,15 @@
         "type": "link call",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "send reset all",
         "links": [
             "afee83b9c6a3f479"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 865,
-        "y": 2985,
+        "x": 1080,
+        "y": 3030,
         "wires": [
             [
                 "eba758ecf77571c1"
@@ -5591,6 +5792,7 @@
         "type": "function",
         "z": "bdc10eb0bfc2c224",
         "d": true,
+        "g": "8dfc8129d51e5740",
         "name": "send reset for setA3",
         "func": "msg.reset=true;\nmsg.action=\"setA3\"\nreturn msg;",
         "outputs": 1,
@@ -5598,8 +5800,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
-        "y": 2430,
+        "x": 1115,
+        "y": 2475,
         "wires": [
             [
                 "223dfe7f51e5c702"
@@ -5610,45 +5812,18 @@
         "id": "0c672d18a9ee0d9d",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "TODO rinomina setCellSignal -> setSingleCellState",
         "info": "",
-        "x": 1370,
-        "y": 2490,
+        "x": 1585,
+        "y": 2535,
         "wires": []
-    },
-    {
-        "id": "749c5b1f3c10cf66",
-        "type": "inject",
-        "z": "bdc10eb0bfc2c224",
-        "name": "OMET",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "action",
-                "v": "setA2",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "OMET",
-        "x": 555,
-        "y": 2400,
-        "wires": [
-            [
-                "06c77a7347c932b1"
-            ]
-        ]
     },
     {
         "id": "b936e4a9ee71f492",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "OMET",
         "props": [
             {
@@ -5666,8 +5841,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 565,
-        "y": 2565,
+        "x": 780,
+        "y": 2610,
         "wires": [
             [
                 "0ab9b611389e52b7"
@@ -5678,6 +5853,7 @@
         "id": "a7135869c6f11da0",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "OMET",
         "props": [
             {
@@ -5695,8 +5871,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 390,
-        "y": 2685,
+        "x": 570,
+        "y": 2700,
         "wires": [
             [
                 "ea5a84d58454a07e"
@@ -5707,6 +5883,7 @@
         "id": "b8a75ac233598814",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "OMET",
         "props": [
             {
@@ -5724,8 +5901,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 390,
-        "y": 2730,
+        "x": 570,
+        "y": 2745,
         "wires": [
             [
                 "534b0771447b37e9"
@@ -5736,6 +5913,7 @@
         "id": "3d4f9e766470653e",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "OMET",
         "props": [
             {
@@ -5753,8 +5931,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 555,
-        "y": 2730,
+        "x": 770,
+        "y": 2775,
         "wires": [
             [
                 "6a9506e901b63554"
@@ -5765,6 +5943,7 @@
         "id": "23db80ed422b9759",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "OMET",
         "props": [
             {
@@ -5782,8 +5961,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 555,
-        "y": 2805,
+        "x": 770,
+        "y": 2850,
         "wires": [
             [
                 "2c9f603eb53ec7c7"
@@ -5794,6 +5973,7 @@
         "id": "24c8d29178389a35",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "OMET",
         "props": [
             {
@@ -5811,8 +5991,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 555,
-        "y": 2880,
+        "x": 770,
+        "y": 2925,
         "wires": [
             [
                 "6b16add2d6b04682"
@@ -5823,6 +6003,7 @@
         "id": "69720d01f23fd641",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "OMET",
         "props": [
             {
@@ -5840,40 +6021,11 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "OMET",
-        "x": 540,
-        "y": 2955,
+        "x": 755,
+        "y": 3000,
         "wires": [
             [
                 "d1f763dae798b9a3"
-            ]
-        ]
-    },
-    {
-        "id": "dd7c1b4a3c0a9b85",
-        "type": "inject",
-        "z": "bdc10eb0bfc2c224",
-        "name": "FA421",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "action",
-                "v": "setA1",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "FA421",
-        "x": 555,
-        "y": 2355,
-        "wires": [
-            [
-                "cb87a1179601d7b8"
             ]
         ]
     },
@@ -5981,7 +6133,7 @@
         "type": "ui_text",
         "z": "bdc10eb0bfc2c224",
         "group": "ff22d246a1b65b24",
-        "order": 4,
+        "order": 5,
         "width": 0,
         "height": 0,
         "name": "towBitArr",
@@ -5989,8 +6141,8 @@
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 1450,
-        "y": 705,
+        "x": 1680,
+        "y": 735,
         "wires": []
     },
     {
@@ -6006,23 +6158,6 @@
         "x": 805,
         "y": 810,
         "wires": [],
-        "l": true
-    },
-    {
-        "id": "e4e3ea0431072ffb",
-        "type": "link in",
-        "z": "bdc10eb0bfc2c224",
-        "name": "towersDbgInterface_onWriteBitArr",
-        "links": [
-            "db0b9650aad24229"
-        ],
-        "x": 1310,
-        "y": 660,
-        "wires": [
-            [
-                "6b77363af9b6dc90"
-            ]
-        ],
         "l": true
     },
     {
@@ -6060,6 +6195,7 @@
         "id": "8a1acf9dd291745a",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "g": "8dfc8129d51e5740",
         "name": "FA420",
         "props": [
             {
@@ -6077,88 +6213,11 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "FA420",
-        "x": 520,
-        "y": 3015,
+        "x": 735,
+        "y": 3060,
         "wires": [
             [
                 "d1f763dae798b9a3"
-            ]
-        ]
-    },
-    {
-        "id": "d4df515a57cf9f45",
-        "type": "inject",
-        "z": "bdc10eb0bfc2c224",
-        "name": "FA421",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "action",
-                "v": "setA2",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "FA421",
-        "x": 565,
-        "y": 2460,
-        "wires": [
-            [
-                "06c77a7347c932b1"
-            ]
-        ]
-    },
-    {
-        "id": "7bd63f8067432b74",
-        "type": "function",
-        "z": "bdc10eb0bfc2c224",
-        "name": "function 6",
-        "func": "let fullAct = context.get(\"actions\"); //), [\"A1\", \"A2\", \"B\", \"E\"]);\nlet clone = context.get(\"clone\");\n\nlet toDoAct = context.get(\"toDoAct\");\nif(!toDoAct || !toDoAct.length)\n    toDoAct = clone(context.get(\"actions\"));\n\nlet toDoMac = context.get(\"toDoMac\");\nif (!toDoMac || !toDoMac.length)\n    toDoMac = clone(context.get(\"macKeys\"));\n\nlet sk = toDoAct.pop();\nlet mk = toDoMac.pop();\nnode.warn(\"TESTING \"+sk+\" of \"+mk+\"\")\nnode.send({\n    action:\"set\"+sk,\n    topic:mk\n})\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncallWhenDef(()=>{\n    let sC = global.get(\"signalCells\");\n\n    context.set(\"clone\",function (o){\n        return JSON.parse(JSON.stringify(o));\n    })\n    const clone = function (o) {\n        return JSON.parse(JSON.stringify(o));\n    }\n    context.set(\"actions\", [\"E\", \"B\", \"A2\", \"A1\"]);\n\n    context.set(\"macKeys\",clone(sC.dictionary.macKeys));\n},\"signalCells\")\n\n\n\n\n\n\n\n\n\nfunction callWhenDef(cb, opts, ...globalNames) {\n    if (typeof (opts) == \"string\")\n        globalNames.push(opts);\n    let { timeout: timeout = 3000, retryDelay: retryDelay = 100, errorCb: errorCb = null } = (typeof (opts) == \"string\" ? opts : {});\n    var tout, intv;\n    //set timeout unless false or not specified\n    if (timeout) {\n        tout = setTimeout(() => {\n            clearInterval(intv);\n            errorCb ? errorCb() : node.warn({ err: \"callWhenDef_Timeout\", arg: arguments })\n        }, timeout);\n    }\n    //set global-chacking interval\n    intv = setInterval(() => {\n        for (let name of globalNames)\n            if (global.get(name) === undefined || global.get(name) === null)\n                return\n        clearTimeout(tout);\n        clearInterval(intv);\n        cb();\n    }, retryDelay)\n}\n\n",
-        "finalize": "",
-        "libs": [],
-        "x": 285,
-        "y": 2865,
-        "wires": [
-            [
-                "fbec45079c82c4f6"
-            ]
-        ]
-    },
-    {
-        "id": "288ba6fc7496449d",
-        "type": "inject",
-        "z": "bdc10eb0bfc2c224",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 135,
-        "y": 2865,
-        "wires": [
-            [
-                "7bd63f8067432b74"
             ]
         ]
     },
@@ -6205,7 +6264,7 @@
         "y": 570,
         "wires": [
             [
-                "6b77363af9b6dc90"
+                "474d4da6f7366e31"
             ]
         ]
     },
@@ -6220,8 +6279,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1300,
-        "y": 705,
+        "x": 1530,
+        "y": 735,
         "wires": [
             [
                 "5442487d3efbd896"
@@ -6232,21 +6291,344 @@
         "id": "b40b58043c479a0a",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "name": "function 7",
-        "func": "\nreturn msg;",
+        "g": "a740b5ba0ed51bd3",
+        "name": "sequentially tests buttons",
+        "func": "\nlet macKeys = global.get(\"signalCells\").dictionary.macKeys;\nlet signalKeys = [\"A1\",\"A2\",\"B\",\"E\"];//global.get(\"signalCells\").dictionary.signalKeys\n\ncontext.set(\"mki\", context.get(\"mki\") ?? 0)\ncontext.set(\"ski\", context.get(\"ski\") ?? -1)\n\nlet mki=context.get(\"mki\");\nif(mki >= macKeys.length) mki = 0;\nlet ski=context.get(\"ski\");\nif (ski >= signalKeys.length) ski = 0;\n\nif(msg.control != \"replay\"){\n    ski++;\n    if(ski >= signalKeys.length){\n        mki++;\n        ski=0;\n    }\n}\nnode.warn(\"testing \"+signalKeys[ski]+\" of \"+macKeys[mki]+ \"with \"+ski+\" \"+mki)\nnode.send({ action: \"set\" + signalKeys[ski], topic: macKeys[mki] });\n    \n\n\n\ncontext.set(\"mki\",mki);\ncontext.set(\"ski\",ski);",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 255,
-        "y": 2970,
+        "x": 400,
+        "y": 2985,
+        "wires": [
+            [
+                "fbec45079c82c4f6"
+            ]
+        ]
+    },
+    {
+        "id": "299e83634c9333bc",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "setA1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setA1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 3300,
         "wires": [
             []
         ]
     },
     {
-        "id": "1d97e3472f67af0b",
+        "id": "e8d636d477e73f34",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "setA2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setA2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 3345,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9767348e01364c37",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "setA3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setA3",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 3390,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d487de87bd2e3eb3",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "setA4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setA4",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 3435,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e4a37c097f1c862b",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "set",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "set",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 3495,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a330aa03b737646",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "setB",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setB",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 525,
+        "y": 3540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c181a74be2ca155",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "setC1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setC1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 525,
+        "y": 3600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bd527790305452ec",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "setC2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setC2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 520,
+        "y": 3645,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9d0d623a207ce71",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "setD",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setD",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 525,
+        "y": 3705,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79a2ffb6f18b17d0",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "setE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "set",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 525,
+        "y": 3765,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f607e3882cb5c331",
+        "type": "link out",
+        "z": "bdc10eb0bfc2c224",
+        "name": "buttonActions",
+        "mode": "link",
+        "links": [
+            "f4db294021a89fbf"
+        ],
+        "x": 775,
+        "y": 3555,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "36f1d48b74bad8dc",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "a740b5ba0ed51bd3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 215,
+        "y": 2985,
+        "wires": [
+            [
+                "b40b58043c479a0a"
+            ]
+        ]
+    },
+    {
+        "id": "2af35e79a6b435db",
+        "type": "exec",
+        "z": "bdc10eb0bfc2c224",
+        "command": "shutdown /r",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 185,
+        "y": 3300,
+        "wires": [
+            [
+                "117c28ae38d2ef3f"
+            ],
+            [
+                "117c28ae38d2ef3f"
+            ],
+            [
+                "117c28ae38d2ef3f"
+            ]
+        ]
+    },
+    {
+        "id": "117c28ae38d2ef3f",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
         "name": "debug 25",
@@ -6254,12 +6636,188 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1215,
+        "x": 360,
+        "y": 3240,
+        "wires": []
+    },
+    {
+        "id": "edcfe67c57ad937a",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 3420,
+        "wires": [
+            [
+                "2af35e79a6b435db"
+            ]
+        ]
+    },
+    {
+        "id": "6704700843f92d65",
+        "type": "ui_text",
+        "z": "bdc10eb0bfc2c224",
+        "group": "ff22d246a1b65b24",
+        "order": 6,
+        "width": 11,
+        "height": 15,
+        "name": "tow json",
+        "label": "towers",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1685,
         "y": 810,
         "wires": []
+    },
+    {
+        "id": "5810fab39fed4fd8",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "name": "format",
+        "func": "\n\nfunction bitArrToString(arr) {\n    var str = \"\";\n    for (let i = 0; i < arr.length; i++) {\n        if (i % 4 == 0 && i)\n            str += \"|\"\n        str += parseInt(0 + arr[i]) + \",\";\n    }\n    return str;\n}\n\nconst tow = global.get(\"towersControl\");\nvar macs = {}\nfor(let mk of tow.dictionary.macKeys){\n    macs[mk] = tow[mk];\n}\n\nmsg.payload= JSON.stringify(macs)\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1544.765625,
+        "y": 809.75,
+        "wires": [
+            [
+                "6704700843f92d65"
+            ]
+        ]
+    },
+    {
+        "id": "4018f9117b219836",
+        "type": "comment",
+        "z": "bdc10eb0bfc2c224",
+        "g": "74dd883b5669e797",
+        "name": "#dbg toggle",
+        "info": "",
+        "x": 1390,
+        "y": 570,
+        "wires": []
+    },
+    {
+        "id": "175cc861d4fdc430",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "74dd883b5669e797",
+        "name": "toggle",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "control",
+        "payload": "toggle",
+        "payloadType": "str",
+        "x": 1410,
+        "y": 600,
+        "wires": [
+            [
+                "3b7aeec4f66ea82e"
+            ]
+        ]
+    },
+    {
+        "id": "3b7aeec4f66ea82e",
+        "type": "gate",
+        "z": "bdc10eb0bfc2c224",
+        "g": "74dd883b5669e797",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "open",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": false,
+        "storeName": "memory",
+        "x": 1500,
+        "y": 630,
+        "wires": [
+            [
+                "474d4da6f7366e31"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e0acafe1e64fb69d",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "74dd883b5669e797",
+        "name": "poll 1s",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "x": 1400,
+        "y": 630,
+        "wires": [
+            [
+                "3b7aeec4f66ea82e"
+            ]
+        ]
+    },
+    {
+        "id": "474d4da6f7366e31",
+        "type": "switch",
+        "z": "bdc10eb0bfc2c224",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1335,
+        "y": 765,
+        "wires": [
+            [
+                "6b77363af9b6dc90",
+                "5810fab39fed4fd8"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "15c00fddf6febcfb",
