@@ -149,7 +149,7 @@
    var NR_TIME_OFFSET=null; //set by appInit //difference between Date.now("dateStr") called server side and here.//ST-CT = diff  ->  ST = diff + CT
    function nrDateNow(){
       NR_TIME_OFFSET ?? console.warn("[nrDateNow()]: NR_TIME_OFFSET not set. Assuming 0");
-      return Date.now() + NR_TIME_OFFSET
+      return Date.now() + NR_TIME_OFFSET;
    }
 
 

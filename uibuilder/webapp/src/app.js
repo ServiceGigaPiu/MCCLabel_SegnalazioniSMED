@@ -722,7 +722,7 @@ const app = new Vue({
             //sync time between server and client
             //console.warn("timeSync:","result is ",msg.timeSync.result, "of type",typeof(msg.timeSync.result))
             //console.warn("since Date.now is",Date.now(),new Date().toString(), "and parsing ",msg.timeSync.formatString," gives ",Date.parse(msg.timeSync.formatString))
-            NR_TIME_OFFSET = msg.timeSync.now - Date.now();//Date.parse(msg.timeSync.formatString);
+            NR_TIME_OFFSET = msg.timeSync.now + 100 - Date.now();//Date.parse(msg.timeSync.formatString);
             //console.warn("NR_TIME_OFFSET becomes ",NR_TIME_OFFSET," and its function returns ",nrDateNow(),"with a diff of ",new Date(nrDateNow()).toString() )
 
             //set all signalCells from nr_signalCellState (same as onTopic(setSingleSignalCellState) )
@@ -828,7 +828,7 @@ const app = new Vue({
          msg.fromSignalCellState.diff = msg.fromSignalCellState.timerStart - msg.fromSignalCellState.timerEnd;
          //if no timer-related data was sent or time's up
             //hide timer
-         if(!msg.fromSignalCellState.timerEnd || nrDateNow() > msg.fromSignalCellState.timerEnd){
+         if(!msg.fromSignalCellState.timerEnd || (msg.fromSignalCellState.timerEnd == msg.fromSignalCellState.timerStart)){ //nrDateNow is an approximation that suffers from comunication lag. //when comparing two times close togheter it may result in a false positive
             cell.cd.remainingMs = 0;
             console.log("cd hidden by setSingleCellState",msg.fromSignalCellState, ObjectClone(cell));
             app.clearCountdown(cell.cd);
