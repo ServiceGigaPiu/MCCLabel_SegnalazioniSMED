@@ -112,9 +112,7 @@
             "4e37b237f31db062"
         ],
         "x": 74,
-        "y": 229,
-        "w": 1307,
-        "h": 457
+        "y": 229
     },
     {
         "id": "31f4b8716c51f385",
@@ -521,9 +519,7 @@
             "ba9eb7bdda03ba32"
         ],
         "x": 79,
-        "y": 64,
-        "w": 277,
-        "h": 127
+        "y": 64
     },
     {
         "id": "48f133c168356962",
@@ -553,7 +549,9 @@
             "db0b9650aad24229"
         ],
         "x": 59,
-        "y": 559
+        "y": 559,
+        "w": 1027,
+        "h": 292
     },
     {
         "id": "3f7bd448f06d6712",
@@ -713,7 +711,9 @@
             "481bde1a0ce6c86d"
         ],
         "x": 74,
-        "y": 64
+        "y": 64,
+        "w": 702,
+        "h": 397
     },
     {
         "id": "55a9133a1c5a95d1",
@@ -824,9 +824,7 @@
             "15bb6197c2b1fb58"
         ],
         "x": 64,
-        "y": 724,
-        "w": 1337,
-        "h": 457
+        "y": 724
     },
     {
         "id": "6bbed1acc7ad0f13",
@@ -847,7 +845,9 @@
             "850adb4a2c8b2b3f"
         ],
         "x": 54,
-        "y": 934
+        "y": 934,
+        "w": 1678,
+        "h": 678
     },
     {
         "id": "34b9888e09adea38",
@@ -883,7 +883,9 @@
             "d7111ce4cb4d8b16"
         ],
         "x": 99,
-        "y": 1714
+        "y": 1714,
+        "w": 1552,
+        "h": 262
     },
     {
         "id": "7efa39f7d2ea1018",
@@ -907,9 +909,7 @@
             "af118073e63d8f78"
         ],
         "x": 1424,
-        "y": 889,
-        "w": 347,
-        "h": 202
+        "y": 889
     },
     {
         "id": "83dc8de4ca6f5b85",
@@ -932,9 +932,7 @@
             "1a96357a55bd59e2"
         ],
         "x": 1439,
-        "y": 1414,
-        "w": 287,
-        "h": 172
+        "y": 1414
     },
     {
         "id": "2252354aebe355cf",
@@ -957,9 +955,7 @@
             "eceeeb3fae3bc7ac"
         ],
         "x": 1403,
-        "y": 244,
-        "w": 853,
-        "h": 408
+        "y": 244
     },
     {
         "id": "6a9007c1c483ee16",
@@ -1074,7 +1070,9 @@
             "34c8f3a9767f8cad"
         ],
         "x": 809,
-        "y": 2149
+        "y": 2149,
+        "w": 802,
+        "h": 112
     },
     {
         "id": "fe28fb7cb365d682",
@@ -1095,7 +1093,9 @@
             "ba60486beccc9f83"
         ],
         "x": 829,
-        "y": 2044
+        "y": 2044,
+        "w": 322,
+        "h": 82
     },
     {
         "id": "0459e2a074258c5a",
@@ -1119,7 +1119,9 @@
             "4d56894252d94c10"
         ],
         "x": 114,
-        "y": 2134
+        "y": 2134,
+        "w": 637,
+        "h": 127
     },
     {
         "id": "f36f49dc5a6fb0d2",
@@ -1157,9 +1159,7 @@
             "5c1ba7695a881562"
         ],
         "x": 74,
-        "y": 1234,
-        "w": 1313,
-        "h": 427
+        "y": 1234
     },
     {
         "id": "f3bee686c5a79e51",
@@ -1183,9 +1183,7 @@
             "307370bd3db41497"
         ],
         "x": 1429,
-        "y": 454,
-        "w": 287,
-        "h": 172
+        "y": 454
     },
     {
         "id": "5c1ba7695a881562",
@@ -1206,9 +1204,7 @@
             "8aba5c7204608b4a"
         ],
         "x": 1114,
-        "y": 1474,
-        "w": 247,
-        "h": 82
+        "y": 1474
     },
     {
         "id": "d1418df470ae9fa4",
@@ -1582,7 +1578,9 @@
             "c1f38be4152e1b73"
         ],
         "x": 99,
-        "y": 634
+        "y": 634,
+        "w": 247,
+        "h": 142
     },
     {
         "id": "63c531914f3e675f",
@@ -1762,7 +1760,9 @@
             "9e22ac01f2818468"
         ],
         "x": 88,
-        "y": 1309
+        "y": 1309,
+        "w": 1618,
+        "h": 277
     },
     {
         "id": "850adb4a2c8b2b3f",
@@ -1802,7 +1802,9 @@
             "d729db698e92eca4"
         ],
         "x": 88,
-        "y": 1009
+        "y": 1009,
+        "w": 1613,
+        "h": 277
     },
     {
         "id": "9737cb6bd0dadd1f",
@@ -1826,9 +1828,7 @@
             "e26b945327fe0a7e"
         ],
         "x": 1439,
-        "y": 274,
-        "w": 282,
-        "h": 172
+        "y": 274
     },
     {
         "id": "0739446a5011eb4d",
@@ -1852,7 +1852,9 @@
             "3a53827df7fd9d3e"
         ],
         "x": 114,
-        "y": 1084
+        "y": 1084,
+        "w": 282,
+        "h": 172
     },
     {
         "id": "7cd6e0abf52051ff",
@@ -1873,7 +1875,9 @@
             "68644d6d8e8ebaf8"
         ],
         "x": 669,
-        "y": 1114
+        "y": 1114,
+        "w": 372,
+        "h": 112
     },
     {
         "id": "9eae3823833d4d69",
@@ -1943,7 +1947,9 @@
             "93d9ed47f60be558"
         ],
         "x": 114,
-        "y": 1384
+        "y": 1384,
+        "w": 282,
+        "h": 172
     },
     {
         "id": "5bff6168e9472a61",
@@ -1964,7 +1970,9 @@
             "32847fc57a5ed7c0"
         ],
         "x": 669,
-        "y": 1414
+        "y": 1414,
+        "w": 392,
+        "h": 112
     },
     {
         "id": "f9afb515793290aa",
@@ -2318,13 +2326,15 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "/* interfaccia per la lettura ed il controllo delle colonnine \n    esempio:    towCtrl.FA423.greenLight = truthy/falsy;\n                towCtrl.unknwMac -> Exception    \n                towCtrl.FA423.unknDev -> Exception\n\n    template finale:\n    {\n        \"dictionary\":{\n            \"macKeys\" : macKey[]    //{string[]} <=> enum\n            \"devices\" : device[]    //{string[]} <=> enum\n        },\n\n        \"posOf\":{\n            {macKey}:{  //all dictionary.macKeys are defined and objects\n                {device}:0 < number < 2^n | null //bit index //all dictionary.devices are defined\n            }\n        },\n\n        \"towersBitArray\":Array(NBITS).fill(0),\n\n        \"macHasDevice\": function (macKey, devKey) { return this.posOf[macKey][devKey] !== null }\n\n        /** all dictionary.macKeys are defined. //dictionary.devices are reference to towersBitArray or non-enumerable errorLogging getters/setters * /\n        \"macKey\":{\n            \"linkedDeviceKey\": truthy|falsy,\n            \"linkedDeviceKey\": truthy|falsy,\n            ..\n        },\n        ..\n        * / \n    }\n*/\n\n/** error logging function */\nfunction onUnconfigKeySet(key, macKey) {\n    node.warn({\n        err: \"[towersControl] trying to set() an unconfigured bit.\",\n        key: key,\n        macKey: macKey\n    });\n}\nfunction onUnconfigKeyGet(key, macKey) {\n    node.warn({\n        err: \"[towersControl] trying to get() an unconfigured bit.\",\n        key: key,\n        macKey: macKey\n    });\n}\n//also used for initial validation\nconst dictionary= {\n    /** {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app. */\n    macKeys: [\"FA419\", \"FA420\", \"FA421\", \"FA422\", \"FA423\", \"MO41\", \"MO42\",\"OMET\"],\n    /**  {String[]} devices devices that may be associated with each towersBitArray bit*/\n    devices: [\"redLight\", \"greenLight\", \"horn\"],\n};\n/** index of various devices on towersBitArray.\n * NOT ALL ARE NECESSARILY PRESENT! use macHasDevice() and def[macKey][device]=val instead\n * setting ===null is the same as leaving it undefined, but will throw a warning */\nconst posOf = {\n    \"FA423\": {\n        \"redLight\": 0,\n        \"greenLight\": 1,\n        \"horn\": 2\n    },\n    \"FA420\": {\n        \"redLight\": 3,\n        \"greenLight\": 4,\n        \"horn\": 5\n    },\n    \"FA421\": {\n        \"redLight\": 6,\n        \"greenLight\": 7,\n        //set \"horn\"(val) { onUnconfigKey(\"horn\",\"FA419\") }\n        \"horn\": null, //same as undefined\n        },\n    \"FA419\": {\n        \"redLight\": 8,\n        \"greenLight\": 9,\n        \"horn\": 10\n    },\n    \"OMET\": {\n        \"redLight\": 11,\n        \"greenLight\": 12,\n        //\"horn\": null, \n    },\n    \"FA422\": {\n        \"redLight\": 13,\n        \"greenLight\": 14,\n        \"horn\": null, \n    },\n    \"MO41\":{\n    },\n    \"MO42\":{\n    }\n};\nconst NBITS = 16; //length of towersBitArray\n\n//validate and guaratee posOf syntax\n    //posOf keys are macKeys\n    //posOf[macKey] keys are devices\nfor (let macKey in posOf){\n    if (!dictionary.macKeys.includes(macKey))\n        node.warn(\"[towersControl] Syntax Validation Error: unknown macKey \" + macKey + \" in posOf{}. typo?\");\n    for (let linkedDeviceKey in posOf[macKey]){\n        if(!dictionary.devices.includes(linkedDeviceKey))\n            node.warn(\"[towersControl] Syntax Validation Error: unknown macKey \" + macKey + \" in posOf{}. typo?\");\n    }\n}   //all macKeys have an EXPLICIT posOf[macKey][device] set (!== undefined), set to null and warn otherwise\n        //all macKey defined\nfor(let macKey of dictionary.macKeys)\n    if(posOf[macKey] == undefined || typeof(posOf[macKey])!=\"object\")\n        node.warn(\"[towersControl] Syntax Validation Error: missing macKey in posOf :\"+macKey);\n        //all devices are null || number \nif (!Object.keys(posOf).every(macKey => dictionary.devices.every(device => posOf[macKey][device] !== undefined))){\n    node.warn(\"[towersControl]: Syntax validation Warning: implicit null devices in posOf\");\n    for(let macKey of dictionary.macKeys)\n        for(let device of dictionary.devices)\n            posOf[macKey][device] = posOf[macKey][device] ?? null;\n}\n\n\n\n//towersControl\nvar obj = {\n    /** holds allowed keys as <string>[] //also used for validation purposes on towersControl definition\n         * - {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app.\n         * - {String[]} devices devices that may be associated with each towersBitArray bit */\n    \"dictionary\":dictionary,\n    /** pairs devices with the corresponding bit index to use in the modbus  queries\n        example: posOf[macKey][device]:number    //undefined macKey -> exception like 'undefined reading undefined' //undefined device -> exception like 'undefined reading <device>'\n        \"posOf\":{\n            {macKey}:{  //all dictionary.macKeys are defined and objects\n                {device}:0 < number < 2^n | errorLoggingGetter() //bit index //all dictionary.devices are defined or errorLogging\n            }\n        },*/\n    \"posOf\":posOf,\n    /** array of bits, represented by Numbers that are either 0 or 1\n         * - values should be set through towersControl[\"FA22\"].redLight = truthy|falsy\n         * - has a lenght of NBITS */\n    \"towersBitArray\":new Array(16).fill(0),\n    /** @returns Bool\n     * @throws TypeError if macKey or devKey are not in dictionary */\n    \"macHasDevice\": function (macKey, devKey){\n        if(!devKey || !macKey) throw new TypeError(\"[towersControl:macHasDevice()] missingArgs\");\n        if(!posOf[macKey] || posOf[macKey][devKey] === undefined) throw new TypeError(\"[towersControl:macHasDevice()] undefined macKey or devKey:\"+macKey+\", \"+devKey);\n        return this.posOf[macKey] && typeof(this.posOf[macKey][devKey]) == \"number\"\n        //return this[macKey] && this[macKey].propertyIsEnumerable(devKey)\n    },\n    /* \n    \"macKey\":{\n        \"linkedDeviceKey\": truthy|falsy,\n        \"linkedDeviceKey\": truthy|falsy,\n        ..\n    },\n    ..\n    */\n    *[Symbol.iterator](){ node.error(\"not implemented\"); yield \"notImplemented\" }\n}\n\n\n//complete towersControl\n    //adds a setter and getter for EACH macKey and linkedDeviceKey, even if they are not registered in posOf\n        //they will modify the corresponding towersBitArray's pos instead of themselves.\n        //setters convert the value to either 0 or 1. //not true/false for easier math and conversions\n    //setters&getters paired with unconfigured devices (posOf[][]===null) will be NOT ENUMERABLE and log a warning\n    //adds a NOT ENUMERABLE hasDevice() function, which aliases macHasDevice(macKey,)\n{\n    const devIsRegistered = function (macKey, linkedDeviceKey) {\n        return posOf[macKey][linkedDeviceKey] !== null && posOf[macKey][linkedDeviceKey] !== undefined\n    }\n    for (let macKey of dictionary.macKeys) {\n        obj[macKey] = {};\n        Object.defineProperty(obj[macKey], \"hasDevice\", {\n            value:obj.macHasDevice.bind(obj, macKey)\n        });\n        for (let linkedDeviceKey of dictionary.devices) {\n            //node.warn(\"setting \"+macKey+ \" \"+linkedDeviceKey)\n            //if device not configured add an error-logging getter/setter\n            if(devIsRegistered){\n                Object.defineProperty(obj[macKey], linkedDeviceKey, {\n                    //if bit is registered aka (typeof posof[][] == \"number\") <=> !== null && >=0\n                    set(val){\n                        let idx = obj.posOf[macKey][linkedDeviceKey];\n                        if(devIsRegistered(macKey, linkedDeviceKey))\n                            obj.towersBitArray[idx] = ( val ? 1 : 0);\n                        else\n                            onUnconfigKeySet(macKey,linkedDeviceKey);\n                    },\n                    get() {\n                        let idx = obj.posOf[macKey][linkedDeviceKey];\n                        if (idx !== null && idx !== undefined)\n                            return obj.towersBitArray[obj.posOf[macKey][linkedDeviceKey]]\n                        else{\n                            onUnconfigKeyGet(macKey, linkedDeviceKey);\n                            return undefined;\n                        }\n                    },\n                    enumerable: obj.macHasDevice(macKey, linkedDeviceKey)\n                })\n            }\n            else{\n                Object.defineProperty(obj[macKey], linkedDeviceKey, {\n                    set(val) {\n                        onUnconfigKeySet(macKey, linkedDeviceKey);\n                    },\n                    get() {\n                        onUnconfigKeyGet(macKey, linkedDeviceKey);\n                        return undefined;\n                    },\n                    enumerable: false\n                })\n            }\n        }\n    }\n}\n\n//validate towersBitArray syntax\n\n/*\n//complete posOf\n    //attach to each null key an error-logging function\n    //--EDIT--allow for posOf calls on missing one\nfor (let macKey in posOf) {\n    for (let linkedDeviceKey in posOf[macKey]) {\n        if (posOf[macKey][linkedDeviceKey] === null) {\n            Object.defineProperty(posOf[macKey], linkedDeviceKey, {\n                set(val) {\n                    onUnconfigKeySet(linkedDeviceKey, macKey)\n                },\n                get() {\n                    onUnconfigKeyGet(linkedDeviceKey, macKey);\n                    return null;\n                }\n            });\n        }\n    }\n}\n*/\n\nglobal.set(\"towersControl\", obj);\nglobal.set(\"towersBitArray\", global.get(\"towersControl\").towersBitArray)\nnode.send(obj);\nnode.status({ fill: \"green\", text: Object.keys(obj).join(' & ') });\n\n\n/*** TESTS *** */\n// node.warn(\"BEGIN TOWERSCONTROL TESTING\");\n\n// const signal = obj;\n// const sleep = ms => new Promise(r => setTimeout(r, ms));\n// function bitArrToString(arr){\n//     var str=\"\";\n//     for(let i=0; i<arr.length; i++){\n//         if(i%4==0)\n//             str+=\"|\"\n//         str+=parseInt(arr[i])+\",\";\n//     }\n//     return str;\n// }\n\n// node.warn(\"testing bits\")\n// //raise 1 bit at a time, try to raise unset devices\n//     //mkList is set so you should see bits raising consecutively\n// {const mkList = [\"FA423\", \"FA420\", \"FA421\", \"FA419\", \"OMET\", \"FA422\"]\n// let sBA = signal.towersBitArray\n// for (let mKey of mkList) {\n//     node.warn(\"over \" + mKey)\n//     signal[mKey].redLight = 1;\n//     node.warn(bitArrToString(sBA));\n//     signal[mKey].redLight = 0;\n\n//     signal[mKey].greenLight = 1;\n//     node.warn(bitArrToString(sBA));\n//     signal[mKey].greenLight = 0;\n\n//     //this should sometime throw warnings\n//     signal[mKey].horn = 1;\n//     node.warn(bitArrToString(sBA));\n//     signal[mKey].horn = 0;\n\n// }}\n\n// //try macHasDevice on all\n//     //res: {\n//         //{macKey}:{\n//             //{device}:true|false\n//         //notDefinedList: {string[]}\n// const def=obj;\n// node.warn(\"testing macHasDevice\")\n// { let res={}; res.notDefinedList=[];\n// for(let macKey of def.dictionary.macKeys){\n//     res[macKey] = {};\n//     for(let device of def.dictionary.devices){\n//         res[macKey][device] = def.macHasDevice(macKey, device);\n//         if(!res[macKey][device])\n//             res.notDefinedList.push(`${macKey} has not ${device}`)\n//     }\n// }\n// node.warn({\"all_macHasDevice:\":res})\n// }\n\n// node.warn(\"TEST END\");\n/**/\n\n",
+        "initialize": "/* interfaccia per la lettura ed il controllo delle colonnine \n    esempio:    towCtrl.FA423.greenLight = truthy/falsy;\n                towCtrl.unknwMac -> Exception    \n                towCtrl.FA423.unknDev -> Exception\n\n    template finale:\n    {\n        \"dictionary\":{\n            \"macKeys\" : macKey[]    //{string[]} <=> enum\n            \"devices\" : device[]    //{string[]} <=> enum\n        },\n\n        \"posOf\":{\n            {macKey}:{  //all dictionary.macKeys are defined and objects\n                {device}:0 < number < 2^n | null //bit index //all dictionary.devices are defined\n            }\n        },\n\n        \"towersBitArray\":Array(NBITS).fill(0),\n\n        \"macHasDevice\": function (macKey, devKey) { return this.posOf[macKey][devKey] !== null }\n\n        /** all dictionary.macKeys are defined. //dictionary.devices are reference to towersBitArray or non-enumerable errorLogging getters/setters * /\n        \"macKey\":{\n            \"linkedDeviceKey\": truthy|falsy,\n            \"linkedDeviceKey\": truthy|falsy,\n            ..\n        },\n        ..\n        * / \n    }\n*/\n\n/** error logging function */\nfunction onUnconfigKeySet(key, macKey) {\n    node.warn({\n        err: \"[towersControl] trying to set() an unconfigured bit.\",\n        key: key,\n        macKey: macKey\n    });\n}\nfunction onUnconfigKeyGet(key, macKey) {\n    node.warn({\n        err: \"[towersControl] trying to get() an unconfigured bit.\",\n        key: key,\n        macKey: macKey\n    });\n}\n//also used for initial validation\nconst dictionary= {\n    /** {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app. */\n    macKeys: [\"FA419\", \"FA420\", \"FA421\", \"FA422\", \"FA423\", \"MO41\", \"MO42\",\"OMET\"],\n    /**  {String[]} devices devices that may be associated with each towersBitArray bit*/\n    devices: [\"redLight\", \"greenLight\", \"horn\"],\n};\n/** index of various devices on towersBitArray.\n * NOT ALL ARE NECESSARILY PRESENT! use macHasDevice() and def[macKey][device]=val instead\n * setting ===null is the same as leaving it undefined, but will throw a warning */\nconst posOf = {\n    \"FA423\": {\n        \"redLight\": 0,\n        \"greenLight\": 1,\n        \"horn\": 2\n    },\n    \"FA420\": {\n        \"redLight\": 3,\n        \"greenLight\": 4,\n        \"horn\": 5\n    },\n    \"FA421\": {\n        \"redLight\": 6,\n        \"greenLight\": 7,\n        //set \"horn\"(val) { onUnconfigKey(\"horn\",\"FA419\") }\n        \"horn\": null, //same as undefined\n        },\n    \"FA419\": {\n        \"redLight\": 8,\n        \"greenLight\": 9,\n        \"horn\": 10\n    },\n    \"OMET\": {\n        \"redLight\": 11,\n        \"greenLight\": 12,\n        //\"horn\": null, \n    },\n    \"FA422\": {\n        \"redLight\": 13,\n        \"greenLight\": 14,\n        \"horn\": null, \n    },\n    \"MO41\":{\n    },\n    \"MO42\":{\n    }\n};\nconst NBITS = 16; //length of towersBitArray\n\n//validate and guaratee posOf syntax\n    //posOf keys are macKeys\n    //posOf[macKey] keys are devices\nfor (let macKey in posOf){\n    if (!dictionary.macKeys.includes(macKey))\n        node.warn(\"[towersControl] Syntax Validation Error: unknown macKey \" + macKey + \" in posOf{}. typo?\");\n    for (let linkedDeviceKey in posOf[macKey]){\n        if(!dictionary.devices.includes(linkedDeviceKey))\n            node.warn(\"[towersControl] Syntax Validation Error: unknown macKey \" + macKey + \" in posOf{}. typo?\");\n    }\n}   //all macKeys have an EXPLICIT posOf[macKey][device] set (!== undefined), set to null and warn otherwise\n        //all macKey defined\nfor(let macKey of dictionary.macKeys)\n    if(posOf[macKey] == undefined || typeof(posOf[macKey])!=\"object\")\n        node.warn(\"[towersControl] Syntax Validation Error: missing macKey in posOf :\"+macKey);\n        //all devices are null || number \nif (!Object.keys(posOf).every(macKey => dictionary.devices.every(device => posOf[macKey][device] !== undefined))){\n    node.warn(\"[towersControl]: Syntax validation Warning: implicit null devices in posOf\");\n    for(let macKey of dictionary.macKeys)\n        for(let device of dictionary.devices)\n            posOf[macKey][device] = posOf[macKey][device] ?? null;\n}\n\n\n\n//towersControl\nvar obj = {\n    /** holds allowed keys as <string>[] //also used for validation purposes on towersControl definition\n         * - {String[]} macKeys \"machine keys\". match the ones used in uibuilder's app.\n         * - {String[]} devices devices that may be associated with each towersBitArray bit */\n    \"dictionary\":dictionary,\n    /** pairs devices with the corresponding bit index to use in the modbus  queries\n        example: posOf[macKey][device]:number    //undefined macKey -> exception like 'undefined reading undefined' //undefined device -> exception like 'undefined reading <device>'\n        \"posOf\":{\n            {macKey}:{  //all dictionary.macKeys are defined and objects\n                {device}:0 < number < 2^n | errorLoggingGetter() //bit index //all dictionary.devices are defined or errorLogging\n            }\n        },*/\n    \"posOf\":posOf,\n    /** array of bits, represented by Numbers that are either 0 or 1\n         * - values should be set through towersControl[\"FA22\"].redLight = truthy|falsy\n         * - has a lenght of NBITS */\n    \"towersBitArray\":new Array(16).fill(0),\n    /** @returns Bool\n     * @throws TypeError if macKey or devKey are not in dictionary */\n    \"macHasDevice\": function (macKey, devKey){\n        if(!devKey || !macKey) throw new TypeError(\"[towersControl:macHasDevice()] missingArgs\");\n        if(!posOf[macKey] || posOf[macKey][devKey] === undefined) throw new TypeError(\"[towersControl:macHasDevice()] undefined macKey or devKey:\"+macKey+\", \"+devKey);\n        return this.posOf[macKey] && typeof(this.posOf[macKey][devKey]) == \"number\"\n        //return this[macKey] && this[macKey].propertyIsEnumerable(devKey)\n    },\n    /* \n    \"macKey\":{\n        \"linkedDeviceKey\": truthy|falsy,\n        \"linkedDeviceKey\": truthy|falsy,\n        ..\n    },\n    ..\n    */\n    *[Symbol.iterator](){ node.error(\"not implemented\"); yield \"notImplemented\" }\n}\n\n\n//complete towersControl\n    //adds a setter and getter for EACH macKey and linkedDeviceKey, even if they are not registered in posOf\n        //they will modify the corresponding towersBitArray's pos instead of themselves.\n        //setters convert the value to either 0 or 1. //not true/false for easier math and conversions\n    //setters&getters paired with unconfigured devices (posOf[][]===null) will be NOT ENUMERABLE and log a warning\n    //adds a NOT ENUMERABLE hasDevice() function, which aliases macHasDevice(macKey,)\n{\n    const devIsRegistered = function (macKey, linkedDeviceKey) {\n        return posOf[macKey][linkedDeviceKey] !== null && posOf[macKey][linkedDeviceKey] !== undefined\n    }\n    for (let macKey of dictionary.macKeys) {\n        obj[macKey] = {};\n        Object.defineProperty(obj[macKey], \"hasDevice\", {\n            value:obj.macHasDevice.bind(obj, macKey)\n        });\n        for (let linkedDeviceKey of dictionary.devices) {\n            //node.warn(\"setting \"+macKey+ \" \"+linkedDeviceKey)\n            //if device not configured add an error-logging getter/setter\n            if(devIsRegistered){\n                Object.defineProperty(obj[macKey], linkedDeviceKey, {\n                    //if bit is registered aka (typeof posof[][] == \"number\") <=> !== null && >=0\n                    set(val){\n                        let idx = obj.posOf[macKey][linkedDeviceKey];\n                        if(devIsRegistered(macKey, linkedDeviceKey))\n                            obj.towersBitArray[idx] = ( val ? 1 : 0);\n                        else\n                            onUnconfigKeySet(macKey,linkedDeviceKey);\n                    },\n                    get() {\n                        let idx = obj.posOf[macKey][linkedDeviceKey];\n                        if (idx !== null && idx !== undefined)\n                            return obj.towersBitArray[obj.posOf[macKey][linkedDeviceKey]]\n                        else{\n                            onUnconfigKeyGet(macKey, linkedDeviceKey);\n                            return undefined;\n                        }\n                    },\n                    enumerable: obj.macHasDevice(macKey, linkedDeviceKey)\n                })\n            }\n            else{\n                Object.defineProperty(obj[macKey], linkedDeviceKey, {\n                    set(val) {\n                        onUnconfigKeySet(macKey, linkedDeviceKey);\n                    },\n                    get() {\n                        onUnconfigKeyGet(macKey, linkedDeviceKey);\n                        return undefined;\n                    },\n                    enumerable: false\n                })\n            }\n        }\n    }\n}\n\n//validate towersBitArray syntax\n\n/*\n//complete posOf\n    //attach to each null key an error-logging function\n    //--EDIT--allow for posOf calls on missing one\nfor (let macKey in posOf) {\n    for (let linkedDeviceKey in posOf[macKey]) {\n        if (posOf[macKey][linkedDeviceKey] === null) {\n            Object.defineProperty(posOf[macKey], linkedDeviceKey, {\n                set(val) {\n                    onUnconfigKeySet(linkedDeviceKey, macKey)\n                },\n                get() {\n                    onUnconfigKeyGet(linkedDeviceKey, macKey);\n                    return null;\n                }\n            });\n        }\n    }\n}\n*/\n\nglobal.set(\"towersControl\", obj);\nglobal.set(\"towersBitArray\", global.get(\"towersControl\").towersBitArray)\nnode.send(obj);\nnode.status({ fill: \"green\", text: Object.keys(obj).join(' & ') });\n\n\n/*** TESTS *** * /\nnode.warn(\"BEGIN TOWERSCONTROL TESTING\");\n\nconst signal = obj;\nconst sleep = ms => new Promise(r => setTimeout(r, ms));\nfunction bitArrToString(arr){\n    var str=\"\";\n    for(let i=0; i<arr.length; i++){\n        if(i%4==0)\n            str+=\"|\"\n        str+=parseInt(arr[i])+\",\";\n    }\n    return str;\n}\n\nnode.warn(\"testing bits\")\n//raise 1 bit at a time, try to raise unset devices\n    //mkList is set so you should see bits raising consecutively\n{const mkList = [\"FA423\", \"FA420\", \"FA421\", \"FA419\", \"OMET\", \"FA422\"]\nlet sBA = signal.towersBitArray\nfor (let mKey of mkList) {\n    node.warn(\"over \" + mKey)\n    signal[mKey].redLight = 1;\n    node.warn(bitArrToString(sBA));\n    signal[mKey].redLight = 0;\n\n    signal[mKey].greenLight = 1;\n    node.warn(bitArrToString(sBA));\n    signal[mKey].greenLight = 0;\n\n    //this should sometime throw warnings\n    signal[mKey].horn = 1;\n    node.warn(bitArrToString(sBA));\n    signal[mKey].horn = 0;\n\n}}\n\n//try macHasDevice on all\n    //res: {\n        //{macKey}:{\n            //{device}:true|false\n        //notDefinedList: {string[]}\nconst def=obj;\nnode.warn(\"testing macHasDevice\")\n{ let res={}; res.notDefinedList=[];\nfor(let macKey of def.dictionary.macKeys){\n    res[macKey] = {};\n    for(let device of def.dictionary.devices){\n        res[macKey][device] = def.macHasDevice(macKey, device);\n        if(!res[macKey][device])\n            res.notDefinedList.push(`${macKey} has not ${device}`)\n    }\n}\nnode.warn({\"all_macHasDevice:\":res})\n}\n\nnode.warn(\"TEST END\");\n/**/\n\n",
         "finalize": "",
         "libs": [],
         "x": 275,
         "y": 300,
         "wires": [
-            []
+            [
+                "d383c7d09f8f6a9e"
+            ]
         ]
     },
     {
@@ -3399,7 +3409,7 @@
         "type": "function",
         "z": "bdc10eb0bfc2c224",
         "name": "raise tower redLight bit",
-        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl[mKey].hasDevice(\"redLight\"))\n    towersControl[mKey].horn = true;\n\n\nreturn msg;",
+        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nnode.warn(\"raising red\")\nif (towersControl[mKey].hasDevice(\"redLight\"))\n    towersControl[mKey].horn = true;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3417,8 +3427,8 @@
         "id": "dfa8cdb9bed3539c",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "name": "lower tower redLight bit",
-        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl[mKey].hasDevice(\"greenLight\"))\n    towersControl[mKey].greenLight = false;\n\n\nreturn msg;",
+        "name": "lower tower greenLight bit",
+        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\n\nnode.warn(\"lowering green\")\nif (towersControl[mKey].hasDevice(\"greenLight\"))\n    towersControl[mKey].greenLight = false;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3683,14 +3693,14 @@
         "id": "d18f0a4219d2313a",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
-        "name": "raise tower redLight bit",
-        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl[mKey].hasDevice(\"redLight\"))\n    towersControl[mKey].redLight = true;\n\n\nreturn msg;",
+        "name": "raise tower greenLight bit",
+        "func": "let mKey = msg.topic;\nconst towersControl = global.get(\"towersControl\");\n\nif (towersControl[mKey].hasDevice(\"greenLight\"))\n    towersControl[mKey].greenLight = true;\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 905,
+        "x": 915,
         "y": 3075,
         "wires": [
             [
@@ -5841,7 +5851,7 @@
         "id": "dd7c1b4a3c0a9b85",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
-        "name": "FA420",
+        "name": "FA421",
         "props": [
             {
                 "p": "topic",
@@ -5857,7 +5867,7 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "FA420",
+        "topic": "FA421",
         "x": 555,
         "y": 2355,
         "wires": [
@@ -5883,7 +5893,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "48f133c168356962",
         "name": "TOWER BIT ARRAY",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": true,
@@ -5961,37 +5971,6 @@
         ]
     },
     {
-        "id": "f9093d0db13375b0",
-        "type": "ui_led",
-        "z": "bdc10eb0bfc2c224",
-        "order": 5,
-        "group": "ebd54b01335cee21",
-        "width": 0,
-        "height": 0,
-        "label": "",
-        "labelPlacement": "left",
-        "labelAlignment": "left",
-        "colorForValue": [
-            {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 1285,
-        "y": 750,
-        "wires": []
-    },
-    {
         "id": "5442487d3efbd896",
         "type": "ui_text",
         "z": "bdc10eb0bfc2c224",
@@ -6042,7 +6021,9 @@
         "g": "48f133c168356962",
         "name": "towers dbgInterface",
         "mode": "link",
-        "links": [],
+        "links": [
+            "e4e3ea0431072ffb"
+        ],
         "x": 780,
         "y": 810,
         "wires": [],
@@ -6053,7 +6034,9 @@
         "type": "link in",
         "z": "bdc10eb0bfc2c224",
         "name": "towersDbgInterface_onWriteBitArr",
-        "links": [],
+        "links": [
+            "db0b9650aad24229"
+        ],
         "x": 1310,
         "y": 660,
         "wires": [
@@ -6093,6 +6076,158 @@
         "x": 1080,
         "y": 2220,
         "wires": []
+    },
+    {
+        "id": "8a1acf9dd291745a",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "FA420",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "setE",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FA420",
+        "x": 520,
+        "y": 3015,
+        "wires": [
+            [
+                "d1f763dae798b9a3"
+            ]
+        ]
+    },
+    {
+        "id": "d4df515a57cf9f45",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "FA421",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "action",
+                "v": "setA2",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "FA421",
+        "x": 565,
+        "y": 2460,
+        "wires": [
+            [
+                "06c77a7347c932b1"
+            ]
+        ]
+    },
+    {
+        "id": "7bd63f8067432b74",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "name": "function 6",
+        "func": "let fullAct = context.get(\"actions\"); //), [\"A1\", \"A2\", \"B\", \"E\"]);\nlet clone = context.get(\"clone\");\n\nlet toDoAct = context.get(\"toDoAct\");\nif(!toDoAct || !toDoAct.length)\n    toDoAct = clone(context.get(\"actions\"));\n\nlet toDoMac = context.get(\"toDoMac\");\nif (!toDoMac || !toDoMac.length)\n    toDoMac = clone(context.get(\"macKeys\"));\n\nlet sk = toDoAct.pop();\nlet mk = toDoMac.pop();\nnode.warn(\"TESTING \"+sk+\" of \"+mk+\"\")\nnode.send({\n    action:\"set\"+sk,\n    topic:mk\n})\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n\ncallWhenDef(()=>{\n    let sC = global.get(\"signalCells\");\n\n    context.set(\"clone\",function (o){\n        return JSON.parse(JSON.stringify(o));\n    })\n    const clone = function (o) {\n        return JSON.parse(JSON.stringify(o));\n    }\n    context.set(\"actions\", [\"E\", \"B\", \"A2\", \"A1\"]);\n\n    context.set(\"macKeys\",clone(sC.dictionary.macKeys));\n},\"signalCells\")\n\n\n\n\n\n\n\n\n\nfunction callWhenDef(cb, opts, ...globalNames) {\n    if (typeof (opts) == \"string\")\n        globalNames.push(opts);\n    let { timeout: timeout = 3000, retryDelay: retryDelay = 100, errorCb: errorCb = null } = (typeof (opts) == \"string\" ? opts : {});\n    var tout, intv;\n    //set timeout unless false or not specified\n    if (timeout) {\n        tout = setTimeout(() => {\n            clearInterval(intv);\n            errorCb ? errorCb() : node.warn({ err: \"callWhenDef_Timeout\", arg: arguments })\n        }, timeout);\n    }\n    //set global-chacking interval\n    intv = setInterval(() => {\n        for (let name of globalNames)\n            if (global.get(name) === undefined || global.get(name) === null)\n                return\n        clearTimeout(tout);\n        clearInterval(intv);\n        cb();\n    }, retryDelay)\n}\n\n",
+        "finalize": "",
+        "libs": [],
+        "x": 285,
+        "y": 2865,
+        "wires": [
+            [
+                "fbec45079c82c4f6"
+            ]
+        ]
+    },
+    {
+        "id": "288ba6fc7496449d",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 135,
+        "y": 2865,
+        "wires": [
+            [
+                "7bd63f8067432b74"
+            ]
+        ]
+    },
+    {
+        "id": "d383c7d09f8f6a9e",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "name": "function 7",
+        "func": "/*** TESTS *** */\nnode.warn(\"BEGIN TOWERSCONTROL TESTING\");\n\nconst signal = global.get(\"towersControl\");\nconst sleep = ms => new Promise(r => setTimeout(r, ms));\nfunction bitArrToString(arr) {\n    var str = \"\";\n    for (let i = 0; i < arr.length; i++) {\n        if (i % 4 == 0)\n            str += \"|\"\n        str += parseInt(arr[i]) + \",\";\n    }\n    return str;\n}\n\nnode.warn(\"testing bits\")\n//raise 1 bit at a time, try to raise unset devices\n//mkList is set so you should see bits raising consecutively\n{\n    const mkList = [\"FA423\", \"FA420\", \"FA421\", \"FA419\", \"OMET\", \"FA422\"]\n    let sBA = signal.towersBitArray\n    for (let mKey of mkList) {\n        node.warn(\"over \" + mKey)\n        signal[mKey].redLight += 1;\n        node.warn(\"red\"+bitArrToString(sBA));\n        //signal[mKey].redLight = 0;\n\n        signal[mKey].greenLight += 1;\n        node.warn(\"green:\"+bitArrToString(sBA));\n        //signal[mKey].greenLight = 0;\n\n        //this should sometime throw warnings\n        signal[mKey].horn += 1;\n        node.warn(\"horn:\"+bitArrToString(sBA));\n        //signal[mKey].horn = 0;\n\n    }\n}\n\n//try macHasDevice on all\n//res: {\n//{macKey}:{\n//{device}:true|false\n//notDefinedList: {string[]}\nconst def = global.get(\"towersControl\");;\nnode.warn(\"testing macHasDevice\")\n{\n    let res = {}; res.notDefinedList = [];\n    for (let macKey of def.dictionary.macKeys) {\n        res[macKey] = {};\n        for (let device of def.dictionary.devices) {\n            res[macKey][device] = def.macHasDevice(macKey, device);\n            if (!res[macKey][device])\n                res.notDefinedList.push(`${macKey} has not ${device}`)\n        }\n    }\n    node.warn({ \"all_macHasDevice:\": res })\n}\n\nnode.warn(\"TEST END\");\n/**/",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 345,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1dd11d91909620da",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1200,
+        "y": 615,
+        "wires": [
+            [
+                "14ca817057e242bc"
+            ]
+        ]
     },
     {
         "id": "15c00fddf6febcfb",
@@ -7698,16 +7833,16 @@
         "type": "debug",
         "z": "c1d4418a6f1f1693",
         "g": "f36f49dc5a6fb0d2",
-        "name": "plc output",
+        "name": "OUTPUT TORRI",
         "active": true,
         "tosidebar": true,
         "console": false,
-        "tostatus": false,
+        "tostatus": true,
         "complete": "true",
         "targetType": "full",
-        "statusVal": "",
+        "statusVal": "payload",
         "statusType": "auto",
-        "x": 1200,
+        "x": 1230,
         "y": 1470,
         "wires": []
     },
