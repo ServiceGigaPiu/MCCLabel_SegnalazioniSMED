@@ -337,7 +337,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
             headerText:"Linea "+app.machineName,
             //signalKey:app.initSignal,
             actionList:[
-               { id:"goToA2",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Prendi in Carico", subButtonText:"in Carico", iconName:"bell-slash-fill", iconScale:"0.75", innerSpanHTML:"", isDisabled:this.isActBtnDisabled("A2")},
+               { id:"goToA2",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Prendi in Carico", subButtonText:"in Carico", iconName:"bell-slash-fill", iconScale:"0.75", innerSpanHTML:"", isDisabled:false },
                { id:"goToA3",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Anticipa Avviamento", iconName:"alarm-fill", iconScale:"0.75", innerSpanHTML:"", isDisabled:"A3" < this.signalKey },
                { id:"goToE",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Segnala Completamento", subButtonText:"completato", iconName:"check-lg", iconScale:"0.9", innerSpanHTML:"", isDisabled:"E" < this.signalKey }
             ]
