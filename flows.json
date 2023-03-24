@@ -112,7 +112,9 @@
             "4e37b237f31db062"
         ],
         "x": 74,
-        "y": 229
+        "y": 229,
+        "w": 1307,
+        "h": 457
     },
     {
         "id": "31f4b8716c51f385",
@@ -159,7 +161,9 @@
             "d4e564eac59f8117"
         ],
         "x": 63,
-        "y": 199
+        "y": 199,
+        "w": 1124,
+        "h": 603
     },
     {
         "id": "9bcec7222119e8a3",
@@ -180,7 +184,9 @@
             "2b0d893e266ba428"
         ],
         "x": 754,
-        "y": 1024
+        "y": 1024,
+        "w": 307,
+        "h": 82
     },
     {
         "id": "59b9575558a87ab8",
@@ -203,7 +209,9 @@
             "e16f5eb91fb5c4b4"
         ],
         "x": 789,
-        "y": 859
+        "y": 859,
+        "w": 477,
+        "h": 127
     },
     {
         "id": "ffe7d6539591cabf",
@@ -241,8 +249,10 @@
             "7e5e3a6761c37063",
             "140b055fd622ecf2"
         ],
-        "x": 34,
-        "y": 1099
+        "x": 44,
+        "y": 1099,
+        "w": 1367,
+        "h": 382
     },
     {
         "id": "6f1ada98f5867046",
@@ -265,7 +275,9 @@
             "c9aaf418d77c2d5e"
         ],
         "x": 619,
-        "y": 1139
+        "y": 1139,
+        "w": 382,
+        "h": 122
     },
     {
         "id": "a02047ec82263155",
@@ -290,7 +302,9 @@
             "b1111e1050653ac6"
         ],
         "x": 119,
-        "y": 54
+        "y": 54,
+        "w": 712,
+        "h": 227
     },
     {
         "id": "fc6c8637d9b4aad0",
@@ -329,7 +343,9 @@
             "37ea04af9df3d34f"
         ],
         "x": 1189,
-        "y": 744
+        "y": 744,
+        "w": 1232,
+        "h": 307
     },
     {
         "id": "6468e314d57e838e",
@@ -352,7 +368,9 @@
             "d0d35188ca977ce0"
         ],
         "x": 88,
-        "y": 1279
+        "y": 1279,
+        "w": 1559,
+        "h": 1368
     },
     {
         "id": "3d77674313c033de",
@@ -378,7 +396,9 @@
             "49087488e8ed7662"
         ],
         "x": 99,
-        "y": 739
+        "y": 739,
+        "w": 692,
+        "h": 242
     },
     {
         "id": "22fa3a13397fe4f2",
@@ -417,7 +437,9 @@
             "24b155b8ecaf80fd"
         ],
         "x": 279,
-        "y": 319
+        "y": 319,
+        "w": 1102,
+        "h": 372
     },
     {
         "id": "7a4a549b398c4c30",
@@ -446,7 +468,9 @@
             "05085880d56d9d9b"
         ],
         "x": 494,
-        "y": 63
+        "y": 63,
+        "w": 808,
+        "h": 449
     },
     {
         "id": "2bbbe4dc6cfeb097",
@@ -469,7 +493,9 @@
             "aa40c2fd63e42b3c"
         ],
         "x": 34,
-        "y": 49
+        "y": 49,
+        "w": 422,
+        "h": 172
     },
     {
         "id": "015cd5895c17da64",
@@ -500,7 +526,9 @@
             "c6691944eaed7410"
         ],
         "x": 34,
-        "y": 529
+        "y": 529,
+        "w": 1232,
+        "h": 348
     },
     {
         "id": "3c0c9289bca3df95",
@@ -521,7 +549,9 @@
             "ba9eb7bdda03ba32"
         ],
         "x": 79,
-        "y": 64
+        "y": 64,
+        "w": 277,
+        "h": 127
     },
     {
         "id": "48f133c168356962",
@@ -593,7 +623,9 @@
             "63c531914f3e675f"
         ],
         "x": 104,
-        "y": 1599
+        "y": 1599,
+        "w": 772,
+        "h": 613
     },
     {
         "id": "67911c84f8ca5874",
@@ -836,7 +868,9 @@
             "15bb6197c2b1fb58"
         ],
         "x": 64,
-        "y": 724
+        "y": 724,
+        "w": 1337,
+        "h": 457
     },
     {
         "id": "6bbed1acc7ad0f13",
@@ -892,12 +926,13 @@
             "c11db00ddad03312",
             "451ff0cef17fea29",
             "260dd1e40d995979",
-            "d7111ce4cb4d8b16"
+            "d7111ce4cb4d8b16",
+            "0135921482d41bc7"
         ],
         "x": 99,
         "y": 1714,
         "w": 1552,
-        "h": 262
+        "h": 277
     },
     {
         "id": "7efa39f7d2ea1018",
@@ -921,7 +956,9 @@
             "af118073e63d8f78"
         ],
         "x": 1424,
-        "y": 889
+        "y": 889,
+        "w": 347,
+        "h": 202
     },
     {
         "id": "83dc8de4ca6f5b85",
@@ -944,7 +981,9 @@
             "1a96357a55bd59e2"
         ],
         "x": 1439,
-        "y": 1414
+        "y": 1414,
+        "w": 287,
+        "h": 172
     },
     {
         "id": "2252354aebe355cf",
@@ -967,7 +1006,9 @@
             "eceeeb3fae3bc7ac"
         ],
         "x": 1403,
-        "y": 244
+        "y": 244,
+        "w": 853,
+        "h": 408
     },
     {
         "id": "6a9007c1c483ee16",
@@ -1177,7 +1218,9 @@
             "5c1ba7695a881562"
         ],
         "x": 74,
-        "y": 1234
+        "y": 1234,
+        "w": 1313,
+        "h": 427
     },
     {
         "id": "8dfc8129d51e5740",
@@ -1305,8 +1348,8 @@
             "3b7aeec4f66ea82e",
             "e0acafe1e64fb69d"
         ],
-        "x": 1294,
-        "y": 529,
+        "x": 1324,
+        "y": 514,
         "w": 247,
         "h": 142
     },
@@ -1332,7 +1375,9 @@
             "307370bd3db41497"
         ],
         "x": 1429,
-        "y": 454
+        "y": 454,
+        "w": 287,
+        "h": 172
     },
     {
         "id": "5c1ba7695a881562",
@@ -1353,7 +1398,9 @@
             "8aba5c7204608b4a"
         ],
         "x": 1114,
-        "y": 1474
+        "y": 1474,
+        "w": 247,
+        "h": 82
     },
     {
         "id": "d1418df470ae9fa4",
@@ -1417,7 +1464,9 @@
             "fd596e236db59b07"
         ],
         "x": 89,
-        "y": 544
+        "y": 544,
+        "w": 1072,
+        "h": 232
     },
     {
         "id": "d4e564eac59f8117",
@@ -1452,7 +1501,9 @@
             "6bd020121fe4161b"
         ],
         "x": 89,
-        "y": 304
+        "y": 304,
+        "w": 1057,
+        "h": 202
     },
     {
         "id": "7e5e3a6761c37063",
@@ -1474,7 +1525,9 @@
             "4c4668d1d8f3b4a4"
         ],
         "x": 519,
-        "y": 1309
+        "y": 1309,
+        "w": 298,
+        "h": 82
     },
     {
         "id": "140b055fd622ecf2",
@@ -1496,7 +1549,9 @@
             "1df35f685bbae5dc"
         ],
         "x": 1009,
-        "y": 1234
+        "y": 1234,
+        "w": 292,
+        "h": 82
     },
     {
         "id": "df9088f254e94c5e",
@@ -1522,7 +1577,9 @@
             "647159f3ed671018"
         ],
         "x": 134,
-        "y": 1774
+        "y": 1774,
+        "w": 882,
+        "h": 172
     },
     {
         "id": "19899f2d110fd419",
@@ -1557,7 +1614,9 @@
             "23871617ee198621"
         ],
         "x": 114,
-        "y": 2339
+        "y": 2339,
+        "w": 1202,
+        "h": 282
     },
     {
         "id": "716d4b0a2eeac322",
@@ -1589,7 +1648,9 @@
             "17feef43ab700877"
         ],
         "x": 124,
-        "y": 1969
+        "y": 1969,
+        "w": 992,
+        "h": 362
     },
     {
         "id": "f9ab78df7bf3b33e",
@@ -1630,7 +1691,9 @@
             "2180a1fb7230451e"
         ],
         "x": 129,
-        "y": 1354
+        "y": 1354,
+        "w": 1492,
+        "h": 382
     },
     {
         "id": "c05cbc581f087383",
@@ -1655,7 +1718,9 @@
             "d577904798f15058"
         ],
         "x": 524,
-        "y": 364
+        "y": 364,
+        "w": 752,
+        "h": 122
     },
     {
         "id": "d07dfb333aed56ce",
@@ -1679,7 +1744,9 @@
             "4e11b2f45a32813c"
         ],
         "x": 884,
-        "y": 89
+        "y": 89,
+        "w": 272,
+        "h": 162
     },
     {
         "id": "c6691944eaed7410",
@@ -1706,7 +1773,9 @@
             "e60338ef13bfc039"
         ],
         "x": 254,
-        "y": 729
+        "y": 729,
+        "w": 972,
+        "h": 122
     },
     {
         "id": "da3e31cb0af2a871",
@@ -1754,7 +1823,9 @@
             "ad88853ecde7c005"
         ],
         "x": 149,
-        "y": 2059
+        "y": 2059,
+        "w": 417,
+        "h": 127
     },
     {
         "id": "5b4db35eee901db4",
@@ -1987,7 +2058,9 @@
             "e26b945327fe0a7e"
         ],
         "x": 1439,
-        "y": 274
+        "y": 274,
+        "w": 282,
+        "h": 172
     },
     {
         "id": "a740b5ba0ed51bd3",
@@ -4774,6 +4847,7 @@
         "id": "4bd7236cd1df5691",
         "type": "link in",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "log buttonActions in",
         "links": [
@@ -4794,6 +4868,7 @@
         "id": "6d7d2735b6b0a030",
         "type": "switch",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "",
         "property": "payload",
@@ -4819,6 +4894,7 @@
         "id": "93c23451c602fbeb",
         "type": "file",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "",
         "filename": ".\\buttonUsageLog.log",
@@ -4839,6 +4915,7 @@
         "id": "daf05c945ad24c81",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "prepare log",
         "func": "\nconst dateFns=global.get(\"dateFns\");\n\nfunction safeStringify(obj) {\n    var cache = [];\n    var cacheKeys = [];\n    return JSON.stringify(obj, (key, value) => {\n        if (typeof value === 'object' && value !== null) {\n            //Duplicate reference found -> discard key / store\n            const idx = cache.indexOf(value)\n            //if duplicate found\n            //return twin's key instead\n            if (idx != -1) //-1 means not present\n                return \"dupOf_\" + (cacheKeys[idx].toString() ?? \"root\");\n            //else store it\n            else {\n                cache.push(value);\n                cacheKeys.push(key);\n            }\n        }\n        return value;\n    });\n}\n\ndelete msg._msgid\ndelete msg._event\nlet timeString = dateFns.format(new Date(), \"yyyy-MM-dd HH:mm:ss.SSS\");\n//msg.payload = {time:timeString, ms:Date.now(), msg:safeStringify(msg)};\n\nmsg.payload = `${timeString}   :   ${safeStringify(msg)}`\n\nreturn msg",
@@ -4859,6 +4936,7 @@
         "id": "66848166715e3f45",
         "type": "change",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "",
         "rules": [
@@ -4887,6 +4965,7 @@
         "id": "480c07eb7000581f",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "on missing file -> write default one",
         "info": "",
@@ -4898,6 +4977,7 @@
         "id": "f319a8245cc52c95",
         "type": "catch",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "",
         "scope": [
@@ -4916,6 +4996,7 @@
         "id": "e0693091fbc2ade5",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "catch buttonUsageLog fileNotFound",
         "func": "\nif(/ENOENT/.test(msg.error.message) && !context.get(\"triedOnce\")){\n    context.set(\"triedOnce\",true);\n    global.get(\"utils\").errorBlink(node, 60000);\n    return msg;\n}\nelse{\n    return [null,msg]\n}",
@@ -4939,6 +5020,7 @@
         "id": "2adc99b74387df87",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "catch buttonUsageLog all",
         "func": "\n\nif(msg.error){\n    node.error({ \"err\": msg.error.message, \"src\": msg.error.source.id, \"n\": msg.error.source.name, \"full\": msg });\n    //context.set(\"errorCc\", context.get(\"errorCc\")+1);\n    global.get(\"utils\").errorBlink(node, 60000);\n}\nelse{\n    node.error(msg);\n}\n",
@@ -4957,6 +5039,7 @@
         "id": "3345276a11da0361",
         "type": "function",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "create default",
         "func": "node.warn(\"buttonUsageLog.log not found: creating new one\")\nreturn {payload:{}}",
@@ -4977,6 +5060,7 @@
         "id": "555a3c206a075575",
         "type": "json",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "",
         "property": "payload",
@@ -4995,6 +5079,7 @@
         "id": "673352e50b72aacf",
         "type": "file",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "",
         "filename": ".\\buttonUsageLog.log",
@@ -5015,6 +5100,7 @@
         "id": "32a9a6570629a3b5",
         "type": "comment",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "TMP DBG LOGGING",
         "info": "",
@@ -5026,6 +5112,7 @@
         "id": "ab54e887033a3563",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "",
         "props": [
@@ -5052,6 +5139,7 @@
         "id": "c11db00ddad03312",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "WRITTEN BUTTON LOG",
         "active": false,
@@ -5070,6 +5158,7 @@
         "id": "451ff0cef17fea29",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "CREATED NEW BUTTON LOG",
         "active": true,
@@ -5425,6 +5514,7 @@
         "id": "d7111ce4cb4d8b16",
         "type": "uib-sender",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "url": "webapp",
         "name": "",
@@ -5440,6 +5530,8 @@
         "id": "0135921482d41bc7",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "34b9888e09adea38",
         "name": "",
         "props": [
             {
@@ -5457,8 +5549,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 420,
-        "y": 1995,
+        "x": 435,
+        "y": 1950,
         "wires": [
             [
                 "6a8c1e1167beac9f"
@@ -5469,6 +5561,7 @@
         "id": "260dd1e40d995979",
         "type": "debug",
         "z": "bdc10eb0bfc2c224",
+        "d": true,
         "g": "34b9888e09adea38",
         "name": "debug 23",
         "active": false,
@@ -6094,8 +6187,8 @@
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 1680,
-        "y": 735,
+        "x": 1710,
+        "y": 720,
         "wires": []
     },
     {
@@ -6213,8 +6306,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1185,
-        "y": 570,
+        "x": 1215,
+        "y": 555,
         "wires": [
             [
                 "474d4da6f7366e31"
@@ -6232,8 +6325,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1530,
-        "y": 735,
+        "x": 1560,
+        "y": 720,
         "wires": [
             [
                 "5442487d3efbd896"
@@ -6639,8 +6732,8 @@
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
-        "x": 1685,
-        "y": 810,
+        "x": 1715,
+        "y": 795,
         "wires": []
     },
     {
@@ -6654,8 +6747,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1544.765625,
-        "y": 809.75,
+        "x": 1574.765625,
+        "y": 794.75,
         "wires": [
             [
                 "6704700843f92d65"
@@ -6669,8 +6762,8 @@
         "g": "74dd883b5669e797",
         "name": "#dbg toggle",
         "info": "",
-        "x": 1390,
-        "y": 570,
+        "x": 1420,
+        "y": 555,
         "wires": []
     },
     {
@@ -6695,8 +6788,8 @@
         "topic": "control",
         "payload": "toggle",
         "payloadType": "str",
-        "x": 1410,
-        "y": 600,
+        "x": 1440,
+        "y": 585,
         "wires": [
             [
                 "3b7aeec4f66ea82e"
@@ -6718,8 +6811,8 @@
         "statusCmd": "status",
         "persist": false,
         "storeName": "memory",
-        "x": 1500,
-        "y": 630,
+        "x": 1530,
+        "y": 615,
         "wires": [
             [
                 "474d4da6f7366e31"
@@ -6739,8 +6832,8 @@
         "once": true,
         "onceDelay": "5",
         "topic": "",
-        "x": 1400,
-        "y": 630,
+        "x": 1430,
+        "y": 615,
         "wires": [
             [
                 "3b7aeec4f66ea82e"
@@ -6762,8 +6855,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1335,
-        "y": 765,
+        "x": 1365,
+        "y": 750,
         "wires": [
             [
                 "6b77363af9b6dc90",
