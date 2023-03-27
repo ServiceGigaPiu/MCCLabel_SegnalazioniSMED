@@ -112,7 +112,9 @@
             "4e37b237f31db062"
         ],
         "x": 74,
-        "y": 229
+        "y": 229,
+        "w": 1307,
+        "h": 457
     },
     {
         "id": "31f4b8716c51f385",
@@ -519,7 +521,9 @@
             "ba9eb7bdda03ba32"
         ],
         "x": 79,
-        "y": 64
+        "y": 64,
+        "w": 277,
+        "h": 127
     },
     {
         "id": "48f133c168356962",
@@ -549,9 +553,7 @@
             "db0b9650aad24229"
         ],
         "x": 84,
-        "y": 559,
-        "w": 1027,
-        "h": 292
+        "y": 559
     },
     {
         "id": "3f7bd448f06d6712",
@@ -711,9 +713,7 @@
             "481bde1a0ce6c86d"
         ],
         "x": 74,
-        "y": 64,
-        "w": 702,
-        "h": 397
+        "y": 64
     },
     {
         "id": "55a9133a1c5a95d1",
@@ -735,7 +735,7 @@
             "d610c787b889e968",
             "b5b49efa8368a832"
         ],
-        "x": 109,
+        "x": 119,
         "y": 64,
         "w": 592,
         "h": 172
@@ -828,7 +828,9 @@
             "15bb6197c2b1fb58"
         ],
         "x": 64,
-        "y": 724
+        "y": 724,
+        "w": 1337,
+        "h": 457
     },
     {
         "id": "6bbed1acc7ad0f13",
@@ -849,9 +851,7 @@
             "850adb4a2c8b2b3f"
         ],
         "x": 54,
-        "y": 934,
-        "w": 1678,
-        "h": 678
+        "y": 934
     },
     {
         "id": "34b9888e09adea38",
@@ -888,9 +888,7 @@
             "0135921482d41bc7"
         ],
         "x": 99,
-        "y": 1714,
-        "w": 1552,
-        "h": 277
+        "y": 1714
     },
     {
         "id": "7efa39f7d2ea1018",
@@ -914,7 +912,9 @@
             "af118073e63d8f78"
         ],
         "x": 1424,
-        "y": 889
+        "y": 889,
+        "w": 347,
+        "h": 202
     },
     {
         "id": "83dc8de4ca6f5b85",
@@ -937,7 +937,9 @@
             "1a96357a55bd59e2"
         ],
         "x": 1439,
-        "y": 1414
+        "y": 1414,
+        "w": 287,
+        "h": 172
     },
     {
         "id": "2252354aebe355cf",
@@ -960,7 +962,9 @@
             "eceeeb3fae3bc7ac"
         ],
         "x": 1403,
-        "y": 244
+        "y": 244,
+        "w": 853,
+        "h": 408
     },
     {
         "id": "6a9007c1c483ee16",
@@ -1075,9 +1079,7 @@
             "34c8f3a9767f8cad"
         ],
         "x": 809,
-        "y": 2149,
-        "w": 802,
-        "h": 112
+        "y": 2149
     },
     {
         "id": "fe28fb7cb365d682",
@@ -1098,9 +1100,7 @@
             "ba60486beccc9f83"
         ],
         "x": 829,
-        "y": 2044,
-        "w": 322,
-        "h": 82
+        "y": 2044
     },
     {
         "id": "0459e2a074258c5a",
@@ -1124,9 +1124,7 @@
             "4d56894252d94c10"
         ],
         "x": 114,
-        "y": 2134,
-        "w": 637,
-        "h": 127
+        "y": 2134
     },
     {
         "id": "f36f49dc5a6fb0d2",
@@ -1164,7 +1162,9 @@
             "5c1ba7695a881562"
         ],
         "x": 74,
-        "y": 1234
+        "y": 1234,
+        "w": 1313,
+        "h": 427
     },
     {
         "id": "8dfc8129d51e5740",
@@ -1269,9 +1269,7 @@
             "a740b5ba0ed51bd3"
         ],
         "x": 83,
-        "y": 2299,
-        "w": 1718,
-        "h": 907
+        "y": 2299
     },
     {
         "id": "74dd883b5669e797",
@@ -1293,9 +1291,7 @@
             "e0acafe1e64fb69d"
         ],
         "x": 1324,
-        "y": 514,
-        "w": 247,
-        "h": 142
+        "y": 514
     },
     {
         "id": "f3bee686c5a79e51",
@@ -1319,7 +1315,9 @@
             "307370bd3db41497"
         ],
         "x": 1429,
-        "y": 454
+        "y": 454,
+        "w": 287,
+        "h": 172
     },
     {
         "id": "5c1ba7695a881562",
@@ -1340,7 +1338,9 @@
             "8aba5c7204608b4a"
         ],
         "x": 1114,
-        "y": 1474
+        "y": 1474,
+        "w": 247,
+        "h": 82
     },
     {
         "id": "d1418df470ae9fa4",
@@ -1714,9 +1714,7 @@
             "c1f38be4152e1b73"
         ],
         "x": 124,
-        "y": 634,
-        "w": 247,
-        "h": 142
+        "y": 634
     },
     {
         "id": "63c531914f3e675f",
@@ -1903,9 +1901,7 @@
             "309b3f04cd19fbeb"
         ],
         "x": 88,
-        "y": 1309,
-        "w": 1618,
-        "h": 277
+        "y": 1309
     },
     {
         "id": "850adb4a2c8b2b3f",
@@ -1944,9 +1940,7 @@
             "d729db698e92eca4"
         ],
         "x": 88,
-        "y": 1009,
-        "w": 1613,
-        "h": 277
+        "y": 1009
     },
     {
         "id": "9737cb6bd0dadd1f",
@@ -1970,7 +1964,9 @@
             "e26b945327fe0a7e"
         ],
         "x": 1439,
-        "y": 274
+        "y": 274,
+        "w": 282,
+        "h": 172
     },
     {
         "id": "a740b5ba0ed51bd3",
@@ -1991,9 +1987,7 @@
             "36f1d48b74bad8dc"
         ],
         "x": 109,
-        "y": 2944,
-        "w": 427,
-        "h": 82
+        "y": 2944
     },
     {
         "id": "0739446a5011eb4d",
@@ -2017,9 +2011,7 @@
             "3a53827df7fd9d3e"
         ],
         "x": 114,
-        "y": 1084,
-        "w": 282,
-        "h": 172
+        "y": 1084
     },
     {
         "id": "7cd6e0abf52051ff",
@@ -2040,9 +2032,7 @@
             "68644d6d8e8ebaf8"
         ],
         "x": 669,
-        "y": 1114,
-        "w": 372,
-        "h": 112
+        "y": 1114
     },
     {
         "id": "9eae3823833d4d69",
@@ -2112,9 +2102,7 @@
             "93d9ed47f60be558"
         ],
         "x": 114,
-        "y": 1384,
-        "w": 282,
-        "h": 172
+        "y": 1384
     },
     {
         "id": "5bff6168e9472a61",
@@ -2135,9 +2123,7 @@
             "32847fc57a5ed7c0"
         ],
         "x": 669,
-        "y": 1414,
-        "w": 392,
-        "h": 112
+        "y": 1414
     },
     {
         "id": "f9afb515793290aa",
@@ -7291,7 +7277,7 @@
         "initialize": "\n\n\nconst MACHINE_CFGS = {\n    \"FA419\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA420\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA421\": { toA4Timeout: 120 * 60 * 1000 },\n\n    \"FA422\": { toA4Timeout: 150 * 60 * 1000 },\n    \"FA423\": { toA4Timeout: 150 * 60 * 1000 },\n\n    \"OMET\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO41\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO42\": { toA4Timeout: 210 * 60 * 1000 }\n}\n\n/** {String[]} \"machine keys\". match the ones used in uibuilder's app. */\nconst macKeys = Object.keys(MACHINE_CFGS);\n/**  {String[]} devices that may be associated with each towersBitArray bit*/\nconst towersDevices = [\"redLight\", \"greenLight\", \"horn\"];\n{\n    let cfg;\n    for (let mKey in MACHINE_CFGS) {\n        cfg = MACHINE_CFGS[mKey];\n        cfg.displayName = mKey+\"_\";\n        cfg.cellHeaderText = \"Linea \" + cfg.displayName;\n        cfg.toA3Timeout = 20 * 60 * 1000;\n        //cfg.toA4Timeout = this.toA4Timeout;\n        cfg.initCellSignalKey = \"noop\";\n        cfg.initTowerBits = {};\n        for (let device of towersDevices) {\n            cfg.initTowerBits[device] = false\n        }\n    }\n}\n\nconst cellsLayout = [ //keys are: unique\n    [\"FA419\", \"FA420\", \"FA421\", \"FA422\"],\n    [\"FA423\", \"OMET\", \"MO41\", \"MO42\"],\n];\nflow.set(\"fallbackConfig\", {\n    machines: MACHINE_CFGS, \n    cellsLayout: cellsLayout,\n    /**  */\n    views:{\n        // \"display\":{ adminEnabled:this.cellsLayout.map( r => r.map(v => 0)) },\n        // \"SMED1\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==0 )) }, //admin on row 0\n        // \"SMED2\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==1 )) },\n        \"default\": { adminUI: [] }, //adminUI: <macKey>[] : machines to allow to interact with\n        \"display\":\"default\",\n        \"SMED1\":{\n            exactIpList:[\"192.168.19.116\"],\n            //adminUI:cellsLayout[0].map(v => v),\n            adminUI: [\"FA419\", \"FA420\", \"FA421\", \"FA422\",\"FA423\",\"OMET\"]\n        },\n        \"SMED2\":{\n            exactIpList:[\"192.168.19.117\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI:[\"MO41\",\"MO42\"]\n        }\n\n    }\n});\n\nnode.send(flow.get(\"fallbackConfig\"))",
         "finalize": "",
         "libs": [],
-        "x": 250,
+        "x": 260,
         "y": 150,
         "wires": [
             []
@@ -7357,7 +7343,7 @@
         "initialize": "// I didn't find a way to required:{$ref:$def/macKey/enum}\n    //so that editing the enum would edit the required as well\nconst macKeys=[\"FA419\",\"FA420\",\"FA421\",\"FA422\",\"FA423\",\"MO41\",\"MO42\",\"OMET\"];\nconst def = {\n    //\"$schema\":\"http://json-schema.org/draft-07/schema#\",\n    //\"title\":\"commonConfigSchema\",\n    //\"description\":\"global common config for this project\",\n    \"$defs\":{\n        \"javascriptFalsy\":{\n            \"enum\":[false, 0, null, \"\"]\n        },\n        \"macKey\":{\n            \"type\":\"string\",\n            \"enum\":macKeys\n        },\n        \"signalKey\":{\n            \"type\":\"string\",\n            \"enum\":[\"noop\",\"A1\",\"A2\",\"A3\",\"A4\",\"B\",\"C1\",\"C2\",\"D\",\"E\"],\n            \"default\":\"noop\"\n        },\n        \"towerDevice\":{\n            \"type\":\"string\",\n            \"enum\":[\"redLight\",\"greenLight\",\"horn\"]\n        },\n        \"machine\":{\n            \"type\":\"object\",\n            \"properties\":{\n                \"displayName\":{\"type\":\"string\", \"default\":\"this.parent.key\"},\n                \"cellHeaderText\":{\"type\":\"string\", \"default\":\"Linea + this.displayName\"},\n                \"toA3Timeout\":{\"type\":\"integer\", \"minimum\":0, \"default\":20000},\n                \"toA4Timeout\":{\"type\":\"integer\", \"minimum\":0, \"default\":\"120*60*1000\"},\n                \"initCellSignalKey\":{\"$ref\":\"#/$defs/signalKey\", \"default\":\"noop\"},\n                \"initTowerBits\":{\n                    \"type\":\"object\",\n                    \"propertyNames\":{\"$ref\":\"#/$defs/towerDevice\"},\n                    \"patternProperties\":{\".\":{\"enum\":[0, 1, true, false], \"default\":0}}\n                }\n            },\n            \"$comment\":\"exactly all the props are required\",\n            \"additionalProperties\":false,\n            \"required\":[\"displayName\", \"cellHeaderText\", \"toA3Timeout\", \"toA4Timeout\", \"initCellSignalKey\", \"initTowerBits\"]\n        }\n    },\n    \"type\":\"object\",\n    \"properties\":{\n        \"machines\":{\n            \"$description\": \"holding machine-specific configs. Made up of macKey:config pairs\",\n            \"type\":\"object\",\n            \"propertyNames\":{\"$ref\":\"#/$defs/macKey\"},\n            \"patternProperties\":{\".\":{\"$ref\":\"#/$defs/machine\"} },\n            \"additionalProperties\":false,\n            //\"required\":{\"$ref\":\"#/$defs/macKey/enum\"},\n            \"required\": macKeys\n        },\n        \"cellsLayout\":{\n            \"$description\": \"define the UI grid layout. grid will match this matrix\",\n            \"type\":\"array\",\n            \"items\":{\n                \"type\":\"array\",\n                \"items\":{\"anyOf\":[{\"$ref\":\"#/$defs/macKey\"},{\"$ref\":\"#/$defs/javascriptFalsy\"}]},\n                \"minItems\":1\n            },\n            \"minItems\":1,\n            \"default\":[[\"FA419\",\"FA420\",\"FA421\",\"FA422\"], [\"FA423\",\"OMET\",\"MO41\",\"MO42\"]]\n        }\n    },\n    \"required\":[\"cellsLayout\", \"machines\"],\n    \"additionalProperties\":false,\n};\n\n\n\nflow.set(\"commonConfigSchema\", def);\n//node.send(def);\nnode.status({fill: \"green\", text: Object.keys(def).join(' & ') });",
         "finalize": "",
         "libs": [],
-        "x": 265,
+        "x": 275,
         "y": 195,
         "wires": [
             []
@@ -7372,7 +7358,7 @@
         "name": "globalConfig isDefinedEvent",
         "mode": "link",
         "links": [],
-        "x": 555,
+        "x": 565,
         "y": 195,
         "wires": [],
         "l": true
@@ -7627,7 +7613,7 @@
         "g": "55a9133a1c5a95d1",
         "name": "GLOBALI",
         "info": "",
-        "x": 195,
+        "x": 205,
         "y": 105,
         "wires": []
     },
@@ -7767,7 +7753,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 540,
+        "x": 570,
         "y": 150,
         "wires": [
             []
