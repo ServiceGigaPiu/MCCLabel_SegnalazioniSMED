@@ -374,7 +374,7 @@ Vue.component("icon-pill-button",{
                   </b-icon></span>
             {{shownSubButtonText}}
          </b-button-->
-         <b-button pill block  :disabled="this.$props.isDisabled" :variant="variant" class="pillicon-button" :class="{retracted:isRetracted}" @click="handleClick($event)" :style="{marginRight:buttonMarginRight}" >
+         <b-button pill block  :disabled="false" :variant="variant" class="pillicon-button" :class="{retracted:isRetracted}" @click="handleClick($event)" :style="{marginRight:buttonMarginRight}" >
             <span class="pillicon-button-icon" v-bind:style="{color:iconColor}"><b-icon :scale="iconScale" :icon="iconName">
                </b-icon></span>
             <span v-if="innerSpanHTML" v-html="shownInnerSpanHTML" ></span>
