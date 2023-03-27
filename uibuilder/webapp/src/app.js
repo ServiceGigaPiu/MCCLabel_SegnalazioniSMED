@@ -338,7 +338,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
             //signalKey:app.initSignal,
             actionList:[
                { id:"goToA2",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Prendi in Carico", subButtonText:"in Carico", iconName:"bell-slash-fill", iconScale:"0.75", innerSpanHTML:"", isDisabled:false },
-               { id:"goToA3",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Anticipa Avviamento", iconName:"alarm-fill", iconScale:"0.75", innerSpanHTML:"", isDisabled:"A3" < this.signalKey },
+               //{ id:"goToA3",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Anticipa Avviamento", iconName:"alarm-fill", iconScale:"0.75", innerSpanHTML:"", isDisabled:"A3" < this.signalKey },
                { id:"goToE",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Segnala Completamento", subButtonText:"completato", iconName:"check-lg", iconScale:"0.9", innerSpanHTML:"", isDisabled:"E" < this.signalKey }
             ]
          });}
@@ -716,8 +716,8 @@ const app = new Vue({
       uibuilder.onTopic("appInit",(msg)=>{
          try{
             let errCb = (attr,ret=undefined) => {console.error("missing attribute "+attr+" in onTopic(appInit) response", msg); return undefined};
-            app.CELLS_LAYOUT = msg.cellsLayout ?? errCb("cellsLayout");
-            try{ app.MACHINE_CFGS = msg.config.machines } catch(e) {errCb("config.machines")};
+            //app.CELLS_LAYOUT = msg.cellsLayout ?? errCb("cellsLayout");
+            //try{ app.MACHINE_CFGS = msg.config.machines } catch(e) {errCb("config.machines")};
 
             //sync time between server and client
             //console.warn("timeSync:","result is ",msg.timeSync.result, "of type",typeof(msg.timeSync.result))
@@ -750,9 +750,9 @@ const app = new Vue({
             //apply init-time-only configs
             {let cell,state; for(let macKey in msg.signalCells){
                cell = app.$data.signalCells[macKey];
-               cfg = msg.config.machines[macKey];
+               //cfg = msg.config.machines[macKey];
                
-               cell.displayName = cfg.displayName;
+               //cell.displayName = cfg.displayName;
             }}
          
             //set CELL_VIEW from config.views[viewKey]

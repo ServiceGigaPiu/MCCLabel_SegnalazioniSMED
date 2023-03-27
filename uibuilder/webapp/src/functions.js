@@ -183,9 +183,17 @@
       "MO41":{ toA4Timeout:120*60*1000 },
       "MO42":{ toA4Timeout:120*60*1000 }
    }
+   {let cfg;
    for(let mKey in MACHINE_CFGS) {
-      MACHINE_CFGS[mKey].displayName = mKey
-   }
+      cfg=MACHINE_CFGS[mKey];
+      cfg.displayName = mKey;
+      cfg.cellHeaderText = "Linea " + cfg.displayName;
+      cfg.toA3Timeout = 20 * 60 * 1000;
+      //cfg.toA4Timeout = this.toA4Timeout;
+      cfg.initCellSignalKey = "noop";
+      //cfg.initTowerBits = {};
+
+   }}
 
    var MACHINE_KEYS = Object.keys(MACHINE_CFGS);
    var MACHINE_NAMES = (()=>{var arr=[]; for(let mKey in MACHINE_CFGS) arr.push(MACHINE_CFGS[mKey].name); return arr})()
@@ -201,6 +209,7 @@
          r++;
       }
    }
+
 
    function getInitedCell(){
       return {
