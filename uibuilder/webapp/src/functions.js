@@ -73,6 +73,10 @@
       });
    }
    
+   function ObjectClone(obj){
+      return JSON.parse(safeStringify(obj));
+   }
+
    /**
     * takes a number and appends '0' until it has AT LEAST [digits] digits
     * @param {number} num value to format
@@ -102,6 +106,7 @@
          r += Math.random();
       return min + (r/sumRandTimes) * (max-min);
    }
+
    //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
 /* ################################################################################################################################
    ################################### UIBUILDER ################################################################################## */
@@ -141,7 +146,11 @@
       }
    });
 
-   
+   var NR_TIME_OFFSET=null; //set by appInit //difference between Date.now("dateStr") called server side and here.//ST-CT = diff  ->  ST = diff + CT
+   function nrDateNow(){
+      NR_TIME_OFFSET ?? console.warn("[nrDateNow()]: NR_TIME_OFFSET not set. Assuming 0");
+      return Date.now() + NR_TIME_OFFSET;
+   }
 
 
 //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
@@ -165,7 +174,7 @@
    ]
    
    var MACHINE_CFGS = {
-      "FA419":{ toA4Timeout:120*60*1000 },
+      "FA419":{ toA4Timeout:1*60*1000 },
       "FA420":{ toA4Timeout:120*60*1000 },
       "FA421":{ toA4Timeout:120*60*1000 },
       "FA422":{ toA4Timeout:120*60*1000 },
@@ -174,9 +183,17 @@
       "MO41":{ toA4Timeout:120*60*1000 },
       "MO42":{ toA4Timeout:120*60*1000 }
    }
+   {let cfg;
    for(let mKey in MACHINE_CFGS) {
-      MACHINE_CFGS[mKey].displayName = mKey
-   }
+      cfg=MACHINE_CFGS[mKey];
+      cfg.displayName = mKey;
+      cfg.cellHeaderText = "Linea " + cfg.displayName;
+      cfg.toA3Timeout = 2 * 60 * 1000;
+      //cfg.toA4Timeout = this.toA4Timeout;
+      cfg.initCellSignalKey = "noop";
+      //cfg.initTowerBits = {};
+
+   }}
 
    var MACHINE_KEYS = Object.keys(MACHINE_CFGS);
    var MACHINE_NAMES = (()=>{var arr=[]; for(let mKey in MACHINE_CFGS) arr.push(MACHINE_CFGS[mKey].name); return arr})()
@@ -192,6 +209,7 @@
          r++;
       }
    }
+
 
    function getInitedCell(){
       return {
@@ -335,7 +353,7 @@
    //   let clockGroup =  cdBlock.firstElementChild;
    //   let progBar = cdBlock.children[1];
    //   cdBlock.timerLength = msFromNow; //bar ratio depends on this
-   //   cdBlock.end = Date.now() + msFromNow; //unix time in ms when countdown will be completed
+   //   cdBlock.end = nrDateNow() + msFromNow; //unix time in ms when countdown will be completed
 
    //   const refresh = (remainingMs)=>{
    //      //update clock
@@ -351,7 +369,7 @@
    //   clearInterval(cdBlock.refreshIntv);
    //   refresh(msFromNow);
    //   cdBlock.refreshIntv = setInterval(()=>{
-   //      var remainingMs = cdBlock.end - Date.now();
+   //      var remainingMs = cdBlock.end - nrDateNow();
    //      if(remainingMs <= 0){
    //         remainingMs = 0;
    //         clearInterval(cdBlock.refreshIntv);
