@@ -174,7 +174,7 @@
    ]
    
    var MACHINE_CFGS = {
-      "FA419":{ toA4Timeout:120*60*1000 },
+      "FA419":{ toA4Timeout:1*60*1000 },
       "FA420":{ toA4Timeout:120*60*1000 },
       "FA421":{ toA4Timeout:120*60*1000 },
       "FA422":{ toA4Timeout:120*60*1000 },
@@ -188,7 +188,7 @@
       cfg=MACHINE_CFGS[mKey];
       cfg.displayName = mKey;
       cfg.cellHeaderText = "Linea " + cfg.displayName;
-      cfg.toA3Timeout = 20 * 60 * 1000;
+      cfg.toA3Timeout = 2 * 60 * 1000;
       //cfg.toA4Timeout = this.toA4Timeout;
       cfg.initCellSignalKey = "noop";
       //cfg.initTowerBits = {};

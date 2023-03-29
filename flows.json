@@ -112,9 +112,7 @@
             "4e37b237f31db062"
         ],
         "x": 74,
-        "y": 229,
-        "w": 1307,
-        "h": 457
+        "y": 229
     },
     {
         "id": "31f4b8716c51f385",
@@ -521,9 +519,7 @@
             "ba9eb7bdda03ba32"
         ],
         "x": 79,
-        "y": 64,
-        "w": 277,
-        "h": 127
+        "y": 64
     },
     {
         "id": "48f133c168356962",
@@ -832,9 +828,7 @@
             "15bb6197c2b1fb58"
         ],
         "x": 64,
-        "y": 724,
-        "w": 1337,
-        "h": 457
+        "y": 724
     },
     {
         "id": "6bbed1acc7ad0f13",
@@ -920,9 +914,7 @@
             "af118073e63d8f78"
         ],
         "x": 1424,
-        "y": 889,
-        "w": 347,
-        "h": 202
+        "y": 889
     },
     {
         "id": "83dc8de4ca6f5b85",
@@ -945,9 +937,7 @@
             "1a96357a55bd59e2"
         ],
         "x": 1439,
-        "y": 1414,
-        "w": 287,
-        "h": 172
+        "y": 1414
     },
     {
         "id": "2252354aebe355cf",
@@ -970,9 +960,7 @@
             "eceeeb3fae3bc7ac"
         ],
         "x": 1403,
-        "y": 244,
-        "w": 853,
-        "h": 408
+        "y": 244
     },
     {
         "id": "6a9007c1c483ee16",
@@ -1176,9 +1164,7 @@
             "5c1ba7695a881562"
         ],
         "x": 74,
-        "y": 1234,
-        "w": 1313,
-        "h": 427
+        "y": 1234
     },
     {
         "id": "8dfc8129d51e5740",
@@ -1312,6 +1298,78 @@
         "h": 142
     },
     {
+        "id": "7ae1a45298357558",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1ad399f53064accc",
+            "e45e9fe2c6284d6e",
+            "dff151503d492736"
+        ],
+        "x": 194,
+        "y": 484,
+        "w": 567,
+        "h": 82
+    },
+    {
+        "id": "ad093da59d9d5318",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "14e10dda97a99317",
+            "a1c95db8ecc8bdb8",
+            "302bf84244b6f8d2",
+            "284c36d91133673e",
+            "9aea7b3072c9948e",
+            "c91f4336229ff317"
+        ],
+        "x": 1529,
+        "y": 2029,
+        "w": 802,
+        "h": 112
+    },
+    {
+        "id": "2642979013b379fa",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d8cf100b99ed701b",
+            "cf1dc930817e9a5d",
+            "6ab3f61c2bde1e09"
+        ],
+        "x": 1649,
+        "y": 2164,
+        "w": 372,
+        "h": 157
+    },
+    {
         "id": "f3bee686c5a79e51",
         "type": "group",
         "z": "c1d4418a6f1f1693",
@@ -1333,9 +1391,7 @@
             "307370bd3db41497"
         ],
         "x": 1429,
-        "y": 454,
-        "w": 287,
-        "h": 172
+        "y": 454
     },
     {
         "id": "5c1ba7695a881562",
@@ -1356,9 +1412,7 @@
             "8aba5c7204608b4a"
         ],
         "x": 1114,
-        "y": 1474,
-        "w": 247,
-        "h": 82
+        "y": 1474
     },
     {
         "id": "d1418df470ae9fa4",
@@ -1988,9 +2042,7 @@
             "e26b945327fe0a7e"
         ],
         "x": 1439,
-        "y": 274,
-        "w": 282,
-        "h": 172
+        "y": 274
     },
     {
         "id": "a740b5ba0ed51bd3",
@@ -2158,29 +2210,6 @@
         "y": 1414,
         "w": 392,
         "h": 112
-    },
-    {
-        "id": "7ae1a45298357558",
-        "type": "group",
-        "z": "bdc10eb0bfc2c224",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "1ad399f53064accc",
-            "e45e9fe2c6284d6e",
-            "dff151503d492736"
-        ],
-        "x": 194,
-        "y": 484,
-        "w": 567,
-        "h": 82
     },
     {
         "id": "f9afb515793290aa",
@@ -3178,7 +3207,8 @@
             "1255172cf854afec",
             "e9116e554f7d574d",
             "46843f4e8d02205b",
-            "f607e3882cb5c331"
+            "f607e3882cb5c331",
+            "6ab3f61c2bde1e09"
         ],
         "x": 285,
         "y": 2565,
@@ -6162,7 +6192,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "14eeda19a6a7072a",
         "name": "update signalCell",
-        "func": "\nlet signalKey = msg.action.match(/set(\\w+)/)[1]; if(!signalKey) node.warn({txt:\"error extracting signalKey\",sk:signalKey,fullMsg:msg})\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\n\ncell.signalKey = signalKey;\n//conditionally show cd\nif(signalKey == \"A1\"){\n    cell.timerStart = Date.now();\n    cell.timerEnd = Date.now() + global.get(\"config\").machines[mKey].toA3Timeout;\n}\nelse{\n    if(signalKey != \"A2\"){\n        cell.timerStart = Date.now();\n        cell.timerEnd = cell.timerStart;\n    }\n}\n\nreturn msg;",
+        "func": "\nlet signalKey = msg.action.match(/set(\\w+)/)[1]; if(!signalKey) node.warn({txt:\"error extracting signalKey\",sk:signalKey,fullMsg:msg})\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\n\ncell.signalKey = signalKey;\n//conditionally show cd\nif(signalKey == \"A1\"){\n    cell.timerStart = Date.now();\n    cell.timerEnd = Date.now() + global.get(\"config\").machines[mKey].toA3Timeout;\n}\nelse if(signalKey == \"A3\"){\n    cell.timerStart = Date.now();\n    cell.timerEnd = Date.now() + global.get(\"config\").machines[mKey].toA4Timeout; //+ (cell.timerEnd - cell.timerStart);\n\n}\nelse{\n    if(signalKey != \"A2\"){\n        cell.timerStart = Date.now();\n        cell.timerEnd = cell.timerStart;\n    }\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6598,78 +6628,6 @@
         ]
     },
     {
-        "id": "2af35e79a6b435db",
-        "type": "exec",
-        "z": "bdc10eb0bfc2c224",
-        "command": "shutdown /r",
-        "addpay": "",
-        "append": "",
-        "useSpawn": "false",
-        "timer": "",
-        "winHide": false,
-        "oldrc": false,
-        "name": "",
-        "x": 185,
-        "y": 3300,
-        "wires": [
-            [
-                "117c28ae38d2ef3f"
-            ],
-            [
-                "117c28ae38d2ef3f"
-            ],
-            [
-                "117c28ae38d2ef3f"
-            ]
-        ]
-    },
-    {
-        "id": "117c28ae38d2ef3f",
-        "type": "debug",
-        "z": "bdc10eb0bfc2c224",
-        "name": "debug 25",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 360,
-        "y": 3240,
-        "wires": []
-    },
-    {
-        "id": "edcfe67c57ad937a",
-        "type": "inject",
-        "z": "bdc10eb0bfc2c224",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 180,
-        "y": 3420,
-        "wires": [
-            [
-                "2af35e79a6b435db"
-            ]
-        ]
-    },
-    {
         "id": "6704700843f92d65",
         "type": "ui_text",
         "z": "bdc10eb0bfc2c224",
@@ -6911,6 +6869,182 @@
         "y": 525,
         "wires": [],
         "l": true
+    },
+    {
+        "id": "14e10dda97a99317",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "ad093da59d9d5318",
+        "name": "send setSingleCellState",
+        "func": "const uib = global.get(\"uibuilder\")\nlet signalKey = msg.action.match(/set(\\w+)/)[1];\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\nlet cfg = cell.config; //global.get(\"config\")[mKey];\n\ncell.signalKey = signalKey;\n\nuib.prepareMsg_setSingleCellState(msg,mKey,cell);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1925,
+        "y": 2070,
+        "wires": [
+            [
+                "284c36d91133673e"
+            ]
+        ]
+    },
+    {
+        "id": "a1c95db8ecc8bdb8",
+        "type": "link in",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "ad093da59d9d5318",
+        "name": "send setCellSignal",
+        "links": [],
+        "x": 1570,
+        "y": 2070,
+        "wires": [
+            [
+                "9aea7b3072c9948e"
+            ]
+        ]
+    },
+    {
+        "id": "302bf84244b6f8d2",
+        "type": "link out",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "ad093da59d9d5318",
+        "name": "send setCellSignal",
+        "mode": "return",
+        "links": [],
+        "x": 2290,
+        "y": 2070,
+        "wires": []
+    },
+    {
+        "id": "284c36d91133673e",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "ad093da59d9d5318",
+        "name": "_broadcast : true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_broadcast",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2160,
+        "y": 2070,
+        "wires": [
+            [
+                "302bf84244b6f8d2"
+            ]
+        ]
+    },
+    {
+        "id": "9aea7b3072c9948e",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "ad093da59d9d5318",
+        "name": "update signalCell",
+        "func": "\nlet signalKey = msg.action.match(/set(\\w+)/)[1]; if(!signalKey) node.warn({txt:\"error extracting signalKey\",sk:signalKey,fullMsg:msg})\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\n\ncell.signalKey = signalKey;\n//conditionally show cd\nif(signalKey == \"A1\"){\n    cell.timerStart = Date.now();\n    cell.timerEnd = Date.now() + global.get(\"config\").machines[mKey].toA3Timeout;\n}\nelse{\n    if(signalKey != \"A2\"){\n        cell.timerStart = Date.now();\n        cell.timerEnd = cell.timerStart;\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1695,
+        "y": 2070,
+        "wires": [
+            [
+                "14e10dda97a99317"
+            ]
+        ]
+    },
+    {
+        "id": "c91f4336229ff317",
+        "type": "comment",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "ad093da59d9d5318",
+        "name": "CONDITIONALLY SHOW COUNTDOWN TOO",
+        "info": "",
+        "x": 1800,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "d8cf100b99ed701b",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "g": "2642979013b379fa",
+        "name": "function 6",
+        "func": "let signalKeys = global.get(\"signalCells\");\nfor(let mk of signalKeys.dictionary.macKeys){\n    node.send({topic:mk,action:\"setA1\"})\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1875,
+        "y": 2205,
+        "wires": [
+            [
+                "6ab3f61c2bde1e09"
+            ]
+        ]
+    },
+    {
+        "id": "cf1dc930817e9a5d",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "g": "2642979013b379fa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1755,
+        "y": 2280,
+        "wires": [
+            [
+                "d8cf100b99ed701b"
+            ]
+        ]
+    },
+    {
+        "id": "6ab3f61c2bde1e09",
+        "type": "link out",
+        "z": "bdc10eb0bfc2c224",
+        "g": "2642979013b379fa",
+        "name": "link out 18",
+        "mode": "link",
+        "links": [
+            "f4db294021a89fbf"
+        ],
+        "x": 1980,
+        "y": 2265,
+        "wires": []
     },
     {
         "id": "15c00fddf6febcfb",
@@ -7388,7 +7522,7 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "\n\n\nconst MACHINE_CFGS = {\n    \"FA419\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA420\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA421\": { toA4Timeout: 120 * 60 * 1000 },\n\n    \"FA422\": { toA4Timeout: 150 * 60 * 1000 },\n    \"FA423\": { toA4Timeout: 150 * 60 * 1000 },\n\n    \"OMET\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO41\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO42\": { toA4Timeout: 210 * 60 * 1000 }\n}\n\n/** {String[]} \"machine keys\". match the ones used in uibuilder's app. */\nconst macKeys = Object.keys(MACHINE_CFGS);\n/**  {String[]} devices that may be associated with each towersBitArray bit*/\nconst towersDevices = [\"redLight\", \"greenLight\", \"horn\"];\n{\n    let cfg;\n    for (let mKey in MACHINE_CFGS) {\n        cfg = MACHINE_CFGS[mKey];\n        cfg.displayName = mKey+\"_\";\n        cfg.cellHeaderText = \"Linea \" + cfg.displayName;\n        cfg.toA3Timeout = 20 * 60 * 1000;\n        //cfg.toA4Timeout = this.toA4Timeout;\n        cfg.initCellSignalKey = \"noop\";\n        cfg.initTowerBits = {};\n        for (let device of towersDevices) {\n            cfg.initTowerBits[device] = false\n        }\n    }\n}\n\nconst cellsLayout = [ //keys are: unique\n    [\"FA419\", \"FA420\", \"FA421\", \"FA422\"],\n    [\"FA423\", \"OMET\", \"MO41\", \"MO42\"],\n];\nflow.set(\"fallbackConfig\", {\n    machines: MACHINE_CFGS, \n    cellsLayout: cellsLayout,\n    /**  */\n    views:{\n        // \"display\":{ adminEnabled:this.cellsLayout.map( r => r.map(v => 0)) },\n        // \"SMED1\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==0 )) }, //admin on row 0\n        // \"SMED2\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==1 )) },\n        \"default\": { adminUI: [] }, //adminUI: <macKey>[] : machines to allow to interact with\n        \"display\":\"default\",\n        \"SMED1\":{\n            exactIpList:[\"192.168.19.116\"],\n            //adminUI:cellsLayout[0].map(v => v),\n            adminUI: [\"FA419\", \"FA420\", \"FA421\", \"FA422\",\"FA423\",\"OMET\"]\n        },\n        \"SMED2\":{\n            exactIpList:[\"192.168.19.117\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI:[\"MO41\",\"MO42\"]\n        }\n\n    }\n});\n\nnode.send(flow.get(\"fallbackConfig\"))",
+        "initialize": "\n\n\nconst MACHINE_CFGS = {\n    \"FA419\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA420\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA421\": { toA4Timeout: 120 * 60 * 1000 },\n\n    \"FA422\": { toA4Timeout: 150 * 60 * 1000 },\n    \"FA423\": { toA4Timeout: 150 * 60 * 1000 },\n\n    \"OMET\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO41\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO42\": { toA4Timeout: 210 * 60 * 1000 }\n}\n\n/** {String[]} \"machine keys\". match the ones used in uibuilder's app. */\nconst macKeys = Object.keys(MACHINE_CFGS);\n/**  {String[]} devices that may be associated with each towersBitArray bit*/\nconst towersDevices = [\"redLight\", \"greenLight\", \"horn\"];\n{\n    let cfg;\n    for (let mKey in MACHINE_CFGS) {\n        cfg = MACHINE_CFGS[mKey];\n        cfg.displayName = mKey+\"_\";\n        cfg.cellHeaderText = \"Linea \" + cfg.displayName;\n        cfg.toA3Timeout = 20 * 60 * 1000;\n        //cfg.toA4Timeout = this.toA4Timeout;\n        cfg.initCellSignalKey = \"noop\";\n        cfg.initTowerBits = {};\n        for (let device of towersDevices) {\n            cfg.initTowerBits[device] = false\n        }\n    }\n}\n\nconst cellsLayout = [ //keys are: unique\n    [\"FA419\", \"FA420\", \"FA421\", \"FA422\"],\n    [\"FA423\", \"OMET\", \"MO41\", \"MO42\"],\n];\nflow.set(\"fallbackConfig\", {\n    machines: MACHINE_CFGS, \n    cellsLayout: cellsLayout,\n    /**  */\n    views:{\n        // \"display\":{ adminEnabled:this.cellsLayout.map( r => r.map(v => 0)) },\n        // \"SMED1\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==0 )) }, //admin on row 0\n        // \"SMED2\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==1 )) },\n        \"default\": { adminUI: [] }, //adminUI: <macKey>[] : machines to allow to interact with\n        \"display\":\"default\",\n        \"SMED1\":{\n            exactIpList:[\"192.168.19.116\"],\n            //adminUI:cellsLayout[0].map(v => v),\n            adminUI: [\"FA419\", \"FA420\", \"FA421\", \"FA422\",\"FA423\",\"OMET\"]\n        },\n        \"SMED2\":{\n            exactIpList:[\"192.168.19.117\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI:[\"MO41\",\"MO42\"]\n        },\n        \"supervisione\":{\n            exactIpList: [\"192.168.19.118\",\"192.168.19.120\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI: macKeys\n        }\n\n    }\n});\n\nnode.send(flow.get(\"fallbackConfig\"))",
         "finalize": "",
         "libs": [],
         "x": 260,
