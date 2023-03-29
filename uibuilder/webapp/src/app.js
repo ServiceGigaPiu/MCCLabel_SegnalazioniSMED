@@ -58,7 +58,7 @@ var retSignalCellObj=function(){return {
       template: `
             <div v-bind:class="[signalClass, isBlinkingNow?blinkClass:'']" >
                <div class="cell-header">
-                  Linea {{machineName}}
+                  {{machineName}}
                </div>
                <div class="countdown-container" v-bind:style="{visibility: isCdShown ? 'visible' : 'hidden'}">
                   <div class="countdown-clock">
@@ -293,7 +293,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
       <div>
          <div v-bind:class="[signalClass, isBlinkingNow?blinkClass:'']" style="padding-bottom:1vh;">
             <div class="cell-header" style="font-size:5vh; max-height:7vh; text-align:left; ">
-               Linea {{machineName}}
+               {{machineName}}
             </div>
             <div class="countdown-container" v-bind:style="{visibility: isCdShown ? 'visible' : 'hidden'}" style="margin-top:0px; display:flex;">
                <div class="countdown-clock" style="margin-left:5%; display:inline-block;">
