@@ -107,6 +107,64 @@
       return min + (r/sumRandTimes) * (max-min);
    }
 
+   //function fitTextWidth(el){
+   //   let {clH:clientHeight,clW:clientWidth, scH:scrollHeight, scW:scrollWidth} = el;
+   //   let style = window.getComputedStyle(el);
+   //   const isWidthOverflown = ({scrollWidth, clientWidth}) => scrollWidth > clientWidth;
+   //   if(scW > clW){
+   //      el.style.fontSize = style.fontSize * clientWidth / scrollWidth
+   //   }
+
+   //}
+
+   //fitText_withWidthRatio(el, maxVw=20, wOffsetPx=0){
+   //   const textFitterClass = "text-fitter";
+   //      //.text-fitter{
+   //      //   line-height:0.75em !important;
+   //      //   overflow:hidden !important;
+   //      //}
+         
+   //   let {clW:clientWidth, scW:scrollWidth} = el;
+   //   //el.classList.add(textFitterClass);
+   //   el.style.fontSize = maxVw;
+   //   el.style.fontSize = (maxVw * el.clientWidth / el.scrollWidth) + "vw";
+   //}
+
+
+
+   function fitTextToCurrentContainerWithScreenRatio(el, hStaticPx=0, wStaticPx=0){
+      let {clH:clientHeight,clW:clientWidth, scH:scrollHeight, scW:scrollWidth} = el;
+      let compStyle = window.getComputedStyle(el);
+      let [vw,vh] = [window.innerWidth/100, window.innerHeight/100];
+
+      const isWidthOverflown = ({scrollWidth, clientWidth}) => scrollWidth > clientWidth;
+      
+      //calc fontSize in vw to have the text fill the whole line width
+         //set the width to a huge one, then proportionally shrink the text based on the generated overflow.
+         //wStaticPx:   convert to vw, subtract it from the calculated fitVw, then add it back again in the final computed style
+      const maxFontSize = 20+"vw"
+      el.style.fontSize = maxFontSize;
+      const maxFontSizeVw =  parseFloat( window.getComputedStyle(el).fontSize.slice(0,-2) ) / window.innerWidth * 100;
+      if(isWidthOverflown(el)){
+         var fitVw = (maxFontSizeVw * el.clientWidth / el.scrollWidth);
+         fitVw -= (wStaticPx / window.innerWidth * 100); //convert wStaticPx to Vw and subract it from fitVw
+         fitVw += "vw";
+      }
+      else
+         fitVw = maxFontSizeVw + "vw";
+
+      //calc fontSize in vh to have the text fill the whole height
+         //f() of el box's height
+      const fontSpecificHeightScale = 1; //Segoe UI
+      el.style.fontSize = maxFontSize;
+      let fitVh = el.clientHeight / window.innerHeight * 100 * fontSpecificHeightScale + "vh";
+
+      el.style.fontSize = "50px";
+      el.style.fontSize = `min(calc(${fitVw} + ${wStaticPx}px) , calc(${fitVh} + ${hStaticPx}px) )`;
+      console.log("el fontSize set to",el.style.fontSize);
+      return `min(calc(${fitVw} + ${wStaticPx}px) , calc(${fitVh} + ${hStaticPx}px) )`;
+   }
+
    //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
 /* ################################################################################################################################
    ################################### UIBUILDER ################################################################################## */
@@ -187,7 +245,7 @@
    for(let mKey in MACHINE_CFGS) {
       cfg=MACHINE_CFGS[mKey];
       cfg.displayName = mKey;
-      cfg.cellHeaderText = "Linea " + cfg.displayName;
+      cfg.cellHeaderText = "Local " + cfg.displayName;
       cfg.toA3Timeout = 2 * 60 * 1000;
       //cfg.toA4Timeout = this.toA4Timeout;
       cfg.initCellSignalKey = "noop";
@@ -210,16 +268,6 @@
       }
    }
 
-
-   function getInitedCell(){
-      return {
-         currentSignalKey:"noop",
-      }
-   }
-
-   function getInitedCellMatrix(nrows,ncols){
-      
-   }
 
    //function applyStyle(type, el){
    //   let blinkTimeOn = 800, 
@@ -271,6 +319,17 @@
    //      }
    //   }
    //}
+
+   /** delays the setting of the first interval until it matches the expected trigger of intervals of the same freq. 
+       * @param {function} intvSetter cb in charge of setting the intervals. 
+       * @param {Number} intvLen ms
+       * @param  {...any} setterParams passed to intvSetter()
+       */
+   function looseSync(intvSetter, intvLen, ...setterParams){
+      let freq = intvLen;
+      var tillNextTick = freq - (Date.now() % freq) //time until next tick
+      setTimeout(intvSetter, tillNextTick, ...setterParams); //does not guarantee sync, as it might be delayed by intensive tasks
+   }
 
    ///**
    // * @desc Immediately adds offClass, then intermittently toggles it.

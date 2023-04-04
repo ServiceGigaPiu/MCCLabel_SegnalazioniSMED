@@ -735,7 +735,7 @@
             "d610c787b889e968",
             "b5b49efa8368a832"
         ],
-        "x": 119,
+        "x": 104,
         "y": 64,
         "w": 592,
         "h": 172
@@ -6319,7 +6319,7 @@
         "z": "bdc10eb0bfc2c224",
         "g": "a740b5ba0ed51bd3",
         "name": "sequentially tests buttons",
-        "func": "\nlet macKeys = global.get(\"signalCells\").dictionary.macKeys;\nlet signalKeys = [\"A1\",\"A2\",\"B\",\"E\"];//global.get(\"signalCells\").dictionary.signalKeys\n\ncontext.set(\"mki\", context.get(\"mki\") ?? 0)\ncontext.set(\"ski\", context.get(\"ski\") ?? -1)\n\nlet mki=context.get(\"mki\");\nif(mki >= macKeys.length) mki = 0;\nlet ski=context.get(\"ski\");\nif (ski >= signalKeys.length) ski = 0;\n\nif(msg.control != \"replay\"){\n    ski++;\n    if(ski >= signalKeys.length){\n        mki++;\n        ski=0;\n    }\n}\nnode.warn(\"testing \"+signalKeys[ski]+\" of \"+macKeys[mki]+ \"with \"+ski+\" \"+mki)\nnode.send({ action: \"set\" + signalKeys[ski], topic: macKeys[mki] });\n    \n\n\n\ncontext.set(\"mki\",mki);\ncontext.set(\"ski\",ski);",
+        "func": "\nlet macKeys = global.get(\"signalCells\").dictionary.macKeys;\nlet signalKeys = [\"A1\"];//global.get(\"signalCells\").dictionary.signalKeys\n\ncontext.set(\"mki\", context.get(\"mki\") ?? 0)\ncontext.set(\"ski\", context.get(\"ski\") ?? -1)\n\nlet mki=context.get(\"mki\");\nif(mki >= macKeys.length) mki = 0;\nlet ski=context.get(\"ski\");\nif (ski >= signalKeys.length) ski = 0;\n\nif(msg.control != \"replay\"){\n    ski++;\n    if(ski >= signalKeys.length){\n        mki++;\n        ski=0;\n    }\n}\nnode.warn(\"testing \"+signalKeys[ski]+\" of \"+macKeys[mki]+ \"with \"+ski+\" \"+mki)\nnode.send({ action: \"set\" + signalKeys[ski], topic: macKeys[mki] });\n    \n\n\n\ncontext.set(\"mki\",mki);\ncontext.set(\"ski\",ski);",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6352,7 +6352,7 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 520,
+        "x": 490,
         "y": 3300,
         "wires": [
             []
@@ -7522,10 +7522,10 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "\n\n\nconst MACHINE_CFGS = {\n    \"FA419\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA420\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA421\": { toA4Timeout: 120 * 60 * 1000 },\n\n    \"FA422\": { toA4Timeout: 150 * 60 * 1000 },\n    \"FA423\": { toA4Timeout: 150 * 60 * 1000 },\n\n    \"OMET\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO41\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO42\": { toA4Timeout: 210 * 60 * 1000 }\n}\n\n/** {String[]} \"machine keys\". match the ones used in uibuilder's app. */\nconst macKeys = Object.keys(MACHINE_CFGS);\n/**  {String[]} devices that may be associated with each towersBitArray bit*/\nconst towersDevices = [\"redLight\", \"greenLight\", \"horn\"];\n{\n    let cfg;\n    for (let mKey in MACHINE_CFGS) {\n        cfg = MACHINE_CFGS[mKey];\n        cfg.displayName = mKey+\"_\";\n        cfg.cellHeaderText = \"Linea \" + cfg.displayName;\n        cfg.toA3Timeout = 20 * 60 * 1000;\n        //cfg.toA4Timeout = this.toA4Timeout;\n        cfg.initCellSignalKey = \"noop\";\n        cfg.initTowerBits = {};\n        for (let device of towersDevices) {\n            cfg.initTowerBits[device] = false\n        }\n    }\n}\n\nconst cellsLayout = [ //keys are: unique\n    [\"FA419\", \"FA420\", \"FA421\", \"FA422\"],\n    [\"FA423\", \"OMET\", \"MO41\", \"MO42\"],\n];\nflow.set(\"fallbackConfig\", {\n    machines: MACHINE_CFGS, \n    cellsLayout: cellsLayout,\n    /**  */\n    views:{\n        // \"display\":{ adminEnabled:this.cellsLayout.map( r => r.map(v => 0)) },\n        // \"SMED1\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==0 )) }, //admin on row 0\n        // \"SMED2\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==1 )) },\n        \"default\": { adminUI: [] }, //adminUI: <macKey>[] : machines to allow to interact with\n        \"display\":\"default\",\n        \"SMED1\":{\n            exactIpList:[\"192.168.19.116\"],\n            //adminUI:cellsLayout[0].map(v => v),\n            adminUI: [\"FA419\", \"FA420\", \"FA421\", \"FA422\",\"FA423\",\"OMET\"]\n        },\n        \"SMED2\":{\n            exactIpList:[\"192.168.19.117\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI:[\"MO41\",\"MO42\"]\n        },\n        \"supervisione\":{\n            exactIpList: [\"192.168.19.118\",\"192.168.19.120\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI: macKeys\n        }\n\n    }\n});\n\nnode.send(flow.get(\"fallbackConfig\"))",
+        "initialize": "\n\n\nconst MACHINE_CFGS = {\n    \"FA419\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA420\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA421\": { toA4Timeout: 120 * 60 * 1000 },\n\n    \"FA422\": { toA4Timeout: 150 * 60 * 1000 },\n    \"FA423\": { toA4Timeout: 150 * 60 * 1000 },\n\n    \"OMET\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO41\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO42\": { toA4Timeout: 210 * 60 * 1000 }\n}\n\n/** {String[]} \"machine keys\". match the ones used in uibuilder's app. */\nconst macKeys = Object.keys(MACHINE_CFGS);\n/**  {String[]} devices that may be associated with each towersBitArray bit*/\nconst towersDevices = [\"redLight\", \"greenLight\", \"horn\"];\n{\n    let cfg;\n    for (let mKey in MACHINE_CFGS) {\n        cfg = MACHINE_CFGS[mKey];\n        cfg.displayName = mKey;\n        cfg.cellHeaderText = cfg.displayName;\n        cfg.toA3Timeout = 20 * 60 * 1000;\n        cfg.toA4Timeout = cfg.toA4Timeout;\n        cfg.initCellSignalKey = \"noop\";\n\n        cfg.blinkIntvOn = 480;\n        cfg.blinkIntvOff = 270;\n        \n        cfg.initTowerBits = {};\n            towersDevices.forEach(dev => cfg.initTowerBits[dev] = false);\n        \n        \n        \n    }\n}\n\nconst cellsLayout = [ //keys are: unique\n    [\"FA419\", \"FA420\", \"FA421\", \"FA422\"],\n    [\"FA423\", \"OMET\", \"MO41\", \"MO42\"],\n];\nflow.set(\"fallbackConfig\", {\n    machines: MACHINE_CFGS, \n    cellsLayout: cellsLayout,\n    /**  */\n    views:{\n        // \"display\":{ adminEnabled:this.cellsLayout.map( r => r.map(v => 0)) },\n        // \"SMED1\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==0 )) }, //admin on row 0\n        // \"SMED2\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==1 )) },\n        \"default\": { adminUI: [] }, //adminUI: <macKey>[] : machines to allow to interact with\n        \"display\":\"default\",\n        \"SMED1\":{\n            exactIpList:[\"192.168.19.116\"],\n            //adminUI:cellsLayout[0].map(v => v),\n            adminUI: [\"FA419\", \"FA420\", \"FA421\", \"FA422\",\"FA423\",\"OMET\"]\n        },\n        \"SMED2\":{\n            exactIpList:[\"192.168.19.117\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI:[\"MO41\",\"MO42\"]\n        },\n        \"supervisione\":{\n            exactIpList: [\"192.168.19.118\",\"192.168.19.120\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI: macKeys\n        }\n\n    }\n});\n\nnode.send(flow.get(\"fallbackConfig\"))",
         "finalize": "",
         "libs": [],
-        "x": 260,
+        "x": 245,
         "y": 150,
         "wires": [
             []
@@ -7591,7 +7591,7 @@
         "initialize": "// I didn't find a way to required:{$ref:$def/macKey/enum}\n    //so that editing the enum would edit the required as well\nconst macKeys=[\"FA419\",\"FA420\",\"FA421\",\"FA422\",\"FA423\",\"MO41\",\"MO42\",\"OMET\"];\nconst def = {\n    //\"$schema\":\"http://json-schema.org/draft-07/schema#\",\n    //\"title\":\"commonConfigSchema\",\n    //\"description\":\"global common config for this project\",\n    \"$defs\":{\n        \"javascriptFalsy\":{\n            \"enum\":[false, 0, null, \"\"]\n        },\n        \"macKey\":{\n            \"type\":\"string\",\n            \"enum\":macKeys\n        },\n        \"signalKey\":{\n            \"type\":\"string\",\n            \"enum\":[\"noop\",\"A1\",\"A2\",\"A3\",\"A4\",\"B\",\"C1\",\"C2\",\"D\",\"E\"],\n            \"default\":\"noop\"\n        },\n        \"towerDevice\":{\n            \"type\":\"string\",\n            \"enum\":[\"redLight\",\"greenLight\",\"horn\"]\n        },\n        \"machine\":{\n            \"type\":\"object\",\n            \"properties\":{\n                \"displayName\":{\"type\":\"string\", \"default\":\"this.parent.key\"},\n                \"cellHeaderText\":{\"type\":\"string\", \"default\":\"Linea + this.displayName\"},\n                \"toA3Timeout\":{\"type\":\"integer\", \"minimum\":0, \"default\":20000},\n                \"toA4Timeout\":{\"type\":\"integer\", \"minimum\":0, \"default\":\"120*60*1000\"},\n                \"initCellSignalKey\":{\"$ref\":\"#/$defs/signalKey\", \"default\":\"noop\"},\n                \"initTowerBits\":{\n                    \"type\":\"object\",\n                    \"propertyNames\":{\"$ref\":\"#/$defs/towerDevice\"},\n                    \"patternProperties\":{\".\":{\"enum\":[0, 1, true, false], \"default\":0}}\n                }\n            },\n            \"$comment\":\"exactly all the props are required\",\n            \"additionalProperties\":false,\n            \"required\":[\"displayName\", \"cellHeaderText\", \"toA3Timeout\", \"toA4Timeout\", \"initCellSignalKey\", \"initTowerBits\"]\n        }\n    },\n    \"type\":\"object\",\n    \"properties\":{\n        \"machines\":{\n            \"$description\": \"holding machine-specific configs. Made up of macKey:config pairs\",\n            \"type\":\"object\",\n            \"propertyNames\":{\"$ref\":\"#/$defs/macKey\"},\n            \"patternProperties\":{\".\":{\"$ref\":\"#/$defs/machine\"} },\n            \"additionalProperties\":false,\n            //\"required\":{\"$ref\":\"#/$defs/macKey/enum\"},\n            \"required\": macKeys\n        },\n        \"cellsLayout\":{\n            \"$description\": \"define the UI grid layout. grid will match this matrix\",\n            \"type\":\"array\",\n            \"items\":{\n                \"type\":\"array\",\n                \"items\":{\"anyOf\":[{\"$ref\":\"#/$defs/macKey\"},{\"$ref\":\"#/$defs/javascriptFalsy\"}]},\n                \"minItems\":1\n            },\n            \"minItems\":1,\n            \"default\":[[\"FA419\",\"FA420\",\"FA421\",\"FA422\"], [\"FA423\",\"OMET\",\"MO41\",\"MO42\"]]\n        }\n    },\n    \"required\":[\"cellsLayout\", \"machines\"],\n    \"additionalProperties\":false,\n};\n\n\n\nflow.set(\"commonConfigSchema\", def);\n//node.send(def);\nnode.status({fill: \"green\", text: Object.keys(def).join(' & ') });",
         "finalize": "",
         "libs": [],
-        "x": 275,
+        "x": 260,
         "y": 195,
         "wires": [
             []
@@ -7606,7 +7606,7 @@
         "name": "globalConfig isDefinedEvent",
         "mode": "link",
         "links": [],
-        "x": 565,
+        "x": 550,
         "y": 195,
         "wires": [],
         "l": true
@@ -8001,7 +8001,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 570,
+        "x": 555,
         "y": 150,
         "wires": [
             []
@@ -8256,6 +8256,7 @@
         "id": "829cb3bdb9fa3035",
         "type": "modbus-flex-getter",
         "z": "c1d4418a6f1f1693",
+        "d": true,
         "g": "5f741e9d0e05f1e2",
         "name": "query Pulsantiere (ZBRN1-23KF1)",
         "showStatusActivities": true,
@@ -8611,6 +8612,7 @@
         "id": "373eabc42a374888",
         "type": "modbus-flex-write",
         "z": "c1d4418a6f1f1693",
+        "d": true,
         "g": "f36f49dc5a6fb0d2",
         "name": "write to PLC Torri (ZBRCETH)",
         "showStatusActivities": true,
@@ -9102,6 +9104,7 @@
         "id": "4b19f38c86bf496d",
         "type": "modbus-flex-getter",
         "z": "c1d4418a6f1f1693",
+        "d": true,
         "g": "9bc629dadf51c057",
         "name": "query Pulsantiere #2 (ZBRN1-23KF2)",
         "showStatusActivities": true,
@@ -12414,7 +12417,7 @@
         "z": "76b05f87a5290cf6",
         "g": "478c85d69cf2eb8c",
         "name": "msg std enforcer",
-        "func": "let uib = msg;\nconst signalCells = global.get(\"signalCells\");\n//const dateFns = global.get(\"dateFns\"); node.warn({\"dateFns\":dateFns})\n\nuib.prepareMsg_setCellSignal = (msg, mKey, signalKey) => {\n    msg.macKey = mKey;\n    msg.toSignalKey = signalKey\n    return msg;\n}\n\nuib.prepareMsg_setSingleCellSignal = (msg, mKey, signalKey) => {\n    msg.macKey = mKey;\n    msg.toSignalKey = signalKey\n    return msg;\n}\n\nuib.prepareMsg_setSingleCellState = (msg, macKey, signalCell) => {\n    msg.topic = \"setSingleCellState\";\n    msg.macKey = macKey;\n    msg.fromSignalCellState = {\n        \"signalKey\":signalCell.signalKey,\n        \"timerStart\":signalCell.timerStart,\n        \"timerEnd\":signalCell.timerEnd,\n    }\n    return msg;\n}\n\n\nuib.prepareMsg_appInit = (msg, viewKey) => {\n    const cfg = global.get(\"config\");\n    const signalCells = global.get(\"signalCells\");\n\n    if(!cfg || !signalCells) node.error(\"prepareMsg_appInit(): globals are still undefined\")\n    \n    msg.topic=\"appInit\";\n    msg.cellsLayout = cfg.cellsLayout;\n    msg.config = cfg;\n    msg.signalCellsStates = signalCells;\n    msg.viewKey = viewKey;\n    msg.adminUI = cfg.views[viewKey].adminUI;\n    //msg.signalCellsState = (var ret=[] for(let k in signalCells.dictionary.macKeys) ret[macKey]=)();\n\n    //sync times between client and server comparing the results of parsing the same string\n    msg.timeSync = {\n        now:Date.now()\n        //formatString: '01 Jan 2000 00:00:00',   result:Date.now()-Date.parse('01 Jan 2000 00:00:00')\n    };\n\n    return msg;\n}\n\nuib.validate = (msg, additionalProps=true, _node=node)=>{\n    if(!uib[\"prepareMsg_\"+msg.topic]){\n        _node.error(\"unknown uib message topic '\"+msg.topic+\"'\",{txt:\"unknown uib message topic '\"+msg.topic+\"'\",fullMsg:msg})\n        return false;\n    }\n    let template = uib[\"prepareMsg_\"+msg.topic];\n    for(let p in template){\n        if(!msg[p])\n            return false;\n    }\n\n}\n\nglobal.set(\"uibuilder\",uib)\n\n\n\nlet allKeys = Object.keys(uib);\nlet definedHere = [];\nfor(let k of allKeys)\n    if(k.match(\"prepareMsg\") || k==\"validate\")\n        definedHere.push(k)\n        \nnode.status({ fill: \"green\", text: definedHere.join(' & ') });\nnode.send(msg);",
+        "func": "let uib = msg;\nconst signalCells = global.get(\"signalCells\");\n//const dateFns = global.get(\"dateFns\"); node.warn({\"dateFns\":dateFns})\n\nuib.prepareMsg_setCellSignal = (msg, mKey, signalKey) => {\n    msg.macKey = mKey;\n    msg.toSignalKey = signalKey\n    return msg;\n}\n\nuib.prepareMsg_setSingleCellSignal = (msg, mKey, signalKey) => {\n    msg.macKey = mKey;\n    msg.toSignalKey = signalKey\n    return msg;\n}\n\nuib.prepareMsg_setSingleCellState = (msg, macKey, signalCell) => {\n    msg.topic = \"setSingleCellState\";\n    msg.macKey = macKey;\n    msg.fromSignalCellState = {\n        \"signalKey\":signalCell.signalKey,\n        \"timerStart\":signalCell.timerStart,\n        \"timerEnd\":signalCell.timerEnd,\n    }\n    return msg;\n}\n\n\nuib.prepareMsg_appInit = (msg, viewKey) => {\n    const cfg = global.get(\"config\");\n    const signalCells = global.get(\"signalCells\");\n\n    if(!cfg || !signalCells) node.error(\"prepareMsg_appInit(): globals are still undefined\")\n    \n    msg.topic=\"initApp\";\n    msg.cellsLayout = cfg.cellsLayout;\n    msg.config = cfg;\n    msg.signalCellsStates = signalCells;\n    msg.viewKey = viewKey;\n    msg.adminUI = cfg.views[viewKey].adminUI;\n    //msg.signalCellsState = (var ret=[] for(let k in signalCells.dictionary.macKeys) ret[macKey]=)();\n\n    //sync times between client and server comparing the results of parsing the same string\n    msg.timeSync = {\n        now:Date.now()\n        //formatString: '01 Jan 2000 00:00:00',   result:Date.now()-Date.parse('01 Jan 2000 00:00:00')\n    };\n\n    return msg;\n}\n\nuib.validate = (msg, additionalProps=true, _node=node)=>{\n    if(!uib[\"prepareMsg_\"+msg.topic]){\n        _node.error(\"unknown uib message topic '\"+msg.topic+\"'\",{txt:\"unknown uib message topic '\"+msg.topic+\"'\",fullMsg:msg})\n        return false;\n    }\n    let template = uib[\"prepareMsg_\"+msg.topic];\n    for(let p in template){\n        if(!msg[p])\n            return false;\n    }\n\n}\n\nglobal.set(\"uibuilder\",uib)\n\n\n\nlet allKeys = Object.keys(uib);\nlet definedHere = [];\nfor(let k of allKeys)\n    if(k.match(\"prepareMsg\") || k==\"validate\")\n        definedHere.push(k)\n        \nnode.status({ fill: \"green\", text: definedHere.join(' & ') });\nnode.send(msg);",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",

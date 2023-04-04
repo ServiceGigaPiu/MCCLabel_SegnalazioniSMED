@@ -51,37 +51,45 @@ Vue.component("displayGridView",{
 /* ################################################################################################################################
    ############################  COMPONENTS  ###################################################################################### */
 
-
 const __SIGNAL_CELL_COMPONENT__ = "";
-
 var retSignalCellObj=function(){return {
       template: `
             <div v-bind:class="[signalClass, isBlinkingNow?blinkClass:'']" >
-               <div class="cell-header">
-                  {{machineName}}
+               <div class="cell-header" ref="cellheader">
+                  {{headerText}}
                </div>
-               <div class="countdown-container" v-bind:style="{visibility: isCdShown ? 'visible' : 'hidden'}">
-                  <div class="countdown-clock">
-                     <span>{{cd.minutesClockText}}<span>{{cd.secondsClockText}}</span></span>
+               <div class="label-container">
+                  <span class="prefix">
+                     <span class="bgr-box" v-bind:class="[signalClass, isBlinkingNow?blinkClass:'']">  VELOCITA'   </span>
+                  </span>
+                  <div>
+                     <span class="value">82</span>    <span class="suffix">m/min</span>
                   </div>
+               </div>
+               <div class="countdown-container" v-bind:style="{visibility: isCdShown ? 'visible' : 'visible'}">
                   <div class="progress rounded-pill">
+                     <div class="relative-wrapper">
+                        <div class="countdown-clock">
+                           <span>{{cd.minutesClockText}}<span>{{cd.secondsClockText}}</span></span>
+                        </div>
+                     </div>
                      <div v-bind:style="{ width: cd.progBarWidth+'%' }" class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" v-bind:aria-valuenow="cd.progBarWidth" aria-valuemin="0" aria-valuemax="100" ></div>
                   </div>
                </div>
             </div>
       `,
-
+      //using ResizeObserver(cb)  observe(el)
       props:{
-         initSignal: { default: "noop", validator:(k) => ["noop","A1", "A2", "A3", "A4","B","C1","C2","D","E"].includes(k) },
-         machineName: { type:String, default:"UNKN" },
+         machineKey: { type:String, default:"UNKN" },
+         displayName:{ type:String, default:"this.$props.machineKey" },
+         headerText:{ Type:String },
          signalKey:{ default: "noop", validator:(k) => ["noop","A1", "A2", "A3", "A4","B","C1","C2","D","E"].includes(k) },
          timerLength:{ default: 0, type:Number},
-         remainingMs:{ default:0, type:Number}
+         remainingMs:{ default:0, type:Number},
       },
 
+
       data: function (){   return {
-            headerText:"Linea "+this.machineName,
-            //signalKey:this.signalKey,
             isBlinkingNow:false, //toggles blinkOff style
             inBlinkMode:false,
                //blinkIntvOn
@@ -113,9 +121,13 @@ var retSignalCellObj=function(){return {
          /** changes the whole cell display, programs events and countdowns */
          signalKey:{
             handler:function switchDisplay(newVal, oldVal){ 
-               this.applyStyle(newVal);
+               this.inBlinkMode = (["A1","A4"].includes(this.signalKey));
             },
             immediate:true
+         },
+
+         headerText:{
+            handler:function (oldVal,newVal){ fitTextToCurrentContainerWithScreenRatio(this.$el.getElementsByClassName("cell-header")[0]); }
          },
 
          remainingMs:{
@@ -132,20 +144,6 @@ var retSignalCellObj=function(){return {
             },
             immediate:true
          },
-         //"cd.remainingMs":{
-         //   handler:function chainUpdate(newVal, oldVal){
-         //      if(this.cd.remainingMs <= 0){
-         //         this.cd.remainingMs = 0;
-         //         this.isCdShown = false;
-         //      }
-         //      this.cd.minutes = Math.trunc( this.cd.remainingMs / (60*1000) );
-         //      this.cd.seconds = Math.round( (this.cd.remainingMs - (this.cd.minutes * 60*1000) ) / 1000 );
-         //      this.cd.minutesClockText = this.cd.minutes + '';
-         //      this.cd.secondsClockText = ':'+fixedDigits(this.cd.seconds,2);
-         //      this.cd.progBarWidth = 100 - Math.round(this.cd.remainingMs / this.cd.timerLength);
-         //   },
-         //   immediate:true
-         //},
 
          inBlinkMode:{
             handler:function toggle(newVal, oldVal){
@@ -162,51 +160,6 @@ var retSignalCellObj=function(){return {
       },
 
       methods:{
-         /**  apply the configs associated to a certain "signalKey".
-          * invoked by watcher */
-         applyStyle: function(params={}){
-            let blinkTimeOn = 800, 
-               blinkTimeOff = 350;
-            
-            ////reset what needs to be
-            //   //stop blinking if you were
-            //if(this.inBlinkMode && !this.signalKey.match("A"));
-            //   this.inBlinkMode = false;
-
-            //apply associated style
-            //auto with computed prop //this.signalClass = "signal-"+this.signalKey;
-            
-            //set blink timeouts and other stuff
-            switch(this.signalKey){
-               case "A1":{
-                  this.inBlinkMode = true;
-                  //this.isCdShown = true; //show countdownBlock
-                  //this.startCountdown(this.cd, 20*60*1000);
-                  //this.setApplyStyleTimeout(this,"A3",20*60*1000,this.signalKey);
-                  break;
-               }
-               case "A2":{
-                  this.inBlinkMode = false;
-                  break;
-               }
-               case "A3":{
-                  this.inBlinkMode = false;
-                  break;
-               }
-               case "A4":{
-                  this.inBlinkMode = true;
-                  break;
-               }
-               default:{
-                  this.inBlinkMode = false;
-                  //this.isCdShown = false;
-                     //cancel programmed state-changes
-                  //if(this.touts)
-                  //for(key in this.touts)
-                  //   clearTimeout(this.touts[key]);
-               }
-            }
-         },
 
          /** set programmed state-change timeout.
           *  Stores a ref to the tout in ctx.touts.XtoX where Xs are toState and fromState
@@ -233,24 +186,28 @@ var retSignalCellObj=function(){return {
           * @param {number} timeOff ms 
           */
          setupBlinker: function (ctx, timeOn, timeOff){
-            if(ctx.blinkIntvOn != undefined || ctx.blinkIntvOff != undefined){
-               console.warn("attachBlink: property clash with name blinkIntv[On|Off]. overwritten.", ctx);
-               removeBlinker(ctx);
+            const setupper = ()=>{
+               if(ctx.blinkIntvOn != undefined || ctx.blinkIntvOff != undefined){
+                  console.warn("attachBlink: property clash with name blinkIntv[On|Off]. overwritten.", ctx);
+                  removeBlinker(ctx);
+               }
+
+               //add offClass now and every timeOff+timeOn ms
+               ctx.isBlinkingNow = true; //adds class to template
+               ctx.blinkIntvOff = setInterval(()=>{
+                  ctx.isBlinkingNow = true;
+               },timeOff+timeOn);
+         
+               //after timeOff: remove class now and every timeOn+timeOff ms
+               setTimeout(()=>{
+                  ctx.isBlinkingNow = false; //removes class from template
+                  ctx.blinkIntvOn = setInterval(()=>{
+                     ctx.isBlinkingNow = false;
+                  },timeOn+timeOff);
+               },timeOff)
             }
-      
-            //add offClass now and every timeOff+timeOn ms
-            ctx.isBlinkingNow = true; //adds class to template
-            ctx.blinkIntvOff = setInterval(()=>{
-               ctx.isBlinkingNow = true;
-            },timeOff+timeOn);
-      
-            //after timeOff: remove class now and every timeOn+timeOff ms
-            setTimeout(()=>{
-               ctx.isBlinkingNow = false; //removes class from template
-               ctx.blinkIntvOn = setInterval(()=>{
-                  ctx.isBlinkingNow = false;
-               },timeOn+timeOff);
-            },timeOff)
+            looseSync(setupper,timeOff+timeOn,ctx,timeOn,timeOff);
+
          },
          /** undo what setupBlinker did */
          removeBlinker: function (ctx){
@@ -259,31 +216,11 @@ var retSignalCellObj=function(){return {
             delete ctx.blinkIntvOn;
             delete ctx.blinkIntvOff;
          },
-
-         ///**
-         // * setups the variables and intervals responsible for the countdown elements animations.
-         // * - adds to cdObj: timerLenght, end, minutes, seconds, refreshIntv.
-         // * - refreshIntv updates both clock and bar.
-         // * @param {Object} ctx where to store and retrieve stateful data
-         // * @param {number} msFromNow delay in ms, lenght of the countdown.
-         // * @param {function} onComplete optional callback
-         // */
-         //startCountdown: function(ctx, msFromNow, onComplete=noOp){
-         //   ctx.timerLength = msFromNow; //bar ratio depends on this
-         //   ctx.end = nrDateNow() + msFromNow; //unix time in ms when countdown will be completed
-         //   ctx.remainingMs = msFromNow;
-
-         //   //refresh now and at 1s interval
-         //   clearInterval(ctx.refreshIntv);
-         //   ctx.refreshIntv = setInterval(()=>{
-         //      ctx.remainingMs = Math.max(0, ctx.end - nrDateNow());
-         //      if(ctx.remainingMs <= 0){
-         //         clearInterval(ctx.refreshIntv);
-         //         onComplete();
-         //      }
-         //   },1000);
-         //}
       },
+
+      mounted(){
+         fitTextToCurrentContainerWithScreenRatio(this.$el.getElementsByClassName("cell-header")[0], 0, -4);
+      }
    };
 }
 Vue.component("signalCell",retSignalCellObj());
@@ -293,7 +230,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
       <div>
          <div v-bind:class="[signalClass, isBlinkingNow?blinkClass:'']" style="padding-bottom:1vh;">
             <div class="cell-header" style="font-size:5vh; max-height:7vh; text-align:left; ">
-               {{machineName}}
+               {{headerText}}
             </div>
             <div class="countdown-container" v-bind:style="{visibility: isCdShown ? 'visible' : 'hidden'}" style="margin-top:0px; display:flex;">
                <div class="countdown-clock" style="margin-left:5%; display:inline-block;">
@@ -331,10 +268,9 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
       </div>
    `,
    data:(function (){
-      return function (app){
+      return function (vr){
          let inheritedDataObj = retSignalCellObj().data(); //careful where you place this, or all admin cells will point the same obj.
          return mergeRec(inheritedDataObj,{
-            headerText:"Linea "+app.machineName,
             //signalKey:app.initSignal,
             actionList:[
                { id:"goToA2",extraAttr:{},variant:"info",separateIconColor:"",buttonText:"Prendi in Carico", subButtonText:"in Carico", iconName:"bell-slash-fill", iconScale:"0.75", innerSpanHTML:"", isDisabled:false },
@@ -467,6 +403,8 @@ const app = new Vue({
             userPw      : null,
             inputId     : '',
 
+               //project specific
+
             JS_DATE_OFFSET:0,
             CELLS_LAYOUT:CELLS_LAYOUT,
             MACHINE_CFGS:MACHINE_CFGS,
@@ -480,8 +418,8 @@ const app = new Vue({
                      let cfg = MACHINE_CFGS[mKey];
                      obj[mKey]={
                         signalKey:cfg.initCellSignalKey,
-                        machineName:cfg.displayName,
-                        //callStartCd:{trigger:true,params:{}},
+                        displayName:cfg.displayName,
+                        headerText:cfg.cellHeaderText,
                         cd:{
                            timerLength:20000,
                            remainingMs:0,
@@ -491,79 +429,9 @@ const app = new Vue({
                   }
                return obj;
             })(),
-            //as grid[][] //reference signalCells[mKey]
-            //cells:((app)=>{
-            //   console.log(app);
-            //   var ret = new Array(NROWS);
-            //   for(let r=0; r<NROWS; r++){
-            //      ret[r] = new Array(NCOLS);
-            //      for(let c=0; c<NCOLS; c++){
-            //         ret[r][c]=app.signalCells[CELLS_LAYOUT[r][c]]; //error: $data not yet defined (obviously)
-            //      }
-            //   }
-            //   return ret;
-            //})(this),
-            //xcells: (function (){
-            //   var ret = new Array(NROWS);
-            //   for(let r=0; r<NROWS; r++){
-            //      ret[r] = new Array(NCOLS);
-            //      for(let c=0; c<NCOLS; c++){
-            //         ret[r][c]= 
-            //         {
-            //            signalKey:"noop",
-            //            machineName:MACHINE_CFGS[CELLS_LAYOUT[r][c]].name,
-            //            /*currSignalKey:"noop",
-            //            signalClass:"signal-noop",
-            //            blinkClass:"signal-noop-blinkoff",
-            //            isBlinking:false,
-            //            headerText:"Linea MO41",
-            //            //countdown-related //see startCountdown() method for most info
-            //               //f() of _ put here and updated with watch() cuz they belong to the cd object and there is no syntax alternative.
-            //               //cd should probably be its own component, then those could be std computed props.
-            //            isCdShown:false,
-            //            cd:{
-            //                  //refreshIntv
-            //               timerLength:1, 
-            //               remainingMs:0,
-            //               minutes:0, //f() of remainingMs
-            //               seconds:0, //f() of remainingMs
-            //               onComplete:noop, //non-reactive
-            //               progBarWidth:0, //f() of remainingMs & timerLength
-            //            }*/
-            //         }
-            //      }
-            //   }
-            //   return ret;
-            //})()
-
-            //vcharts: charts,
-
         }
     }, // --- End of data --- //
     computed: {
-      /* add space to comment -> */
-      hLastRcvd: function() {
-         var msgRecvd = this.msgRecvd
-         if (typeof msgRecvd === 'string') return 'Last Message Received = ' + msgRecvd
-         return 'Last Message Received = ' + this.syntaxHighlight(msgRecvd)
-      },
-      hLastSent: function() {
-         var msgSent = this.msgSent
-         if (typeof msgSent === 'string') return 'Last Message Sent = ' + msgSent
-         return 'Last Message Sent = ' + this.syntaxHighlight(msgSent)
-      },
-      hLastCtrlRcvd: function() {
-         var msgCtrl = this.msgCtrl
-         if (typeof msgCtrl === 'string') return 'Last Control Message Received = ' + msgCtrl
-         return 'Last Control Message Received = ' + this.syntaxHighlight(msgCtrl)
-      },
-      hLastCtrlSent: function() {
-         var msgCtrlSent = this.msgCtrlSent
-         if (typeof msgCtrlSent === 'string') return 'Last Control Message Sent = ' + msgCtrlSent
-         return 'Last Control Message Sent = ' + this.syntaxHighlight(msgCtrlSent)
-      },
-
-      /**/
 
     }, // --- End of computed --- //
     methods: {
@@ -586,76 +454,42 @@ const app = new Vue({
          },
          /** expects ctx to contain ctx.end:number */
          setupCountdownRefresher(ctx,onComplete=noOp){
-            clearInterval(ctx.refreshIntv);
-            ctx.refreshIntv = setInterval(()=>{
-               ctx.remainingMs = Math.max(0, ctx.end - nrDateNow());
-               if(ctx.remainingMs <= 0){
-                  clearInterval(ctx.refreshIntv);
-                  onComplete();
-               }
-            },1000);
+            looseSync(()=>{
+               clearInterval(ctx.refreshIntv);
+               ctx.refreshIntv = setInterval(()=>{
+                  ctx.remainingMs = Math.max(0, ctx.end - nrDateNow());
+                  if(ctx.remainingMs <= 0){
+                     clearInterval(ctx.refreshIntv);
+                     onComplete();
+                  }
+               },1000);
+            },1000)
+            
          },
          clearCountdown:function(ctx){ //#TODO 
             ctx.remainingMs=0;
             clearInterval(ctx.refreshIntv);
             delete ctx.refreshIntv;
          },
-         setRemainingMs(mKey,value){
-            this.signalCells[mKey].cd.remainingMs = value;
-         },
-         //setCallStartCd(e, macKey, trigger, params){
-         //   this.$data.signalCells[macKey].callStartCd.params = params;
-         //   this.$data.signalCells[macKey].callStartCd.trigger = trigger;
-         //},
-         sendToServery(type,topic,msg){
-               return sendToServer(type,topic,msg);
-         },
 
-        //app.$data.NR_TIME_OFFSET=null; //set by appInit //difference between Date.now("dateStr") called server side and here.//ST-CT = diff  ->  ST = diff + CT
-         vue_nrDateNow(){
-            app.$data.NR_TIME_OFFSET ?? console.warn("[nrDateNow()]: NR_TIME_OFFSET not set. Assuming 0");
-            return Date.now() + app.$data.NR_TIME_OFFSET
-         },
-        // Called from the increment button - sends a msg to Node-RED
-        increment: function(event) {
-            //console.log('Button Pressed. Event Data: ', event)
-
-            // Increment the count by one
-            this.counterBtn += 1
-            var topic = this.msgRecvd.topic || 'uibuilder/vue'
-            uibuilder.send( {
-                'topic': topic,
-                'payload': {
-                    'type': 'counterBtn',
-                    'btnCount': this.counterBtn,
-                    'message': this.inputText,
-                    'inputChkBox': this.inputChkBox
-                }
-            } )
-
-        }, // --- End of increment --- //
-
-        // REALLY Simple method to return DOM events back to Node-RED. See the 2nd b-button on the default html
-        doEvent: uibuilder.eventSend,
-
-        // return formatted HTML version of JSON object
-        syntaxHighlight: function(json) {
+         // return formatted HTML version of JSON object
+         syntaxHighlight: function(json) {
             json = JSON.stringify(json, undefined, 4)
             json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
             json = json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
-                var cls = 'number'
-                if ((/^"/).test(match)) {
-                    if ((/:$/).test(match)) {
-                        cls = 'key'
-                    } else {
-                        cls = 'string'
-                    }
-                } else if ((/true|false/).test(match)) {
-                    cls = 'boolean'
-                } else if ((/null/).test(match)) {
-                    cls = 'null'
-                }
-                return '<span class="' + cls + '">' + match + '</span>'
+               var cls = 'number'
+               if ((/^"/).test(match)) {
+                  if ((/:$/).test(match)) {
+                     cls = 'key'
+                  } else {
+                     cls = 'string'
+                  }
+               } else if ((/true|false/).test(match)) {
+                  cls = 'boolean'
+               } else if ((/null/).test(match)) {
+                  cls = 'null'
+               }
+               return '<span class="' + cls + '">' + match + '</span>'
             })
             return json
         }, // --- End of syntaxHighlight --- //
@@ -667,17 +501,7 @@ const app = new Vue({
     /** Called after the Vue app has been created. A good place to put startup code */
     created: function() {
       var app = this; //app defined, app.$data defined
-      /*for(let r in this.cells)
-         for(let c of this.cells[r]){
-            this.$watch(`cells.${r}.${c}.currSignalKey`,{
-               handler:function (newVal, oldVal){
-
-               },
-               deep:false,
-               immediate:true
-            })
-         }
-*/
+      
       // Example of retrieving data from uibuilder
       this.feVersion = uibuilder.get('version')
 
@@ -713,25 +537,27 @@ const app = new Vue({
       })
 
       //use setSingleCellState for all
-      uibuilder.onTopic("appInit",(msg)=>{
+      uibuilder.onTopic("initApp",(msg)=>{
          try{
-            let errCb = (attr,ret=undefined) => {console.error("missing attribute "+attr+" in onTopic(appInit) response", msg); return undefined};
+            let errCb = (attr,ret=undefined) => {console.error("missing attribute "+attr+" in onTopic(initApp) response", msg); return undefined};
             //app.CELLS_LAYOUT = msg.cellsLayout ?? errCb("cellsLayout");
             //try{ app.MACHINE_CFGS = msg.config.machines } catch(e) {errCb("config.machines")};
 
             //sync time between server and client
-            //console.warn("timeSync:","result is ",msg.timeSync.result, "of type",typeof(msg.timeSync.result))
-            //console.warn("since Date.now is",Date.now(),new Date().toString(), "and parsing ",msg.timeSync.formatString," gives ",Date.parse(msg.timeSync.formatString))
             NR_TIME_OFFSET = msg.timeSync.now + 100 - Date.now();//Date.parse(msg.timeSync.formatString);
             //console.warn("NR_TIME_OFFSET becomes ",NR_TIME_OFFSET," and its function returns ",nrDateNow(),"with a diff of ",new Date(nrDateNow()).toString() )
 
             //set all signalCells from nr_signalCellState (same as onTopic(setSingleSignalCellState) )
-            {let cell,state; for(let macKey of msg.signalCellsStates.dictionary.macKeys){
+            {let cell,state,cfg; for(let macKey of msg.signalCellsStates.dictionary.macKeys){
                cell = app.$data.signalCells[macKey];
                state = msg.signalCellsStates[macKey];
+               cfg = msg.config.machines[macKey];
                console.warn("parsing ",macKey,"pointing cell,state:",cell, state)
 
                cell.signalKey = state.signalKey ?? errCb("signalCellsStates.[macKey].signalKey");
+               cell.displayName = cfg.displayName;
+               cell.headerText = cfg.cellHeaderText;
+
                //if no timer-related data was sent or time's up
                   //hide timer
                if(!state.timerEnd || nrDateNow() > state.timerEnd){
@@ -747,14 +573,8 @@ const app = new Vue({
                   app.setupCountdownRefresher(cell.cd)
                }
             }}
-            //apply init-time-only configs
-            {let cell,state; for(let macKey in msg.signalCells){
-               cell = app.$data.signalCells[macKey];
-               //cfg = msg.config.machines[macKey];
-               
-               //cell.displayName = cfg.displayName;
-            }}
-         
+
+
             //set CELL_VIEW from config.views[viewKey]
             let viewKey = msg.viewKey;          if(!msg.config.views || !msg.config.views[viewKey]) throw new TypeError(`[onTopic initApp]: missing viewKey ${viewKey} from msg.config.views `);
             let viewCfg = msg.config.views[viewKey]; //msg.config.views[viewKey];  
@@ -770,7 +590,7 @@ const app = new Vue({
             if(e instanceof TypeError) console.error(e.message);
             else throw e;
          }
-         console.info("[initApp]: inited with",msg.viewKey,msg," to ",app.CELLS_LAYOUT, app.CELLS_VIEW,ObjectClone(app.signalCells))
+         console.info("[initApp]: inited with",msg.viewKey,msg," to CL",app.CELLS_LAYOUT,"to CV", app.CELLS_VIEW,"to SCells",ObjectClone(app.signalCells))
       });
 
 
@@ -785,27 +605,9 @@ const app = new Vue({
 
 
       var app = this  // Reference to `this` in case we need it for more complex functions
-      console.info("VUE REFS",{app:app,data:app.$data})
+      console.info("VUE REFS","use window.vueApp")
       
-      /**
-       * expects { macKey: , toSignalKey:}
-       */
-      //uibuilder.onTopic("setSingleCellSignal",function(msg){
-      //   //get macKey //#CHECK remove loose attribute-lookup? enforce names?
-      //   let macKey = msg.macKey ?? msg.mKey ?? msg.machineKey ?? msg.mName ?? msg.machineName;
-      //   if(!macKey){
-      //      let col = msg.col ?? msg.column ?? msg.c;
-      //      let row = msg.row ?? msg.row ?? msg.r;
-      //      if(typeof(col)!="number" || typeof("row")!="number"){
-      //         console.error("missing attributes in onTopic(setSingleCellSignal) response",msg);
-      //         return
-      //      }
-      //      else
-      //         macKey = CELLS_LAYOUT[row][col];
-      //   }
-      //   app.$data.signalCells[macKey].signalKey = msg.toSignalKey;
-      //});
-
+      
       /**
        * expects { macKey: , fromSignalCellState: {signalKey: ,timerStart: ,timerEnd: }}
        */
@@ -847,9 +649,10 @@ const app = new Vue({
       
 
       //#region ---- Debug info, can be removed for live use ---- //
+         const uibDebug = false;
 
          // If msg changes //msg is updated when a standard msg is received from Node-RED over Socket.IO
-         uibuilder.onChange('msg', function(msg){
+         uibDebug && uibuilder.onChange('msg', function(msg){
             console.info('[indexjs:uibuilder.onChange] msg received from Node-RED server:', msg)
             app.msgRecvd = msg
             app.msgsReceived = uibuilder.get('msgsReceived')
@@ -859,7 +662,7 @@ const app = new Vue({
           */
 
          // If we receive a control message from Node-RED, we can get the new data here - we pass it to a Vue variable
-         uibuilder.onChange('ctrlMsg', function(msg){
+         uibDebug && uibuilder.onChange('ctrlMsg', function(msg){
                console.info('[indexjs:uibuilder.onChange:ctrlMsg] CONTROL msg received from Node-RED server:', msg)
                app.msgCtrl = msg
                app.msgsControl = uibuilder.get('msgsCtrl')
@@ -868,14 +671,14 @@ const app = new Vue({
          /** You probably only need these to help you understand the order of processing
           * If a message is sent back to Node-RED, we can grab a copy here if we want to
           */
-         uibuilder.onChange('sentMsg', function(msg){
+         uibDebug && uibuilder.onChange('sentMsg', function(msg){
                console.info('[indexjs:uibuilder.onChange:sentMsg] msg sent to Node-RED server:', msg)
                app.msgSent = msg
                app.msgsSent = uibuilder.get('msgsSent')
          })
 
          /** If we send a control message to Node-RED, we can get a copy of it here */
-         uibuilder.onChange('sentCtrlMsg', function(msg){
+         uibDebug && uibuilder.onChange('sentCtrlMsg', function(msg){
                console.info('[indexjs:uibuilder.onChange:sentCtrlMsg] Control message sent to Node-RED server:', msg)
                app.msgCtrlSent = msg
                app.msgsCtrlSent = uibuilder.get('msgsSentCtrl')
