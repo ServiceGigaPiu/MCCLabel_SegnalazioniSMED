@@ -5,15 +5,20 @@
    /** placeholder for optional function arguments that expect a function, ex. callbacks */
    const noOp = function (){};
    const noop = noOp; //ignore typos
+   var DBG = 0; //level of verbosity
+   const DBG_LEVELS = ["disabled","info","debug","verbose"];
+   
    /**
     * sequentially push values of arr
     * @param {any[]} arr 
     */
-   Array.prototype.seqPush = function (arr){
-      for(let val of arr)
-         this.push(val);
-   }
-
+   if(Array.prototype.seqPush)   console.error("ATTENTION! Array.prototype.seqPush was already defined!!");
+   Object.defineProperty(Array.prototype,"seqPush", { value: //not enumerable,not writable,not configurable
+      function (arr){
+         for(let val of arr)
+            this.push(val);
+      }
+   })
    
    /**
     * @summary sequentially push provided values into arr1.
@@ -180,9 +185,9 @@
     * @param {null|Object} payload 
     */
    function sendToServer(type, topic, payload=null, waitForSocket=true){
-      let msg = {type:type,topic:topic,payload:payload,clientId:self.cookies["uibuilder-client-id"]};
+      let msg = {type:type, topic:topic, payload:payload, clientId:self.cookies["uibuilder-client-id"]};
       if(waitForSocket){
-         if(app.socketConnectedState)
+         if(uibuilder.get("ioConnected"))
             uibuilder.send(msg);
          else
             socketMsgQueue.push(msg);
@@ -191,12 +196,6 @@
          uibuilder.send(msg);
    }
    var socketMsgQueue = [];
-
-   uibuilder.onChange('ioConnected', function(connected){
-      console.info('[indexjs:uibuilder.onChange:ioConnected] Socket.IO Connection Status Changed to:', connected)
-      app.socketConnectedState = connected
-   });
-
    uibuilder.onChange("ioConnected",(ioConnected)=>{
       if(ioConnected){
          while(socketMsgQueue.length)
@@ -209,7 +208,43 @@
       NR_TIME_OFFSET ?? console.warn("[nrDateNow()]: NR_TIME_OFFSET not set. Assuming 0");
       return Date.now() + NR_TIME_OFFSET;
    }
+   
+   function totalWait(ms,mult,times){
+      return (times <= 0 ?  0 : totalWait(ms,mult,times-1) + ms*Math.pow(mult,times));
+   }
 
+   /* //functions used to view expected socket retry wait times. //After the first 4 attempts in 30 secs the wait time avg around half the elapsed time, meaning that after 2 mins it tries once per min etc..
+   
+   function waitTable(ms, mult, times){
+      const tableHead = ["index","waitTime","alreadyWaited"];
+      var table = new Array(times).fill(0);
+      
+      for(let i=0;i<table.length;i++)
+         table[i] = [
+            i+1,
+            msToScaledString(ms*Math.pow(mult,i+1)),
+            msToScaledString(totalWait(ms,mult,i))
+      ]
+      return {table,tableHead};
+   }
+   /**   scales ms down to a more confortable unit returns it as a string with said unit as suffix. 
+    *    int -> scaledFloat+'unit'     ex. '2.1h', '3.2gg', '26.3s' etc
+    * /
+   function msToScaledString(ms){
+      let units = ["ms","s","min","h","gg"];
+      let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2
+      let unitFactors=[1,1000,60,60,24]; //in terms of the preceding unit //ex. min are 1*1000*60
+      //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }
+      
+      var unitFactor = unitFactors[0];
+      for(let i=1; i<units.length; i++){
+         let lastUF = unitFactor;
+         unitFactor *= unitFactors[i];
+         if(ms < unitFactor * treshHoldMult[i] || i==units.length-1)
+            return (ms/lastUF).toFixed(1) + units[i-1];
+      }
+      return "shouldNeverGetHere";
+   }*/
 
 //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
 /* ################################################################################################################################

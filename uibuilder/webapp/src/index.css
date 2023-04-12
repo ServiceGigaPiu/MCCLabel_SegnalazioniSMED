@@ -35,7 +35,7 @@
    *    [v-cloak]::before { content: "loading…"; }
    */
    [v-cloak] > * { display: none; }
-   [v-cloak]::before { content: "loading…" }
+   [v-cloak]::before { content: "loading app…" }
 
    /* .img-fluid but based over container's height instead than width */
    .img-fluid-y {

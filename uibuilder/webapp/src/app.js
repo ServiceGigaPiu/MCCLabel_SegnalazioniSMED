@@ -262,7 +262,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
                   <span>Prendi In Carico</span>
                </b-button-->
             </div>
-        
+         
          
          </div>
       </div>
