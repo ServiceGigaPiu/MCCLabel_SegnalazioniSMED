@@ -57,7 +57,7 @@
       return main;
    }
 
-   function safeStringify(obj){
+   function safeStringify(obj, indent){
       var cache = [];
       var cacheKeys = [];
       return JSON.stringify(obj, (key, value) => {
@@ -75,7 +75,7 @@
             }
          }
          return value;
-      });
+      },indent);
    }
    
    function ObjectClone(obj){
