@@ -64,6 +64,14 @@
         "env": []
     },
     {
+        "id": "bdc0397a6f734959",
+        "type": "tab",
+        "label": "reboot and restore",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "5f741e9d0e05f1e2",
         "type": "group",
         "z": "c1d4418a6f1f1693",
@@ -736,9 +744,7 @@
             "b5b49efa8368a832"
         ],
         "x": 119,
-        "y": 64,
-        "w": 592,
-        "h": 172
+        "y": 64
     },
     {
         "id": "ae9407dc27fc42e6",
@@ -777,9 +783,7 @@
             "360f32459e430863"
         ],
         "x": 74,
-        "y": 304,
-        "w": 1493,
-        "h": 663
+        "y": 304
     },
     {
         "id": "9bc629dadf51c057",
@@ -1072,12 +1076,15 @@
             "eed9d3aa846e26f9",
             "03890e35a75d43ef",
             "258441120833deb5",
-            "34c8f3a9767f8cad"
+            "34c8f3a9767f8cad",
+            "10236b7afccb694e",
+            "ce145aa2791a2936",
+            "83c329d161ac0e56"
         ],
         "x": 809,
-        "y": 2149,
+        "y": 2104,
         "w": 802,
-        "h": 112
+        "h": 157
     },
     {
         "id": "fe28fb7cb365d682",
@@ -1098,7 +1105,7 @@
             "ba60486beccc9f83"
         ],
         "x": 829,
-        "y": 2044,
+        "y": 2014,
         "w": 322,
         "h": 82
     },
@@ -1368,6 +1375,63 @@
         "y": 2164,
         "w": 372,
         "h": 157
+    },
+    {
+        "id": "cdefbd69bac8fe57",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "299e83634c9333bc",
+            "e8d636d477e73f34",
+            "9767348e01364c37",
+            "d487de87bd2e3eb3",
+            "e4a37c097f1c862b",
+            "5a330aa03b737646",
+            "8c181a74be2ca155",
+            "bd527790305452ec",
+            "a9d0d623a207ce71",
+            "79a2ffb6f18b17d0",
+            "f607e3882cb5c331"
+        ],
+        "x": 199,
+        "y": 3739,
+        "w": 437,
+        "h": 547
+    },
+    {
+        "id": "c7b053dc47fa4ea8",
+        "type": "group",
+        "z": "bdc10eb0bfc2c224",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "73efec2756efe2fd",
+            "88826416e3355cc6",
+            "6e3ad9f8b9e45119",
+            "53efffbdc990fa11",
+            "856bcdbc73f54c20",
+            "b829213f479fb05d"
+        ],
+        "x": 739,
+        "y": 3334,
+        "w": 842,
+        "h": 142
     },
     {
         "id": "f3bee686c5a79e51",
@@ -1863,9 +1927,7 @@
             "be6cdfc7a6f5fa2c"
         ],
         "x": 139,
-        "y": 709,
-        "w": 827,
-        "h": 232
+        "y": 709
     },
     {
         "id": "b42e082536c528eb",
@@ -1892,9 +1954,7 @@
             "ea8a17ead36a0d69"
         ],
         "x": 639,
-        "y": 484,
-        "w": 462,
-        "h": 202
+        "y": 484
     },
     {
         "id": "3562e00f4ed04fb9",
@@ -1918,9 +1978,7 @@
             "a62e3a70e91d913b"
         ],
         "x": 849,
-        "y": 334,
-        "w": 357,
-        "h": 142
+        "y": 334
     },
     {
         "id": "51320eb4ac48f6d8",
@@ -1944,9 +2002,7 @@
             "1e1402bb46babf61"
         ],
         "x": 1219,
-        "y": 364,
-        "w": 322,
-        "h": 172
+        "y": 364
     },
     {
         "id": "ec19ad21051125fc",
@@ -2210,6 +2266,170 @@
         "y": 1414,
         "w": 392,
         "h": 112
+    },
+    {
+        "id": "715e3385995add03",
+        "type": "group",
+        "z": "bdc0397a6f734959",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b345bca186b23010",
+            "8a2471d210c18915",
+            "e85445620a914233",
+            "a7b630f86add12a2",
+            "20c9f52c6b8ef311"
+        ],
+        "x": 64,
+        "y": 49,
+        "w": 1017,
+        "h": 134.5
+    },
+    {
+        "id": "8532cf3e3d1725d7",
+        "type": "group",
+        "z": "bdc0397a6f734959",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "13b60319d1fe588f",
+            "d49de4a8e8616bd9",
+            "54865619ba70c568",
+            "fa2a5f4f6bd9e85b",
+            "120cd23996d47069",
+            "a1bc6f90620c1137",
+            "8ac5dec75a3ad874",
+            "ee393d36ba87bb71",
+            "34205b364f9b4337",
+            "a72dd10839c7345f",
+            "3c9f435e5609256f",
+            "9e983d290a223810",
+            "6f7088a5182e6611",
+            "bd63469247bf5e8b",
+            "e4dfba6bcb2cac94",
+            "8883619efda46439",
+            "b6056b6db7e277db",
+            "9b38f06624de64ff"
+        ],
+        "x": 49,
+        "y": 889,
+        "w": 1422,
+        "h": 352
+    },
+    {
+        "id": "bd3401ba3c7c0a3b",
+        "type": "group",
+        "z": "bdc0397a6f734959",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "78d3a50b17abeff0",
+            "604cabc96ce43385",
+            "bbe9f4cb2b149c44",
+            "684a41199ebdc2d8",
+            "417f78e328e4a09d",
+            "0844037703aaacfd",
+            "8356b0b9be193763",
+            "554c3f5bc8e40a59",
+            "8de5f04f95182815",
+            "55689412a6786c29",
+            "1b98569782c962ed",
+            "26fe02b7a74d9f1c"
+        ],
+        "x": 44,
+        "y": 1369,
+        "w": 827,
+        "h": 232
+    },
+    {
+        "id": "335f6220202eee91",
+        "type": "group",
+        "z": "bdc0397a6f734959",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d24ade93deebed4f",
+            "a4270dc0c32b6dec",
+            "a4e36eecbeb3f389",
+            "6b19c269d73bfe55",
+            "3ce071ef6f196670",
+            "41613050ce952ae6",
+            "79f55a8d187a5abd",
+            "2bb5be65407b74d8",
+            "30654536491a43fa",
+            "c661a1793324f309",
+            "390b2b9825b4fa24",
+            "a840ef04fa247339",
+            "d1da9359b4498a7f",
+            "f19e0d3bf7b8a72b",
+            "ec47dd813f075f10",
+            "58192758e5f5c86d",
+            "739f864f65f1b46e",
+            "926fc6888d243ae0",
+            "770fcfabe42eb8e0",
+            "6b50cca780e9b258",
+            "ba21eee6635ccd7c",
+            "2eb97e62bea1698b",
+            "6ec01070d2179dfa"
+        ],
+        "x": 59,
+        "y": 274,
+        "w": 1377,
+        "h": 329.5
+    },
+    {
+        "id": "10df34089ddda1a8",
+        "type": "group",
+        "z": "bdc0397a6f734959",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "07751a8a51402e26",
+            "e8408a513b596111",
+            "6f76ada384de5ff1",
+            "1286299174533c92",
+            "1e5f4e4ecaa8c98c",
+            "b398ce4fc0c7bbde"
+        ],
+        "x": 49,
+        "y": 694,
+        "w": 652,
+        "h": 172
     },
     {
         "id": "f9afb515793290aa",
@@ -2978,7 +3198,7 @@
         "func": "\n//look in on start",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "function callWhenDef(cb, ...globalNames) {\n    for (let name of globalNames)\n        if (global.get(name) === undefined || global.get(name) === null) {\n            setTimeout(callWhenDef, 100, cb, ...globalNames)\n            return\n        }\n    cb();\n}\n\nclass toutItem {\n    #startTime\n    #endTime\n    //remainingMs\n    #cb\n    #ref\n\n    constructor(cb,delay){\n        this.#startTime = Date.now();\n        this.#endTime = this.startTime + delay;\n        this.#cb = cb;\n        this.#ref = setTimeout(cb,delay);\n    }\n\n    get remainingMs(){ return this.#startTime - this.#endTime }\n    get startTime() { return this.#startTime }\n    get endTime() { return this.#startTime }\n    get cb(){ return this.#cb }\n    get ref(){ return this.#ref }\n}\n\nclass SignalCell {\n    signalKey;\n    programmedStateChanges;\n    timerStart;\n    timerEnd;\n\n    constructor(cfg={}){\n        this.signalKey = \"noop\"\n        this.programmedStateChanges = [];\n        this.timerEnd=0;\n        this.timerStart=0;\n        \n        this.config = cfg;\n        this.cfg = this.config;\n    }\n\n    programStateChange(toKey, delay, nodeRef){\n        this.programmedStateChanges.push({\n            toSignalKey:toKey,\n            tout:new toutItem(()=>{\n                this.signalKey = toKey;\n                \n            },delay)\n        })\n    }\n\n    setTout( toKey, delay){\n        if(this.programmedStateChanges[toKey])\n            this.programmedStateChanges[toKey].push(setTimeout(()=>{}))\n    }\n\n}\n\n//signalCells.OMET.setTout(\"A2\",cb, 3000)\n//signalCells.OMET.clearTouts()\n//signalCells.OMET.clearTout(\"A2\")\n\nconst cb=function(){\n    const towersControl = global.get(\"towersControl\");\n    const config = global.get(\"config\");\n    const def={\n        dictionary:{\n            macKeys:towersControl.dictionary.macKeys,\n            signalKeys:[\"A1\",\"A2\",\"A3\",\"A4\",\"B\",\"C1\",\"C2\",\"D\",\"E\",\"F\"],\n        },\n    }\n\n    for(let macKey of towersControl.dictionary.macKeys){\n        def[macKey] = new SignalCell(config.machines[macKey])\n    }\n\n    \n\n    global.set(\"signalCells\", def);\n    node.send(def);\n    node.status({ fill: \"green\", text: Object.keys(def).join(' & ') });\n\n}\n\ncallWhenDef(cb,\"utils\",\"towersControl\",\"config\");",
+        "initialize": "function callWhenDef(cb, ...globalNames) {\n    for (let name of globalNames)\n        if (global.get(name) === undefined || global.get(name) === null) {\n            setTimeout(callWhenDef, 100, cb, ...globalNames)\n            return\n        }\n    cb();\n}\n\nclass toutItem {\n    #startTime\n    #endTime\n    //remainingMs\n    #cb\n    #ref\n\n    constructor(cb,delay){\n        this.#startTime = Date.now();\n        this.#endTime = this.startTime + delay;\n        this.#cb = cb;\n        this.#ref = setTimeout(cb,delay);\n    }\n\n    get remainingMs(){ return this.#startTime - this.#endTime }\n    get startTime() { return this.#startTime }\n    get endTime() { return this.#startTime }\n    get cb(){ return this.#cb }\n    get ref(){ return this.#ref }\n}\n\nclass SignalCell {\n    signalKey;\n    programmedStateChanges;\n    timerStart;\n    timerEnd;\n\n    constructor(cfg={}){\n        this.signalKey = \"noop\"\n        this.programmedStateChanges = [];\n        this.timerEnd=0;\n        this.timerStart=0;\n        \n        this.config = cfg;\n        this.cfg = this.config;\n    }\n\n    programStateChange(toKey, delay, nodeRef){\n        this.programmedStateChanges.push({\n            toSignalKey:toKey,\n            tout:new toutItem(()=>{\n                this.signalKey = toKey;\n                \n            },delay)\n        })\n    }\n\n    setTout( toKey, delay){\n        if(this.programmedStateChanges[toKey])\n            this.programmedStateChanges[toKey].push(setTimeout(()=>{}))\n    }\n}\n\n//signalCells.OMET.setTout(\"A2\",cb, 3000)\n//signalCells.OMET.clearTouts()\n//signalCells.OMET.clearTout(\"A2\")\n\nconst cb=function(){\n    const towersControl = global.get(\"towersControl\");\n    const config = global.get(\"config\");\n    const def={\n        dictionary:{\n            macKeys:towersControl.dictionary.macKeys,\n            signalKeys:[\"A1\",\"A2\",\"A3\",\"A4\",\"B\",\"C1\",\"C2\",\"D\",\"E\",\"F\"],\n        },\n    }\n\n    for(let macKey of towersControl.dictionary.macKeys){\n        def[macKey] = new SignalCell(config.machines[macKey])\n    }\n\n    \n\n    global.set(\"signalCells\", def);\n    node.send(def);\n    node.status({ fill: \"green\", text: Object.keys(def).join(' & ') });\n\n}\n\ncallWhenDef(cb,\"utils\",\"towersControl\",\"config\");",
         "finalize": "",
         "libs": [],
         "x": 215,
@@ -3185,7 +3405,12 @@
         "name": "allMain isDefinedEvent out",
         "mode": "link",
         "links": [
-            "7bfe34e4ff0695f7"
+            "7bfe34e4ff0695f7",
+            "8ac5dec75a3ad874",
+            "092e49e80c95fa34",
+            "6b5da73e46e7aa09",
+            "313b86088fc01764",
+            "35ce980ff8f3f0b7"
         ],
         "x": 600,
         "y": 135,
@@ -3279,7 +3504,16 @@
             "9002b5da933a2cf0",
             "be30f8352908de40",
             "19df9e22435f0986",
-            "eba758ecf77571c1"
+            "eba758ecf77571c1",
+            "e3feb161b420a42a",
+            "17da9a9c97c8f2fb",
+            "587a386872d4a1bc",
+            "26b97811f4908b46",
+            "fd2432528d7df949",
+            "f19e0d3bf7b8a72b",
+            "7e4f36f494d5fd3d",
+            "cf79877a6da4cb8f",
+            "6f7088a5182e6611"
         ],
         "x": 170,
         "y": 2220,
@@ -3512,7 +3746,8 @@
         "y": 2190,
         "wires": [
             [
-                "03890e35a75d43ef"
+                "03890e35a75d43ef",
+                "83c329d161ac0e56"
             ]
         ]
     },
@@ -3997,7 +4232,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
+        "x": 910,
         "y": 3165,
         "wires": [
             []
@@ -4366,7 +4601,8 @@
         "g": "bdb77fbf338dd270",
         "name": "allMain isDefinedEvent out",
         "links": [
-            "230aaa874077cfdc"
+            "230aaa874077cfdc",
+            "5e84858bfba8c70d"
         ],
         "x": 705,
         "y": 105,
@@ -5682,7 +5918,7 @@
         "finalize": "",
         "libs": [],
         "x": 995,
-        "y": 2085,
+        "y": 2055,
         "wires": [
             [
                 "ba60486beccc9f83"
@@ -5697,7 +5933,7 @@
         "name": "send reset all",
         "links": [],
         "x": 870,
-        "y": 2085,
+        "y": 2055,
         "wires": [
             [
                 "d4afd683f2270862"
@@ -5713,7 +5949,7 @@
         "mode": "return",
         "links": [],
         "x": 1110,
-        "y": 2085,
+        "y": 2055,
         "wires": []
     },
     {
@@ -6334,270 +6570,6 @@
         ]
     },
     {
-        "id": "299e83634c9333bc",
-        "type": "change",
-        "z": "bdc10eb0bfc2c224",
-        "name": "setA1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "action",
-                "pt": "msg",
-                "to": "setA1",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 3300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e8d636d477e73f34",
-        "type": "change",
-        "z": "bdc10eb0bfc2c224",
-        "name": "setA2",
-        "rules": [
-            {
-                "t": "set",
-                "p": "action",
-                "pt": "msg",
-                "to": "setA2",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 3345,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9767348e01364c37",
-        "type": "change",
-        "z": "bdc10eb0bfc2c224",
-        "name": "setA3",
-        "rules": [
-            {
-                "t": "set",
-                "p": "action",
-                "pt": "msg",
-                "to": "setA3",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 3390,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d487de87bd2e3eb3",
-        "type": "change",
-        "z": "bdc10eb0bfc2c224",
-        "name": "setA4",
-        "rules": [
-            {
-                "t": "set",
-                "p": "action",
-                "pt": "msg",
-                "to": "setA4",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 3435,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e4a37c097f1c862b",
-        "type": "change",
-        "z": "bdc10eb0bfc2c224",
-        "name": "set",
-        "rules": [
-            {
-                "t": "set",
-                "p": "action",
-                "pt": "msg",
-                "to": "set",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 3495,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5a330aa03b737646",
-        "type": "change",
-        "z": "bdc10eb0bfc2c224",
-        "name": "setB",
-        "rules": [
-            {
-                "t": "set",
-                "p": "action",
-                "pt": "msg",
-                "to": "setB",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 525,
-        "y": 3540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8c181a74be2ca155",
-        "type": "change",
-        "z": "bdc10eb0bfc2c224",
-        "name": "setC1",
-        "rules": [
-            {
-                "t": "set",
-                "p": "action",
-                "pt": "msg",
-                "to": "setC1",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 525,
-        "y": 3600,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "bd527790305452ec",
-        "type": "change",
-        "z": "bdc10eb0bfc2c224",
-        "name": "setC2",
-        "rules": [
-            {
-                "t": "set",
-                "p": "action",
-                "pt": "msg",
-                "to": "setC2",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 520,
-        "y": 3645,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a9d0d623a207ce71",
-        "type": "change",
-        "z": "bdc10eb0bfc2c224",
-        "name": "setD",
-        "rules": [
-            {
-                "t": "set",
-                "p": "action",
-                "pt": "msg",
-                "to": "setD",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 525,
-        "y": 3705,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "79a2ffb6f18b17d0",
-        "type": "change",
-        "z": "bdc10eb0bfc2c224",
-        "name": "setE",
-        "rules": [
-            {
-                "t": "set",
-                "p": "action",
-                "pt": "msg",
-                "to": "set",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 525,
-        "y": 3765,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f607e3882cb5c331",
-        "type": "link out",
-        "z": "bdc10eb0bfc2c224",
-        "name": "buttonActions",
-        "mode": "link",
-        "links": [
-            "f4db294021a89fbf"
-        ],
-        "x": 775,
-        "y": 3555,
-        "wires": [],
-        "l": true
-    },
-    {
         "id": "36f1d48b74bad8dc",
         "type": "inject",
         "z": "bdc10eb0bfc2c224",
@@ -7045,6 +7017,674 @@
         "x": 1980,
         "y": 2265,
         "wires": []
+    },
+    {
+        "id": "51f1bfb8f594389a",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "name": "function 7",
+        "func": "\nreturn { towCtrl:JSON.parse(JSON.stringify(global.get(\"towersControl\"))) }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1545,
+        "y": 315,
+        "wires": [
+            [
+                "154608a3d2351341"
+            ]
+        ]
+    },
+    {
+        "id": "0969d3d3170f0b2d",
+        "type": "inject",
+        "z": "bdc10eb0bfc2c224",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1395,
+        "y": 315,
+        "wires": [
+            [
+                "51f1bfb8f594389a"
+            ]
+        ]
+    },
+    {
+        "id": "154608a3d2351341",
+        "type": "debug",
+        "z": "bdc10eb0bfc2c224",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1695,
+        "y": 315,
+        "wires": []
+    },
+    {
+        "id": "bc5de7c61b8ef3ee",
+        "type": "link in",
+        "z": "bdc10eb0bfc2c224",
+        "name": "restoreState",
+        "links": [],
+        "x": 310,
+        "y": 3255,
+        "wires": [
+            [
+                "3b8ddeca9714c31b"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "f5f770620b40a6a5",
+        "type": "switch",
+        "z": "bdc10eb0bfc2c224",
+        "name": "restoreStateChanges",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 835,
+        "y": 3255,
+        "wires": [
+            [
+                "2d846e90939a7927",
+                "17f72deabe53b420"
+            ]
+        ]
+    },
+    {
+        "id": "2d846e90939a7927",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "name": "send setA3 msg.toA3LeftTimeout",
+        "func": "let mKey = msg.topic;\nlet cfg = global.get(\"config\").machines[mKey];\n\n\n//send programmed State change\nnode.send({ reset: true, action: \"setA3\", topic: msg.topic });\nif(msg.toA3LeftTimeout > 0){\n    msg.action = \"setA3\";\n    msg.delay = msg.toA3LeftTimeout;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1145,
+        "y": 3255,
+        "wires": [
+            [
+                "e3feb161b420a42a"
+            ]
+        ]
+    },
+    {
+        "id": "17f72deabe53b420",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "name": "send setA4 msg.toA4LeftTimeout",
+        "func": "const signalCells = global.get(\"signalCells\")\nlet mKey = msg.topic;\nlet cfg = global.get(\"config\").machines[mKey];\n\nnode.send({reset:true,action:\"setA4\",topic:msg.topic});\nif(msg.toA4LeftTimeout){\n    msg.action = \"setA4\";\n    msg.delay = msg.toA4LeftTimeout;\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1145,
+        "y": 3285,
+        "wires": [
+            [
+                "17da9a9c97c8f2fb"
+            ]
+        ]
+    },
+    {
+        "id": "e3feb161b420a42a",
+        "type": "link out",
+        "z": "bdc10eb0bfc2c224",
+        "name": "programmedStateChanges",
+        "mode": "link",
+        "links": [
+            "fb95b4d0741d8db8"
+        ],
+        "x": 1425,
+        "y": 3255,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "17da9a9c97c8f2fb",
+        "type": "link out",
+        "z": "bdc10eb0bfc2c224",
+        "name": "programmedStateChanges",
+        "mode": "link",
+        "links": [
+            "fb95b4d0741d8db8"
+        ],
+        "x": 1425,
+        "y": 3285,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "f607e3882cb5c331",
+        "type": "link out",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "cdefbd69bac8fe57",
+        "name": "buttonActions",
+        "mode": "link",
+        "links": [
+            "f4db294021a89fbf"
+        ],
+        "x": 530,
+        "y": 4035,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "299e83634c9333bc",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "cdefbd69bac8fe57",
+        "name": "setA1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setA1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 275,
+        "y": 3780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e8d636d477e73f34",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "cdefbd69bac8fe57",
+        "name": "setA2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setA2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 275,
+        "y": 3825,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9767348e01364c37",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "cdefbd69bac8fe57",
+        "name": "setA3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setA3",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 275,
+        "y": 3870,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d487de87bd2e3eb3",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "cdefbd69bac8fe57",
+        "name": "setA4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setA4",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 275,
+        "y": 3915,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e4a37c097f1c862b",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "cdefbd69bac8fe57",
+        "name": "set",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "set",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 275,
+        "y": 3975,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a330aa03b737646",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "cdefbd69bac8fe57",
+        "name": "setB",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setB",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 4020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c181a74be2ca155",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "cdefbd69bac8fe57",
+        "name": "setC1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setC1",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 4080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bd527790305452ec",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "cdefbd69bac8fe57",
+        "name": "setC2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setC2",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 275,
+        "y": 4125,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9d0d623a207ce71",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "cdefbd69bac8fe57",
+        "name": "setD",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "setD",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 4185,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79a2ffb6f18b17d0",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "d": true,
+        "g": "cdefbd69bac8fe57",
+        "name": "setE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "set",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 4245,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3b8ddeca9714c31b",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "name": "signalKey -> action:\"set\"+key",
+        "rules": [
+            {
+                "t": "set",
+                "p": "action",
+                "pt": "msg",
+                "to": "\"set\"&signalKey",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 3255,
+        "wires": [
+            [
+                "f5f770620b40a6a5",
+                "1cddac3b537e2cb8"
+            ]
+        ]
+    },
+    {
+        "id": "1cddac3b537e2cb8",
+        "type": "switch",
+        "z": "bdc10eb0bfc2c224",
+        "name": "send singleCellState",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 595,
+        "y": 3375,
+        "wires": [
+            [
+                "6e3ad9f8b9e45119"
+            ]
+        ]
+    },
+    {
+        "id": "73efec2756efe2fd",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "g": "c7b053dc47fa4ea8",
+        "name": "send setSingleCellState",
+        "func": "const uib = global.get(\"uibuilder\")\nlet signalKey = msg.action.match(/set(\\w+)/)[1];\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\nlet cfg = cell.config; //global.get(\"config\")[mKey];\n\ncell.signalKey = signalKey;\n\nuib.prepareMsg_setSingleCellState(msg,mKey,cell);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 3375,
+        "wires": [
+            [
+                "88826416e3355cc6"
+            ]
+        ]
+    },
+    {
+        "id": "88826416e3355cc6",
+        "type": "change",
+        "z": "bdc10eb0bfc2c224",
+        "g": "c7b053dc47fa4ea8",
+        "name": "_broadcast : true",
+        "rules": [
+            {
+                "t": "set",
+                "p": "_broadcast",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1305,
+        "y": 3375,
+        "wires": [
+            [
+                "b829213f479fb05d"
+            ]
+        ]
+    },
+    {
+        "id": "6e3ad9f8b9e45119",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "g": "c7b053dc47fa4ea8",
+        "name": "update signalCell",
+        "func": "\nlet signalKey = msg.action.match(/set(\\w+)/)[1]; if(!signalKey) node.warn({txt:\"error extracting signalKey\",sk:signalKey,fullMsg:msg})\nlet mKey = msg.topic;\n\n//update signalcells state\nlet signalCells = global.get(\"signalCells\");\nlet cell = signalCells[mKey];\nlet state = msg.restoreFromState;\n\nif(!msg.restoreFromState){\n    cell.signalKey = signalKey;\n    //conditionally show cd\n        //show timer using toA3 config\n    if(signalKey == \"A1\"){\n        cell.timerStart = msg.restoreFromState ? state.timerStart   : Date.now();\n        cell.timerEnd =   msg.restoreFromState ? state.timerEnd     : Date.now() + global.get(\"config\").machines[mKey].toA3Timeout;\n    }   //show timer using toA4 config\n    else if(signalKey == \"A3\"){\n        cell.timerStart = msg.restoreFromState ? state.timerStart   : Date.now();\n        cell.timerEnd =   msg.restoreFromState ? state.timerEnd     : Date.now() + global.get(\"config\").machines[mKey].toA4Timeout; //+ (cell.timerEnd - cell.timerStart);\n\n    }   //hide timer, except for A2\n    else{\n        if(signalKey != \"A2\"){\n            //hide timer by setting both to the same value\n            cell.timerStart = Date.now();\n            cell.timerEnd = cell.timerStart;\n        }\n    }\n}\nelse{\n    cell.signalKey = state.signalKey;\n    cell.timerStart = state.timerStart\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 855,
+        "y": 3375,
+        "wires": [
+            [
+                "73efec2756efe2fd"
+            ]
+        ]
+    },
+    {
+        "id": "53efffbdc990fa11",
+        "type": "comment",
+        "z": "bdc10eb0bfc2c224",
+        "g": "c7b053dc47fa4ea8",
+        "name": "CONDITIONALLY SHOW COUNTDOWN TOO",
+        "info": "",
+        "x": 945,
+        "y": 3405,
+        "wires": []
+    },
+    {
+        "id": "856bcdbc73f54c20",
+        "type": "comment",
+        "z": "bdc10eb0bfc2c224",
+        "g": "c7b053dc47fa4ea8",
+        "name": "copy of group above, edited to update cells based on timer's left time",
+        "info": "it's compatible with the original one, but it's harder to read hence the separation",
+        "x": 1010,
+        "y": 3435,
+        "wires": []
+    },
+    {
+        "id": "b829213f479fb05d",
+        "type": "link out",
+        "z": "bdc10eb0bfc2c224",
+        "g": "c7b053dc47fa4ea8",
+        "name": "toWebapp",
+        "mode": "link",
+        "links": [
+            "29da4c340c1c0f16"
+        ],
+        "x": 1485,
+        "y": 3375,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "10236b7afccb694e",
+        "type": "link in",
+        "z": "bdc10eb0bfc2c224",
+        "g": "14eeda19a6a7072a",
+        "name": "bypass for state restore",
+        "links": [
+            "26b97811f4908b46",
+            "fd2432528d7df949",
+            "7e4f36f494d5fd3d"
+        ],
+        "x": 975,
+        "y": 2160,
+        "wires": [
+            [
+                "fb1f9c7dd8ad7a3e",
+                "ce145aa2791a2936"
+            ]
+        ]
+    },
+    {
+        "id": "ce145aa2791a2936",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "g": "14eeda19a6a7072a",
+        "name": "function 8",
+        "func": "const sc = global.get(\"signalCells\")\n\nlet format = (t) => msToScaledString(t - Date.now());\nlet mk=\"OMET\";\nlet cell = sc[\"OMET\"];\nif(msg.topic==\"OMET\")\n    node.warn({\n        txt:\"restoring \"+mk+\" with\",\n        full:msg,\n        sk:cell.signalKey,\n        \n        sc:cell,\n        end:format(cell.timerEnd),\n        start: format(cell.timerStart),\n    })\nreturn msg;\n\n\n//---------------------------------------------------------\n\n\n// return formatted HTML version of JSON object\nfunction syntaxHighlight(json) {\n    json = global.get(\"utils\").safeStringify(json, 3)\n    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')\n    json = json.replace(/(\"(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\\"])*\"(\\s*:)?|\\b(true|false|null)\\b|-?\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d+)?)/g, function (match) {\n        var cls = 'number'\n        if ((/^\"/).test(match)) {\n            if ((/:$/).test(match)) {\n                cls = 'key'\n            } else {\n                cls = 'string'\n            }\n        } else if ((/true|false/).test(match)) {\n            cls = 'boolean'\n        } else if ((/null/).test(match)) {\n            cls = 'null'\n        }\n        return '<span class=\"' + cls + '\">' + match + '</span>'\n    })\n    return json\n}\n\nfunction msToScaledString(ms) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }\n\n    var unitFactor = unitFactors[0];\n    for (let i = 1; i < units.length; i++) {\n        let lastUF = unitFactor;\n        unitFactor *= unitFactors[i];\n        if (Math.abs(ms) < unitFactor * treshHoldMult[i] || i == units.length - 1)\n            return (ms / lastUF).toFixed(1) + units[i - 1];\n    }\n    return \"shouldNeverGetHere\";\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1155,
+        "y": 2160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "83c329d161ac0e56",
+        "type": "function",
+        "z": "bdc10eb0bfc2c224",
+        "g": "14eeda19a6a7072a",
+        "name": "function 9",
+        "func": "const sc = global.get(\"signalCells\")\n\nlet format = (t) => msToScaledString(t - Date.now());\nlet mk=\"OMET\";\nlet cell = msg.cell;\nif(msg.topic==\"OMET\")\n    node.warn({\n        txt:\"restoring \"+mk+\" with\",\n        full:msg,\n        sk:cell.signalKey,\n        \n        sc:cell,\n        end:format(cell.timerEnd),\n        start: format(cell.timerStart),\n    })\nreturn msg;\n\n\n//---------------------------------------------------------\n\n\n// return formatted HTML version of JSON object\nfunction syntaxHighlight(json) {\n    json = global.get(\"utils\").safeStringify(json, 3)\n    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')\n    json = json.replace(/(\"(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\\"])*\"(\\s*:)?|\\b(true|false|null)\\b|-?\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d+)?)/g, function (match) {\n        var cls = 'number'\n        if ((/^\"/).test(match)) {\n            if ((/:$/).test(match)) {\n                cls = 'key'\n            } else {\n                cls = 'string'\n            }\n        } else if ((/true|false/).test(match)) {\n            cls = 'boolean'\n        } else if ((/null/).test(match)) {\n            cls = 'null'\n        }\n        return '<span class=\"' + cls + '\">' + match + '</span>'\n    })\n    return json\n}\n\nfunction msToScaledString(ms) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }\n\n    var unitFactor = unitFactors[0];\n    for (let i = 1; i < units.length; i++) {\n        let lastUF = unitFactor;\n        unitFactor *= unitFactors[i];\n        if (Math.abs(ms) < unitFactor * treshHoldMult[i] || i == units.length - 1)\n            return (ms / lastUF).toFixed(1) + units[i - 1];\n    }\n    return \"shouldNeverGetHere\";\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1395,
+        "y": 2145,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "15c00fddf6febcfb",
@@ -7522,7 +8162,7 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "\n\n\nconst MACHINE_CFGS = {\n    \"FA419\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA420\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA421\": { toA4Timeout: 120 * 60 * 1000 },\n\n    \"FA422\": { toA4Timeout: 150 * 60 * 1000 },\n    \"FA423\": { toA4Timeout: 150 * 60 * 1000 },\n\n    \"OMET\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO41\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO42\": { toA4Timeout: 210 * 60 * 1000 }\n}\n\n/** {String[]} \"machine keys\". match the ones used in uibuilder's app. */\nconst macKeys = Object.keys(MACHINE_CFGS);\n/**  {String[]} devices that may be associated with each towersBitArray bit*/\nconst towersDevices = [\"redLight\", \"greenLight\", \"horn\"];\n{\n    let cfg;\n    for (let mKey in MACHINE_CFGS) {\n        cfg = MACHINE_CFGS[mKey];\n        cfg.displayName = mKey+\"_\";\n        cfg.cellHeaderText = \"Linea \" + cfg.displayName;\n        cfg.toA3Timeout = 20 * 60 * 1000;\n        //cfg.toA4Timeout = this.toA4Timeout;\n        cfg.initCellSignalKey = \"noop\";\n        cfg.initTowerBits = {};\n        for (let device of towersDevices) {\n            cfg.initTowerBits[device] = false\n        }\n    }\n}\n\nconst cellsLayout = [ //keys are: unique\n    [\"FA419\", \"FA420\", \"FA421\", \"FA422\"],\n    [\"FA423\", \"OMET\", \"MO41\", \"MO42\"],\n];\nflow.set(\"fallbackConfig\", {\n    machines: MACHINE_CFGS, \n    cellsLayout: cellsLayout,\n    /**  */\n    views:{\n        // \"display\":{ adminEnabled:this.cellsLayout.map( r => r.map(v => 0)) },\n        // \"SMED1\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==0 )) }, //admin on row 0\n        // \"SMED2\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==1 )) },\n        \"default\": { adminUI: [] }, //adminUI: <macKey>[] : machines to allow to interact with\n        \"display\":\"default\",\n        \"SMED1\":{\n            exactIpList:[\"192.168.19.116\"],\n            //adminUI:cellsLayout[0].map(v => v),\n            adminUI: [\"FA419\", \"FA420\", \"FA421\", \"FA422\",\"FA423\",\"OMET\"]\n        },\n        \"SMED2\":{\n            exactIpList:[\"192.168.19.117\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI:[\"MO41\",\"MO42\"]\n        },\n        \"supervisione\":{\n            exactIpList: [\"192.168.19.118\",\"192.168.19.120\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI: macKeys\n        }\n\n    }\n});\n\nnode.send(flow.get(\"fallbackConfig\"))",
+        "initialize": "\n\n\nconst MACHINE_CFGS = {\n    \"FA419\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA420\": { toA4Timeout: 120 * 60 * 1000 },\n    \"FA421\": { toA4Timeout: 120 * 60 * 1000 },\n\n    \"FA422\": { toA4Timeout: 150 * 60 * 1000 },\n    \"FA423\": { toA4Timeout: 150 * 60 * 1000 },\n\n    \"OMET\": { toA4Timeout: 1 * 30 * 1000 },\n    \"MO41\": { toA4Timeout: 210 * 60 * 1000 },\n    \"MO42\": { toA4Timeout: 210 * 60 * 1000 }\n}\n\n/** {String[]} \"machine keys\". match the ones used in uibuilder's app. */\nconst macKeys = Object.keys(MACHINE_CFGS);\n/**  {String[]} devices that may be associated with each towersBitArray bit*/\nconst towersDevices = [\"redLight\", \"greenLight\", \"horn\"];\n{\n    let cfg;\n    for (let mKey in MACHINE_CFGS) {\n        cfg = MACHINE_CFGS[mKey];\n        cfg.displayName = mKey+\"_\";\n        cfg.cellHeaderText = \"Linea \" + cfg.displayName;\n        cfg.toA3Timeout = 20 * 60 * 1000;\n        //cfg.toA4Timeout = this.toA4Timeout;\n        cfg.initCellSignalKey = \"noop\";\n        cfg.initTowerBits = {};\n        for (let device of towersDevices) {\n            cfg.initTowerBits[device] = false\n        }\n    }\n}\n\nconst cellsLayout = [ //keys are: unique\n    [\"FA419\", \"FA420\", \"FA421\", \"FA422\"],\n    [\"FA423\", \"OMET\", \"MO41\", \"MO42\"],\n];\nflow.set(\"fallbackConfig\", {\n    machines: MACHINE_CFGS, \n    cellsLayout: cellsLayout,\n    /**  */\n    views:{\n        // \"display\":{ adminEnabled:this.cellsLayout.map( r => r.map(v => 0)) },\n        // \"SMED1\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==0 )) }, //admin on row 0\n        // \"SMED2\":{ adminEnabled:this.cellsLayout.map( r => r.map( v => r==1 )) },\n        \"default\": { adminUI: [] }, //adminUI: <macKey>[] : machines to allow to interact with\n        \"display\":\"default\",\n        \"SMED1\":{\n            exactIpList:[\"192.168.19.116\"],\n            //adminUI:cellsLayout[0].map(v => v),\n            adminUI: [\"FA419\", \"FA420\", \"FA421\", \"FA422\",\"FA423\",\"OMET\"]\n        },\n        \"SMED2\":{\n            exactIpList:[\"192.168.19.117\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI:[\"MO41\",\"MO42\"]\n        },\n        \"supervisione\":{\n            exactIpList: [\"192.168.19.118\",\"192.168.19.120\"],\n            //adminUI:cellsLayout[1].map(v => v),\n            adminUI: macKeys\n        }\n\n    }\n});\n\nnode.send(flow.get(\"fallbackConfig\"))",
         "finalize": "",
         "libs": [],
         "x": 260,
@@ -11387,7 +12027,11 @@
             "7e254c27479ac8aa",
             "16644ec203b99989",
             "446f1af64d58d0d6",
-            "966a2e40f7e7e922"
+            "966a2e40f7e7e922",
+            "b829213f479fb05d",
+            "9bde6f88ab0aaa5e",
+            "739f864f65f1b46e",
+            "e4dfba6bcb2cac94"
         ],
         "x": 185,
         "y": 495,
@@ -12414,7 +13058,7 @@
         "z": "76b05f87a5290cf6",
         "g": "478c85d69cf2eb8c",
         "name": "msg std enforcer",
-        "func": "let uib = msg;\nconst signalCells = global.get(\"signalCells\");\n//const dateFns = global.get(\"dateFns\"); node.warn({\"dateFns\":dateFns})\n\nuib.prepareMsg_setCellSignal = (msg, mKey, signalKey) => {\n    msg.macKey = mKey;\n    msg.toSignalKey = signalKey\n    return msg;\n}\n\nuib.prepareMsg_setSingleCellSignal = (msg, mKey, signalKey) => {\n    msg.macKey = mKey;\n    msg.toSignalKey = signalKey\n    return msg;\n}\n\nuib.prepareMsg_setSingleCellState = (msg, macKey, signalCell) => {\n    msg.topic = \"setSingleCellState\";\n    msg.macKey = macKey;\n    msg.fromSignalCellState = {\n        \"signalKey\":signalCell.signalKey,\n        \"timerStart\":signalCell.timerStart,\n        \"timerEnd\":signalCell.timerEnd,\n    }\n    return msg;\n}\n\n\nuib.prepareMsg_appInit = (msg, viewKey) => {\n    const cfg = global.get(\"config\");\n    const signalCells = global.get(\"signalCells\");\n\n    if(!cfg || !signalCells) node.error(\"prepareMsg_appInit(): globals are still undefined\")\n    \n    msg.topic=\"appInit\";\n    msg.cellsLayout = cfg.cellsLayout;\n    msg.config = cfg;\n    msg.signalCellsStates = signalCells;\n    msg.viewKey = viewKey;\n    msg.adminUI = cfg.views[viewKey].adminUI;\n    //msg.signalCellsState = (var ret=[] for(let k in signalCells.dictionary.macKeys) ret[macKey]=)();\n\n    //sync times between client and server comparing the results of parsing the same string\n    msg.timeSync = {\n        now:Date.now()\n        //formatString: '01 Jan 2000 00:00:00',   result:Date.now()-Date.parse('01 Jan 2000 00:00:00')\n    };\n\n    return msg;\n}\n\nuib.validate = (msg, additionalProps=true, _node=node)=>{\n    if(!uib[\"prepareMsg_\"+msg.topic]){\n        _node.error(\"unknown uib message topic '\"+msg.topic+\"'\",{txt:\"unknown uib message topic '\"+msg.topic+\"'\",fullMsg:msg})\n        return false;\n    }\n    let template = uib[\"prepareMsg_\"+msg.topic];\n    for(let p in template){\n        if(!msg[p])\n            return false;\n    }\n\n}\n\nglobal.set(\"uibuilder\",uib)\n\n\n\nlet allKeys = Object.keys(uib);\nlet definedHere = [];\nfor(let k of allKeys)\n    if(k.match(\"prepareMsg\") || k==\"validate\")\n        definedHere.push(k)\n        \nnode.status({ fill: \"green\", text: definedHere.join(' & ') });\nnode.send(msg);",
+        "func": "let uib = msg;\nconst signalCells = global.get(\"signalCells\");\n//const dateFns = global.get(\"dateFns\"); node.warn({\"dateFns\":dateFns})\n\nuib.prepareMsg_setCellSignal = (msg, mKey, signalKey) => {\n    msg.macKey = mKey;\n    msg.toSignalKey = signalKey\n    return msg;\n}\n\nuib.prepareMsg_setSingleCellSignal = (msg, mKey, signalKey) => {\n    msg.macKey = mKey;\n    msg.toSignalKey = signalKey\n    return msg;\n}\n\nuib.prepareMsg_setSingleCellState = (msg, macKey, signalCell) => {\n    msg.topic = \"setSingleCellState\";\n    msg.macKey = macKey;\n    msg.fromSignalCellState = {\n        \"signalKey\":signalCell.signalKey,\n        \"timerStart\":signalCell.timerStart,\n        \"timerEnd\":signalCell.timerEnd,\n    }\n\n    let mk = macKey,cell=signalCell;\n    let format = (t) => msToScaledString(t - Date.now());\n    node.warn({\n        txt: \"restoring \" + mk + \" with\",\n        full: msg,\n        sk: cell.signalKey,\n\n        sc: cell,\n        end: format(cell.timerEnd),\n        start: format(cell.timerStart)\n    })\n    function msToScaledString(ms) {\n        let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n        let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2\n        let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n        //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }\n\n        var unitFactor = unitFactors[0];\n        for (let i = 1; i < units.length; i++) {\n            let lastUF = unitFactor;\n            unitFactor *= unitFactors[i];\n            if (Math.abs(ms) < unitFactor * treshHoldMult[i] || i == units.length - 1)\n                return (ms / lastUF).toFixed(1) + units[i - 1];\n        }\n        return \"shouldNeverGetHere\";\n    }\n    return msg;\n}\n\n\nuib.prepareMsg_appInit = (msg, viewKey) => {\n    const cfg = global.get(\"config\");\n    const signalCells = global.get(\"signalCells\");\n\n    if(!cfg || !signalCells) node.error(\"prepareMsg_appInit(): globals are still undefined\")\n    \n    msg.topic=\"appInit\";\n    msg.cellsLayout = cfg.cellsLayout;\n    msg.config = cfg;\n    msg.signalCellsStates = signalCells;\n    msg.viewKey = viewKey;\n    msg.adminUI = cfg.views[viewKey].adminUI;\n    //msg.signalCellsState = (var ret=[] for(let k in signalCells.dictionary.macKeys) ret[macKey]=)();\n\n    //sync times between client and server comparing the results of parsing the same string\n    msg.timeSync = {\n        now:Date.now()\n        //formatString: '01 Jan 2000 00:00:00',   result:Date.now()-Date.parse('01 Jan 2000 00:00:00')\n    };\n\n    return msg;\n}\n\nuib.validate = (msg, additionalProps=true, _node=node)=>{\n    if(!uib[\"prepareMsg_\"+msg.topic]){\n        _node.error(\"unknown uib message topic '\"+msg.topic+\"'\",{txt:\"unknown uib message topic '\"+msg.topic+\"'\",fullMsg:msg})\n        return false;\n    }\n    let template = uib[\"prepareMsg_\"+msg.topic];\n    for(let p in template){\n        if(!msg[p])\n            return false;\n    }\n\n}\n\nglobal.set(\"uibuilder\",uib)\n\n\n\nlet allKeys = Object.keys(uib);\nlet definedHere = [];\nfor(let k of allKeys)\n    if(k.match(\"prepareMsg\") || k==\"validate\")\n        definedHere.push(k)\n        \nnode.status({ fill: \"green\", text: definedHere.join(' & ') });\nnode.send(msg);",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -18749,6 +19393,1235 @@
         "y": 300,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "6ff6a2bb69766ab8",
+        "type": "function",
+        "z": "bdc0397a6f734959",
+        "name": "msToScaled & highlight",
+        "func": "\n// return formatted HTML version of JSON object\nfunction syntaxHighlight(json) {\n    json = global.get(\"utils\").safeStringify(json, 3)\n    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')\n    json = json.replace(/(\"(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\\"])*\"(\\s*:)?|\\b(true|false|null)\\b|-?\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d+)?)/g, function (match) {\n        var cls = 'number'\n        if ((/^\"/).test(match)) {\n            if ((/:$/).test(match)) {\n                cls = 'key'\n            } else {\n                cls = 'string'\n            }\n        } else if ((/true|false/).test(match)) {\n            cls = 'boolean'\n        } else if ((/null/).test(match)) {\n            cls = 'null'\n        }\n        return '<span class=\"' + cls + '\">' + match + '</span>'\n    })\n    return json\n}\n\nfunction msToScaledString(ms) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }\n\n    var unitFactor = unitFactors[0];\n    for (let i = 1; i < units.length; i++) {\n        let lastUF = unitFactor;\n        unitFactor *= unitFactors[i];\n        if (Math.abs(ms) < unitFactor * treshHoldMult[i] || i == units.length - 1)\n            return (ms / lastUF).toFixed(1) + units[i - 1];\n    }\n    return \"shouldNeverGetHere\";\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 645,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b345bca186b23010",
+        "type": "debug",
+        "z": "bdc0397a6f734959",
+        "g": "715e3385995add03",
+        "name": "exec",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "TOWER BIT ARRAY",
+        "statusType": "auto",
+        "x": 985,
+        "y": 135,
+        "wires": []
+    },
+    {
+        "id": "8a2471d210c18915",
+        "type": "exec",
+        "z": "bdc0397a6f734959",
+        "g": "715e3385995add03",
+        "command": "shutdown /r /d p:4:1 /c \"riavvio giornaliero pianificato da e per server nodered\" /T 0",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 610,
+        "y": 135,
+        "wires": [
+            [
+                "b345bca186b23010"
+            ],
+            [
+                "b345bca186b23010"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e85445620a914233",
+        "type": "inject",
+        "z": "bdc0397a6f734959",
+        "g": "715e3385995add03",
+        "name": "everyday at 23:59",
+        "props": [],
+        "repeat": "",
+        "crontab": "59 23 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 200,
+        "y": 135,
+        "wires": [
+            [
+                "8a2471d210c18915"
+            ]
+        ]
+    },
+    {
+        "id": "a7b630f86add12a2",
+        "type": "comment",
+        "z": "bdc0397a6f734959",
+        "g": "715e3385995add03",
+        "name": "parameters info",
+        "info": "https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/shutdown\n\n/r -> restart\n/d -> document shutdown reason -> planned, for app maintenance\n/c -> document shutdown reason -> \"...\"",
+        "x": 395,
+        "y": 90,
+        "wires": []
+    },
+    {
+        "id": "20c9f52c6b8ef311",
+        "type": "comment",
+        "z": "bdc0397a6f734959",
+        "g": "715e3385995add03",
+        "name": "DAILY REBOOT",
+        "info": "",
+        "x": 175,
+        "y": 90,
+        "wires": []
+    },
+    {
+        "id": "13b60319d1fe588f",
+        "type": "file in",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "",
+        "filename": ".\\restoreState.json",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 435,
+        "y": 1110,
+        "wires": [
+            [
+                "ee393d36ba87bb71"
+            ]
+        ]
+    },
+    {
+        "id": "d49de4a8e8616bd9",
+        "type": "catch",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "",
+        "scope": [
+            "13b60319d1fe588f"
+        ],
+        "uncaught": false,
+        "x": 135,
+        "y": 1020,
+        "wires": [
+            [
+                "54865619ba70c568"
+            ]
+        ]
+    },
+    {
+        "id": "54865619ba70c568",
+        "type": "function",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "catch restoreState fileNotFound -> skip",
+        "func": "\nif(/ENOENT/.test(msg.error.message) && !context.get(\"triedOnce\")){\n    console.info(\"[info][restoreState] no state file left to restore. step skipped.\");\n}\nelse{\n    return [null,msg]\n}",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\ncontext.set(\"triedOnce\",undefined)",
+        "finalize": "",
+        "libs": [],
+        "x": 375,
+        "y": 1020,
+        "wires": [
+            [
+                "b6056b6db7e277db"
+            ],
+            [
+                "fa2a5f4f6bd9e85b"
+            ]
+        ]
+    },
+    {
+        "id": "fa2a5f4f6bd9e85b",
+        "type": "function",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "catch restoreState all -> error",
+        "func": "\n\nif(msg.error){\n    node.error({ \"err\": msg.error.message, \"src\": msg.error.source.id, \"n\": msg.error.source.name, \"full\": msg });\n    //context.set(\"errorCc\", context.get(\"errorCc\")+1);\n    global.get(\"utils\").errorBlink(node, 60000);\n}\nelse{\n    node.error(msg);\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\n//node.status({ fill: \"gray\", shape: \"ring\", text: \"\" });\ncontext.set(\"outCc\", 0);\ncontext.set(\"errorCc\", 0);",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 1050,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "120cd23996d47069",
+        "type": "comment",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "on missing file -> skip step",
+        "info": "",
+        "x": 190,
+        "y": 990,
+        "wires": []
+    },
+    {
+        "id": "a1bc6f90620c1137",
+        "type": "comment",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "AUTOMATIC STATE RESTORE",
+        "info": "",
+        "x": 205,
+        "y": 930,
+        "wires": []
+    },
+    {
+        "id": "8ac5dec75a3ad874",
+        "type": "link in",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "allMain isDefinedEvent out",
+        "links": [
+            "230aaa874077cfdc"
+        ],
+        "x": 215,
+        "y": 1110,
+        "wires": [
+            [
+                "13b60319d1fe588f"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "ee393d36ba87bb71",
+        "type": "json",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 555,
+        "y": 1110,
+        "wires": [
+            [
+                "34205b364f9b4337"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "34205b364f9b4337",
+        "type": "function",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "restore state",
+        "func": "const signalCells = global.get(\"signalCells\");\nconst towersControl = global.get(\"towersControl\");\nconst towerBitArray = global.get(\"towerBitArray\");\nlet state = msg.payload;\n    //initialize the var if it's still undefined, then get it\nconst ctxGet = (key, val) => { context.get(key) ?? context.set(key, val); return context.get(key) }\nlet output = ctxGet(\"output\", toOutputMap([[\"default\", \"done\"], \"send_setSingleCellState\", \"programmedStateChanges\"]))//ctxGet(\"output\",new Map([[\"default\",0],[\"restoreState\",1]]));\n//[a,[b,c,d],e] -> (map)[ (a,0) (b,1) (c,1) (d,1) (e,2) ]\nfunction toOutputMap (arr){\n    let m = new Map();\n    let i=0;\n    for(let item of arr){\n        typeof item == \"string\" ? m.set(item, i) : item.forEach( subItem => m.set(subItem,i) )\n        i++;\n    }\n    return m;\n}\n\n\n// //copy state to global (towersControl)\n// for(let mk of towersControl.dictionary.macKeys)\n//     if(towersControl[mk] && state.towersControl[mk])\n//         for(let dev of towersControl.dictionary.devices)\n//             if(towersControl[mk].hasDevice(dev) && (state.towersControl[mk][dev] ?? false))\n//                 towersControl[mk][dev] = state.towersControl[mk][dev];\ntowersControl.towerBitArray = state.towersBitArray;\n//towersControl.dictionary.macKeys.forEach( mk => { if(towersControl[mk].hasDevice(\"horn\")) towersControl[mk][\"horn\"]=0 })\n\nconst sendOnChannel = (ch, msg) => {\n    let idx = output.get(ch);\n    node.send( new Array(node.outputCount).fill(null).map( (v,i) => i==idx ? msg : null ))\n}\n//copy state to global (signalCells)\n    //copy state //extrapolate new timer's end and start keeping the same progress\n    //restore ui\n    //program expected state changes //may trigger immediately\nfor(let mk of signalCells.dictionary.macKeys){\n    if(signalCells[mk] && state.signalCells[mk]){\n        let cell = signalCells[mk];\n        let cellState = state.signalCells[mk];\n        \n        //restore stateful data\n        cell.signalKey = cellState.signalKey;\n        cell.timerStart = cellState.timerStart;\n        cell.timerEnd = cellState.timerEnd;\n        //node.warn(\"for \"+mk+\" restore a timer diff \"+msToScaledString(cell.timerEnd-cell.timerStart)+\", to go \"+msToScaledString(Date.now() - cell.timerEnd))\n        //node.warn(\"for \" + mk + \" restore a timer diff \" + (cell.timerEnd - cell.timerStart) + \", to go \" + (Date.now() - cell.timerEnd))\n\n        //restore ui\n        sendOnChannel(\"send_setSingleCellState\", { topic: mk, action: \"set\" + cellState.signalKey });\n\n        //restore programmed state changes\n            //note: delay lower than 0 will trigger immediately\n        switch (cellState.signalKey) {\n            case \"A3\": {\n                let toA3LeftTimeout = undefined;\n                let toA4LeftTimeout = cellState.timerEnd - Date.now();\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout });\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout })\n                break;\n            }\n            case \"A2\": { }\n            case \"A1\": {\n                let toA3LeftTimeout = cellState.timerEnd - Date.now();\n                let toA4LeftTimeout = toA3LeftTimeout + cell.cfg.toA4Timeout;\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout});\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA3\", delay: toA3LeftTimeout })\n                setTimeout(()=>sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout }) , 100) //ensure msg order\n                break;\n            }\n            default: {\n                // //set to stored signal key, emulating button action\n                // sendOnChannel(\"buttonActions\", { topic: mk, action: \"set\" + state.signalCells.signalKey })\n            }\n        }\n    }\n}\n\nreturn msg;\n\n\n//---------------------------------------------------------\n\n\n// return formatted HTML version of JSON object\nfunction syntaxHighlight(json) {\n    json = global.get(\"utils\").safeStringify(json, 3)\n    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')\n    json = json.replace(/(\"(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\\"])*\"(\\s*:)?|\\b(true|false|null)\\b|-?\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d+)?)/g, function (match) {\n        var cls = 'number'\n        if ((/^\"/).test(match)) {\n            if ((/:$/).test(match)) {\n                cls = 'key'\n            } else {\n                cls = 'string'\n            }\n        } else if ((/true|false/).test(match)) {\n            cls = 'boolean'\n        } else if ((/null/).test(match)) {\n            cls = 'null'\n        }\n        return '<span class=\"' + cls + '\">' + match + '</span>'\n    })\n    return json\n}\n\nfunction msToScaledString(ms) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }\n\n    var unitFactor = unitFactors[0];\n    for (let i = 1; i < units.length; i++) {\n        let lastUF = unitFactor;\n        unitFactor *= unitFactors[i];\n        if (Math.abs(ms) < unitFactor * treshHoldMult[i])\n            return (ms / lastUF).toFixed(1) + units[i - 1];\n    }\n    return (ms / unitFactor).toFixed(1) + units[units.length - 1];\n}",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 695,
+        "y": 1110,
+        "wires": [
+            [
+                "a72dd10839c7345f",
+                "3c9f435e5609256f",
+                "8883619efda46439"
+            ],
+            [
+                "9e983d290a223810"
+            ],
+            [
+                "6f7088a5182e6611",
+                "bd63469247bf5e8b"
+            ]
+        ]
+    },
+    {
+        "id": "a72dd10839c7345f",
+        "type": "debug",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "done",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "counter",
+        "x": 1165,
+        "y": 1095,
+        "wires": []
+    },
+    {
+        "id": "3c9f435e5609256f",
+        "type": "debug",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "READ STATE FILE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1335,
+        "y": 1095,
+        "wires": []
+    },
+    {
+        "id": "9e983d290a223810",
+        "type": "link call",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "",
+        "links": [
+            "10236b7afccb694e"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 955,
+        "y": 1140,
+        "wires": [
+            [
+                "e4dfba6bcb2cac94"
+            ]
+        ]
+    },
+    {
+        "id": "6f7088a5182e6611",
+        "type": "link out",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "programmedStateChange ",
+        "mode": "link",
+        "links": [
+            "fb95b4d0741d8db8"
+        ],
+        "x": 925,
+        "y": 1170,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "bd63469247bf5e8b",
+        "type": "debug",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "PROGRAMMED STATE CHANGE",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 955,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "e4dfba6bcb2cac94",
+        "type": "link out",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "toWebapp",
+        "mode": "link",
+        "links": [
+            "29da4c340c1c0f16"
+        ],
+        "x": 1160,
+        "y": 1140,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "8883619efda46439",
+        "type": "link out",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "delete state file",
+        "mode": "link",
+        "links": [
+            "926fc6888d243ae0"
+        ],
+        "x": 940,
+        "y": 1095,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "b6056b6db7e277db",
+        "type": "debug",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "SKIPPED",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "\"[info] no state file to restore. step skipped.\"",
+        "targetType": "jsonata",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 630,
+        "y": 1005,
+        "wires": []
+    },
+    {
+        "id": "9b38f06624de64ff",
+        "type": "comment",
+        "z": "bdc0397a6f734959",
+        "g": "8532cf3e3d1725d7",
+        "name": "if a state-file exists -> use it to restore -> then delete it",
+        "info": "",
+        "x": 560,
+        "y": 930,
+        "wires": []
+    },
+    {
+        "id": "78d3a50b17abeff0",
+        "type": "complete",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "",
+        "scope": [],
+        "uncaught": false,
+        "x": 140,
+        "y": 1455,
+        "wires": [
+            [
+                "554c3f5bc8e40a59"
+            ]
+        ]
+    },
+    {
+        "id": "604cabc96ce43385",
+        "type": "inject",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "poll 1s global.config",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "config",
+        "payloadType": "global",
+        "x": 215,
+        "y": 1485,
+        "wires": [
+            [
+                "bbe9f4cb2b149c44"
+            ]
+        ]
+    },
+    {
+        "id": "bbe9f4cb2b149c44",
+        "type": "rbe",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": false,
+        "property": "payload",
+        "topi": "topic",
+        "x": 355,
+        "y": 1485,
+        "wires": [
+            [
+                "684a41199ebdc2d8",
+                "8356b0b9be193763"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "684a41199ebdc2d8",
+        "type": "json",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": false,
+        "x": 445,
+        "y": 1470,
+        "wires": [
+            [
+                "417f78e328e4a09d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "417f78e328e4a09d",
+        "type": "file",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "",
+        "filename": ".\\commonConfig.json",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 560,
+        "y": 1470,
+        "wires": [
+            [
+                "0844037703aaacfd"
+            ]
+        ]
+    },
+    {
+        "id": "0844037703aaacfd",
+        "type": "debug",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "written settings",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 745,
+        "y": 1470,
+        "wires": []
+    },
+    {
+        "id": "8356b0b9be193763",
+        "type": "link out",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "OnConfigUpdate_out",
+        "mode": "link",
+        "links": [
+            "019724bd0407040d",
+            "7a56c04c308a37eb",
+            "0be9e347c272ebc7",
+            "382b9ee86b061715",
+            "2829a11cc5455212",
+            "c7f4104b21b3f0ed",
+            "4f4965017bd78144",
+            "79329d19f997f71e",
+            "dcfdd404535dc654",
+            "23fa7a8de9d4b748",
+            "71cdad2935eab809",
+            "a3c95a133003aada",
+            "736f1d79123164d5"
+        ],
+        "x": 520,
+        "y": 1515,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "554c3f5bc8e40a59",
+        "type": "change",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "get config",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "config",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 1455,
+        "wires": [
+            [
+                "684a41199ebdc2d8",
+                "8356b0b9be193763"
+            ]
+        ]
+    },
+    {
+        "id": "8de5f04f95182815",
+        "type": "inject",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "send",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "config",
+        "payloadType": "global",
+        "x": 260,
+        "y": 1515,
+        "wires": [
+            [
+                "8356b0b9be193763"
+            ]
+        ]
+    },
+    {
+        "id": "55689412a6786c29",
+        "type": "complete",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "OnConfigUpdate",
+        "scope": [
+            "cb60b597db78bc13",
+            "684a41199ebdc2d8"
+        ],
+        "uncaught": false,
+        "x": 310,
+        "y": 1560,
+        "wires": [
+            [
+                "1b98569782c962ed"
+            ]
+        ]
+    },
+    {
+        "id": "1b98569782c962ed",
+        "type": "link out",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "OnConfigUpdateEvent_out",
+        "mode": "link",
+        "links": [],
+        "x": 540,
+        "y": 1560,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "26fe02b7a74d9f1c",
+        "type": "comment",
+        "z": "bdc0397a6f734959",
+        "d": true,
+        "g": "bd3401ba3c7c0a3b",
+        "name": "KEEP UPDATED",
+        "info": "",
+        "x": 150,
+        "y": 1410,
+        "wires": []
+    },
+    {
+        "id": "d24ade93deebed4f",
+        "type": "link in",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "saveCurrentState",
+        "links": [
+            "07751a8a51402e26"
+        ],
+        "x": 280,
+        "y": 360,
+        "wires": [
+            [
+                "a4270dc0c32b6dec"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "a4270dc0c32b6dec",
+        "type": "function",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "saveCurrentState",
+        "func": "const utils = global.get(\"utils\");\nconst cells = global.get(\"signalCells\");\nconst tow = global.get(\"towersBitArray\")\n\n// //copy all signalCells with their non-excluded properties\n// var excluded = [\"dictionary\", \"config\", \"cfg\"];\n// const isExcluded = key => excluded.includes(key)\n// var signalCellsState = {};\n// for(let mk of cells.dictionary.macKeys){\n//     if(cells[mk] && !isExcluded(mk)){\n//         signalCellsState[mk]={};\n//         for(let prop in cells[mk])\n//             if(!isExcluded(prop))\n//                 signalCellsState[mk][prop] = cells[mk][prop];\n//     }\n// }\n\nmsg.payload = {\n    signalCells:global.get(\"signalCells\"),\n    towersBitArray:global.get(\"towersBitArray\"),\n    towersControl:global.get(\"towersControl\")\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 575,
+        "y": 360,
+        "wires": [
+            [
+                "6b19c269d73bfe55"
+            ]
+        ]
+    },
+    {
+        "id": "a4e36eecbeb3f389",
+        "type": "inject",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "2",
+        "topic": "",
+        "x": 120,
+        "y": 360,
+        "wires": [
+            [
+                "a4270dc0c32b6dec"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6b19c269d73bfe55",
+        "type": "file",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "",
+        "filename": ".\\restoreState.json",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 830,
+        "y": 360,
+        "wires": [
+            [
+                "41613050ce952ae6"
+            ]
+        ]
+    },
+    {
+        "id": "3ce071ef6f196670",
+        "type": "json",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": false,
+        "x": 725,
+        "y": 360,
+        "wires": [
+            [
+                "6b19c269d73bfe55"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "41613050ce952ae6",
+        "type": "debug",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "WRITTEN STATE FILE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1075,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "79f55a8d187a5abd",
+        "type": "link in",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "restoreStateFromFile",
+        "links": [],
+        "x": 265,
+        "y": 465,
+        "wires": [
+            [
+                "2bb5be65407b74d8"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "2bb5be65407b74d8",
+        "type": "file in",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "",
+        "filename": ".\\restoreState.json",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 515,
+        "y": 465,
+        "wires": [
+            [
+                "c661a1793324f309"
+            ]
+        ]
+    },
+    {
+        "id": "30654536491a43fa",
+        "type": "inject",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "2",
+        "topic": "",
+        "x": 125,
+        "y": 465,
+        "wires": [
+            [
+                "2bb5be65407b74d8"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c661a1793324f309",
+        "type": "json",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 635,
+        "y": 465,
+        "wires": [
+            [
+                "390b2b9825b4fa24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "390b2b9825b4fa24",
+        "type": "function",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "restore state",
+        "func": "const signalCells = global.get(\"signalCells\");\nconst towersControl = global.get(\"towersControl\");\nconst towerBitArray = global.get(\"towerBitArray\");\nlet state = msg.payload;\n    //initialize the var if it's still undefined, then get it\nconst ctxGet = (key, val) => { context.get(key) ?? context.set(key, val); return context.get(key) }\nlet output = ctxGet(\"output\", toOutputMap([[\"default\", \"done\"], \"send_setSingleCellState\", \"programmedStateChanges\"]))//ctxGet(\"output\",new Map([[\"default\",0],[\"restoreState\",1]]));\n//[a,[b,c,d],e] -> (map)[ (a,0) (b,1) (c,1) (d,1) (e,2) ]\nfunction toOutputMap (arr){\n    let m = new Map();\n    let i=0;\n    for(let item of arr){\n        typeof item == \"string\" ? m.set(item, i) : item.forEach( subItem => m.set(subItem,i) )\n        i++;\n    }\n    return m;\n}\n\n\n// //copy state to global (towersControl)\n// for(let mk of towersControl.dictionary.macKeys)\n//     if(towersControl[mk] && state.towersControl[mk])\n//         for(let dev of towersControl.dictionary.devices)\n//             if(towersControl[mk].hasDevice(dev) && (state.towersControl[mk][dev] ?? false))\n//                 towersControl[mk][dev] = state.towersControl[mk][dev];\ntowersControl.towerBitArray = state.towersBitArray;\n//towersControl.dictionary.macKeys.forEach( mk => { if(towersControl[mk].hasDevice(\"horn\")) towersControl[mk][\"horn\"]=0 })\n\nconst sendOnChannel = (ch, msg) => {\n    let idx = output.get(ch);\n    node.send( new Array(node.outputCount).fill(null).map( (v,i) => i==idx ? msg : null ))\n}\n//copy state to global (signalCells)\n    //copy state //extrapolate new timer's end and start keeping the same progress\n    //restore ui\n    //program expected state changes //may trigger immediately\nfor(let mk of signalCells.dictionary.macKeys){\n    if(signalCells[mk] && state.signalCells[mk]){\n        let cell = signalCells[mk];\n        let cellState = state.signalCells[mk];\n        \n        //restore stateful data\n        cell.signalKey = cellState.signalKey;\n        cell.timerStart = cellState.timerStart;\n        cell.timerEnd = cellState.timerEnd;\n        //node.warn(\"for \"+mk+\" restore a timer diff \"+msToScaledString(cell.timerEnd-cell.timerStart)+\", to go \"+msToScaledString(Date.now() - cell.timerEnd))\n        //node.warn(\"for \" + mk + \" restore a timer diff \" + (cell.timerEnd - cell.timerStart) + \", to go \" + (Date.now() - cell.timerEnd))\n\n        //restore ui\n        sendOnChannel(\"send_setSingleCellState\", { topic: mk, action: \"set\" + cellState.signalKey });\n\n        //restore programmed state changes\n            //note: delay lower than 0 will trigger immediately\n        switch (cellState.signalKey) {\n            case \"A3\": {\n                let toA3LeftTimeout = undefined;\n                let toA4LeftTimeout = cellState.timerEnd - Date.now();\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout });\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout })\n                break;\n            }\n            case \"A2\": { }\n            case \"A1\": {\n                let toA3LeftTimeout = cellState.timerEnd - Date.now();\n                let toA4LeftTimeout = toA3LeftTimeout + cell.cfg.toA4Timeout;\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout});\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA3\", delay: toA3LeftTimeout })\n                setTimeout(()=>sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout }) , 100) //ensure msg order\n                break;\n            }\n            default: {\n                // //set to stored signal key, emulating button action\n                // sendOnChannel(\"buttonActions\", { topic: mk, action: \"set\" + state.signalCells.signalKey })\n            }\n        }\n    }\n}\n\nreturn msg;\n\n\n//---------------------------------------------------------\n\n\n// return formatted HTML version of JSON object\nfunction syntaxHighlight(json) {\n    json = global.get(\"utils\").safeStringify(json, 3)\n    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')\n    json = json.replace(/(\"(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\\"])*\"(\\s*:)?|\\b(true|false|null)\\b|-?\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d+)?)/g, function (match) {\n        var cls = 'number'\n        if ((/^\"/).test(match)) {\n            if ((/:$/).test(match)) {\n                cls = 'key'\n            } else {\n                cls = 'string'\n            }\n        } else if ((/true|false/).test(match)) {\n            cls = 'boolean'\n        } else if ((/null/).test(match)) {\n            cls = 'null'\n        }\n        return '<span class=\"' + cls + '\">' + match + '</span>'\n    })\n    return json\n}\n\nfunction msToScaledString(ms) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }\n\n    var unitFactor = unitFactors[0];\n    for (let i = 1; i < units.length; i++) {\n        let lastUF = unitFactor;\n        unitFactor *= unitFactors[i];\n        if (Math.abs(ms) < unitFactor * treshHoldMult[i])\n            return (ms / lastUF).toFixed(1) + units[i - 1];\n    }\n    return (ms / unitFactor).toFixed(1) + units[units.length - 1];\n}",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 465,
+        "wires": [
+            [
+                "a840ef04fa247339",
+                "d1da9359b4498a7f"
+            ],
+            [
+                "ec47dd813f075f10"
+            ],
+            [
+                "f19e0d3bf7b8a72b",
+                "58192758e5f5c86d"
+            ]
+        ]
+    },
+    {
+        "id": "a840ef04fa247339",
+        "type": "debug",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "done",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "counter",
+        "x": 985,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "d1da9359b4498a7f",
+        "type": "debug",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "READ STATE FILE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1145,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "f19e0d3bf7b8a72b",
+        "type": "link out",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "programmedStateChange ",
+        "mode": "link",
+        "links": [
+            "fb95b4d0741d8db8"
+        ],
+        "x": 1045,
+        "y": 495,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "ec47dd813f075f10",
+        "type": "link call",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "",
+        "links": [
+            "10236b7afccb694e"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 1030,
+        "y": 465,
+        "wires": [
+            [
+                "739f864f65f1b46e"
+            ]
+        ]
+    },
+    {
+        "id": "58192758e5f5c86d",
+        "type": "debug",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "PROGRAMMED STATE CHANGE",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1250,
+        "y": 525,
+        "wires": []
+    },
+    {
+        "id": "739f864f65f1b46e",
+        "type": "link out",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "toWebapp",
+        "mode": "link",
+        "links": [
+            "29da4c340c1c0f16"
+        ],
+        "x": 1235,
+        "y": 465,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "926fc6888d243ae0",
+        "type": "link in",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "delete state file",
+        "links": [
+            "8883619efda46439"
+        ],
+        "x": 290,
+        "y": 555,
+        "wires": [
+            [
+                "770fcfabe42eb8e0"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "770fcfabe42eb8e0",
+        "type": "change",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": ".\\restoreState.json",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$env(\"noderedDir\")&\"app\\\\restoreState.json\"\t",
+                "tot": "jsonata",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 505,
+        "y": 555,
+        "wires": [
+            [
+                "ba21eee6635ccd7c"
+            ]
+        ]
+    },
+    {
+        "id": "6b50cca780e9b258",
+        "type": "inject",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "2",
+        "topic": "",
+        "x": 125,
+        "y": 555,
+        "wires": [
+            [
+                "770fcfabe42eb8e0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ba21eee6635ccd7c",
+        "type": "exec",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "command": "del",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "5",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 675,
+        "y": 555,
+        "wires": [
+            [
+                "2eb97e62bea1698b"
+            ],
+            [
+                "2eb97e62bea1698b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2eb97e62bea1698b",
+        "type": "debug",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "DELETED STATE FILE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 895,
+        "y": 555,
+        "wires": []
+    },
+    {
+        "id": "6ec01070d2179dfa",
+        "type": "comment",
+        "z": "bdc0397a6f734959",
+        "g": "335f6220202eee91",
+        "name": "MANUAL STATE BACKUP/RESTORE",
+        "info": "",
+        "x": 240,
+        "y": 315,
+        "wires": []
+    },
+    {
+        "id": "07751a8a51402e26",
+        "type": "link out",
+        "z": "bdc0397a6f734959",
+        "g": "10df34089ddda1a8",
+        "name": "saveCurrentState",
+        "mode": "link",
+        "links": [
+            "d24ade93deebed4f"
+        ],
+        "x": 585,
+        "y": 825,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "e8408a513b596111",
+        "type": "comment",
+        "z": "bdc0397a6f734959",
+        "g": "10df34089ddda1a8",
+        "name": "ENABLE AUTOMATIC BACKUP (hot changes tool)",
+        "info": "",
+        "x": 265,
+        "y": 735,
+        "wires": []
+    },
+    {
+        "id": "6f76ada384de5ff1",
+        "type": "comment",
+        "z": "bdc0397a6f734959",
+        "g": "10df34089ddda1a8",
+        "name": "#dbg toggle",
+        "info": "",
+        "x": 170,
+        "y": 765,
+        "wires": []
+    },
+    {
+        "id": "1286299174533c92",
+        "type": "inject",
+        "z": "bdc0397a6f734959",
+        "g": "10df34089ddda1a8",
+        "name": "toggle",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "control",
+        "payload": "toggle",
+        "payloadType": "str",
+        "x": 190,
+        "y": 795,
+        "wires": [
+            [
+                "1e5f4e4ecaa8c98c"
+            ]
+        ]
+    },
+    {
+        "id": "1e5f4e4ecaa8c98c",
+        "type": "gate",
+        "z": "bdc0397a6f734959",
+        "g": "10df34089ddda1a8",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "closed",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "statusCmd": "status",
+        "persist": false,
+        "storeName": "memory",
+        "x": 280,
+        "y": 825,
+        "wires": [
+            [
+                "07751a8a51402e26"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b398ce4fc0c7bbde",
+        "type": "inject",
+        "z": "bdc0397a6f734959",
+        "g": "10df34089ddda1a8",
+        "name": "poll 15s",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "x": 180,
+        "y": 825,
+        "wires": [
+            [
+                "1e5f4e4ecaa8c98c"
+            ]
         ]
     }
 ]
