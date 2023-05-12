@@ -235,8 +235,9 @@
 
 /*** SIGNALS ***/
    .signal-noop{ /* aspetto all'avvio del server*/
-      background-color: var(--gray-600);
-   }
+      background-color: var(--somevar);/*var(--gray-600);*/
+   }:root{ --somevar:green; --bigvar:blue;}
+
    .signal-A1{ /* chiamata */
       background-color: hsl(0, 72%, 50%);
    }
@@ -267,6 +268,7 @@
    }
 
    .signal-C1{ /* downtime */
+      --C1-background-color:red;
       background-color: var(--gray-400);
       color: black;
    }

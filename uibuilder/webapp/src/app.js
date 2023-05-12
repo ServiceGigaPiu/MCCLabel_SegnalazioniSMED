@@ -31,7 +31,10 @@ const ROUTER = createRouter({
       {
          path: '/display-grid',
          name: 'displayGridName',
-         component: displayGridView
+         components: {
+            default: displayGridView //<router-view> without name
+            //name: component    //independent components for the same view //ex. a sidebar will stay the same across routes.
+         }
       },
       {
          path: '/smed-interface',
@@ -262,7 +265,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
                   <span>Prendi In Carico</span>
                </b-button-->
             </div>
-         
+
          
          </div>
       </div>
