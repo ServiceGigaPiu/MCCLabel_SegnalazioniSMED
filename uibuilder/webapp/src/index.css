@@ -123,6 +123,12 @@
          <div class="countdown-container">
             <..>
    */
+   .main-col.empty-cell{
+      /* negates all main-col appeareance-related styles. Keep dimensions and position */
+      color:transparent;
+      box-shadow: none;
+      border-color:transparent;
+   }
    .main-col{
       color:var(--gray-100);
       box-shadow:0px 0px 5px 2px var(--gray-600);
@@ -140,7 +146,7 @@
       font-size:12vh;
       line-height: 1;
       font-weight:bolder;
-      max-height:12vh; /* rought estimate, avoids box diplacement due to wrong aspect ratio*/
+      max-height:13vh; /* rought estimate, avoids box diplacement due to wrong aspect ratio*/
       overflow:hidden;
    }
 

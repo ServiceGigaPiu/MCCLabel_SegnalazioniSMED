@@ -44,16 +44,27 @@ uibuilder.onTopic("initApp",(msg)=>{
       NR_TIME_OFFSET = msg.timeSync.now + 100 - Date.now();//Date.parse(msg.timeSync.formatString);
       //console.warn("NR_TIME_OFFSET becomes ",NR_TIME_OFFSET," and its function returns ",nrDateNow(),"with a diff of ",new Date(nrDateNow()).toString() )
 
+
+      //init App Vars that depend on nr config
+         //MACHINE_CFGS & related signalCells props (again)
+         //CELLS_LAYOUT
+         //CELLS_VIEW //set to current app.viewKey
+      app.viewKey = msg.viewKey;
+      nrConfigToAppConfig(msg.config);
+      
+
       //set all signalCells from nr_signalCellState (same as onTopic(setSingleSignalCellState) )
       {let cell,state,cfg; for(let macKey of msg.signalCellsStates.dictionary.macKeys){
+         //aliases
          cell = app.$data.signalCells[macKey];
          state = msg.signalCellsStates[macKey];
          cfg = msg.config.machines[macKey];
          //console.warn("parsing ",macKey,"pointing cell,state:",cell, state)
 
+         //set 
          cell.signalKey = state.signalKey ?? errCb("signalCellsStates.[macKey].signalKey");
-         cell.displayName = cfg.displayName;
-         cell.headerText = cfg.cellHeaderText;
+         //cell.displayName = cfg.displayName;
+         //cell.headerText = cfg.cellHeaderText;
 
          //if no timer-related data was sent or time's up
             //hide timer
@@ -72,20 +83,21 @@ uibuilder.onTopic("initApp",(msg)=>{
       }}
 
 
-      //set CELL_VIEW from config.views[viewKey]
-      let viewKey = msg.viewKey;          if(!msg.config.views || !msg.config.views[viewKey]) throw new TypeError(`[onTopic initApp]: missing viewKey ${viewKey} from msg.config.views `);
-      let viewCfg = msg.config.views[viewKey]; //msg.config.views[viewKey];  
-         //check that all adminUI keys are macKeys
-      //if( !viewCfg.adminUI.every((function(){ let macKeys=app.CELLS_LAYOUT.flat(); return (val) => macKeys.include(val)})()) ) throw new TypeError(`[onTopic initApp]: ${viewCfg.adminUI[i]} is not a valid macKey. valid macKeys:${macKeys}`);//viewCfg.adminUI.forEach( (macKey) => {if(cellsLayout)})
-      //viewCfg.adminUI.forEach( macKey => app.CELL_VIEW[ CELLS_LAYOUT.indexOf(macKey) ] = true );
-      //app.CELL_VIEW.forEach( r,i,row => row.forEach( v,i => app.CELL_VIEW[r][i]=2 ));
-      app.CELLS_LAYOUT.forEach( (row, r) => 
-         row.forEach( (macKey,c) => app.CELLS_VIEW[r][c] = viewCfg.adminUI.includes(macKey) ));
-      app.adminUI = viewCfg.adminUI;
+      ////set CELL_VIEW from config.views[viewKey]
+      //let viewKey = msg.viewKey;          if(!msg.config.views || !msg.config.views[viewKey]) throw new TypeError(`[onTopic initApp]: missing viewKey ${viewKey} from msg.config.views `);
+      //let viewCfg = msg.config.views[viewKey]; //msg.config.views[viewKey];  
+      //   //check that all adminUI keys are macKeys
+      ////if( !viewCfg.adminUI.every((function(){ let macKeys=app.CELLS_LAYOUT.flat(); return (val) => macKeys.include(val)})()) ) throw new TypeError(`[onTopic initApp]: ${viewCfg.adminUI[i]} is not a valid macKey. valid macKeys:${macKeys}`);//viewCfg.adminUI.forEach( (macKey) => {if(cellsLayout)})
+      ////viewCfg.adminUI.forEach( macKey => app.CELL_VIEW[ CELLS_LAYOUT.indexOf(macKey) ] = true );
+      ////app.CELL_VIEW.forEach( r,i,row => row.forEach( v,i => app.CELL_VIEW[r][i]=2 ));
+      //app.CELLS_LAYOUT.forEach( (row, r) => 
+      //   row.forEach( (macKey,c) => app.CELLS_VIEW[r][c] = viewCfg.adminUI.includes(macKey) ));
+      //app.adminUI = viewCfg.adminUI;
+   
    }
    catch(e){
       if(e instanceof TypeError) console.error(e.message); //catch viewKey error
       else throw e;
    }
-   console.info("[initApp]: inited with",msg.viewKey,msg," to CL",app.CELLS_LAYOUT,"to CV", app.CELLS_VIEW,"to SCells",ObjectClone(app.signalCells))
+   console.info("[initApp]: inited with",msg.viewKey,msg," -> to CLAY",app.CELLS_LAYOUT,"to CVIEW", app.CELLS_VIEW,"to MCFG", app.MACHINE_CFGS,"to SCells",ObjectClone(app.signalCells));
 });

@@ -61,15 +61,15 @@ var retSignalCellObj=function(){return {
                <div class="cell-header" ref="cellheader">
                   {{headerText}}
                </div>
-               <div class="label-container">
+               <!--div class="label-container">
                   <span class="prefix">
                      <span class="bgr-box" v-bind:class="[signalClass, isBlinkingNow?blinkClass:'']">  VELOCITA'   </span>
                   </span>
                   <div>
                      <span class="value">82</span>    <span class="suffix">m/min</span>
                   </div>
-               </div>
-               <div class="countdown-container" v-bind:style="{visibility: isCdShown ? 'visible' : 'visible'}">
+               </div-->
+               <div class="countdown-container" v-bind:style="{visibility: isCdShown ? 'visible' : 'hidden'}">
                   <div class="progress rounded-pill">
                      <div class="relative-wrapper">
                         <div class="countdown-clock">
@@ -89,6 +89,8 @@ var retSignalCellObj=function(){return {
          signalKey:{ default: "noop", validator:(k) => ["noop","A1", "A2", "A3", "A4","B","C1","C2","D","E"].includes(k) },
          timerLength:{ default: 0, type:Number},
          remainingMs:{ default:0, type:Number},
+         blinkIntvOnMs:{ type:Number },
+         blinkIntvOffMs:{ type:Number }
       },
 
 
@@ -152,7 +154,7 @@ var retSignalCellObj=function(){return {
             handler:function toggle(newVal, oldVal){
                //console.log("inBlinkMode set from",oldVal,newVal);
                if(this.inBlinkMode)
-                  this.setupBlinker(this, 500, 300);
+                  this.setupBlinker(this, this.$props.blinkIntvOnMs, this.$props.blinkIntvOffMs);
                else{
                   this.removeBlinker(this);
                   this.isBlinkingNow = false;
@@ -177,7 +179,7 @@ var retSignalCellObj=function(){return {
                this.touts = {};
             clearTimeout(ctx.touts[XtoX]);
             ctx.touts[XtoX] = setTimeout((ctx)=>{ctx.signalKey=toState;}, 20*60*1000);
-         },
+         }, 
 
          /**
           * @desc Immediately adds offClass, then intermittently toggles it.
@@ -192,7 +194,7 @@ var retSignalCellObj=function(){return {
             const setupper = ()=>{
                if(ctx.blinkIntvOn != undefined || ctx.blinkIntvOff != undefined){
                   console.warn("attachBlink: property clash with name blinkIntv[On|Off]. overwritten.", ctx);
-                  removeBlinker(ctx);
+                  this.removeBlinker(ctx);
                }
 
                //add offClass now and every timeOff+timeOn ms
@@ -231,7 +233,7 @@ Vue.component("signalCell",retSignalCellObj());
 const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCellObj(),{
    template:`
       <div>
-         <div v-bind:class="[signalClass, isBlinkingNow?blinkClass:'']" style="padding-bottom:1vh;">
+         <div v-bind:class="[signalClass, isBlinkingNow?blinkClass:'']" style="padding-bottom:1vh; width:100%;">
             <div class="cell-header" style="font-size:5vh; max-height:7vh; text-align:left; ">
                {{headerText}}
             </div>
@@ -409,6 +411,8 @@ const app = new Vue({
                //project specific
             JS_DATE_OFFSET:0,
             CELLS_LAYOUT:CELLS_LAYOUT,
+            NROWS:NROWS,
+            NCOLS:NCOLS,
             MACHINE_CFGS:MACHINE_CFGS,
             CELLS_VIEW:CELLS_VIEW,
             adminUI:[],
@@ -422,6 +426,9 @@ const app = new Vue({
                         signalKey:cfg.initCellSignalKey,
                         displayName:cfg.displayName,
                         headerText:cfg.cellHeaderText,
+                        blinkIntvOn:cfg.blinkIntvOn,
+                        blinkIntvOff:cfg.blinkIntvOff,
+                        test:[5,[1,2,3]],
                         cd:{
                            timerLength:20000,
                            remainingMs:0,
@@ -564,6 +571,15 @@ const app = new Vue({
          }
          cell.signalKey = msg.fromSignalCellState.signalKey ?? errCb("signalKey");
 
+      });
+
+      /**
+       * expects { config: config }
+       */
+      uibuilder.onTopic("configUpdated",function(msg){
+         console.log("triggered configUpdated with",msg);
+         nrConfigToAppConfig(msg.config);
+         console.log("[configUpdated]: upd with",msg," -> to CLAY",app.CELLS_LAYOUT,"to CVIEW", app.CELLS_VIEW,"to MCFG", app.MACHINE_CFGS);
       });
 
       

@@ -229,22 +229,105 @@
    }
    /**   scales ms down to a more confortable unit returns it as a string with said unit as suffix. 
     *    int -> scaledFloat+'unit'     ex. '2.1h', '3.2gg', '26.3s' etc
-    * /
-   function msToScaledString(ms){
-      let units = ["ms","s","min","h","gg"];
+    */
+   function msToScaledString(ms) {
+      let units = ["ms", "s", "min", "h", "gg"];
       let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2
-      let unitFactors=[1,1000,60,60,24]; //in terms of the preceding unit //ex. min are 1*1000*60
+      let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60
       //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }
-      
+
       var unitFactor = unitFactors[0];
-      for(let i=1; i<units.length; i++){
+      for (let i = 1; i < units.length; i++) {
          let lastUF = unitFactor;
          unitFactor *= unitFactors[i];
-         if(ms < unitFactor * treshHoldMult[i] || i==units.length-1)
-            return (ms/lastUF).toFixed(1) + units[i-1];
+         if (Math.abs(ms) < unitFactor * treshHoldMult[i])
+            return (ms / lastUF).toFixed(1) + units[i - 1];
       }
-      return "shouldNeverGetHere";
-   }*/
+      return (ms / unitFactor).toFixed(1) + units[units.length - 1];
+   }/**/
+
+//#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
+/* ################################################################################################################################
+   #####################################  APP  #################################################################################### */
+   //#region
+   
+   /** updates the app' variables that depend on nodered's configs
+    * #TODO #TMP none of this vars trigger a reactive update. workaround: edit a reactive var, like headerText
+   */
+   window.nrConfigToAppConfig = function(config){
+      try {
+         let errCb = (attr,ret=undefined) => {console.error("missing attribute "+attr+" in onTopic(configUpdated) response", msg); return undefined};
+         //app.CELLS_LAYOUT = msg.cellsLayout ?? errCb("cellsLayout");
+         //try{ app.MACHINE_CFGS = msg.config.machines } catch(e) {errCb("config.machines")};
+
+         ////set custom css //#TODO
+         //   //signal-<sk>-<cssProp>:value;
+         //{let customCss = msg.config.customCss;
+         //   for(let item of customCss.signal)
+         //}
+         //update both app.MACHINE_CFGS and the related signalCells props
+         app.MACHINE_CFGS = app.MACHINE_CFGS ?? new Array();
+         for(let macKey in config.machines){
+            let cell=app.signalCells[macKey];   let cfg=config.machines[macKey]; 
+            //signalCells
+            cell.displayName = cfg.displayName;
+            cell.headerText = cfg.cellHeaderText;
+            //if blink times changed -> re-apply blinkers
+            if(cell.blinkIntvOn!=cfg.blinkIntvOn || cell.blinkIntvOff!=cfg.blinkIntvOff){
+               cell.blinkIntvOn = cfg.blinkIntvOn;
+               cell.blinkIntvOff = cfg.blinkIntvOff;
+               let refs = app.$children.filter( comp => comp.$props.machineKey==macKey );
+               for(let signCell of refs){
+                  if(signCell.$data.inBlinkMode){
+                     console.log("reset blinker with times", cell.blinkIntvOn, cell.blinkIntvOff)
+                     signCell.removeBlinker(signCell);
+                     signCell.setupBlinker(signCell, cell.blinkIntvOn, cell.blinkIntvOff);
+                  }
+               }
+            }
+            //preserves the references to MACHINE_CFG and its 1-deep keys (the macKeys), but breaks the rest
+            Object.assign(app.MACHINE_CFGS[macKey], config.machines[macKey]);
+         }
+         
+         //update CELLS_LAYOUT
+            //memo: cellsLayout items can be null
+         console.log("initing CELLS_LAYOUT");
+         app.CELLS_LAYOUT = app.CELLS_LAYOUT ?? config.cellsLayout.map(r => r.map(v => null));
+         app.CELLS_LAYOUT.forEach( (row,r) => {
+            row.forEach( (val,c) => {
+               row[c] = config.cellsLayout[r][c];
+               console.log(`cellsLayout[${r}}][${c}]: ${row[c]} <- ${config.cellsLayout[r][c]} = ${app.CELLS_LAYOUT[r][c]}`);
+            });
+         });
+         console.log("done");
+
+         //update CELLS_VIEW from adminUI in config.views[viewKey]
+         app.CELLS_VIEW = app.CELLS_VIEW ??  config.cellsLayout.map(r => r.map(v => false));
+         {let viewKey = app.viewKey;
+         let viewCfg = config.views[viewKey];
+         let adminUISet = new Set( viewCfg.adminUI );
+         app.CELLS_VIEW.forEach( (row,r) => {
+            row.forEach( (val,c) => {
+               row[c] = adminUISet.has(CELLS_LAYOUT[r][c]); //viewCfg.adminUI.includes(CELLS_LAYOUT[r][c]);
+            })
+         })
+         }
+
+         //trigger a reactive update (workaround)
+            //add/subtr 1 from cd.end if it's even/odd (avoid cumulative changes)
+            //edited cell must be visible, or it won't trigger anything
+            //EDIT: using app.$set seemingly makes that var reactive
+         app.$set(app.$data.CELLS_LAYOUT, 0, app.$data.CELLS_LAYOUT[0].map(v=>v));
+         //{let macKey = "FA419"; //Object.keys(app.MACHINE_CFGS)[0];
+         //let end = app.signalCells[macKey].cd.end;
+         //app.signalCells[macKey].cd.end = (end&1) ? end+1 : end-1;
+         //}
+      }catch(e){
+         if(e instanceof TypeError) console.error(e.message); //catch viewKey error
+         else throw e;
+      }
+   }
+
 
 //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
 /* ################################################################################################################################
@@ -488,10 +571,5 @@
    //   el.touts[XtoX] = setTimeout(applyStyle, 20*60*1000, toState, el);
    //}
 
-
-
-   function connectionLost(){
-
-   }
-
 //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
+
