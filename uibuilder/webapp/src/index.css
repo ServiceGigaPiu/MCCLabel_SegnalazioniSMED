@@ -144,10 +144,11 @@
       margin: 0 auto 0 auto;
       text-align:center;
       font-size:12vh;
-      line-height: 1;
+      line-height: 0.8;
       font-weight:bolder;
-      max-height:13vh; /* rought estimate, avoids box diplacement due to wrong aspect ratio*/
+      height:14vh; /* rought estimate, avoids box diplacement due to wrong aspect ratio*/
       overflow:hidden;
+      white-space:nowrap;
    }
 
    /*** label-container ***/
@@ -294,6 +295,9 @@
 /*** ADMIN ***/
    .action-box {
 
+   }
+   .action-box > div{
+      margin-bottom:.9vh;
    }
    .action-box b-button {
 

@@ -147,6 +147,7 @@
       //calc fontSize in vw to have the text fill the whole line width
          //set the width to a huge one, then proportionally shrink the text based on the generated overflow.
          //wStaticPx:   convert to vw, subtract it from the calculated fitVw, then add it back again in the final computed style
+      console.log("actual el text", el.innerHTML);
       const maxFontSize = 20+"vw"
       el.style.fontSize = maxFontSize;
       const maxFontSizeVw =  parseFloat( window.getComputedStyle(el).fontSize.slice(0,-2) ) / window.innerWidth * 100;
@@ -162,12 +163,13 @@
          //f() of el box's height
       const fontSpecificHeightScale = 1; //Segoe UI
       el.style.fontSize = maxFontSize;
-      let fitVh = el.clientHeight / window.innerHeight * 100 * fontSpecificHeightScale + "vh";
-
+      let fitVh = el.clientHeight / window.innerHeight * 100 * fontSpecificHeightScale;// + "vh";
+      fitVh -= (fitVh/10); //prevent lowercase letters like g from overflowing down
+      fitVh += "vh";
       el.style.fontSize = "50px";
       el.style.fontSize = `min(calc(${fitVw} + ${wStaticPx}px) , calc(${fitVh} + ${hStaticPx}px) )`;
       console.log("el fontSize set to",el.style.fontSize);
-      return `min(calc(${fitVw} + ${wStaticPx}px) , calc(${fitVh} + ${hStaticPx}px) )`;
+      return alert.style.fontSize; //`min(calc(${fitVw} + ${wStaticPx}px) , calc(${fitVh} + ${hStaticPx}px) )`;
    }
 
    //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota

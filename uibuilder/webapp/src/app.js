@@ -123,7 +123,7 @@ var retSignalCellObj=function(){return {
          blinkClass(){return `signal-${this.signalKey}-blinkoff`},
       },
       watch:{
-         /** changes the whole cell display, programs events and countdowns */
+         /** changes the whole cell display, programs events and countdowns */ 
          signalKey:{
             handler:function switchDisplay(newVal, oldVal){ 
                this.inBlinkMode = (["A1","A4"].includes(this.signalKey));
@@ -132,7 +132,10 @@ var retSignalCellObj=function(){return {
          },
 
          headerText:{
-            handler:function (oldVal,newVal){ fitTextToCurrentContainerWithScreenRatio(this.$el.getElementsByClassName("cell-header")[0]); }
+            handler:function (newVal,oldVal){
+               //run after next DOM update cycle
+               Vue.nextTick(()=>fitTextToCurrentContainerWithScreenRatio(this.$el.getElementsByClassName("cell-header")[0])); //https://stackoverflow.com/questions/49410249/updated-lifecycle-event-act-using-watcher-after-dom-update-on-specific-element
+            }
          },
 
          remainingMs:{
@@ -234,17 +237,19 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
    template:`
       <div>
          <div v-bind:class="[signalClass, isBlinkingNow?blinkClass:'']" style="padding-bottom:1vh; width:100%;">
-            <div class="cell-header" style="font-size:5vh; max-height:7vh; text-align:left; ">
+            <div class="cell-header" style="font-size:5vh; height:7vh; text-align:left; ">
                {{headerText}}
             </div>
-            <div class="countdown-container" v-bind:style="{visibility: isCdShown ? 'visible' : 'hidden'}" style="margin-top:0px; display:flex;">
-               <div class="countdown-clock" style="margin-left:5%; display:inline-block;">
-                  <span style="font-size:7vh;">{{cd.minutesClockText}}<span>{{cd.secondsClockText}}</span></span>
+            <div class="countdown-container" v-bind:style="{visibility: isCdShown ? 'visible' : 'hidden'}">
+                  <div class="progress rounded-pill">
+                     <div class="relative-wrapper">
+                        <div class="countdown-clock">
+                           <span>{{cd.minutesClockText}}<span>{{cd.secondsClockText}}</span></span>
+                        </div>
+                     </div>
+                     <div v-bind:style="{ width: cd.progBarWidth+'%' }" class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" v-bind:aria-valuenow="cd.progBarWidth" aria-valuemin="0" aria-valuemax="100" ></div>
+                  </div>
                </div>
-               <div class="progress rounded-pill" style="margin-top:2vh; width:60%">
-                  <div v-bind:style="{ width: cd.progBarWidth+'%' }" class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" v-bind:aria-valuenow="cd.progBarWidth" aria-valuemin="0" aria-valuemax="100" ></div>
-               </div>
-            </div>
          </div>
          
          
@@ -299,7 +304,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
       signalKey:{
          handler: function (){
             for(let btn of this.actionList )
-               btn.isDisabled = "goTo"+this.signalKey > btn.id;
+               btn.isDisabled = (this.signalKey!="noop" && "goTo"+this.signalKey > btn.id);
             return inherited.signalKey.handler.bind(this)();
          },
          immediate: false || inherited.signalKey.immediate,
@@ -315,7 +320,7 @@ Vue.component("icon-pill-button",{
                   </b-icon></span>
             {{shownSubButtonText}}
          </b-button-->
-         <b-button pill block  :disabled="false" :variant="variant" class="pillicon-button" :class="{retracted:isRetracted}" @click="handleClick($event)" :style="{marginRight:buttonMarginRight}" >
+         <b-button pill block  :disabled="isDisabled" :variant="variant" class="pillicon-button" :class="{retracted:isRetracted}" @click="handleClick($event)" :style="{marginRight:buttonMarginRight}" >
             <span class="pillicon-button-icon" v-bind:style="{color:iconColor}"><b-icon :scale="iconScale" :icon="iconName">
                </b-icon></span>
             <span v-if="innerSpanHTML" v-html="shownInnerSpanHTML" ></span>
