@@ -23,113 +23,95 @@
   "uibuilder": {
     "packages": {
       "@fortawesome/fontawesome-free": {
-        "spec": "^6.3.0",
-        "installFolder": "C:\\Users\\Kiosk\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\@fortawesome\\fontawesome-free",
+        "installFolder": "\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\@fortawesome\\fontawesome-free",
         "installedVersion": "6.3.0",
-        "estimatedEntryPoint": "?",
-        "homepage": "https://www.npmjs.com/search?q=@fortawesome/fontawesome-free",
+        "estimatedEntryPoint": "js/fontawesome.js",
+        "homepage": "https://fontawesome.com",
         "packageUrl": "/@fortawesome/fontawesome-free",
-        "url": "../uibuilder/vendor/@fortawesome/fontawesome-free/?",
-        "scope": "@fortawesome/fontawesome-free",
-        "installedFrom": "npm"
+        "url": "../uibuilder/vendor/@fortawesome/fontawesome-free/js/fontawesome.js",
+        "spec": "^6.3.0"
       },
       "@fortawesome/vue-fontawesome": {
-        "spec": "^2.0.10",
-        "installFolder": "C:\\Users\\Kiosk\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\@fortawesome\\vue-fontawesome",
+        "installFolder": "\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\@fortawesome\\vue-fontawesome",
         "installedVersion": "2.0.10",
-        "estimatedEntryPoint": "?",
-        "homepage": "https://www.npmjs.com/search?q=@fortawesome/vue-fontawesome",
+        "estimatedEntryPoint": "index.js",
+        "homepage": "https://github.com/FortAwesome/vue-fontawesome",
         "packageUrl": "/@fortawesome/vue-fontawesome",
-        "url": "../uibuilder/vendor/@fortawesome/vue-fontawesome/?",
-        "scope": "@fortawesome/vue-fontawesome",
-        "installedFrom": "npm"
+        "url": "../uibuilder/vendor/@fortawesome/vue-fontawesome/index.js",
+        "spec": "^2.0.10"
       },
       "bootstrap": {
-        "spec": "^4.6.2",
-        "installFolder": "C:\\Users\\Kiosk\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\bootstrap",
+        "installFolder": "\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\bootstrap",
         "installedVersion": "4.6.2",
-        "estimatedEntryPoint": "?",
-        "homepage": "https://www.npmjs.com/search?q=bootstrap",
+        "estimatedEntryPoint": "dist/js/bootstrap.js",
+        "homepage": "https://getbootstrap.com/",
         "packageUrl": "/bootstrap",
-        "url": "../uibuilder/vendor/bootstrap/?",
-        "installedFrom": "npm"
+        "url": "../uibuilder/vendor/bootstrap/dist/js/bootstrap.js",
+        "spec": "^4.6.2"
       },
       "bootstrap-vue": {
-        "spec": "~2.23.1",
-        "installFolder": "C:\\Users\\Kiosk\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\bootstrap-vue",
+        "installFolder": "\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\bootstrap-vue",
         "installedVersion": "2.23.1",
-        "estimatedEntryPoint": "?",
-        "homepage": "https://www.npmjs.com/search?q=bootstrap-vue",
+        "estimatedEntryPoint": "./dist/bootstrap-vue.common.js",
+        "homepage": "https://bootstrap-vue.org",
         "packageUrl": "/bootstrap-vue",
-        "url": "../uibuilder/vendor/bootstrap-vue/?",
-        "installedFrom": "npm"
-      },
-      "chart.js": {
-        "installFolder": "\\Users\\Admin\\.node-red\\projects\\FonderiaBoccacci_RecuperoCalore_readOnlyInterface\\uibuilder\\node_modules\\chart.js",
-        "installedVersion": "2.9.4",
-        "estimatedEntryPoint": "dist/Chart.min.js",
-        "homepage": "https://www.chartjs.org",
-        "packageUrl": "/chart.js",
-        "url": "../uibuilder/vendor/chart.js/dist/Chart.min.js",
-        "spec": "~2.9.4"
-      },
-      "justgage": {
-        "spec": "^1.6.1",
-        "installFolder": "C:\\Users\\Kiosk\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\justgage",
-        "installedVersion": "1.6.1",
-        "estimatedEntryPoint": "?",
-        "homepage": "https://www.npmjs.com/search?q=justgage",
-        "packageUrl": "/justgage",
-        "url": "../uibuilder/vendor/justgage/?",
-        "installedFrom": "npm"
-      },
-      "vue": {
-        "spec": "^2.7.14",
-        "installFolder": "C:\\Users\\Kiosk\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\vue",
-        "installedVersion": "2.7.14",
-        "estimatedEntryPoint": "?",
-        "homepage": "https://www.npmjs.com/search?q=vue",
-        "packageUrl": "/vue",
-        "url": "../uibuilder/vendor/vue/?",
-        "installedFrom": "npm"
-      },
-      "jquery": {
-        "spec": "^3.6.3",
-        "installFolder": "C:\\Users\\Kiosk\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\jquery",
-        "installedVersion": "3.6.3",
-        "estimatedEntryPoint": "?",
-        "homepage": "https://www.npmjs.com/search?q=jquery",
-        "packageUrl": "/jquery",
-        "url": "../uibuilder/vendor/jquery/?",
-        "installedFrom": "npm"
+        "url": "../uibuilder/vendor/bootstrap-vue/./dist/bootstrap-vue.common.js",
+        "bootstrap": "^4.6.1",
+        "spec": "~2.23.1"
       },
       "date-fns": {
-        "spec": "^2.29.3",
-        "missing": true,
-        "problems": [
-          "missing: date-fns@^2.29.3, required by uib_root@5.1.1"
-        ],
-        "installedFrom": "npm"
+        "installFolder": "\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\date-fns",
+        "installedVersion": "2.29.3",
+        "estimatedEntryPoint": "index.js",
+        "homepage": "https://www.npmjs.com/search?q=date-fns",
+        "packageUrl": "/date-fns",
+        "url": "../uibuilder/vendor/date-fns/index.js",
+        "spec": "^2.29.3"
+      },
+      "jquery": {
+        "installFolder": "\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\jquery",
+        "installedVersion": "3.6.3",
+        "estimatedEntryPoint": "dist/jquery.js",
+        "homepage": "https://jquery.com",
+        "packageUrl": "/jquery",
+        "url": "../uibuilder/vendor/jquery/dist/jquery.js",
+        "spec": "^3.6.3"
+      },
+      "justgage": {
+        "installFolder": "\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\justgage",
+        "installedVersion": "1.6.1",
+        "estimatedEntryPoint": "index.js",
+        "homepage": "https://github.com/toorshia/justgage",
+        "packageUrl": "/justgage",
+        "url": "../uibuilder/vendor/justgage/index.js",
+        "spec": "^1.6.1"
       },
       "three-dots": {
-        "spec": "^0.3.2",
-        "installFolder": "C:\\Users\\Kiosk\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\three-dots",
+        "installFolder": "\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\three-dots",
         "installedVersion": "0.3.2",
         "estimatedEntryPoint": "?",
-        "homepage": "https://www.npmjs.com/search?q=three-dots",
+        "homepage": "https://nzbin.github.io/three-dots/",
         "packageUrl": "/three-dots",
         "url": "../uibuilder/vendor/three-dots/?",
-        "installedFrom": "npm"
+        "spec": "^0.3.2"
+      },
+      "vue": {
+        "installFolder": "\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\vue",
+        "installedVersion": "2.7.14",
+        "estimatedEntryPoint": "dist/vue.js",
+        "homepage": "https://github.com/vuejs/vue#readme",
+        "packageUrl": "/vue",
+        "url": "../uibuilder/vendor/vue/dist/vue.js",
+        "spec": "^2.7.14"
       },
       "vue-router": {
-        "spec": "^3.6.5",
-        "installFolder": "C:\\Users\\Kiosk\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\vue-router",
+        "installFolder": "\\Users\\Admin\\.node-red\\projects\\MCCLabel_SegnalazioniSMED\\uibuilder\\node_modules\\vue-router",
         "installedVersion": "3.6.5",
-        "estimatedEntryPoint": "?",
-        "homepage": "https://www.npmjs.com/search?q=vue-router",
+        "estimatedEntryPoint": "dist/vue-router.js",
+        "homepage": "https://github.com/vuejs/vue-router#readme",
         "packageUrl": "/vue-router",
-        "url": "../uibuilder/vendor/vue-router/?",
-        "installedFrom": "npm"
+        "url": "../uibuilder/vendor/vue-router/dist/vue-router.js",
+        "spec": "^3.6.5"
       }
     }
   }

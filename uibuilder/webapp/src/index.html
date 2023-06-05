@@ -18,7 +18,7 @@
    <meta name="msapplication-config" content="common/favicons/browserconfig.xml">
    <meta name="theme-color" content="#ffffff">
 
-   <!-- stylesheets -->
+   <!-- stylesheets --> 
    <link type="text/css" rel="stylesheet" href="../uibuilder/vendor/bootstrap/dist/css/bootstrap.min.css" />
    <link type="text/css" rel="stylesheet" href="./bootstrap-vue-with-overrides.css" />
    <!--link type="text/css" rel="stylesheet" href="../uibuilder/vendor/bootstrap-vue/dist/bootstrap-vue.css" /--> 
@@ -26,7 +26,7 @@
    <link type="text/css" rel="stylesheet" href="../uibuilder/vendor/three-dots/dist/three-dots.min.css"> <!-- https://codepen.io/nzbin/pen/GGrXbp -->
     <!-- Your own CSS -->
    <link type="text/css" rel="stylesheet" href="./index.css" media="all">
-   <!--<script type="text/javascript" src="./live.js_edited.js"> /*auto-refresh page on js/html changes. periodically sends HEAD req to the server. good for dbg. //added null type logging at :141 and exceptions catching */</script> <!--https://stackoverflow.com/questions/5588658/auto-reload-browser-when-i-save-changes-to-html-file-in-chrome-->
+   <script type="text/javascript" src="./live.js_edited.js"> /*auto-refresh page on js/html changes. periodically sends HEAD req to the server. good for dbg. //added null type logging at :141 and exceptions catching */</script> <!--https://stackoverflow.com/questions/5588658/auto-reload-browser-when-i-save-changes-to-html-file-in-chrome-->
    
 </head>
 <style>
@@ -60,8 +60,8 @@
       <!-- NAVBAR HEADER -->
       <div style="width:100%;">
          <div style="padding:5px 0px 2px; height:calc(var(--navbar-h) - 6px); width:100%">
-            <div class="logo-container rounded-pill" style="height:100%; width:fit-content; margin:auto auto; padding: 2px 30px;">
-               <a href="http://gigapiu.it/"><img class="img-fluid-y" src="common/images/logoGigapiu.transp.png" alt="GIGAPIU LOGO" /></a>
+            <div class="logo-container rounded-pill" style="height:100%; width:fit-content; margin:auto auto; padding: 2px 30px; margin-top:-2px">
+               <a href="http://gigapiu.it/"><img class="img-fluid-y" src="common/images/logoGigapiu.transp.png" alt="GIGAPIU LOGO" style="margin-top:-4px" /></a>
             </div>
          </div>
 
@@ -69,7 +69,7 @@
       </div>
 
       <!-- APP BODY -->
-      <div id="app-body" style="height:var(--appcontainer-h)">
+      <div id="app-body" style="height:var(--appcontainer-h);">
          <!--template v-for="i in 2">
             <div class="main-row">
                <template v-for="j in 4">
@@ -94,12 +94,20 @@
          <template v-for="(row, i) in CELLS_LAYOUT">
             <div class="main-row">
                <template v-for="(mKey, j) in row">
-                  <signal-cell v-if="!CELLS_VIEW[i][j]"  class="main-col" :machine-name="signalCells[mKey].machineName" :signal-key="signalCells[mKey].signalKey" :timer-length="signalCells[mKey].cd.timerLength" :remaining-ms="signalCells[mKey].cd.remainingMs" :end="signalCells[mKey].cd.end">
-                     
-                  </signal-cell>
-                  <admin-cell v-else                     class="main-col" :machine-name="signalCells[mKey].machineName" :signal-key="signalCells[mKey].signalKey" :timer-length="signalCells[mKey].cd.timerLength" :remaining-ms="signalCells[mKey].cd.remainingMs" :end="signalCells[mKey].cd.end" @action-button-click="sendToServery('event','cellButtonClick',{cellRow:i,cellCol:j,actionId:$event.actionId})" >
-                     
-                  </admin-cell>
+                  <!-- empty cell -->
+                  <div v-if="mKey === null" class="main-col empty-cell"></div>
+                  <template v-else>
+                     <!-- normal cell -->
+                     <signal-cell v-if="!CELLS_VIEW[i][j]"
+                           class="main-col"
+                           :machine-Key="mKey" :display-name="signalCells[mKey].displayName" :header-text="signalCells[mKey].headerText" :signal-key="signalCells[mKey].signalKey" :timer-length="signalCells[mKey].cd.timerLength" :remaining-ms="signalCells[mKey].cd.remainingMs" :end="signalCells[mKey].cd.end" :blink-intv-on-ms="signalCells[mKey].blinkIntvOn" :blink-intv-off-ms="signalCells[mKey].blinkIntvOff"
+                     ></signal-cell>
+                     <!-- interactive administration cell -->
+                     <admin-cell v-else
+                           class="main-col" @action-button-click="sendToServery('event','cellButtonClick',{cellRow:i,cellCol:j,actionId:$event.actionId})"
+                           :machine-Key="mKey" :display-name="signalCells[mKey].displayName" :header-text="signalCells[mKey].headerText" :signal-key="signalCells[mKey].signalKey" :timer-length="signalCells[mKey].cd.timerLength" :remaining-ms="signalCells[mKey].cd.remainingMs" :end="signalCells[mKey].cd.end" :blink-intv-on-ms="signalCells[mKey].blinkIntvOn" :blink-intv-off-ms="signalCells[mKey].blinkIntvOff"
+                     ></admin-cell>
+                  </template>
                </template>
             </div>
          </template> <!-- -->
@@ -108,7 +116,8 @@
       </div>
       
       <!-- ######### END PAGE ########## -->
-      <div style="display:none; position:absolute; top:100vh; left:0px"> <!-- dbg stuff, templates mostly -->
+      <!-- dbg stuff, templates mostly -- >
+      <div style="display:none; position:absolute; top:100vh; left:0px"> 
          <b-container>
             <b-img src="./images/node-blue-192x192.png" rounded left v-bind="imgProps" alt="Blue Node-RED" class="mt-1 mr-2"></b-img>
             <h1>uibuilder + Vue.js + bootstrap-vue for Node-RED</h1>
@@ -214,6 +223,7 @@
       <script src="../uibuilder/vendor/justgage/dist/justgage.min.js"> /* free pure-svg lib for gauges rendering //useful website:https://toorshia.github.io/justgage/ //https://github.com/toorshia/justgage */ </script>
        <!-- PAGE-BOUND JS -->
       <script type="text/javascript" src="./functions.js">/* function definition only */</script>
+      <script type="text/javascript" src="./getAppInit.js"></script>
       <script type="text/javascript" src="./app.js">/* Vue App + document load hooks */</script> 
    <!-- #endregion -->
 
