@@ -169,7 +169,7 @@
       el.style.fontSize = "50px";
       el.style.fontSize = `min(calc(${fitVw} + ${wStaticPx}px) , calc(${fitVh} + ${hStaticPx}px) )`;
       console.log("el fontSize set to",el.style.fontSize);
-      return alert.style.fontSize; //`min(calc(${fitVw} + ${wStaticPx}px) , calc(${fitVh} + ${hStaticPx}px) )`;
+      return el.style.fontSize; //`min(calc(${fitVw} + ${wStaticPx}px) , calc(${fitVh} + ${hStaticPx}px) )`;
    }
 
    //#endregion   ctrl+\ to fold (compatta)      ctrl+shift+\ to unfold (dispiega) //da qualsiasi riga vuota
