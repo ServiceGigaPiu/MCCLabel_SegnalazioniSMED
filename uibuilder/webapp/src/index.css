@@ -242,7 +242,7 @@
 
 /*** SIGNALS ***/
    .signal-noop{ /* aspetto all'avvio del server*/
-      background-color: var(--somevar);/*var(--gray-600);*/
+      background-color: var(--gray-600);
    }:root{ --somevar:green; --bigvar:blue;}
 
    .signal-A1{ /* chiamata */
