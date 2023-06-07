@@ -1,6 +1,7 @@
 #recursive node_module folder match #everywhere
 **/node_modules
-*.backup
+**.backup
+**/package-lock.json
 
 #project-specific
 *.code-workspace
