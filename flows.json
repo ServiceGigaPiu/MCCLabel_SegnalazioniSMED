@@ -990,7 +990,7 @@
             "9217c8ece8c8d37f",
             "4ccbf413b02dc7e9"
         ],
-        "x": 59,
+        "x": 49,
         "y": 64
     },
     {
@@ -1884,9 +1884,7 @@
             "d4e564eac59f8117"
         ],
         "x": 68,
-        "y": 64,
-        "w": 1124,
-        "h": 603
+        "y": 64
     },
     {
         "id": "9bcec7222119e8a3",
@@ -1907,9 +1905,7 @@
             "2b0d893e266ba428"
         ],
         "x": 819,
-        "y": 1654,
-        "w": 307,
-        "h": 82
+        "y": 1654
     },
     {
         "id": "ffe7d6539591cabf",
@@ -1948,9 +1944,7 @@
             "140b055fd622ecf2"
         ],
         "x": 109,
-        "y": 1729,
-        "w": 1367,
-        "h": 382
+        "y": 1729
     },
     {
         "id": "484bbd929a382303",
@@ -1971,9 +1965,7 @@
             "b9462810936dd36c"
         ],
         "x": 78,
-        "y": 709,
-        "w": 849,
-        "h": 558
+        "y": 709
     },
     {
         "id": "89f9a7a67de8ae08",
@@ -2015,9 +2007,7 @@
             "898d87b1b6dd85fb"
         ],
         "x": 169,
-        "y": 2229,
-        "w": 1238,
-        "h": 628
+        "y": 2229
     },
     {
         "id": "59b9575558a87ab8",
@@ -2040,9 +2030,7 @@
             "e16f5eb91fb5c4b4"
         ],
         "x": 1319,
-        "y": 1579,
-        "w": 477,
-        "h": 127
+        "y": 1579
     },
     {
         "id": "29d19c8f6e03e9f1",
@@ -2456,6 +2444,46 @@
         "y": 604,
         "w": 1079,
         "h": 453
+    },
+    {
+        "id": "b0b33ed903562d40",
+        "type": "group",
+        "z": "520bb4ac551bd04e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ef3ee119e7323390",
+            "235b2f3551f4fca5",
+            "e946a6776d47f04a",
+            "098586dfbc1c7b5f",
+            "f4dd7fea54ce7ef8",
+            "f6b7472bca62307d",
+            "fb72aaf30f378de5",
+            "1f83e18c1d4571b8",
+            "b367024fa986b591",
+            "807fcc0a56e37f7a",
+            "abd32d8cfe10c9be",
+            "748dcab316d25b36",
+            "92489e7acfd001de",
+            "b9b45773034514ef",
+            "eb4d3a9f407e4c99",
+            "d753c184f13d0717",
+            "44e1788245e5cf3b",
+            "8cec784ccb58ebc7",
+            "0ab40e149eaf8626",
+            "4c611b658a554d3e",
+            "b22a990beeaae01c",
+            "140e86fe8b55a5ce"
+        ],
+        "x": 84,
+        "y": 4549
     },
     {
         "id": "68983046b1bb9cba",
@@ -5072,9 +5100,7 @@
             "fd596e236db59b07"
         ],
         "x": 94,
-        "y": 409,
-        "w": 1072,
-        "h": 232
+        "y": 409
     },
     {
         "id": "d4e564eac59f8117",
@@ -5109,9 +5135,7 @@
             "6bd020121fe4161b"
         ],
         "x": 94,
-        "y": 169,
-        "w": 1057,
-        "h": 202
+        "y": 169
     },
     {
         "id": "7e5e3a6761c37063",
@@ -5133,9 +5157,7 @@
             "4c4668d1d8f3b4a4"
         ],
         "x": 584,
-        "y": 1939,
-        "w": 298,
-        "h": 82
+        "y": 1939
     },
     {
         "id": "140b055fd622ecf2",
@@ -5157,9 +5179,7 @@
             "1df35f685bbae5dc"
         ],
         "x": 1074,
-        "y": 1864,
-        "w": 292,
-        "h": 82
+        "y": 1864
     },
     {
         "id": "f4abfcdd8e51b10f",
@@ -5188,9 +5208,7 @@
             "9910bef704316822"
         ],
         "x": 104,
-        "y": 769,
-        "w": 797,
-        "h": 187
+        "y": 769
     },
     {
         "id": "b9462810936dd36c",
@@ -5221,9 +5239,7 @@
             "0b21b8e6f70b8dab"
         ],
         "x": 109,
-        "y": 979,
-        "w": 752,
-        "h": 262
+        "y": 979
     },
     {
         "id": "63c531914f3e675f",
@@ -5246,9 +5262,7 @@
             "ad88853ecde7c005"
         ],
         "x": 214,
-        "y": 2689,
-        "w": 417,
-        "h": 127
+        "y": 2689
     },
     {
         "id": "898d87b1b6dd85fb",
@@ -5276,9 +5290,7 @@
             "8b57d0a1da105ea4"
         ],
         "x": 674,
-        "y": 2659,
-        "w": 707,
-        "h": 172
+        "y": 2659
     },
     {
         "id": "fa3c0ca7913fe9f4",
@@ -7346,10 +7358,41 @@
         "id": "45e9c3e971293643",
         "type": "ui_tab",
         "name": "Comandi Diretti",
-        "icon": "dashboard",
+        "icon": "fa-terminal",
         "order": 3,
         "disabled": false,
         "hidden": true
+    },
+    {
+        "id": "cb1612deb7b88443",
+        "type": "ui_group",
+        "name": "default",
+        "tab": "45e9c3e971293643",
+        "order": 1,
+        "disp": false,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "79a206a40a05cf7d",
+        "type": "ui_spacer",
+        "z": "64cc6710a6f0bd99",
+        "name": "spacer",
+        "group": "cb1612deb7b88443",
+        "order": 2,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "57cb0bfc7a3b0470",
+        "type": "ui_spacer",
+        "z": "64cc6710a6f0bd99",
+        "name": "spacer",
+        "group": "cb1612deb7b88443",
+        "order": 6,
+        "width": 1,
+        "height": 1
     },
     {
         "id": "d66367b49a88fb46",
@@ -35578,12 +35621,12 @@
         "g": "19a549f34f59b2e6",
         "payload": "[{\"title\":\"rowId\",\"field\":\"rowId\",\"visible\":false,\"hozAlign\":\"left\",\"vertAlign\":\"middle\",\"editor\":false},{\"title\":\"\",\"field\":\"deleteButton\",\"hozAlign\":\"center\",\"vertAlign\":\"middle\",\"formatter\":\"html\",\"editor\":false,\"cssClass\":\"exactIpList\"},{\"title\":\"Nome AP\",\"field\":\"apKey\",\"hozAlign\":\"left\",\"vertAlign\":\"middle\",\"width\":180,\"editor\":\"input\"},{\"title\":\"IP\",\"field\":\"ip\",\"hozAlign\":\"left\",\"vertAlign\":\"middle\",\"editor\":\"input\",\"formatter\":\"plaintext\",\"minWidth\":\"120px\"},{\"title\":\"Vista\",\"field\":\"viewKeySelect\",\"hozAlign\":\"left\",\"formatter\":\"html\",\"editor\":\"false\",\"minWidth\":\"180px\"},{\"title\":\"viewKeySelect_value\",\"field\":\"viewKeySelect_value\",\"visible\":false},{\"comment\":\"100 cloni con field incrementali\",\"title\":\"ghost Column for select workaround\",\"field\":\"0\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"1\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"2\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"3\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"4\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"5\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"6\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"7\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"8\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"9\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"10\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"11\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"12\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"13\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"14\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"15\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"16\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"17\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"18\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"19\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"20\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"21\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"22\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"23\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"24\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"25\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"26\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"27\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"28\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"29\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"30\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"31\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"32\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"33\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"34\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"35\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"36\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"37\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"38\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"39\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"40\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"41\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"42\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"43\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"44\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"45\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"46\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"47\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"48\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"49\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"50\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"51\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"52\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"53\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"54\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"55\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"56\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"57\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"58\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"59\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"60\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"61\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"62\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"63\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"64\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"65\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"66\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"67\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"68\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"69\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"70\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"71\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"72\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"73\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"74\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"75\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"76\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"77\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"78\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"79\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"80\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"81\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"82\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"83\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"84\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"85\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"86\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"87\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"88\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"89\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"90\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"91\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"92\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"93\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"94\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"95\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"96\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"97\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"98\",\"visible\":false},{\"title\":\"ghost Column for select workaround\",\"field\":\"99\",\"visible\":false},{\"title\":\"Admin\",\"field\":\"hasCfgPage\",\"formatter\":\"tickCross\",\"vertAlign\":\"middle\",\"hozAlign\":\"center\"},{\"title\":\"Note\",\"field\":\"note\",\"formatter\":\"plaintext\",\"vertAlign\":\"middle\",\"editor\":\"textarea\"}]",
         "payloadType": "json",
-        "options": "{\"movableColumns\":true,\"resizableColumns\":false,\"movableRows\":true,\"selectable\":false,\"rresponsiveLayout\":\"collapse\",\"autoResize\":true,\"layout\":\"fitDataStretch\",\"pagination\":\"local\",\"height\":\"600px\",\"groupBy\":false,\"groupStartOpen\":true,\"persistence\":true,\"index\":\"rowId\",\"headerSort\":false}",
+        "options": "{\"movableColumns\":true,\"resizableColumns\":false,\"movableRows\":true,\"selectable\":false,\"rresponsiveLayout\":\"collapse\",\"autoResize\":true,\"layout\":\"fitDataStretch\",\"pagination\":\"local\",\"height\":\"900px\",\"groupBy\":false,\"groupStartOpen\":true,\"persistence\":true,\"index\":\"rowId\",\"headerSort\":false}",
         "group": "d2f4c8255840eccf",
         "name": "accessPointsTable",
         "order": 3,
         "width": 24,
-        "height": 6,
+        "height": "10",
         "columns": [],
         "outputs": 1,
         "cts": false,
@@ -36677,7 +36720,7 @@
         "name": "accessPointsTable",
         "order": 4,
         "width": 24,
-        "height": 12,
+        "height": 16,
         "columns": [],
         "outputs": 1,
         "cts": false,
@@ -37251,7 +37294,7 @@
         "name": "adminUITable",
         "order": 2,
         "width": 24,
-        "height": 5,
+        "height": "6",
         "columns": [],
         "outputs": 1,
         "cts": false,
@@ -39853,7 +39896,7 @@
         "func": "",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "callWhenDef(\"signalCells\", \"config\", \"html\", \"uiAbs\", () => {\n    callWhenDef(\"tabUtils\", { ctx: \"flow\", timeout: 15000 }, () => {\n        // const signalCells = global.get(\"signalCells\");\n        const config = global.get(\"config\");\n        const uiAbs = global.get(\"uiAbs\");\n        // const tabUtils = flow.get(\"tabUtils\");\n        // const HTMLSelectElement = getHtmlClass(\"HTMLSelectElement\");\n        // const HTMLElement = getHtmlClass(\"HTMLElement\");\n        // let signalKeys = signalCells.dictionary.signalKeys;\n        // let macKeys = signalCells.dictionary.macKeys;\n        const toFixedAsNum = (val, p) => { let pow = Math.pow(10, p); return Math.round(val * pow) / pow }\n\n        let configRef = config;\n        flow.set(\"converters\", {\n            // machineConfigGUI: (()=>{\n            //     let cfg=config.machines;\n            //     let ret = new DefaultedMap( (macKey, varName, value) => cfg[][varName]=value && node.warn({txt:\"using default conversion\",args:[varName,value,cfg]}) )\n            //     ret.toConfig = function (macKey, varName, value){\n\n            //     }\n            // })(varNames)\n            //convs:{\n            machineConfigGUI: {\n                updateConfigFor(macKey, varName, value, config = configRef) {\n                    const converter = flow.get(\"converters\").machineConfigGUI.toConfig;\n                    const GUIVars = flow.get(\"GUIVars\");\n                    if (converter[varName]) {\n                        let res;\n                        //node.warn([\"with \",arguments, \" cfgSetTo \",config.machines[macKey]]);\n                        return converter[varName](GUIVars.machines[macKey], config.machines[macKey]);\n                    } else {\n                        node.warn(\"[GUIVar converter]:implicit conversion for \" + varName + \" in machineConfigGUI\");\n                        return config.machines[macKey][varName] = value;\n                    }\n                },\n                toConfig: {\n                    cellHeaderText: (GUIVar, cfg) => cfg.cellHeaderText = GUIVar.cellHeaderText,\n\n                    toA3Timeout_value: (GUIVar, cfg) => cfg.toA3Timeout = toMs(GUIVar.toA3Timeout_value, GUIVar.toA3Timeout_unit),\n                    toA3Timeout_unit: function (GUIVar, cfg) { return this.toA3Timeout_value(GUIVar, cfg) },\n\n                    toA4Timeout_value: (GUIVar, cfg) => cfg.toA4Timeout = toMs(GUIVar.toA4Timeout_value, GUIVar.toA4Timeout_unit),\n                    toA4Timeout_unit: function (GUIVar, cfg) { return this.toA4Timeout_value(GUIVar, cfg) },\n\n                    initCellSignalKey_dropdown: (GUIVar, cfg) => cfg.initCellSignalKey = (sk => sk == \"custom\" ? \"noop\" : sk)(GUIVar.initCellSignalKey_dropdown),\n                    //initCellSignalKey_color: undefined,\n                    //initCellSignalKey_backgroundColor: undefined,\n\n                    initTowerBits_switchValue: (GUIVar, cfg) => {\n                        let swVal = GUIVar.initTowerBits_switchValue;\n                        cfg.initTowerBits.redLight = (swVal == \"red\" || swVal == \"both\") ? true : false;\n                        cfg.initTowerBits.greenLight = (swVal == \"green\" || swVal == \"both\") ? true : false;\n                        return cfg.initTowerBits;\n                    },\n\n                    blinkIntv_period: (GUIVar, cfg) => {\n                        let period = GUIVar.blinkIntv_period, ratio = GUIVar.blinkIntv_offtimeRatio;\n                        cfg.blinkIntvOn = Math.round((1 - ratio) * period);\n                        cfg.blinkIntvOff = Math.round(ratio * period);\n                        return { blinkIntvOn: cfg.blinkIntvOn, blinkIntvOff: cfg.blinkIntvOff }\n                    },\n                    blinkIntv_offtimeRatio: function (GUIVar, cfg) { return this.blinkIntv_period(GUIVar, cfg) },\n                },\n                toGUIVar: {\n                    cellHeaderText: (cfg) => cfg.cellHeaderText,\n                    toA3Timeout_value: (cfg) => msTo(cfg.toA3Timeout, \"min\"),\n                    toA3Timeout_unit: undefined,\n                    toA4Timeout_value: (cfg) => msTo(cfg.toA4Timeout, \"min\", 1),\n                    toA4Timeout_unit: undefined,\n                    initCellSignalKey_dropdown: (cfg) => (sk => sk == \"noop\" ? \"custom\" : sk)(cfg.initCellSignalKey),\n                    initCellSignalKey_color: undefined,\n                    initCellSignalKey_backgroundColor: undefined,\n                    initTowerBits_switchValue: (cfg) => (init => init.greenLight ? (init.redLight ? \"both\" : \"green\") : (init.redLight ? \"red\" : \"off\"))(cfg.initTowerBits),\n                    blinkIntv_period: (cfg) => cfg.blinkIntvOff + cfg.blinkIntvOn,\n                    blinkIntv_offtimeRatio: (cfg) => toFixedAsNum(cfg.blinkIntvOff / (cfg.blinkIntvOff + cfg.blinkIntvOn), 1)\n                }\n            },\n            cellsLayoutGUI: {\n                updateConfigFor(row, col, config = configRef) {\n                    let val = flow.get(\"GUIVars\").cellsLayout.varsMatrix[row][col];\n                    config.cellsLayout[row][col] = val == \"empty\" ? null : val;\n                },\n                toGUIVar(config) {\n                    return config.cellsLayout.map(row => row.map(val => val == null ? \"empty\" : val));\n                }\n            }\n            //},\n\n            // machineConfigGUI:{\n            //     toConfig:function (macKey, varName, value, config = configRef){\n            //         const converter = flow.get(\"converters\").convs.machineConfigGUI.toConfig;\n            //         const GUIVars = flow.get(\"GUIVars\");\n            //         if(converter[varName]){\n            //             node.warn([arguments, \" mach \",config.machines]);\n            //             converter[varName]( GUIVars.machines[macKey], config.machines[macKey] );\n            //         }else{\n            //             node.warn(\"[GUIVar converter]:implicit conversion for \"+varName+ \" in machineConfigGUI\");\n            //             config.machines[macKey][varName] = value;\n            //         }\n            //     }\n            // }\n        })\n\n    });//end nested callWhenDef {ctx:flow}\n});//end callWhenDef\n\n        //------------------------------------------------------------------------------------------------------------------------------\n        //        FALLBACK GUIVARS\n        //------------------------------------------------------------------------------------------------------------------------------\n\n\ncallWhenDef(\"signalCells\", \"config\", \"html\", () => {\n    callWhenDef(\"tabUtils\", { ctx: \"flow\", timeout: 15000 }, () => {\n        const signalCells = global.get(\"signalCells\");\n        const config = global.get(\"config\");\n        const tabUtils = flow.get(\"tabUtils\");\n        const HTMLSelectElement = getHtmlClass(\"HTMLSelectElement\");\n        const HTMLElement = getHtmlClass(\"HTMLElement\");\n        let signalKeys = signalCells.dictionary.signalKeys;\n        let macKeys = signalCells.dictionary.macKeys;\n        const converters = flow.get(\"converters\");\n        //const varNames = [\"toA3Timeout_value\", \"toA3Timeout_value\", \"toA4Timeout_value\", \"toA4Timeout_unit\", \"initCellSignalKey_dropdown\", \"initCellSignalKey_color\", \"initCellSignalKey_backgroundColor\", \"initTowerBits_switchValue\", \"blinkIntv_period\", \"blinkIntv_ratio\"]\n        const varNames = [\n            \"toA3Timeout_value\",\n            \"toA3Timeout_unit\",\n            \"toA4Timeout_value\",\n            \"toA4Timeout_unit\",\n            \"initCellSignalKey_dropdown\",\n            \"initCellSignalKey_color\",\n            \"initCellSignalKey_backgroundColor\",\n            \"initTowerBits_switchValue\",\n            \"blinkIntv_period\",\n            \"blinkIntv_ratio\"\n        ];\n        const toFixedAsNum = (val, p) => { let pow = Math.pow(10, p); return Math.round(val * pow) / pow }\n        // function GUIVarsForSingleMachine(cfg){\n        //     return {\n        //         toA3Timeout_value: toFixedAsNum( msTo(cfg.toA3timeout, \"min\"), 1) ,\n        //         toA3Timeout_unit: \"min\",\n        //         toA4Timeout_value: toFixedAsNum( msTo(cfg.toA3timeout, \"min\"), 1),\n        //         toA4Timeout_unit: \"min\",\n        //         initCellSignalKey_dropdown: (sk => sk == \"noop\" ? \"custom\" : sk)(cfg.initSignalKey),\n        //         initCellSignalKey_color: undefined,\n        //         initCellSignalKey_backgroundColor: undefined,\n        //         initTowerBits_switchValue: (init => { init.greenLight ? (init.redLight ? \"both\" : \"green\") : (init.redLight ? \"red\" : \"off\") })(cfg.initTowerBits),\n        //         blinkIntv_period: cfg.blinkIntvOff + cfg.blinkIntvOn,\n        //         blinkIntv_ratio: Math.round((cfg.blinkIntvOff / cfg.blinkIntvOff + cfg.blinkIntvOn)*10)/10,\n        //     }\n        // }\n        const generateGUIVars = function (config = global.get(\"config\"), oldGUIVars){\n            config ?? node.error(\"[genGUIVars]: global.config still undefined\");\n            \n            let newGUIVars = {\n                inflate: function inflate(target) {\n                    return global.get(\"utils\").genericInflater.call(this, target);\n                },\n                \"machines\": (() => {\n                    let ret = {};\n                    //macKeys.forEach( mk => ret[mk] = GUIVarsForSingleMachine(config.machines[mk]) )\n                    for (let mk of macKeys) {\n                        let cfg = config.machines[mk];\n                        //mk == \"OMET\" && node.warn({ toA3: cfg.toA3Timeout,cfg:cfg })\n                        let tmp;\n                        ret[mk] = {\n                            cellHeaderText: cfg.cellHeaderText,\n                            toA3Timeout_unit: tmp=bestUnitFor(cfg.toA3Timeout, 5),\n                            toA3Timeout_value: msTo(cfg.toA3Timeout, tmp , 1),\n                            toA4Timeout_unit: tmp=bestUnitFor(cfg.toA4Timeout, 5),\n                            toA4Timeout_value: msTo(cfg.toA4Timeout, tmp, 1),\n                            initCellSignalKey_dropdown: (sk => sk == \"noop\" ? \"custom\" : sk)(cfg.initCellSignalKey),\n                            initCellSignalKey_color: undefined,\n                            initCellSignalKey_backgroundColor: undefined,\n                            initTowerBits_switchValue: (init => init.greenLight ? (init.redLight ? \"both\" : \"green\") : (init.redLight ? \"red\" : \"off\"))(cfg.initTowerBits),\n                            blinkIntv_period: cfg.blinkIntvOff + cfg.blinkIntvOn,\n                            blinkIntv_offtimeRatio: toFixedAsNum(cfg.blinkIntvOff / (cfg.blinkIntvOff + cfg.blinkIntvOn), 1),\n                        }\n                        // let blinktimes = ( function toBlinkTimes(period, offtimeRatio){    return [ period*1000*(1 - offtimeRatio), period*1000*offtimeRatio ]     })(ret[mk].blinkIntv_period, ret[mk].blinkIntv_offtimeRatio)\n                        // mk == \"OMET\" && node.warn({ txt: \"blinkTimes\", bOn: blinktimes[0], bOff:blinktimes[1] })\n                    }\n                    return ret;\n                })(),\n                //instead than using varNames like other widjets, it uses msg.row and msg.col and stores the GUIVars in a\n                //matrix reflecting the config prop that it's being affected\n                \"cellsLayout\": {\n                    nRows: config.cellsLayout.length,\n                    nCols: config.cellsLayout[0].length,\n\n                    varsMatrix: converters.cellsLayoutGUI.toGUIVar(config)//.cellsLayout.map(row => row.map( col => col))\n                },\n\n                \"views\": {\n                    // //restore GUIVar-like object from it's json reduction\n                    // inflate:function (target){\n                    //     if(typeof target == \"object\")\n                    //         for(let k in this){\n                    //             if(typeof(this[k]) == \"function\")\n                    //                 target[k] = this[k];\n                    //             else\n                    //                 target[k] = global.get(\"utils\").genericInflater.call(this[k], target[k])\n                    //         }\n                    //     //exactIpList_table -> restore HTMLSelectElements\n                    //     //self.exactIpList_table = self.exactIpList_table.map( row => row.viewKeySelect_element = new HTMLSelectElement(row.viewKeySelect_element))\n                    // },\n                    adminUI_table: (() => {\n                        let ret = [], tableLib = tabUtils.viewsEditor.adminUI;\n                        ret.push(tableLib.newCreatorRow(tabUtils.newRowId(ret)));\n                        for (let vk in config.views) {\n                            let row = tabUtils.viewsEditor.adminUI.newRow(tabUtils.newRowId(ret))\n                            tabUtils.viewsEditor.adminUI.setRowToView(row, vk, config.views)\n                            if (vk == \"default\")\n                                row.deleteButton = \"\";\n                            ret.push(row);\n                        }\n                        return ret;\n                    })(),\n                    //[ vk, vk, .. ]\n                    //copycats: Object.keys(config.views).filter( vk => typeof(config.views[vk]) == \"string\" ),\n                    // @ts-ignore\n                    //does not survive JSONification//exactIpList_viewKeySelect_idxMap: tabUtils.viewsEditor.exactIpList.viewKeySelect.idxMap,//new Map( Object.keys(global.get(\"config\").views).map((key,idx) => [[idx, key],[key, idx]]).flat(1) ),\n\n                    exactIpList_table: (function(){\n                        const uiAbs = global.get(\"uiAbs\");\n                        var ret = [];\n                        let tableLib = tabUtils.viewsEditor.exactIpList;\n                        let viewKeys = Object.keys(config.views);   // @ts-ignore\n                        const idxMap = new Map(viewKeys.map((key, idx) => [[idx, key], [key, idx]]).flat(1))\n                        //let fullIpList = viewKeys.map( vk => { try{var view = getView(config.views);}catch{}; return view ? view.exactIpList : [];}).flat();\n                        //fullIpList = withoutDuplicates(fullIpList);\n                        const fallbackIpInfos = [\n                            { ip: undefined, ipExp: /\\.111$/, apKey: \"MasterDisplay1\", note: \"collocato a fianco dell'Area SMED1\" },\n                            { ip: undefined, ipExp: /\\.112$/, apKey: \"SlaveDisplay2\", note: \"precede in senso orario MasterDisplay1\" },\n                            { ip: undefined, ipExp: /\\.113$/, apKey: \"SlaveDisplay3\", note: \"precede in senso orario SlaveDisplay2\" },\n                            { ip: undefined, ipExp: /\\.114$/, apKey: \"SlaveDisplay4\", note: \"precede in senso orario SlaveDisplay3\" },\n                            { ip: undefined, ipExp: /\\.115$/, apKey: \"SlaveDisplay5\", note: \"precede in senso orario SlaveDisplay4\" },\n                            { ip: undefined, ipExp: /\\.116$/, apKey: \"PC Area SMED1\", note: \"\" },\n                            { ip: undefined, ipExp: /\\.117$/, apKey: \"PC Area SMED2\", note: \"\" },\n                            { ip: undefined, ipExp: /\\.130$/, apKey: \"AP Supervisione di base\", note: \"IP abilitato per default alla visione della pagina di amministrazione.\" },\n                            { ip: undefined, ipExp: /\\.131$/, apKey: \"AP Supervisione di base\", note: \"IP abilitato per default alla visione della pagina di amministrazione.\" },\n                            { ip: undefined, ipExp: /\\.132$/, apKey: \"AP Supervisione di base\", note: \"IP abilitato per default alla visione della pagina di amministrazione.\" },\n                            { ip: undefined, ipExp: /\\.133$/, apKey: \"AP Supervisione di base\", note: \"IP abilitato per default alla visione della pagina di amministrazione.\" },\n                            { ip: undefined, ipExp: /\\.134$/, apKey: \"AP Supervisione di base\", note: \"IP abilitato per default alla visione della pagina di amministrazione.\" },\n                        ];\n                        ret.push(tableLib.newCreatorRow(tabUtils.newRowId(ret)));\n                        var countUnnamed = 0;\n                        for (let vk of viewKeys) {\n                            if (typeof (config.views[vk]) != \"string\") //avoid duplicating devices //problem: the reference will have the name of the referenced instead than the referee as one'd expect\n                                for (let ip of (config.views[vk].exactIpList ?? [])) {\n                                    let viewKey = vk;\n                                    //get \"empty\" row (instantiated with default values)\n                                    var row = tableLib.newRow(tabUtils.newRowId(ret));\n                                    //info not present in config -> get them from defaults above or from oldGUIVars\n                                    var ipInfo = fallbackIpInfos.find(info => info.ip ? info.ip == ip : ip.match(info.ipExp));\n                                    {\n                                        let oldRow;\n                                        if(ipInfo == undefined && (oldRow = oldGUIVars?.views?.exactIPList_table?.find?.(row => row.ip == ip)))\n                                            ipInfo = { ip: row.ip, ipExp: undefined, apKey: row.apKey, note: row.note };\n                                    }\n\n                                    //set row to vals\n                                    row.ip = ip;\n                                    // row.viewKeySelect = (()=>{\n                                    //     let selLib = tableLib.viewKeySelect;\n                                    //     return `<select class=\"minimal\" onchange=\"${selLib.onChange}\" >${(()=>{\n                                    //         let opts = viewKeys.map(k => `<option ghost-idx=\"${idxMap.get(k)}\" value=\"${k}\" ${k==vk ? \"selected\" : \"\"}>${k}</option>`).join(\"\\n\\t\");\n                                    //         return node.warn({optsString:opts}) || opts;\n                                    //     })()}</select>`\n                                    //     let options = viewKeys.map(vk => tableLib.viewKeySelect.toOptionString(vk, idxMap.get(vk), vk===viewKey));\n                                    //     return tableLib.viewKeySelect.toSelectString(options);\n                                    //     // row.viewKeySelect_element.options = viewKeys.map(vk => tableLib.viewKeySelect.newOption(vk, idxMap.get(vk)));\n                                    //     // tableLib.viewKeySelect.setSelected(row, vk); //row.viewKeySelect = row.viewKeySelect_element.setSelected(vk).updatedHtml();\n                                    //     // return row.viewKeySelect_element.updateHtml(true);\n                                    // })()\n                                    row.viewKeySelect = tableLib.viewKeySelect.newPopulatedSelect(vk)\n                                    row.viewKeySelect_selected = vk;\n                                    row.apKey = ipInfo !== undefined ? ipInfo.apKey : vk + \" #\" + (1 + countUnnamed++); //\"senza nome\"+(countUnnamed++ ? \" \"+countUnnamed : \"\");\n                                    row.hasCfgPage = uiAbs.views.user.ipList.includes(row.ip);\n                                    row.note = ipInfo !== undefined ? ipInfo.note : \"\";\n                                    ret.push(row);\n                                    //node.warn(row.viewKeySelect);\n                                }\n                        }\n\n                        // for(let viewKey in config.views){\n                        //     //set select html\n                        //     let viewKeys = Object.keys(config.views);\n                        //     row.viewKeySelect = tableLib.buildSelectHtml(viewKeys.map((vk, i) => tableLib.buildOptionHtml({ \"ghostIndex\":i, \"text\":vk, \"value\":vk, \"selected\":false })))\n                        //     //set selected option\n                        //     tableLib.setSelected(row, \"viewKeySelect\", viewKey)\n\n                        //     ret.push(row);\n                        // }\n                        return ret;\n                    })(),\n\n                    \"getView\": function getView(key, views = global.get(\"config\").views) {\n                        if (typeof (views[key]) == \"string\") {\n                            let subSet = Object.assign({}, views)\n                            delete subSet[key];\n                            return getView(views[key], subSet) ?? node.warn(\"[GUIVar getView()] circular loop or invalid reference. last:\" + key + \"|remaining:\" + Object.keys(views).join())\n                        }\n                        else\n                            return views[key];\n                    },\n\n                    \"renameApKey\": function (oldName, newName, config = global.get(\"config\")) {\n                        node.warn(\"called renameApKey with \" + [...arguments].join())\n                        //reject duplicates\n                        for (let ak in config.views)\n                            if (ak == newName)\n                                return \"duplicate\";\n                        //ensure that exactIpList table holds the new value\n                        {\n                            let row;\n                            if (row = this.exactIpList_table.find(row => row.apKey == oldName))\n                                row.apKey = newName;    //catch(e){ node.error(\"[GUIVars renameView()] cannot find row in adminUI. args:\"+arguments.join())}\n                        }\n\n                        return \"renamed\";\n                    },\n\n                    \"renameView\": function (oldName, newName, config = global.get(\"config\")) {\n                        node.warn(\"called renameApKey with \" + [...arguments].join())\n                        // if(oldName === newName)\n                        //     return \"renamed\";\n                        // if(!Object.keys(config.views).every( vk => vk != newName))\n                        //     return \"duplicate\"\n                        // //update views\n                        // config.views[newName] = config.views[oldName];\n                        // delete config.views[oldName];\n                        // //update\n\n                        //reject duplicates\n                        for (let vk in config.views)\n                            if (vk == newName)\n                                return \"duplicate\";\n                        //ensure that adminUI table holds the new value\n                        {\n                            let row;\n                            if (row = this.adminUI_table.find(row => row.viewKey == oldName))\n                                row.viewKey = newName;    //catch(e){ node.error(\"[GUIVars renameView()] cannot find row in adminUI. args:\"+arguments.join())}\n                        }\n\n                        //update exactIpList GUI Selects\n                        {\n                            let tableLib = tabUtils.viewsEditor.exactIpList;\n                            for (let row of this.exactIpList_table) {\n                                //explode html  //to { tag, attributes:[{name,value,isValueMissing},..], innerHtml, html }\n                                let select = HTMLElement.explodeHtml(row.viewKeySelect);\n                                let options = HTMLSelectElement.explodeOptions(select.innerHtml)\n                                //find and edit option with value oldName\n                                for (let opt of options)\n                                    for (let attr of opt.attributes)\n                                        if (attr.name == \"value\" && attr.value == oldName) {\n                                            attr.value = newName;\n                                            opt.innerHtml = newName;\n                                            break;\n                                        }\n                                //re-stringify select html\n                                select.innerHtml = \"\\n\\t\" + options.map(opt => HTMLElement.implodeHtml(opt)).join(\"\\n\\t\") + \"\\n\\t\";\n                                delete select.attributes; //avoid re-generating them as they didn't change\n                                //update viewKeySelect\n                                row.viewKeySelect = HTMLElement.implodeHtml(select)\n\n                                // try{    //find option with value oldName\n                                //     let opt=options.find( opt => opt.attributes.find( attr => attr.name=\"value\" )?.value == oldName)\n                                //         //edit attribute value\n                                //     opt.attributes.find( attr => attr.name=\"value\" ).value = newName\n                                //         //edit displayed name\n                                //     opt.innerHtml = newName\n                                // }catch(e){ node.error({txt:\"[GUIVars renameView()] cannot find option to rename in exactIpList\",args:arguments.join(),row:row)}\n                            }\n                        }\n                        node.warn(\"renamed\");\n                        return \"renamed\";\n                    },\n\n                    \"deleteView\": function (viewKey, config = global.get(\"config\")) {\n                        //ensure that adminUI table holds the new value\n                        {\n                            let row;\n                            if (row = this.adminUI_table.find(row => row.viewKey == viewKey))\n                                tabUtils.deleteRow(row, this.adminUI_table)    //catch(e){ node.error(\"[GUIVars renameView()] cannot find row in adminUI. args:\"+arguments.join())}\n                        }\n                        node.warn(\"deleted\");\n\n                        //update exactIpList GUI Selects\n                        {\n                            let tableLib = tabUtils.viewsEditor.exactIpList;\n                            for (let row of this.exactIpList_table) {\n\n                                //explode html  //to { tag, attributes:[{name,value,isValueMissing},..], innerHtml, html }\n                                let select = HTMLElement.explodeHtml(row.viewKeySelect);\n                                let options = HTMLSelectElement.explodeOptions(select.innerHtml)\n                                //find and remove option with value viewKey\n                                //if option was selected, select 'default' in its stead\n                                {\n                                    const getAttr = (name, opt) => opt?.attributes?.find?.(attr => attr.name == name)\n                                    const getOption = value => options.find(opt => getAttr(\"value\", opt)?.value == value);\n                                    let optToRem = getOption(viewKey) ?? node.warn(\"[GUIVars] deleteView(): no option to delete\");\n                                    if (getAttr(\"selected\", optToRem)) {\n                                        getOption(\"default\")?.attributes?.push?.(HTMLElement.newAttribute(\"selected\")) ?? node.warn(\"[GUIVars] deleteView(): no option with 'default' value found, to set as selected in place of \" + viewKey);\n                                        row.viewKeySelect_selected = \"default\"\n                                    }\n                                    options = options.filter(opt => opt !== optToRem)\n                                }\n\n                                //re-stringify select html\n                                select.innerHtml = \"\\n\\t\" + options.map(opt => HTMLElement.implodeHtml(opt)).join(\"\\n\\t\") + \"\\n\\t\";\n                                delete select.attributes; //avoid re-generating them as they didn't change\n                                //update viewKeySelect\n                                row.viewKeySelect = HTMLElement.implodeHtml(select)\n                            }\n                        }\n\n                        config.views[viewKey] || node.warn(\"deleteView(): no viewKey to delete in config\")\n                        delete config.views[viewKey]\n                    },\n\n                    onViewKeySelectChange() {\n\n                    }\n                },\n\n                // mmachines: (() => {\n                //     let ret = {};\n                //     const converter = flow.get(\"converters\").machineConfig;\n                //     //macKeys.forEach( mk => ret[mk] = GUIVarsForSingleMachine(config.machines[mk]) )\n                //     for (let mk of macKeys) {\n                //         let cfg = config.machines[mk];\n                //         for(let varName of varNames)\n                //             ret[mk] = converter.toGUIVar(varName, cfg)\n                //     }\n                //     return ret;\n                // })()\n            };\n            return newGUIVars;\n            \n        };\n        //node.warn(flow.get(\"fallbackGUIVars\"))\n        flow.set(\"generateGUIVars\",generateGUIVars)\n    });//end nested callWhenDef {ctx:flow}\n});//end callWhenDef\n\n\n\n          \n             \n //           -----------------------------------------------------------------------------------------------------\n        \n    \nclass DefaultedMap extends Map {\n    defaultValue\n    defaultKey\n\n    constructor(defaultValue, ...args) {\n        super(...args);\n        this.defaultValue = defaultValue;\n        this.defaultKey = \"default\";\n        super.set(this.defaultKey, this.defaultValue)\n    }\n\n    get(key) {\n        return super.get(key) ?? this.defaultValue;\n    }\n\n    setDefault(val) {\n        this.defaultValue = val;\n    }\n\n    setDefaultKey(key) {\n        this.defaultKey = key;\n    }\n\n}\n\n//smaller unit that:\n//makes the value be greater than moreThan //ex. moreThan=5 & ms=150000 -> as 'min' it would be 2.5, therefore use 's'\n//OR is 1 step bigger than the above but it's a whole num //ex. 180s<=>3min -> 3<5 but 3min is better than 180s nonetheless\nfunction bestUnitFor(ms, moreThan = 5) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    let factor = 1;\n    ms = Math.abs(ms);\n    for (let i = 1; i < units.length; i++)\n        //if ms is less than x times the current unit -> return the preceding unit\n        //ex. at 'min': if 3*60*1000 < X * 1*1000*60\n        if (i == units.length || ms < moreThan * (factor *= unitFactors[i]))\n            //if is less than x but a whole num -> use the bigger unit  //ex. 180s<=>3min -> 3<5 but 3min is better than 180s nonetheless\n            return ((ms % factor == 0) ? units[i] : units[i - 1]);\n}\n\nfunction msTo(val, unit, toFixedDecimals = undefined) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    let factor = 1;\n    for (let i = units.indexOf(unit); i >= 0; i--)\n        factor *= unitFactors[i];\n    const toFixedAsNum = (val, p) => { let pow = Math.pow(10, p); return Math.round(val * pow) / pow }\n    return (toFixedDecimals === undefined) ? val / factor : toFixedAsNum(val / factor, toFixedDecimals);\n}\n\n\nfunction toMs(val, unit) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    let factor = 1;\n    for (let i = units.indexOf(unit); i >= 0; i--)\n        factor *= unitFactors[i];\n    //node.warn({txt:\"[toMs]\",res:val*factor,from:arguments})\n    return Math.round(val * factor);\n}\n\n\n/**\n * recursively traverse views.\n * @returns the view at the end of the reference chain or undefined\n */\nfunction getView(viewKey, haystack) {\n    if (typeof haystack[viewKey] == \"string\") {\n        //recurse over a smaller set\n        let slicedSet = Object.assign({}, haystack);\n        delete slicedSet[viewKey];\n        return getView(haystack[viewKey], slicedSet)\n    }\n    else {\n        if (haystack[viewKey] === undefined)\n            node.warn(\"[fallbackGUIVars] getView(\" + viewKey + \") \" + (Object.keys(haystack).length ? \"is undefined\" : \" is part of a self-referencing loop\"));\n        return haystack[viewKey]; //self referencing props result in 'undefined'\n    }\n}\n\nfunction withoutDuplicates(array, isDup = (a, b) => a === b) {\n    var shift = 0;\n    array.sort().forEach((item, i) => {\n        if (i < array.length - 1 && isDup(item, array[i + 1]))\n            shift++; //continue\n        else if (shift)\n            array[i - shift] = item\n    })\n    array.length -= shift;\n    return array;\n}\n//yet to decide where to store it\nfunction getHtmlClass(className = \"HTML\") {\n    return (global.get(\"HTML\") ?? flow.get(\"HTML\") ?? {})[className] ?? flow.get(className)\n}\n\n/** @summary repeatedly tries to fetch all varNames with store.get().\n*  @desc may be used with inverse parameters. Like (?...varNames, ?opts, cb). Supports (\"name\",\"name\",cb), (opts, cb) cases.\n   * @param {function} cb called once ALL globalName are defined\n   * @param {Object} opts object holding optional function params. can be omitted passing the first globalName instead.\n   * @param {number} opts.timeout ms delay after which stop trying and either call opts.errorCb() or log an error. defaults to 15000\n   * @param {number} opts.retryDelay ms between each attempt. defaults to 100\n   * @param {function} opts.errorCb function to call after timeout. defaults to falsy, logging a warning\n   * @param  {...any} varNames series of strings\n   */\nfunction callWhenDef(cb, opts, ...varNames) {\n    //check for argument reverse order -> //treat as (?...varNames, ?opts, cb) //easier to read\n    if (typeof (cb) == \"string\") // @ts-ignore //ignore type mismatch\n        var [cb, opts = {}, ...varNames] = [...arguments].reverse(); //\"var\",cb -> cb, \"var\"\n    //check for opts presence\n    if (typeof (opts) == \"string\")\n        varNames.push(opts);\n    let { timeout = 3000, retryDelay = 100, errorCb = null, ctx = \"global\" } = (typeof (opts) == \"string\" ? {} : (opts ?? {}));\n    var tout, intv;\n    //switch context to the one specified in ctx\n    var store = ctx === \"global\" ? global : ctx === \"flow\" ? flow : ctx === \"context\" ? context : (() => { node.error(\"[callWhenDef] param opts.context must be a string among ['context','global','flow']. passed \" + ctx + \" of type \" + typeof (ctx)); return global })();\n    //const store = function (c = ctx) { return {global:global, flow:flow, context:context}[c] ??  (()=>{ node.error(\"[callWhenDef] param opts.context must be a string among ['context','global','flow']\"); return global })() }\n\n    //try immediately, before doing any work\n    if (varNames.every(name => store.get(name) !== undefined))\n        return cb();\n    //set timeout unless false or not specified\n    if (timeout) {\n        tout = setTimeout(() => {\n            clearInterval(intv);\n            errorCb ? errorCb(...arguments) : node.warn({ err: \"callWhenDef_Timeout\", arg: arguments, isDef: varNames.map(name => store.get(name) !== undefined), vars: { ctx: ctx } })\n        }, timeout);\n    }\n    //set store-checking interval\n    intv = setInterval(() => {\n        if (!varNames.every(name => store.get(name) !== undefined))\n            return\n        clearTimeout(tout);\n        clearInterval(intv);\n        cb();\n    }, retryDelay)\n}",
+        "initialize": "callWhenDef(\"signalCells\", \"config\", \"html\", \"uiAbs\", () => {\n    callWhenDef(\"tabUtils\", { ctx: \"flow\", timeout: 15000 }, () => {\n        // const signalCells = global.get(\"signalCells\");\n        const config = global.get(\"config\");\n        const uiAbs = global.get(\"uiAbs\");\n        // const tabUtils = flow.get(\"tabUtils\");\n        // const HTMLSelectElement = getHtmlClass(\"HTMLSelectElement\");\n        // const HTMLElement = getHtmlClass(\"HTMLElement\");\n        // let signalKeys = signalCells.dictionary.signalKeys;\n        // let macKeys = signalCells.dictionary.macKeys;\n        const toFixedAsNum = (val, p) => { let pow = Math.pow(10, p); return Math.round(val * pow) / pow }\n\n        let configRef = config;\n        flow.set(\"converters\", {\n            // machineConfigGUI: (()=>{\n            //     let cfg=config.machines;\n            //     let ret = new DefaultedMap( (macKey, varName, value) => cfg[][varName]=value && node.warn({txt:\"using default conversion\",args:[varName,value,cfg]}) )\n            //     ret.toConfig = function (macKey, varName, value){\n\n            //     }\n            // })(varNames)\n            //convs:{\n            machineConfigGUI: {\n                updateConfigFor(macKey, varName, value, config = configRef) {\n                    const converter = flow.get(\"converters\").machineConfigGUI.toConfig;\n                    const GUIVars = flow.get(\"GUIVars\");\n                    if (converter[varName]) {\n                        let res;\n                        //node.warn([\"with \",arguments, \" cfgSetTo \",config.machines[macKey]]);\n                        return converter[varName](GUIVars.machines[macKey], config.machines[macKey]);\n                    } else {\n                        node.warn(\"[GUIVar converter]:implicit conversion for \" + varName + \" in machineConfigGUI\");\n                        return config.machines[macKey][varName] = value;\n                    }\n                },\n                toConfig: {\n                    cellHeaderText: (GUIVar, cfg) => cfg.cellHeaderText = GUIVar.cellHeaderText,\n\n                    toA3Timeout_value: (GUIVar, cfg) => cfg.toA3Timeout = toMs(GUIVar.toA3Timeout_value, GUIVar.toA3Timeout_unit),\n                    toA3Timeout_unit: function (GUIVar, cfg) { return this.toA3Timeout_value(GUIVar, cfg) },\n\n                    toA4Timeout_value: (GUIVar, cfg) => cfg.toA4Timeout = toMs(GUIVar.toA4Timeout_value, GUIVar.toA4Timeout_unit),\n                    toA4Timeout_unit: function (GUIVar, cfg) { return this.toA4Timeout_value(GUIVar, cfg) },\n\n                    initCellSignalKey_dropdown: (GUIVar, cfg) => cfg.initCellSignalKey = (sk => sk == \"custom\" ? \"noop\" : sk)(GUIVar.initCellSignalKey_dropdown),\n                    //initCellSignalKey_color: undefined,\n                    //initCellSignalKey_backgroundColor: undefined,\n\n                    initTowerBits_switchValue: (GUIVar, cfg) => {\n                        let swVal = GUIVar.initTowerBits_switchValue;\n                        cfg.initTowerBits.redLight = (swVal == \"red\" || swVal == \"both\") ? true : false;\n                        cfg.initTowerBits.greenLight = (swVal == \"green\" || swVal == \"both\") ? true : false;\n                        return cfg.initTowerBits;\n                    },\n\n                    blinkIntv_period: (GUIVar, cfg) => {\n                        let period = GUIVar.blinkIntv_period, ratio = GUIVar.blinkIntv_offtimeRatio;\n                        cfg.blinkIntvOn = Math.round((1 - ratio) * period);\n                        cfg.blinkIntvOff = Math.round(ratio * period);\n                        return { blinkIntvOn: cfg.blinkIntvOn, blinkIntvOff: cfg.blinkIntvOff }\n                    },\n                    blinkIntv_offtimeRatio: function (GUIVar, cfg) { return this.blinkIntv_period(GUIVar, cfg) },\n                },\n                toGUIVar: {\n                    cellHeaderText: (cfg) => cfg.cellHeaderText,\n                    toA3Timeout_value: (cfg) => msTo(cfg.toA3Timeout, \"min\"),\n                    toA3Timeout_unit: undefined,\n                    toA4Timeout_value: (cfg) => msTo(cfg.toA4Timeout, \"min\", 1),\n                    toA4Timeout_unit: undefined,\n                    initCellSignalKey_dropdown: (cfg) => (sk => sk == \"noop\" ? \"custom\" : sk)(cfg.initCellSignalKey),\n                    initCellSignalKey_color: undefined,\n                    initCellSignalKey_backgroundColor: undefined,\n                    initTowerBits_switchValue: (cfg) => (init => init.greenLight ? (init.redLight ? \"both\" : \"green\") : (init.redLight ? \"red\" : \"off\"))(cfg.initTowerBits),\n                    blinkIntv_period: (cfg) => cfg.blinkIntvOff + cfg.blinkIntvOn,\n                    blinkIntv_offtimeRatio: (cfg) => toFixedAsNum(cfg.blinkIntvOff / (cfg.blinkIntvOff + cfg.blinkIntvOn), 1)\n                }\n            },\n            cellsLayoutGUI: {\n                updateConfigFor(row, col, config = configRef) {\n                    let val = flow.get(\"GUIVars\").cellsLayout.varsMatrix[row][col];\n                    config.cellsLayout[row][col] = val == \"empty\" ? null : val;\n                },\n                toGUIVar(config) {\n                    return config.cellsLayout.map(row => row.map(val => val == null ? \"empty\" : val));\n                }\n            }\n            //},\n\n            // machineConfigGUI:{\n            //     toConfig:function (macKey, varName, value, config = configRef){\n            //         const converter = flow.get(\"converters\").convs.machineConfigGUI.toConfig;\n            //         const GUIVars = flow.get(\"GUIVars\");\n            //         if(converter[varName]){\n            //             node.warn([arguments, \" mach \",config.machines]);\n            //             converter[varName]( GUIVars.machines[macKey], config.machines[macKey] );\n            //         }else{\n            //             node.warn(\"[GUIVar converter]:implicit conversion for \"+varName+ \" in machineConfigGUI\");\n            //             config.machines[macKey][varName] = value;\n            //         }\n            //     }\n            // }\n        })\n\n    });//end nested callWhenDef {ctx:flow}\n});//end callWhenDef\n\n        //------------------------------------------------------------------------------------------------------------------------------\n        //        FALLBACK GUIVARS\n        //------------------------------------------------------------------------------------------------------------------------------\n\n\ncallWhenDef(\"signalCells\", \"config\", \"html\", () => {\n    callWhenDef(\"tabUtils\", { ctx: \"flow\", timeout: 15000 }, () => {\n        const signalCells = global.get(\"signalCells\");\n        const config = global.get(\"config\");\n        const tabUtils = flow.get(\"tabUtils\");\n        const HTMLSelectElement = getHtmlClass(\"HTMLSelectElement\");\n        const HTMLElement = getHtmlClass(\"HTMLElement\");\n        let signalKeys = signalCells.dictionary.signalKeys;\n        let macKeys = signalCells.dictionary.macKeys;\n        const converters = flow.get(\"converters\");\n        //const varNames = [\"toA3Timeout_value\", \"toA3Timeout_value\", \"toA4Timeout_value\", \"toA4Timeout_unit\", \"initCellSignalKey_dropdown\", \"initCellSignalKey_color\", \"initCellSignalKey_backgroundColor\", \"initTowerBits_switchValue\", \"blinkIntv_period\", \"blinkIntv_ratio\"]\n        const varNames = [\n            \"toA3Timeout_value\",\n            \"toA3Timeout_unit\",\n            \"toA4Timeout_value\",\n            \"toA4Timeout_unit\",\n            \"initCellSignalKey_dropdown\",\n            \"initCellSignalKey_color\",\n            \"initCellSignalKey_backgroundColor\",\n            \"initTowerBits_switchValue\",\n            \"blinkIntv_period\",\n            \"blinkIntv_ratio\"\n        ];\n        const toFixedAsNum = (val, p) => { let pow = Math.pow(10, p); return Math.round(val * pow) / pow }\n        // function GUIVarsForSingleMachine(cfg){\n        //     return {\n        //         toA3Timeout_value: toFixedAsNum( msTo(cfg.toA3timeout, \"min\"), 1) ,\n        //         toA3Timeout_unit: \"min\",\n        //         toA4Timeout_value: toFixedAsNum( msTo(cfg.toA3timeout, \"min\"), 1),\n        //         toA4Timeout_unit: \"min\",\n        //         initCellSignalKey_dropdown: (sk => sk == \"noop\" ? \"custom\" : sk)(cfg.initSignalKey),\n        //         initCellSignalKey_color: undefined,\n        //         initCellSignalKey_backgroundColor: undefined,\n        //         initTowerBits_switchValue: (init => { init.greenLight ? (init.redLight ? \"both\" : \"green\") : (init.redLight ? \"red\" : \"off\") })(cfg.initTowerBits),\n        //         blinkIntv_period: cfg.blinkIntvOff + cfg.blinkIntvOn,\n        //         blinkIntv_ratio: Math.round((cfg.blinkIntvOff / cfg.blinkIntvOff + cfg.blinkIntvOn)*10)/10,\n        //     }\n        // }\n        const generateGUIVars = function (config = global.get(\"config\"), oldGUIVars){\n            config ?? node.error(\"[genGUIVars]: global.config still undefined\");\n            \n            let newGUIVars = {\n                inflate: function inflate(target) {\n                    return global.get(\"utils\").genericInflater.call(this, target);\n                },\n                \"machines\": (() => {\n                    let ret = {};\n                    //macKeys.forEach( mk => ret[mk] = GUIVarsForSingleMachine(config.machines[mk]) )\n                    for (let mk of macKeys) {\n                        let cfg = config.machines[mk];\n                        //mk == \"OMET\" && node.warn({ toA3: cfg.toA3Timeout,cfg:cfg })\n                        let tmp;\n                        ret[mk] = {\n                            cellHeaderText: cfg.cellHeaderText,\n                            toA3Timeout_unit: tmp=bestUnitFor(cfg.toA3Timeout, 5),\n                            toA3Timeout_value: msTo(cfg.toA3Timeout, tmp , 1),\n                            toA4Timeout_unit: tmp=bestUnitFor(cfg.toA4Timeout, 5),\n                            toA4Timeout_value: msTo(cfg.toA4Timeout, tmp, 1),\n                            initCellSignalKey_dropdown: (sk => sk == \"noop\" ? \"custom\" : sk)(cfg.initCellSignalKey),\n                            initCellSignalKey_color: undefined,\n                            initCellSignalKey_backgroundColor: undefined,\n                            initTowerBits_switchValue: (init => init.greenLight ? (init.redLight ? \"both\" : \"green\") : (init.redLight ? \"red\" : \"off\"))(cfg.initTowerBits),\n                            blinkIntv_period: cfg.blinkIntvOff + cfg.blinkIntvOn,\n                            blinkIntv_offtimeRatio: toFixedAsNum(cfg.blinkIntvOff / (cfg.blinkIntvOff + cfg.blinkIntvOn), 1),\n                        }\n                        // let blinktimes = ( function toBlinkTimes(period, offtimeRatio){    return [ period*1000*(1 - offtimeRatio), period*1000*offtimeRatio ]     })(ret[mk].blinkIntv_period, ret[mk].blinkIntv_offtimeRatio)\n                        // mk == \"OMET\" && node.warn({ txt: \"blinkTimes\", bOn: blinktimes[0], bOff:blinktimes[1] })\n                    }\n                    return ret;\n                })(),\n                //instead than using varNames like other widjets, it uses msg.row and msg.col and stores the GUIVars in a\n                //matrix reflecting the config prop that it's being affected\n                \"cellsLayout\": {\n                    nRows: config.cellsLayout.length,\n                    nCols: config.cellsLayout[0].length,\n\n                    varsMatrix: converters.cellsLayoutGUI.toGUIVar(config)//.cellsLayout.map(row => row.map( col => col))\n                },\n\n                \"views\": {\n                    // //restore GUIVar-like object from it's json reduction\n                    // inflate:function (target){\n                    //     if(typeof target == \"object\")\n                    //         for(let k in this){\n                    //             if(typeof(this[k]) == \"function\")\n                    //                 target[k] = this[k];\n                    //             else\n                    //                 target[k] = global.get(\"utils\").genericInflater.call(this[k], target[k])\n                    //         }\n                    //     //exactIpList_table -> restore HTMLSelectElements\n                    //     //self.exactIpList_table = self.exactIpList_table.map( row => row.viewKeySelect_element = new HTMLSelectElement(row.viewKeySelect_element))\n                    // },\n                    adminUI_table: (() => {\n                        let ret = [], tableLib = tabUtils.viewsEditor.adminUI;\n                        ret.push(tableLib.newCreatorRow(tabUtils.newRowId(ret)));\n                        for (let vk in config.views) {\n                            let row = tabUtils.viewsEditor.adminUI.newRow(tabUtils.newRowId(ret))\n                            tabUtils.viewsEditor.adminUI.setRowToView(row, vk, config.views)\n                            if (vk == \"default\")\n                                row.deleteButton = \"\";\n                            ret.push(row);\n                        }\n                        return ret;\n                    })(),\n                    //[ vk, vk, .. ]\n                    //copycats: Object.keys(config.views).filter( vk => typeof(config.views[vk]) == \"string\" ),\n                    // @ts-ignore\n                    //does not survive JSONification//exactIpList_viewKeySelect_idxMap: tabUtils.viewsEditor.exactIpList.viewKeySelect.idxMap,//new Map( Object.keys(global.get(\"config\").views).map((key,idx) => [[idx, key],[key, idx]]).flat(1) ),\n\n                    exactIpList_table: (function(){\n                        const uiAbs = global.get(\"uiAbs\");\n                        var ret = [];\n                        let tableLib = tabUtils.viewsEditor.exactIpList;\n                        let viewKeys = Object.keys(config.views);   // @ts-ignore\n                        const idxMap = new Map(viewKeys.map((key, idx) => [[idx, key], [key, idx]]).flat(1))\n                        //let fullIpList = viewKeys.map( vk => { try{var view = getView(config.views);}catch{}; return view ? view.exactIpList : [];}).flat();\n                        //fullIpList = withoutDuplicates(fullIpList);\n                        const fallbackIpInfos = [\n                            { ip: undefined, ipExp: /\\.111$/, apKey: \"MasterDisplay1\", note: \"collocato a fianco dell'Area SMED1\" },\n                            { ip: undefined, ipExp: /\\.112$/, apKey: \"SlaveDisplay2\", note: \"precede in senso orario MasterDisplay1\" },\n                            { ip: undefined, ipExp: /\\.113$/, apKey: \"SlaveDisplay3\", note: \"precede in senso orario SlaveDisplay2\" },\n                            { ip: undefined, ipExp: /\\.114$/, apKey: \"SlaveDisplay4\", note: \"precede in senso orario SlaveDisplay3\" },\n                            { ip: undefined, ipExp: /\\.115$/, apKey: \"SlaveDisplay5\", note: \"precede in senso orario SlaveDisplay4\" },\n                            { ip: undefined, ipExp: /\\.116$/, apKey: \"PC Area SMED1\", note: \"\" },\n                            { ip: undefined, ipExp: /\\.117$/, apKey: \"PC Area SMED2\", note: \"\" },\n                            { ip: undefined, ipExp: /\\.130$/, apKey: \"AP Supervisione di base\", note: \"IP abilitato per default alla visione della pagina di amministrazione.\" },\n                            { ip: undefined, ipExp: /\\.131$/, apKey: \"AP Supervisione di base #2\", note: \"IP abilitato per default alla visione della pagina di amministrazione.\" },\n                            { ip: undefined, ipExp: /\\.132$/, apKey: \"AP Supervisione di base #3\", note: \"IP abilitato per default alla visione della pagina di amministrazione.\" },\n                            { ip: undefined, ipExp: /\\.133$/, apKey: \"AP Supervisione di base #4\", note: \"IP abilitato per default alla visione della pagina di amministrazione.\" },\n                            { ip: undefined, ipExp: /\\.134$/, apKey: \"AP Supervisione di base #5\", note: \"IP abilitato per default alla visione della pagina di amministrazione.\" },\n                        ];\n                        ret.push(tableLib.newCreatorRow(tabUtils.newRowId(ret)));\n                        var countUnnamed = 0;\n                        for (let vk of viewKeys) {\n                            if (typeof (config.views[vk]) != \"string\") //avoid duplicating devices //problem: the reference will have the name of the referenced instead than the referee as one'd expect\n                                for (let ip of (config.views[vk].exactIpList ?? [])) {\n                                    let viewKey = vk;\n                                    //get \"empty\" row (instantiated with default values)\n                                    var row = tableLib.newRow(tabUtils.newRowId(ret));\n                                    //info not present in config -> get them from defaults above or from oldGUIVars\n                                    var ipInfo = fallbackIpInfos.find(info => info.ip ? info.ip == ip : ip.match(info.ipExp));\n                                    {\n                                        let oldRow;\n                                        if(ipInfo == undefined && (oldRow = oldGUIVars?.views?.exactIPList_table?.find?.(row => row.ip == ip)))\n                                            ipInfo = { ip: row.ip, ipExp: undefined, apKey: row.apKey, note: row.note };\n                                    }\n\n                                    //set row to vals\n                                    row.ip = ip;\n                                    // row.viewKeySelect = (()=>{\n                                    //     let selLib = tableLib.viewKeySelect;\n                                    //     return `<select class=\"minimal\" onchange=\"${selLib.onChange}\" >${(()=>{\n                                    //         let opts = viewKeys.map(k => `<option ghost-idx=\"${idxMap.get(k)}\" value=\"${k}\" ${k==vk ? \"selected\" : \"\"}>${k}</option>`).join(\"\\n\\t\");\n                                    //         return node.warn({optsString:opts}) || opts;\n                                    //     })()}</select>`\n                                    //     let options = viewKeys.map(vk => tableLib.viewKeySelect.toOptionString(vk, idxMap.get(vk), vk===viewKey));\n                                    //     return tableLib.viewKeySelect.toSelectString(options);\n                                    //     // row.viewKeySelect_element.options = viewKeys.map(vk => tableLib.viewKeySelect.newOption(vk, idxMap.get(vk)));\n                                    //     // tableLib.viewKeySelect.setSelected(row, vk); //row.viewKeySelect = row.viewKeySelect_element.setSelected(vk).updatedHtml();\n                                    //     // return row.viewKeySelect_element.updateHtml(true);\n                                    // })()\n                                    row.viewKeySelect = tableLib.viewKeySelect.newPopulatedSelect(vk)\n                                    row.viewKeySelect_selected = vk;\n                                    row.apKey = ipInfo !== undefined ? ipInfo.apKey : vk + \" #\" + (1 + countUnnamed++); //\"senza nome\"+(countUnnamed++ ? \" \"+countUnnamed : \"\");\n                                    row.hasCfgPage = uiAbs.views.user.ipList.includes(row.ip);\n                                    row.note = ipInfo !== undefined ? ipInfo.note : \"\";\n                                    ret.push(row);\n                                    //node.warn(row.viewKeySelect);\n                                }\n                        }\n\n                        // for(let viewKey in config.views){\n                        //     //set select html\n                        //     let viewKeys = Object.keys(config.views);\n                        //     row.viewKeySelect = tableLib.buildSelectHtml(viewKeys.map((vk, i) => tableLib.buildOptionHtml({ \"ghostIndex\":i, \"text\":vk, \"value\":vk, \"selected\":false })))\n                        //     //set selected option\n                        //     tableLib.setSelected(row, \"viewKeySelect\", viewKey)\n\n                        //     ret.push(row);\n                        // }\n                        return ret;\n                    })(),\n\n                    \"getView\": function getView(key, views = global.get(\"config\").views) {\n                        if (typeof (views[key]) == \"string\") {\n                            let subSet = Object.assign({}, views)\n                            delete subSet[key];\n                            return getView(views[key], subSet) ?? node.warn(\"[GUIVar getView()] circular loop or invalid reference. last:\" + key + \"|remaining:\" + Object.keys(views).join())\n                        }\n                        else\n                            return views[key];\n                    },\n\n                    \"renameApKey\": function (oldName, newName, config = global.get(\"config\")) {\n                        node.warn(\"called renameApKey with \" + [...arguments].join())\n                        //reject duplicates\n                        for (let ak in config.views)\n                            if (ak == newName)\n                                return \"duplicate\";\n                        //ensure that exactIpList table holds the new value\n                        {\n                            let row;\n                            if (row = this.exactIpList_table.find(row => row.apKey == oldName))\n                                row.apKey = newName;    //catch(e){ node.error(\"[GUIVars renameView()] cannot find row in adminUI. args:\"+arguments.join())}\n                        }\n\n                        return \"renamed\";\n                    },\n\n                    \"renameView\": function (oldName, newName, config = global.get(\"config\")) {\n                        node.warn(\"called renameApKey with \" + [...arguments].join())\n                        // if(oldName === newName)\n                        //     return \"renamed\";\n                        // if(!Object.keys(config.views).every( vk => vk != newName))\n                        //     return \"duplicate\"\n                        // //update views\n                        // config.views[newName] = config.views[oldName];\n                        // delete config.views[oldName];\n                        // //update\n\n                        //reject duplicates\n                        for (let vk in config.views)\n                            if (vk == newName)\n                                return \"duplicate\";\n                        //ensure that adminUI table holds the new value\n                        {\n                            let row;\n                            if (row = this.adminUI_table.find(row => row.viewKey == oldName))\n                                row.viewKey = newName;    //catch(e){ node.error(\"[GUIVars renameView()] cannot find row in adminUI. args:\"+arguments.join())}\n                        }\n\n                        //update exactIpList GUI Selects\n                        {\n                            let tableLib = tabUtils.viewsEditor.exactIpList;\n                            for (let row of this.exactIpList_table) {\n                                //explode html  //to { tag, attributes:[{name,value,isValueMissing},..], innerHtml, html }\n                                let select = HTMLElement.explodeHtml(row.viewKeySelect);\n                                let options = HTMLSelectElement.explodeOptions(select.innerHtml)\n                                //find and edit option with value oldName\n                                for (let opt of options)\n                                    for (let attr of opt.attributes)\n                                        if (attr.name == \"value\" && attr.value == oldName) {\n                                            attr.value = newName;\n                                            opt.innerHtml = newName;\n                                            break;\n                                        }\n                                //re-stringify select html\n                                select.innerHtml = \"\\n\\t\" + options.map(opt => HTMLElement.implodeHtml(opt)).join(\"\\n\\t\") + \"\\n\\t\";\n                                delete select.attributes; //avoid re-generating them as they didn't change\n                                //update viewKeySelect\n                                row.viewKeySelect = HTMLElement.implodeHtml(select)\n\n                                // try{    //find option with value oldName\n                                //     let opt=options.find( opt => opt.attributes.find( attr => attr.name=\"value\" )?.value == oldName)\n                                //         //edit attribute value\n                                //     opt.attributes.find( attr => attr.name=\"value\" ).value = newName\n                                //         //edit displayed name\n                                //     opt.innerHtml = newName\n                                // }catch(e){ node.error({txt:\"[GUIVars renameView()] cannot find option to rename in exactIpList\",args:arguments.join(),row:row)}\n                            }\n                        }\n                        node.warn(\"renamed\");\n                        return \"renamed\";\n                    },\n\n                    \"deleteView\": function (viewKey, config = global.get(\"config\")) {\n                        //ensure that adminUI table holds the new value\n                        {\n                            let row;\n                            if (row = this.adminUI_table.find(row => row.viewKey == viewKey))\n                                tabUtils.deleteRow(row, this.adminUI_table)    //catch(e){ node.error(\"[GUIVars renameView()] cannot find row in adminUI. args:\"+arguments.join())}\n                        }\n                        node.warn(\"deleted\");\n\n                        //update exactIpList GUI Selects\n                        {\n                            let tableLib = tabUtils.viewsEditor.exactIpList;\n                            for (let row of this.exactIpList_table) {\n\n                                //explode html  //to { tag, attributes:[{name,value,isValueMissing},..], innerHtml, html }\n                                let select = HTMLElement.explodeHtml(row.viewKeySelect);\n                                let options = HTMLSelectElement.explodeOptions(select.innerHtml)\n                                //find and remove option with value viewKey\n                                //if option was selected, select 'default' in its stead\n                                {\n                                    const getAttr = (name, opt) => opt?.attributes?.find?.(attr => attr.name == name)\n                                    const getOption = value => options.find(opt => getAttr(\"value\", opt)?.value == value);\n                                    let optToRem = getOption(viewKey) ?? node.warn(\"[GUIVars] deleteView(): no option to delete\");\n                                    if (getAttr(\"selected\", optToRem)) {\n                                        getOption(\"default\")?.attributes?.push?.(HTMLElement.newAttribute(\"selected\")) ?? node.warn(\"[GUIVars] deleteView(): no option with 'default' value found, to set as selected in place of \" + viewKey);\n                                        row.viewKeySelect_selected = \"default\"\n                                    }\n                                    options = options.filter(opt => opt !== optToRem)\n                                }\n\n                                //re-stringify select html\n                                select.innerHtml = \"\\n\\t\" + options.map(opt => HTMLElement.implodeHtml(opt)).join(\"\\n\\t\") + \"\\n\\t\";\n                                delete select.attributes; //avoid re-generating them as they didn't change\n                                //update viewKeySelect\n                                row.viewKeySelect = HTMLElement.implodeHtml(select)\n                            }\n                        }\n\n                        config.views[viewKey] || node.warn(\"deleteView(): no viewKey to delete in config\")\n                        delete config.views[viewKey]\n                    },\n\n                    onViewKeySelectChange() {\n\n                    }\n                },\n\n                // mmachines: (() => {\n                //     let ret = {};\n                //     const converter = flow.get(\"converters\").machineConfig;\n                //     //macKeys.forEach( mk => ret[mk] = GUIVarsForSingleMachine(config.machines[mk]) )\n                //     for (let mk of macKeys) {\n                //         let cfg = config.machines[mk];\n                //         for(let varName of varNames)\n                //             ret[mk] = converter.toGUIVar(varName, cfg)\n                //     }\n                //     return ret;\n                // })()\n            };\n            return newGUIVars;\n            \n        };\n        //node.warn(flow.get(\"fallbackGUIVars\"))\n        flow.set(\"generateGUIVars\",generateGUIVars)\n    });//end nested callWhenDef {ctx:flow}\n});//end callWhenDef\n\n\n\n          \n             \n //           -----------------------------------------------------------------------------------------------------\n        \n    \nclass DefaultedMap extends Map {\n    defaultValue\n    defaultKey\n\n    constructor(defaultValue, ...args) {\n        super(...args);\n        this.defaultValue = defaultValue;\n        this.defaultKey = \"default\";\n        super.set(this.defaultKey, this.defaultValue)\n    }\n\n    get(key) {\n        return super.get(key) ?? this.defaultValue;\n    }\n\n    setDefault(val) {\n        this.defaultValue = val;\n    }\n\n    setDefaultKey(key) {\n        this.defaultKey = key;\n    }\n\n}\n\n//smaller unit that:\n//makes the value be greater than moreThan //ex. moreThan=5 & ms=150000 -> as 'min' it would be 2.5, therefore use 's'\n//OR is 1 step bigger than the above but it's a whole num //ex. 180s<=>3min -> 3<5 but 3min is better than 180s nonetheless\nfunction bestUnitFor(ms, moreThan = 5) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    let factor = 1;\n    ms = Math.abs(ms);\n    for (let i = 1; i < units.length; i++)\n        //if ms is less than x times the current unit -> return the preceding unit\n        //ex. at 'min': if 3*60*1000 < X * 1*1000*60\n        if (i == units.length || ms < moreThan * (factor *= unitFactors[i]))\n            //if is less than x but a whole num -> use the bigger unit  //ex. 180s<=>3min -> 3<5 but 3min is better than 180s nonetheless\n            return ((ms % factor == 0) ? units[i] : units[i - 1]);\n}\n\nfunction msTo(val, unit, toFixedDecimals = undefined) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    let factor = 1;\n    for (let i = units.indexOf(unit); i >= 0; i--)\n        factor *= unitFactors[i];\n    const toFixedAsNum = (val, p) => { let pow = Math.pow(10, p); return Math.round(val * pow) / pow }\n    return (toFixedDecimals === undefined) ? val / factor : toFixedAsNum(val / factor, toFixedDecimals);\n}\n\n\nfunction toMs(val, unit) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    let factor = 1;\n    for (let i = units.indexOf(unit); i >= 0; i--)\n        factor *= unitFactors[i];\n    //node.warn({txt:\"[toMs]\",res:val*factor,from:arguments})\n    return Math.round(val * factor);\n}\n\n\n/**\n * recursively traverse views.\n * @returns the view at the end of the reference chain or undefined\n */\nfunction getView(viewKey, haystack) {\n    if (typeof haystack[viewKey] == \"string\") {\n        //recurse over a smaller set\n        let slicedSet = Object.assign({}, haystack);\n        delete slicedSet[viewKey];\n        return getView(haystack[viewKey], slicedSet)\n    }\n    else {\n        if (haystack[viewKey] === undefined)\n            node.warn(\"[fallbackGUIVars] getView(\" + viewKey + \") \" + (Object.keys(haystack).length ? \"is undefined\" : \" is part of a self-referencing loop\"));\n        return haystack[viewKey]; //self referencing props result in 'undefined'\n    }\n}\n\nfunction withoutDuplicates(array, isDup = (a, b) => a === b) {\n    var shift = 0;\n    array.sort().forEach((item, i) => {\n        if (i < array.length - 1 && isDup(item, array[i + 1]))\n            shift++; //continue\n        else if (shift)\n            array[i - shift] = item\n    })\n    array.length -= shift;\n    return array;\n}\n//yet to decide where to store it\nfunction getHtmlClass(className = \"HTML\") {\n    return (global.get(\"HTML\") ?? flow.get(\"HTML\") ?? {})[className] ?? flow.get(className)\n}\n\n/** @summary repeatedly tries to fetch all varNames with store.get().\n*  @desc may be used with inverse parameters. Like (?...varNames, ?opts, cb). Supports (\"name\",\"name\",cb), (opts, cb) cases.\n   * @param {function} cb called once ALL globalName are defined\n   * @param {Object} opts object holding optional function params. can be omitted passing the first globalName instead.\n   * @param {number} opts.timeout ms delay after which stop trying and either call opts.errorCb() or log an error. defaults to 15000\n   * @param {number} opts.retryDelay ms between each attempt. defaults to 100\n   * @param {function} opts.errorCb function to call after timeout. defaults to falsy, logging a warning\n   * @param  {...any} varNames series of strings\n   */\nfunction callWhenDef(cb, opts, ...varNames) {\n    //check for argument reverse order -> //treat as (?...varNames, ?opts, cb) //easier to read\n    if (typeof (cb) == \"string\") // @ts-ignore //ignore type mismatch\n        var [cb, opts = {}, ...varNames] = [...arguments].reverse(); //\"var\",cb -> cb, \"var\"\n    //check for opts presence\n    if (typeof (opts) == \"string\")\n        varNames.push(opts);\n    let { timeout = 3000, retryDelay = 100, errorCb = null, ctx = \"global\" } = (typeof (opts) == \"string\" ? {} : (opts ?? {}));\n    var tout, intv;\n    //switch context to the one specified in ctx\n    var store = ctx === \"global\" ? global : ctx === \"flow\" ? flow : ctx === \"context\" ? context : (() => { node.error(\"[callWhenDef] param opts.context must be a string among ['context','global','flow']. passed \" + ctx + \" of type \" + typeof (ctx)); return global })();\n    //const store = function (c = ctx) { return {global:global, flow:flow, context:context}[c] ??  (()=>{ node.error(\"[callWhenDef] param opts.context must be a string among ['context','global','flow']\"); return global })() }\n\n    //try immediately, before doing any work\n    if (varNames.every(name => store.get(name) !== undefined))\n        return cb();\n    //set timeout unless false or not specified\n    if (timeout) {\n        tout = setTimeout(() => {\n            clearInterval(intv);\n            errorCb ? errorCb(...arguments) : node.warn({ err: \"callWhenDef_Timeout\", arg: arguments, isDef: varNames.map(name => store.get(name) !== undefined), vars: { ctx: ctx } })\n        }, timeout);\n    }\n    //set store-checking interval\n    intv = setInterval(() => {\n        if (!varNames.every(name => store.get(name) !== undefined))\n            return\n        clearTimeout(tout);\n        clearInterval(intv);\n        cb();\n    }, retryDelay)\n}",
         "finalize": "",
         "libs": [],
         "x": 330,
@@ -40176,11 +40219,12 @@
         "id": "ef3ee119e7323390",
         "type": "ui_button",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "",
-        "group": "0881cdf285ecbde3",
-        "order": 12,
-        "width": 0,
-        "height": 0,
+        "group": "cb1612deb7b88443",
+        "order": 1,
+        "width": 4,
+        "height": 1,
         "passthru": false,
         "label": "reset luci e sirene",
         "tooltip": "spenge tutte le luci e silenzia tutte le sirene",
@@ -40204,6 +40248,7 @@
         "id": "235b2f3551f4fca5",
         "type": "link out",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "trigger writetowersBitArray out",
         "mode": "link",
         "links": [
@@ -40218,6 +40263,7 @@
         "id": "e946a6776d47f04a",
         "type": "function",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "bitArray manual reset",
         "func": "\n\nglobal.set(\"towersBitArray\",global.get(\"towersBitArray\").fill(0))\nreturn msg;",
         "outputs": 1,
@@ -40229,7 +40275,8 @@
         "y": 4590,
         "wires": [
             [
-                "235b2f3551f4fca5"
+                "235b2f3551f4fca5",
+                "140e86fe8b55a5ce"
             ]
         ]
     },
@@ -40237,6 +40284,7 @@
         "id": "098586dfbc1c7b5f",
         "type": "inject",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "",
         "props": [],
         "repeat": "",
@@ -40257,14 +40305,15 @@
         "id": "f4dd7fea54ce7ef8",
         "type": "ui_dropdown",
         "z": "520bb4ac551bd04e",
-        "name": "",
-        "label": "pick macKey",
+        "g": "b0b33ed903562d40",
+        "name": "pick macKey",
+        "label": "verso",
         "tooltip": "vedi dettaglio di..",
         "place": "pick macKey",
-        "group": "63ed9259e71198db",
-        "order": 1,
-        "width": 0,
-        "height": 0,
+        "group": "cb1612deb7b88443",
+        "order": 5,
+        "width": 3,
+        "height": 1,
         "passthru": true,
         "multiple": false,
         "options": [],
@@ -40272,8 +40321,8 @@
         "topic": "topic",
         "topicType": "str",
         "className": "",
-        "x": 755,
-        "y": 4725,
+        "x": 765,
+        "y": 4770,
         "wires": [
             [
                 "abd32d8cfe10c9be"
@@ -40284,6 +40333,7 @@
         "id": "f6b7472bca62307d",
         "type": "function",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "set dropdown options: macKeys",
         "func": "const signalCells = global.get(\"signalCells\");\nlet macKeys = signalCells.dictionary.macKeys;\n\nmsg.options = [{ \"Tutte\": \"all\" }].concat(macKeys.map(v => v));\nmsg.payload = macKeys[macKeys.length-1] //OMET\n\nreturn msg;",
         "outputs": 1,
@@ -40291,8 +40341,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 475,
-        "y": 4725,
+        "x": 485,
+        "y": 4770,
         "wires": [
             [
                 "f4dd7fea54ce7ef8"
@@ -40303,12 +40353,13 @@
         "id": "fb72aaf30f378de5",
         "type": "link in",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "allMain isDefinedEvent out",
         "links": [
             "230aaa874077cfdc"
         ],
-        "x": 210,
-        "y": 4725,
+        "x": 220,
+        "y": 4770,
         "wires": [
             [
                 "f6b7472bca62307d"
@@ -40320,14 +40371,15 @@
         "id": "1f83e18c1d4571b8",
         "type": "ui_dropdown",
         "z": "520bb4ac551bd04e",
-        "name": "",
-        "label": "pick signal",
+        "g": "b0b33ed903562d40",
+        "name": "pick signal",
+        "label": "",
         "tooltip": "vedi dettaglio di..",
         "place": "pick macKey",
-        "group": "63ed9259e71198db",
-        "order": 1,
-        "width": 0,
-        "height": 0,
+        "group": "cb1612deb7b88443",
+        "order": 4,
+        "width": 4,
+        "height": 1,
         "passthru": true,
         "multiple": false,
         "options": [],
@@ -40335,8 +40387,8 @@
         "topic": "topic",
         "topicType": "str",
         "className": "",
-        "x": 860,
-        "y": 4770,
+        "x": 855,
+        "y": 4725,
         "wires": [
             [
                 "748dcab316d25b36"
@@ -40347,15 +40399,16 @@
         "id": "b367024fa986b591",
         "type": "function",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "set dropdown options: signalKeys",
-        "func": "const signalCells = global.get(\"signalCells\");\nlet signalKeys = signalCells.dictionary.signalKeys;\nlet signalNames = signalCells.dictionary.signalNames;\n//result:\n    // custom : custom\n    // A1 : A1 - chiamata\nlet formatName = (sk, name) => sk + \" - \" + global.get(\"utils\").firstCharUp(name);\nmsg.options = [{\"Neutro\":\"noop\"}].concat( signalKeys.map( (sk,i) => new Object({[formatName(sk,signalNames[i])]:sk}) ) );\nmsg.varName = \"initCellSignalKey_dropdown\";\nmsg.macKey = \"all\"; //msg won't be cloned\nmsg.origin = \"set initCellSignalKey dropdown options\";\nreturn msg;",
+        "func": "const signalCells = global.get(\"signalCells\");\nlet signalKeys = signalCells.dictionary.signalKeys;\nlet signalNames = signalCells.dictionary.signalNames;\n//result:\n    // custom : custom\n    // A1 : A1 - chiamata\nlet formatName = (sk, name) => sk + \" - \" + global.get(\"utils\").firstCharUp(name);\nmsg.options = [{\"Neutro\":\"noop\"}].concat( signalKeys.map( (sk,i) => new Object({[formatName(sk,signalNames[i])]:sk}) ) );\nmsg.payload = \"C1\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 580,
-        "y": 4770,
+        "x": 575,
+        "y": 4725,
         "wires": [
             [
                 "1f83e18c1d4571b8"
@@ -40366,12 +40419,13 @@
         "id": "807fcc0a56e37f7a",
         "type": "link in",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "allMain isDefinedEvent out",
         "links": [
             "230aaa874077cfdc"
         ],
-        "x": 295,
-        "y": 4770,
+        "x": 290,
+        "y": 4725,
         "wires": [
             [
                 "b367024fa986b591"
@@ -40383,6 +40437,7 @@
         "id": "abd32d8cfe10c9be",
         "type": "change",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "topic:mk|'all'",
         "rules": [
             {
@@ -40403,8 +40458,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1000,
-        "y": 4725,
+        "x": 1010,
+        "y": 4770,
         "wires": [
             [
                 "eb4d3a9f407e4c99"
@@ -40415,6 +40470,7 @@
         "id": "748dcab316d25b36",
         "type": "change",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "action:set+sk",
         "rules": [
             {
@@ -40440,8 +40496,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1015,
-        "y": 4770,
+        "x": 1010,
+        "y": 4725,
         "wires": [
             [
                 "eb4d3a9f407e4c99"
@@ -40452,8 +40508,9 @@
         "id": "92489e7acfd001de",
         "type": "function",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "combine",
-        "func": "const ctxGet = (key, val) => { context.get(key) ?? context.set(key, val); return context.get(key) }\nlet heldMsg = ctxGet(\"heldMsg\",{topic:\"OMET\",action:\"setC1\" })\n\n//on topic:control\n    //send -> send held msg //send to all macs if held topic==all\nif(msg.topic == \"control\"){\n    switch(msg.payload){\n        default: { node.warn(\"unhandled control case:\"+msg.payload)+\". using send\" }\n        case \"send\":{\n            if(heldMsg.topic == \"all\"){\n                for(let macKey of global.get(\"signalCells\").dictionary.macKeys)\n                    node.send({topic: macKey, action:heldMsg.action})\n                return null;\n            }\n            else\n                return heldMsg;\n        }\n    }\n}\n    //merge msg into held\nelse{\n    context.set(\"heldMsg\",Object.assign(heldMsg, msg));\n    return null;\n}",
+        "func": "const ctxGet = (key, val) => { context.get(key) ?? context.set(key, val); return context.get(key) }\nlet heldMsg = ctxGet(\"heldMsg\",{topic:\"OMET\",action:\"setC1\" })\n\n//on topic:control\n    //send -> send held msg //send to all macs if held topic==all\nif(msg.topic == \"control\"){\n    switch(msg.payload){\n        default: { node.warn(\"unhandled control case:\"+msg.payload)+\". using send\" }\n        case \"send\":{\n            if(heldMsg.topic == \"all\"){\n                for(let macKey of global.get(\"signalCells\").dictionary.macKeys)\n                    node.send({topic: macKey, action:heldMsg.action})\n                return null;\n            }\n            else\n                return heldMsg;\n        }\n    }\n}\n    //merge msg into held\nelse{\n    context.set(\"heldMsg\",Object.assign(heldMsg, msg));\n    heldMsg = context.get(\"heldMsg\");\n    node.status({text:heldMsg.topic+\" \"+heldMsg.action});\n    return null;\n}",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -40472,6 +40529,7 @@
         "id": "b9b45773034514ef",
         "type": "change",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "control>send",
         "rules": [
             {
@@ -40506,6 +40564,7 @@
         "id": "eb4d3a9f407e4c99",
         "type": "switch",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "",
         "property": "topic",
         "propertyType": "msg",
@@ -40530,6 +40589,7 @@
         "id": "d753c184f13d0717",
         "type": "link out",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "buttonActions",
         "mode": "link",
         "links": [
@@ -40544,13 +40604,14 @@
         "id": "44e1788245e5cf3b",
         "type": "ui_button",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "send",
-        "group": "0881cdf285ecbde3",
-        "order": 12,
-        "width": 0,
-        "height": 0,
+        "group": "cb1612deb7b88443",
+        "order": 3,
+        "width": 4,
+        "height": 1,
         "passthru": true,
-        "label": "",
+        "label": "invia segnale",
         "tooltip": "spenge tutte le luci e silenzia tutte le sirene",
         "color": "",
         "bgcolor": "",
@@ -40572,6 +40633,7 @@
         "id": "8cec784ccb58ebc7",
         "type": "inject",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "",
         "props": [],
         "repeat": "",
@@ -40592,6 +40654,7 @@
         "id": "0ab40e149eaf8626",
         "type": "inject",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "",
         "props": [],
         "repeat": "",
@@ -40599,8 +40662,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 765,
-        "y": 4770,
+        "x": 760,
+        "y": 4725,
         "wires": [
             [
                 "1f83e18c1d4571b8"
@@ -40612,6 +40675,7 @@
         "id": "4c611b658a554d3e",
         "type": "inject",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "",
         "props": [],
         "repeat": "",
@@ -40619,8 +40683,8 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 660,
-        "y": 4725,
+        "x": 670,
+        "y": 4770,
         "wires": [
             [
                 "f4dd7fea54ce7ef8"
@@ -40632,6 +40696,7 @@
         "id": "b22a990beeaae01c",
         "type": "debug",
         "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
         "name": "GUI DCOMM setState",
         "active": true,
         "tosidebar": true,
@@ -40644,6 +40709,24 @@
         "x": 1450,
         "y": 4785,
         "wires": []
+    },
+    {
+        "id": "140e86fe8b55a5ce",
+        "type": "function",
+        "z": "520bb4ac551bd04e",
+        "g": "b0b33ed903562d40",
+        "name": "sharedBit man reset",
+        "func": "const towCtrl = global.get(\"towersControl\");\n\nfor(let bit of Object.keys(towCtrl.sharedBits)){\n    for(let mk of Object.keys(towCtrl.sharedBits[bit].values))\n        towCtrl.sharedBits[bit].values[mk] = false;\n}\nnode.warn({txt:\"shBits reset to \",shBits:towCtrl.sharedBits})",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 4590,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "70769ab50b342ceb",
@@ -61292,7 +61375,7 @@
         "targetType": "full",
         "statusVal": "TOWER BIT ARRAY",
         "statusType": "auto",
-        "x": 1160,
+        "x": 1150,
         "y": 150,
         "wires": []
     },
@@ -61309,7 +61392,7 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 785,
+        "x": 775,
         "y": 150,
         "wires": [
             [
@@ -61333,7 +61416,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "x": 195,
+        "x": 185,
         "y": 150,
         "wires": [
             [
@@ -61348,7 +61431,7 @@
         "g": "6eb58abc9359afb4",
         "name": "parameters info",
         "info": "https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/shutdown\n\n/r -> restart\n/d -> document shutdown reason -> planned, for app maintenance\n/c -> document shutdown reason -> \"...\"",
-        "x": 390,
+        "x": 380,
         "y": 105,
         "wires": []
     },
@@ -61359,7 +61442,7 @@
         "g": "6eb58abc9359afb4",
         "name": "DAILY REBOOT",
         "info": "",
-        "x": 170,
+        "x": 160,
         "y": 105,
         "wires": []
     },
@@ -61508,7 +61591,7 @@
         "z": "14adf9cd8d883348",
         "g": "35aa637688559ad2",
         "name": "restore state",
-        "func": "const signalCells = global.get(\"signalCells\");\nconst towersControl = global.get(\"towersControl\");\nconst towersBitArray = global.get(\"towersBitArray\");\nlet state = msg.payload;\n    //initialize the var if it's still undefined, then get it\nconst ctxGet = (key, val) => { context.get(key) ?? context.set(key, val); return context.get(key) }\nlet output = ctxGet(\"output\", toOutputMap([[\"default\", \"done\"], \"send_setSingleCellState\", \"programmedStateChanges\"]))//ctxGet(\"output\",new Map([[\"default\",0],[\"restoreState\",1]]));\n//[a,[b,c,d],e] -> (map)[ (a,0) (b,1) (c,1) (d,1) (e,2) ]\nfunction toOutputMap (arr){\n    let m = new Map();\n    let i=0;\n    for(let item of arr){\n        typeof item == \"string\" ? m.set(item, i) : item.forEach( subItem => m.set(subItem,i) )\n        i++;\n    }\n    return m;\n}\n\nconst sendOnChannel = (ch, msg) => {\n    let idx = output.get(ch);\n    node.send(new Array(node.outputCount).fill(null).map((v, i) => i == idx ? msg : null))\n}\n\n//copy state to global (towersControl)\n    //set all to state //this will also set sharedBitArray\nfor(let mk of towersControl.dictionary.macKeys){\n    for(let dev of towersControl.dictionary.devices){\n        if(towersControl[mk].hasDevice(dev))\n            towersControl[mk][dev] = state.towersControl?.[mk]?.[dev] ?? !!node.warn(\"[restoreState][at towCtrl] missing state for \"+mk+\".\"+dev+\". Set to false\");\n    }\n}\n//towersControl.dictionary.macKeys.forEach( mk => { if(towersControl[mk].hasDevice(\"horn\")) towersControl[mk][\"horn\"]=0 })\n\n    //dbg output\n{const macKeys = towersControl.dictionary.macKeys;\nlet towDevIdxMap = new Map(); //(new Array(towersControl.towBitArray.length)).fill(\"-\") ;\nfor(let mk of macKeys){\n    for(let dev of towersControl.dictionary.devices){\n        if(towersControl[mk].hasDevice(dev)){\n            let idx = towersControl.posOf?.[mk]?.[dev] ?? node.warn(\"[restoreState] undefined posOf for \" + mk + \":\" + dev);\n            towDevIdxMap.set(idx, {\"mk\":mk, \"dev\":dev});\n        }\n    }\n}\nlet shared = (()=>{\n    let ret=[];\n    for(let bit in towersControl.sharedBits){\n        let sh = towersControl.sharedBits[bit];\n        ret.push(bit+'>'+sh.devKey+':'+towersControl.dictionary.macKeys.map(mk => sh.values[mk] ?? null).filter(v => v!==null).join())\n    }\n    ret.join(\", \");\n    return ret;\n})();\nnode.warn(\"set towersBitArray to \"+towersControl.towersBitArray.join()+\"\\n\".padEnd(23)+\"and shared to \"+shared);\nnode.warn({\"bitArr\":towersControl.towersBitArray, \"map\":towDevIdxMap, \"shared\":towersControl.sharedBits});\n}\n\n\n//copy state to global (signalCells)\n    //copy state //extrapolate new timer's end and start keeping the same progress\n    //restore ui\n    //program expected state changes //may trigger immediately\nfor(let mk of signalCells.dictionary.macKeys){\n    if(signalCells[mk] && state.signalCells[mk]){\n        let cell = signalCells[mk];\n        let cellState = state.signalCells[mk];\n        \n        //restore stateful data\n        cell.signalKey = cellState.signalKey;\n        cell.timerStart = cellState.timerStart;\n        cell.timerEnd = cellState.timerEnd;\n        node.warn(\"for \"+mk+\" restore a timer diff \"+msToScaledString(cell.timerEnd-cell.timerStart)+\", to go \"+msToScaledString(cell.timerEnd - Date.now()))\n        //node.warn(\"for \" + mk + \" restore a timer diff \" + (cell.timerEnd - cell.timerStart) + \", to go \" + (cell.timerEnd - Date.now()))\n\n        //restore ui\n        sendOnChannel(\"send_setSingleCellState\", { topic: mk, action: \"set\" + cellState.signalKey });\n\n        //restore programmed state changes\n            //note: delay lower than 0 will trigger immediately\n        switch (cellState.signalKey) {\n            case \"A3\": {\n                let toA3LeftTimeout = undefined;\n                let toA4LeftTimeout = cellState.timerEnd - Date.now();\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout });\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout })\n                break;\n            }\n            case \"A2\": { }\n            case \"A1\": {\n                let toA3LeftTimeout = cellState.timerEnd - Date.now();\n                let toA4LeftTimeout = toA3LeftTimeout + cell.cfg.toA4Timeout;\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout});\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA3\", delay: toA3LeftTimeout })\n                setTimeout(()=>sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout }) , 100) //ensure msg order\n                break;\n            }\n            default: {\n                // //set to stored signal key, emulating button action\n                // sendOnChannel(\"buttonActions\", { topic: mk, action: \"set\" + state.signalCells.signalKey })\n            }\n        }\n    }\n}\n\nreturn msg;\n\n\n//---------------------------------------------------------\n\n\n// return formatted HTML version of JSON object\nfunction syntaxHighlight(json) {\n    json = global.get(\"utils\").safeStringify(json, 3)\n    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')\n    json = json.replace(/(\"(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\\"])*\"(\\s*:)?|\\b(true|false|null)\\b|-?\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d+)?)/g, function (match) {\n        var cls = 'number'\n        if ((/^\"/).test(match)) {\n            if ((/:$/).test(match)) {\n                cls = 'key'\n            } else {\n                cls = 'string'\n            }\n        } else if ((/true|false/).test(match)) {\n            cls = 'boolean'\n        } else if ((/null/).test(match)) {\n            cls = 'null'\n        }\n        return '<span class=\"' + cls + '\">' + match + '</span>'\n    })\n    return json\n}\n\n/**   scales ms down to a more confortable unit returns it as a string with said unit as suffix. \n    *    int -> scaledFloat+'unit'     ex. '2.1h', '3.2gg', '26.3s' etc\n    */\nfunction msToScaledString(ms) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }\n\n    var unitFactor = unitFactors[0];\n    for (let i = 1; i < units.length; i++) {\n        let lastUF = unitFactor;\n        unitFactor *= unitFactors[i];\n        if (Math.abs(ms) < unitFactor * treshHoldMult[i])\n            return (ms / lastUF).toFixed(1) + units[i - 1];\n    }\n    return (ms / unitFactor).toFixed(1) + units[units.length - 1];\n}",
+        "func": "const signalCells = global.get(\"signalCells\");\nconst towersControl = global.get(\"towersControl\");\nconst towersBitArray = global.get(\"towersBitArray\");\nlet state = msg.payload;\n    //initialize the var if it's still undefined, then get it\nconst ctxGet = (key, val) => { context.get(key) ?? context.set(key, val); return context.get(key) }\nlet output = ctxGet(\"output\", toOutputMap([[\"default\", \"done\"], \"send_setSingleCellState\", \"programmedStateChanges\"]))//ctxGet(\"output\",new Map([[\"default\",0],[\"restoreState\",1]]));\n//[a,[b,c,d],e] -> (map)[ (a,0) (b,1) (c,1) (d,1) (e,2) ]\nfunction toOutputMap (arr){\n    let m = new Map();\n    let i=0;\n    for(let item of arr){\n        typeof item == \"string\" ? m.set(item, i) : item.forEach( subItem => m.set(subItem,i) )\n        i++;\n    }\n    return m;\n}\n\nconst sendOnChannel = (ch, msg) => {\n    let idx = output.get(ch);\n    node.send(new Array(node.outputCount).fill(null).map((v, i) => i == idx ? msg : null))\n}\n\n//copy state to global (towersControl)\n    //set all to state //this will also set sharedBitArray\nfor(let mk of towersControl.dictionary.macKeys){\n    for(let dev of towersControl.dictionary.devices){\n        if(towersControl[mk].hasDevice(dev))\n            towersControl[mk][dev] = state.towersControl?.[mk]?.[dev] ?? !!node.warn(\"[restoreState][at towCtrl] missing state for \"+mk+\".\"+dev+\". Set to false\");\n    }\n}\ntowersControl.dictionary.macKeys.forEach( mk => { if(towersControl[mk].hasDevice(\"horn\")) towersControl[mk][\"horn\"]=0 })\n\n    //dbg output\n{const macKeys = towersControl.dictionary.macKeys;\nlet towDevIdxMap = new Map(); //(new Array(towersControl.towBitArray.length)).fill(\"-\") ;\nfor(let mk of macKeys){\n    for(let dev of towersControl.dictionary.devices){\n        if(towersControl[mk].hasDevice(dev)){\n            let idx = towersControl.posOf?.[mk]?.[dev] ?? node.warn(\"[restoreState] undefined posOf for \" + mk + \":\" + dev);\n            towDevIdxMap.set(idx, {\"mk\":mk, \"dev\":dev});\n        }\n    }\n}\nlet shared = (()=>{\n    let ret=[];\n    for(let bit in towersControl.sharedBits){\n        let sh = towersControl.sharedBits[bit];\n        ret.push(bit+'>'+sh.devKey+':'+towersControl.dictionary.macKeys.map(mk => sh.values[mk] ?? null).filter(v => v!==null).join())\n    }\n    ret.join(\", \");\n    return ret;\n})();\nnode.warn(\"set towersBitArray to \"+towersControl.towersBitArray.join()+\"\\n\".padEnd(23)+\"and shared to \"+shared);\nnode.warn({\"bitArr\":towersControl.towersBitArray, \"map\":towDevIdxMap, \"shared\":towersControl.sharedBits});\n}\n\n\n//copy state to global (signalCells)\n    //copy state //extrapolate new timer's end and start keeping the same progress\n    //restore ui\n    //program expected state changes //may trigger immediately\nfor(let mk of signalCells.dictionary.macKeys){\n    if(signalCells[mk] && state.signalCells[mk]){\n        let cell = signalCells[mk];\n        let cellState = state.signalCells[mk];\n        \n        //restore stateful data\n        cell.signalKey = cellState.signalKey;\n        cell.timerStart = cellState.timerStart;\n        cell.timerEnd = cellState.timerEnd;\n        node.warn(\"for \"+mk+\" restore \"+cellState.signalKey+\" with a timer diff \"+msToScaledString(cell.timerEnd-cell.timerStart)+\", to go \"+msToScaledString(cell.timerEnd - Date.now()))\n        //node.warn(\"for \" + mk + \" restore a timer diff \" + (cell.timerEnd - cell.timerStart) + \", to go \" + (cell.timerEnd - Date.now()))\n\n        //restore ui\n        sendOnChannel(\"send_setSingleCellState\", { topic: mk, action: \"set\" + cellState.signalKey });\n\n        //restore programmed state changes\n            //note: delay lower than 0 will trigger immediately\n        switch (cellState.signalKey) {\n            case \"A3\": {\n                let toA3LeftTimeout = undefined;\n                let toA4LeftTimeout = cellState.timerEnd - Date.now();\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout });\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout })\n                break;\n            }\n            case \"A2\": { }\n            case \"A1\": {\n                let toA3LeftTimeout = cellState.timerEnd - Date.now();\n                let toA4LeftTimeout = toA3LeftTimeout + cell.cfg.toA4Timeout;\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout});\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA3\", delay: toA3LeftTimeout })\n                setTimeout(()=>sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout }) , 100) //ensure msg order\n                break;\n            }\n            default: {\n                // //set to stored signal key, emulating button action\n                // sendOnChannel(\"buttonActions\", { topic: mk, action: \"set\" + state.signalCells.signalKey })\n            }\n        }\n    }\n}\n\nreturn msg;\n\n\n//---------------------------------------------------------\n\n\n// return formatted HTML version of JSON object\nfunction syntaxHighlight(json) {\n    json = global.get(\"utils\").safeStringify(json, 3)\n    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')\n    json = json.replace(/(\"(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\\"])*\"(\\s*:)?|\\b(true|false|null)\\b|-?\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d+)?)/g, function (match) {\n        var cls = 'number'\n        if ((/^\"/).test(match)) {\n            if ((/:$/).test(match)) {\n                cls = 'key'\n            } else {\n                cls = 'string'\n            }\n        } else if ((/true|false/).test(match)) {\n            cls = 'boolean'\n        } else if ((/null/).test(match)) {\n            cls = 'null'\n        }\n        return '<span class=\"' + cls + '\">' + match + '</span>'\n    })\n    return json\n}\n\n/**   scales ms down to a more confortable unit returns it as a string with said unit as suffix. \n    *    int -> scaledFloat+'unit'     ex. '2.1h', '3.2gg', '26.3s' etc\n    */\nfunction msToScaledString(ms) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }\n\n    var unitFactor = unitFactors[0];\n    for (let i = 1; i < units.length; i++) {\n        let lastUF = unitFactor;\n        unitFactor *= unitFactors[i];\n        if (Math.abs(ms) < unitFactor * treshHoldMult[i])\n            return (ms / lastUF).toFixed(1) + units[i - 1];\n    }\n    return (ms / unitFactor).toFixed(1) + units[units.length - 1];\n}",
         "outputs": 3,
         "noerr": 0,
         "initialize": "",
@@ -61638,6 +61721,7 @@
         "id": "043971672406f236",
         "type": "link out",
         "z": "14adf9cd8d883348",
+        "d": true,
         "g": "35aa637688559ad2",
         "name": "delete state file",
         "mode": "link",
@@ -61663,7 +61747,7 @@
         "targetType": "jsonata",
         "statusVal": "payload",
         "statusType": "auto",
-        "x": 645,
+        "x": 660,
         "y": 540,
         "wires": []
     },
@@ -62126,7 +62210,7 @@
         "z": "14adf9cd8d883348",
         "g": "0d23a37596efc707",
         "name": "restore state",
-        "func": "const signalCells = global.get(\"signalCells\");\nconst towersControl = global.get(\"towersControl\");\nconst towersBitArray = global.get(\"towersBitArray\");\nlet state = msg.payload;\n    //initialize the var if it's still undefined, then get it\nconst ctxGet = (key, val) => { context.get(key) ?? context.set(key, val); return context.get(key) }\nlet output = ctxGet(\"output\", toOutputMap([[\"default\", \"done\"], \"send_setSingleCellState\", \"programmedStateChanges\"]))//ctxGet(\"output\",new Map([[\"default\",0],[\"restoreState\",1]]));\n//[a,[b,c,d],e] -> (map)[ (a,0) (b,1) (c,1) (d,1) (e,2) ]\nfunction toOutputMap (arr){\n    let m = new Map();\n    let i=0;\n    for(let item of arr){\n        typeof item == \"string\" ? m.set(item, i) : item.forEach( subItem => m.set(subItem,i) )\n        i++;\n    }\n    return m;\n}\n\nconst sendOnChannel = (ch, msg) => {\n    let idx = output.get(ch);\n    node.send(new Array(node.outputCount).fill(null).map((v, i) => i == idx ? msg : null))\n}\n\n//copy state to global (towersControl)\n    //set all to state //this will also set sharedBitArray\nfor(let mk of towersControl.dictionary.macKeys){\n    for(let dev of towersControl.dictionary.devices){\n        if(towersControl[mk].hasDevice(dev))\n            towersControl[mk][dev] = state.towersControl?.[mk]?.[dev] ?? !!node.warn(\"[restoreState][at towCtrl] missing state for \"+mk+\".\"+dev+\". Set to false\");\n    }\n}\n//towersControl.dictionary.macKeys.forEach( mk => { if(towersControl[mk].hasDevice(\"horn\")) towersControl[mk][\"horn\"]=0 })\n\n    //dbg output\n{const macKeys = towersControl.dictionary.macKeys;\nlet towDevIdxMap = new Map(); //(new Array(towersControl.towBitArray.length)).fill(\"-\") ;\nfor(let mk of macKeys){\n    for(let dev of towersControl.dictionary.devices){\n        if(towersControl[mk].hasDevice(dev)){\n            let idx = towersControl.posOf?.[mk]?.[dev] ?? node.warn(\"[restoreState] undefined posOf for \" + mk + \":\" + dev);\n            towDevIdxMap.set(idx, {\"mk\":mk, \"dev\":dev});\n        }\n    }\n}\nlet shared = (()=>{\n    let ret=[];\n    for(let bit in towersControl.sharedBits){\n        let sh = towersControl.sharedBits[bit];\n        ret.push(bit+'>'+sh.devKey+':'+towersControl.dictionary.macKeys.map(mk => sh.values[mk] ?? null).filter(v => v!==null).join())\n    }\n    ret.join(\", \");\n    return ret;\n})();\nnode.warn(\"set towersBitArray to \"+towersControl.towersBitArray.join()+\"\\n\".padEnd(23)+\"and shared to \"+shared);\nnode.warn({\"bitArr\":towersControl.towersBitArray, \"map\":towDevIdxMap, \"shared\":towersControl.sharedBits});\n}\n\n\n//copy state to global (signalCells)\n    //copy state //extrapolate new timer's end and start keeping the same progress\n    //restore ui\n    //program expected state changes //may trigger immediately\nfor(let mk of signalCells.dictionary.macKeys){\n    if(signalCells[mk] && state.signalCells[mk]){\n        let cell = signalCells[mk];\n        let cellState = state.signalCells[mk];\n        \n        //restore stateful data\n        cell.signalKey = cellState.signalKey;\n        cell.timerStart = cellState.timerStart;\n        cell.timerEnd = cellState.timerEnd;\n        node.warn(\"for \"+mk+\" restore a timer diff \"+msToScaledString(cell.timerEnd-cell.timerStart)+\", to go \"+msToScaledString(cell.timerEnd - Date.now()))\n        //node.warn(\"for \" + mk + \" restore a timer diff \" + (cell.timerEnd - cell.timerStart) + \", to go \" + (cell.timerEnd - Date.now()))\n\n        //restore ui\n        sendOnChannel(\"send_setSingleCellState\", { topic: mk, action: \"set\" + cellState.signalKey });\n\n        //restore programmed state changes\n            //note: delay lower than 0 will trigger immediately\n        switch (cellState.signalKey) {\n            case \"A3\": {\n                let toA3LeftTimeout = undefined;\n                let toA4LeftTimeout = cellState.timerEnd - Date.now();\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout });\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout })\n                break;\n            }\n            case \"A2\": { }\n            case \"A1\": {\n                let toA3LeftTimeout = cellState.timerEnd - Date.now();\n                let toA4LeftTimeout = toA3LeftTimeout + cell.cfg.toA4Timeout;\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout});\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA3\", delay: toA3LeftTimeout })\n                setTimeout(()=>sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout }) , 100) //ensure msg order\n                break;\n            }\n            default: {\n                // //set to stored signal key, emulating button action\n                // sendOnChannel(\"buttonActions\", { topic: mk, action: \"set\" + state.signalCells.signalKey })\n            }\n        }\n    }\n}\n\nreturn msg;\n\n\n//---------------------------------------------------------\n\n\n// return formatted HTML version of JSON object\nfunction syntaxHighlight(json) {\n    json = global.get(\"utils\").safeStringify(json, 3)\n    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')\n    json = json.replace(/(\"(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\\"])*\"(\\s*:)?|\\b(true|false|null)\\b|-?\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d+)?)/g, function (match) {\n        var cls = 'number'\n        if ((/^\"/).test(match)) {\n            if ((/:$/).test(match)) {\n                cls = 'key'\n            } else {\n                cls = 'string'\n            }\n        } else if ((/true|false/).test(match)) {\n            cls = 'boolean'\n        } else if ((/null/).test(match)) {\n            cls = 'null'\n        }\n        return '<span class=\"' + cls + '\">' + match + '</span>'\n    })\n    return json\n}\n\n/**   scales ms down to a more confortable unit returns it as a string with said unit as suffix. \n    *    int -> scaledFloat+'unit'     ex. '2.1h', '3.2gg', '26.3s' etc\n    */\nfunction msToScaledString(ms) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }\n\n    var unitFactor = unitFactors[0];\n    for (let i = 1; i < units.length; i++) {\n        let lastUF = unitFactor;\n        unitFactor *= unitFactors[i];\n        if (Math.abs(ms) < unitFactor * treshHoldMult[i])\n            return (ms / lastUF).toFixed(1) + units[i - 1];\n    }\n    return (ms / unitFactor).toFixed(1) + units[units.length - 1];\n}",
+        "func": "const signalCells = global.get(\"signalCells\");\nconst towersControl = global.get(\"towersControl\");\nconst towersBitArray = global.get(\"towersBitArray\");\nlet state = msg.payload;\n    //initialize the var if it's still undefined, then get it\nconst ctxGet = (key, val) => { context.get(key) ?? context.set(key, val); return context.get(key) }\nlet output = ctxGet(\"output\", toOutputMap([[\"default\", \"done\"], \"send_setSingleCellState\", \"programmedStateChanges\"]))//ctxGet(\"output\",new Map([[\"default\",0],[\"restoreState\",1]]));\n//[a,[b,c,d],e] -> (map)[ (a,0) (b,1) (c,1) (d,1) (e,2) ]\nfunction toOutputMap (arr){\n    let m = new Map();\n    let i=0;\n    for(let item of arr){\n        typeof item == \"string\" ? m.set(item, i) : item.forEach( subItem => m.set(subItem,i) )\n        i++;\n    }\n    return m;\n}\n\nconst sendOnChannel = (ch, msg) => {\n    let idx = output.get(ch);\n    node.send(new Array(node.outputCount).fill(null).map((v, i) => i == idx ? msg : null))\n}\n\n//copy state to global (towersControl)\n    //set all to state //this will also set sharedBitArray\nfor(let mk of towersControl.dictionary.macKeys){\n    for(let dev of towersControl.dictionary.devices){\n        if(towersControl[mk].hasDevice(dev))\n            towersControl[mk][dev] = state.towersControl?.[mk]?.[dev] ?? !!node.warn(\"[restoreState][at towCtrl] missing state for \"+mk+\".\"+dev+\". Set to false\");\n    }\n}\ntowersControl.dictionary.macKeys.forEach( mk => { if(towersControl[mk].hasDevice(\"horn\")) towersControl[mk][\"horn\"]=0 })\n\n    //dbg output\n{const macKeys = towersControl.dictionary.macKeys;\nlet towDevIdxMap = new Map(); //(new Array(towersControl.towBitArray.length)).fill(\"-\") ;\nfor(let mk of macKeys){\n    for(let dev of towersControl.dictionary.devices){\n        if(towersControl[mk].hasDevice(dev)){\n            let idx = towersControl.posOf?.[mk]?.[dev] ?? node.warn(\"[restoreState] undefined posOf for \" + mk + \":\" + dev);\n            towDevIdxMap.set(idx, {\"mk\":mk, \"dev\":dev});\n        }\n    }\n}\nlet shared = (()=>{\n    let ret=[];\n    for(let bit in towersControl.sharedBits){\n        let sh = towersControl.sharedBits[bit];\n        ret.push(bit+'>'+sh.devKey+':'+towersControl.dictionary.macKeys.map(mk => sh.values[mk] ?? null).filter(v => v!==null).join())\n    }\n    ret.join(\", \");\n    return ret;\n})();\nnode.warn(\"set towersBitArray to \"+towersControl.towersBitArray.join()+\"\\n\".padEnd(23)+\"and shared to \"+shared);\nnode.warn({\"bitArr\":towersControl.towersBitArray, \"map\":towDevIdxMap, \"shared\":towersControl.sharedBits});\n}\n\n\n//copy state to global (signalCells)\n    //copy state //extrapolate new timer's end and start keeping the same progress\n    //restore ui\n    //program expected state changes //may trigger immediately\nfor(let mk of signalCells.dictionary.macKeys){\n    if(signalCells[mk] && state.signalCells[mk]){\n        let cell = signalCells[mk];\n        let cellState = state.signalCells[mk];\n        \n        //restore stateful data\n        cell.signalKey = cellState.signalKey;\n        cell.timerStart = cellState.timerStart;\n        cell.timerEnd = cellState.timerEnd;\n        node.warn(\"for \"+mk+\" restore \"+cellState.signalKey+\" with a timer diff \"+msToScaledString(cell.timerEnd-cell.timerStart)+\", to go \"+msToScaledString(cell.timerEnd - Date.now()))\n        //node.warn(\"for \" + mk + \" restore a timer diff \" + (cell.timerEnd - cell.timerStart) + \", to go \" + (cell.timerEnd - Date.now()))\n\n        //restore ui\n        sendOnChannel(\"send_setSingleCellState\", { topic: mk, action: \"set\" + cellState.signalKey });\n\n        //restore programmed state changes\n            //note: delay lower than 0 will trigger immediately\n        switch (cellState.signalKey) {\n            case \"A3\": {\n                let toA3LeftTimeout = undefined;\n                let toA4LeftTimeout = cellState.timerEnd - Date.now();\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout });\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout })\n                break;\n            }\n            case \"A2\": { }\n            case \"A1\": {\n                let toA3LeftTimeout = cellState.timerEnd - Date.now();\n                let toA4LeftTimeout = toA3LeftTimeout + cell.cfg.toA4Timeout;\n                //sendOnChannel(\"restoreStateChanges\", { topic: mk, toA3LeftTimeout: toA3LeftTimeout, toA4LeftTimeout: toA4LeftTimeout});\n                sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA3\", delay: toA3LeftTimeout })\n                setTimeout(()=>sendOnChannel(\"programmedStateChanges\", { topic: mk, action: \"setA4\", delay: toA4LeftTimeout }) , 100) //ensure msg order\n                break;\n            }\n            default: {\n                // //set to stored signal key, emulating button action\n                // sendOnChannel(\"buttonActions\", { topic: mk, action: \"set\" + state.signalCells.signalKey })\n            }\n        }\n    }\n}\n\nreturn msg;\n\n\n//---------------------------------------------------------\n\n\n// return formatted HTML version of JSON object\nfunction syntaxHighlight(json) {\n    json = global.get(\"utils\").safeStringify(json, 3)\n    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')\n    json = json.replace(/(\"(\\\\u[a-zA-Z0-9]{4}|\\\\[^u]|[^\\\\\"])*\"(\\s*:)?|\\b(true|false|null)\\b|-?\\d+(?:\\.\\d*)?(?:[eE][+\\-]?\\d+)?)/g, function (match) {\n        var cls = 'number'\n        if ((/^\"/).test(match)) {\n            if ((/:$/).test(match)) {\n                cls = 'key'\n            } else {\n                cls = 'string'\n            }\n        } else if ((/true|false/).test(match)) {\n            cls = 'boolean'\n        } else if ((/null/).test(match)) {\n            cls = 'null'\n        }\n        return '<span class=\"' + cls + '\">' + match + '</span>'\n    })\n    return json\n}\n\n/**   scales ms down to a more confortable unit returns it as a string with said unit as suffix. \n    *    int -> scaledFloat+'unit'     ex. '2.1h', '3.2gg', '26.3s' etc\n    */\nfunction msToScaledString(ms) {\n    let units = [\"ms\", \"s\", \"min\", \"h\", \"gg\"];\n    let treshHoldMult = new Array(units.length).fill(2); //in terms of the associated unit // 1 hour == 3600ms -> if treshholdMult==2 then threshHold==3600*2\n    let unitFactors = [1, 1000, 60, 60, 24]; //in terms of the preceding unit //ex. min are 1*1000*60\n    //let getUnitFactor = (idx) => { var ret=0; for(let i=0;i<idx;i++) ret*=factor[i]; return ret; }\n\n    var unitFactor = unitFactors[0];\n    for (let i = 1; i < units.length; i++) {\n        let lastUF = unitFactor;\n        unitFactor *= unitFactors[i];\n        if (Math.abs(ms) < unitFactor * treshHoldMult[i])\n            return (ms / lastUF).toFixed(1) + units[i - 1];\n    }\n    return (ms / unitFactor).toFixed(1) + units[units.length - 1];\n}",
         "outputs": 3,
         "noerr": 0,
         "initialize": "",
@@ -62550,7 +62634,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 390,
+        "x": 380,
         "y": 150,
         "wires": [
             [
