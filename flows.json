@@ -145,9 +145,7 @@
             "f167a3856c808801"
         ],
         "x": 74,
-        "y": 229,
-        "w": 1307,
-        "h": 457
+        "y": 229
     },
     {
         "id": "31f4b8716c51f385",
@@ -450,9 +448,7 @@
             "ba9eb7bdda03ba32"
         ],
         "x": 79,
-        "y": 64,
-        "w": 277,
-        "h": 127
+        "y": 64
     },
     {
         "id": "67911c84f8ca5874",
@@ -649,9 +645,7 @@
             "3e9c674d7b113c8f"
         ],
         "x": 49,
-        "y": 724,
-        "w": 1337,
-        "h": 457
+        "y": 724
     },
     {
         "id": "6bbed1acc7ad0f13",
@@ -844,9 +838,7 @@
             "fd108376161b386f"
         ],
         "x": 74,
-        "y": 1234,
-        "w": 1322,
-        "h": 427
+        "y": 1234
     },
     {
         "id": "c7aff72d1a698bfc",
@@ -899,9 +891,7 @@
             "b22ed93ba030479d"
         ],
         "x": 1413,
-        "y": 244,
-        "w": 843,
-        "h": 464
+        "y": 244
     },
     {
         "id": "5cd91f9fc303d894",
@@ -926,9 +916,7 @@
             "7e18728de3dfd8df"
         ],
         "x": 1423,
-        "y": 833,
-        "w": 663,
-        "h": 213
+        "y": 833
     },
     {
         "id": "dfa4c68c2cc9b002",
@@ -952,9 +940,7 @@
             "711a9efc9122161a"
         ],
         "x": 1423,
-        "y": 1343,
-        "w": 613,
-        "h": 209
+        "y": 1343
     },
     {
         "id": "5545cf74d423db46",
@@ -1005,9 +991,7 @@
             "4ccbf413b02dc7e9"
         ],
         "x": 59,
-        "y": 64,
-        "w": 1197,
-        "h": 134.5
+        "y": 64
     },
     {
         "id": "35aa637688559ad2",
@@ -1044,9 +1028,7 @@
             "46ccd592c6ab3bff"
         ],
         "x": 64,
-        "y": 424,
-        "w": 1452,
-        "h": 352
+        "y": 424
     },
     {
         "id": "bfb4b00f09dfccfd",
@@ -1076,9 +1058,7 @@
             "ee4f4e0ee6527625"
         ],
         "x": 59,
-        "y": 904,
-        "w": 827,
-        "h": 232
+        "y": 904
     },
     {
         "id": "0d23a37596efc707",
@@ -1123,9 +1103,7 @@
             "b97b23e665e8ef30"
         ],
         "x": 1274,
-        "y": 64,
-        "w": 1377,
-        "h": 329.5
+        "y": 64
     },
     {
         "id": "700856f51ec39824",
@@ -1149,9 +1127,7 @@
             "122b2c1cb1ecdcf0"
         ],
         "x": 64,
-        "y": 229,
-        "w": 487,
-        "h": 172
+        "y": 229
     },
     {
         "id": "c7616b5427bae67d",
@@ -1178,7 +1154,9 @@
             "e012d8f374dea000"
         ],
         "x": 1578,
-        "y": 184
+        "y": 184,
+        "w": 688,
+        "h": 303
     },
     {
         "id": "4a012d8714c195b5",
@@ -1200,7 +1178,9 @@
             "5be16c35148fedea"
         ],
         "x": 54,
-        "y": 49
+        "y": 49,
+        "w": 722,
+        "h": 112
     },
     {
         "id": "ad0b41692806c8d7",
@@ -1220,7 +1200,9 @@
             "6b0691c7c184f39b"
         ],
         "x": 79,
-        "y": 904
+        "y": 904,
+        "w": 447,
+        "h": 82
     },
     {
         "id": "cfeb7bc0192364a6",
@@ -1902,7 +1884,9 @@
             "d4e564eac59f8117"
         ],
         "x": 68,
-        "y": 64
+        "y": 64,
+        "w": 1124,
+        "h": 603
     },
     {
         "id": "9bcec7222119e8a3",
@@ -1923,7 +1907,9 @@
             "2b0d893e266ba428"
         ],
         "x": 819,
-        "y": 1654
+        "y": 1654,
+        "w": 307,
+        "h": 82
     },
     {
         "id": "ffe7d6539591cabf",
@@ -1962,7 +1948,9 @@
             "140b055fd622ecf2"
         ],
         "x": 109,
-        "y": 1729
+        "y": 1729,
+        "w": 1367,
+        "h": 382
     },
     {
         "id": "484bbd929a382303",
@@ -1983,7 +1971,9 @@
             "b9462810936dd36c"
         ],
         "x": 78,
-        "y": 709
+        "y": 709,
+        "w": 849,
+        "h": 558
     },
     {
         "id": "89f9a7a67de8ae08",
@@ -2025,7 +2015,9 @@
             "898d87b1b6dd85fb"
         ],
         "x": 169,
-        "y": 2229
+        "y": 2229,
+        "w": 1238,
+        "h": 628
     },
     {
         "id": "59b9575558a87ab8",
@@ -2048,7 +2040,9 @@
             "e16f5eb91fb5c4b4"
         ],
         "x": 1319,
-        "y": 1579
+        "y": 1579,
+        "w": 477,
+        "h": 127
     },
     {
         "id": "29d19c8f6e03e9f1",
@@ -2072,7 +2066,9 @@
             "13694a566bcf2a35"
         ],
         "x": 1503,
-        "y": 649
+        "y": 649,
+        "w": 849,
+        "h": 963
     },
     {
         "id": "13d48d3317b1ecf9",
@@ -2233,7 +2229,9 @@
             "c76be08096ce13f0"
         ],
         "x": 79,
-        "y": 214
+        "y": 214,
+        "w": 1308,
+        "h": 363
     },
     {
         "id": "30f6ecb4ce8660a9",
@@ -2266,7 +2264,9 @@
             "3efd55ee57d25c8a"
         ],
         "x": 64,
-        "y": 604
+        "y": 604,
+        "w": 882,
+        "h": 292
     },
     {
         "id": "0dae35ca7297fb97",
@@ -2425,9 +2425,7 @@
             "d5e975b9d788fbf5"
         ],
         "x": 589,
-        "y": 229,
-        "w": 487,
-        "h": 172
+        "y": 229
     },
     {
         "id": "22dc8be12a67c470",
@@ -2605,9 +2603,7 @@
             "8aba5c7204608b4a"
         ],
         "x": 1114,
-        "y": 1474,
-        "w": 247,
-        "h": 82
+        "y": 1474
     },
     {
         "id": "d1418df470ae9fa4",
@@ -3094,9 +3090,7 @@
             "e26b945327fe0a7e"
         ],
         "x": 1439,
-        "y": 274,
-        "w": 282,
-        "h": 172
+        "y": 274
     },
     {
         "id": "b22ed93ba030479d",
@@ -3121,9 +3115,7 @@
             "307370bd3db41497"
         ],
         "x": 1448,
-        "y": 473,
-        "w": 608,
-        "h": 209
+        "y": 473
     },
     {
         "id": "7e18728de3dfd8df",
@@ -3146,9 +3138,7 @@
             "c607bf35e3292560"
         ],
         "x": 1449,
-        "y": 859,
-        "w": 262,
-        "h": 157
+        "y": 859
     },
     {
         "id": "711a9efc9122161a",
@@ -3171,9 +3161,7 @@
             "c4aefeb3271ffd19"
         ],
         "x": 1449,
-        "y": 1369,
-        "w": 262,
-        "h": 157
+        "y": 1369
     },
     {
         "id": "64d721ee62196532",
@@ -3197,7 +3185,9 @@
             "b1b26324a134cc2d"
         ],
         "x": 1604,
-        "y": 289
+        "y": 289,
+        "w": 247,
+        "h": 172
     },
     {
         "id": "2bf8d431d6727776",
@@ -3226,7 +3216,9 @@
             "64deca04685863c4"
         ],
         "x": 1529,
-        "y": 724
+        "y": 724,
+        "w": 797,
+        "h": 187
     },
     {
         "id": "7ee8fe5bcbda8762",
@@ -3257,7 +3249,9 @@
             "1e44c0a3a8a381bb"
         ],
         "x": 1534,
-        "y": 934
+        "y": 934,
+        "w": 752,
+        "h": 262
     },
     {
         "id": "98c488540e3173fc",
@@ -5078,7 +5072,9 @@
             "fd596e236db59b07"
         ],
         "x": 94,
-        "y": 409
+        "y": 409,
+        "w": 1072,
+        "h": 232
     },
     {
         "id": "d4e564eac59f8117",
@@ -5113,7 +5109,9 @@
             "6bd020121fe4161b"
         ],
         "x": 94,
-        "y": 169
+        "y": 169,
+        "w": 1057,
+        "h": 202
     },
     {
         "id": "7e5e3a6761c37063",
@@ -5135,7 +5133,9 @@
             "4c4668d1d8f3b4a4"
         ],
         "x": 584,
-        "y": 1939
+        "y": 1939,
+        "w": 298,
+        "h": 82
     },
     {
         "id": "140b055fd622ecf2",
@@ -5157,7 +5157,9 @@
             "1df35f685bbae5dc"
         ],
         "x": 1074,
-        "y": 1864
+        "y": 1864,
+        "w": 292,
+        "h": 82
     },
     {
         "id": "f4abfcdd8e51b10f",
@@ -5186,7 +5188,9 @@
             "9910bef704316822"
         ],
         "x": 104,
-        "y": 769
+        "y": 769,
+        "w": 797,
+        "h": 187
     },
     {
         "id": "b9462810936dd36c",
@@ -5217,7 +5221,9 @@
             "0b21b8e6f70b8dab"
         ],
         "x": 109,
-        "y": 979
+        "y": 979,
+        "w": 752,
+        "h": 262
     },
     {
         "id": "63c531914f3e675f",
@@ -5240,7 +5246,9 @@
             "ad88853ecde7c005"
         ],
         "x": 214,
-        "y": 2689
+        "y": 2689,
+        "w": 417,
+        "h": 127
     },
     {
         "id": "898d87b1b6dd85fb",
@@ -5268,7 +5276,9 @@
             "8b57d0a1da105ea4"
         ],
         "x": 674,
-        "y": 2659
+        "y": 2659,
+        "w": 707,
+        "h": 172
     },
     {
         "id": "fa3c0ca7913fe9f4",
@@ -5303,7 +5313,9 @@
             "4f3b01a0e19e4bb4"
         ],
         "x": 1534,
-        "y": 1234
+        "y": 1234,
+        "w": 752,
+        "h": 352
     },
     {
         "id": "f48e9ba04e6d0a73",
@@ -5391,7 +5403,9 @@
             "2551bbca5db85906"
         ],
         "x": 239,
-        "y": 409
+        "y": 409,
+        "w": 1122,
+        "h": 142
     },
     {
         "id": "f88006f82213f9b4",
@@ -6025,9 +6039,7 @@
             "ff4d8fe7b4d510fc"
         ],
         "x": 1474,
-        "y": 499,
-        "w": 262,
-        "h": 157
+        "y": 499
     },
     {
         "id": "0e9c89863c81c798",
@@ -9575,7 +9587,7 @@
         "y": 390,
         "wires": [
             [
-                "e545a8723c6c28aa"
+                "f06c34e4173eece5"
             ]
         ]
     },
@@ -26492,7 +26504,7 @@
         "func": "//look in on start",
         "outputs": 1,
         "noerr": 0,
-        "initialize": "// @ts-nocheck (views.uiAbs 'is not an iterable')\n\ncallWhenDef(() => {\n    const utils = global.get(\"utils\");\n    const config = global.get(\"config\");\n    const isDbgOn = false;\n    var uiAbs = {\n        dictionary: {\n            //tabs:extrapolated below from this.tree \n            //views:extrapolated below from this.views\n        },\n        tree: {\n            \"viewsGUI\":{\n                name: \"Viste e Dispositivi\", nameId: \"\",\n                isVisible: false, isEnabled: true, groups: {\n                }    \n            },\n            \"settingsPage\": {\n                name: \"Configurazione Celle\", nameId: \"\",\n                isVisible: false, isEnabled: true, groups: {\n                }\n            },\n            \"dbg\": {\n                name: \"Debug\", nameId: \"\",\n                isVisible: false, isEnabled: true, groups: {\n                }\n            },\n            \"hidden\": {\n                name: \"Hidden\", nameId: \"\",\n                isVisible: false, isEnabled: false, groups: {\n                }\n            },\n            \"unauth\": {\n                name: \"unauth\", nameId: \"\",\n                isVisible: true, isEnabled: true, groups: {\n                }\n            },\n            //[Symbol.iterator]: //over all CURRENT tree.keys\n            find(predicate){ let i=0; for(let tk in this) if(predicate(this[tk], tk, this)) return this[tk]; return undefined; },\n            findKey(predicate){ let i=0; for(let tk in this) if(predicate(this[tk], tk, this)) return tk; return false; },\n            tabNamed(name){ return this.find( tab => tab.name==name ) },\n        },\n        //define dashboard views\n        //enbledTabs or disabledTabs will be defined if missing, as the complementary set relatively to uiAbs.tree keys\n        //behavior if ip is associated with more than one view is uncertain\n        views: {\n            \"user\": { enabledTabs: [\"settingsPage\",\"viewsGUI\"], home: \"settingsPage\", ipList: config.cfgPageIpList ?? node.warn(\"[uiAbs]cfgPageIpList is undef\") ?? [],/*withoutDupes( [\"192.168.52.1\"].concat( config.views.supervisione.exactIpList ))*/ },\n            \"unauth\": { enabledTabs: [\"unauth\"], home: \"unauth\", ipList: [] },\n            \"superUser\": { disabledTabs: [], home: \"dbg\", ipList: [\"127.0.0.1\",\"192.168.52.1\"] },\n            get default() { return this.unauth },\n            //[Symbol.iterator]: //over all dictionary.views.keys except default\n\n            //----- functions aliases  -----\n            keyForIp(ip) { //not enumerable\n                for (let vk in this)\n                    if (this[vk].ipList.includes(ip))\n                        return vk;\n                return \"default\";\n            },\n            forIp(ip) { return this[this.keyForIp(ip)]; }, //not enumerable\n\n            setViewForIp(viewOrViewKey, ip) {\n                let newView = (typeof viewOrViewKey == \"string\" ? this.views[viewOrViewKey] : viewOrViewKey);\n\n                for (let view of this.views)\n                    if (view === newView)\n                        view.ipList.includes(ip) || view.ipList.push(ip);\n                    else\n                        utils.removeAllOccurences(view.ipList, ip);\n            },\n        },\n        viewKeyForIp(ip) { return this.views.keyForIp(ip) },\n        getViewForIp(ip) { return this.views[this.viewKeyForIp(ip)]; },\n        setViewForIp(viewOrViewKey, ip) { this.views.setViewForIp(viewOrViewKey, ip); },\n\n        prepareMsg_setUiToView(msg, view, redirectToHomeTab = true) {\n            if (!(msg ?? view ?? redirectToHomeTab ?? false)) node.error(new Error(\"uiAbs.prepareMsg_setUiToView(): argument count mismatch.\" + [...arguments].join()))\n            if(!view?.enabledTabs || !view?.disabledTabs) node.error(new Error(\"uiAbs.prepareMsg_setUiToView(): view misses enabledTabs or disabledTabs arrays\"))\n            let tmp;\n            return Object.assign(msg, {\n                payload: {\n                    //switch to the home tab if the view has one\n                    tab: ((redirectToHomeTab && view.home) ? this.tree[view.home].name : undefined),\n                    //tab: ((redirectToHomeTab && view.home) ? this.tabsOrder.indexOf(view.home) : undefined),\n                    //enable/disable tabs as per the view specifications\n                    tabs: {\n                        disable: tmp = view.disabledTabs.map( tab => this.tree[tab].nameId ),\n                        hide: tmp,\n                        show: tmp = view.enabledTabs.map( tab => this.tree[tab].nameId ),\n                        enable: tmp\n                    }\n                }\n            })\n        },\n\n        prepareMsg_setUiToTab(msg, tabKey) {\n            if(arguments.length != 2)   node.error(new Error(\"uiAbs.prepareMsg_setUiToTab(): argument count mismatch.\"+[...arguments].join()))\n            //var idx = this.tabsOrder.indexOf(tabKey);\n            return Object.assign(msg, {\n                payload: {\n                    tab: this.tree[tabKey]?.name ?? node.warn(\"uiAbs.prepareMsg_setUiToTab(): no tabKey ==\"+tabKey)\n                    //tab: (idx >= 0 ? idx : node.warn(\"uiAbs.prepareMsg_setUiToTab(): no tabKey ==\" + tabKey+\" in tabsOrder[]\"))\n                }\n            })\n        },\n\n\n\n        uiSessions: [],\n        newUiSession(id, ...args) {\n            //delete same id if present\n            let idx = this.uiSessions.findIndex(sess => sess.id == id)\n            if (id == -1) {\n                this.uiSessions[idx] = this.uiSessions.pop();\n                node.warn(new Error(\"uiAbs.newUiSession() another session with the same id already existed and was replaced\"))\n            }\n            //create new UiSession\n            this.uiSessions.push(new UiSession(id, ...args))\n            return this.uiSessions[this.uiSessions.length - 1];\n        },\n        deleteUiSession(session_or_id) {\n            //find index comparing the id or performing a strict === comparison\n            let idx = this.uiSessions.findIndex((typeof(session_or_id) == \"string\" ? (s => s.id == session_or_id) : (s => s === session_or_id)))\n            if (idx < 0)\n                node.error(new Error(\"uiAbs.removeUiSession() the session does't exist\"))\n            else{\n                let removeIdx = (arr, i) => (i == arr.length-1) ?  arr.pop() : arr[i] = arr.pop();\n                removeIdx(this.uiSessions, idx);\n            }\n        },\n        getUiSession(id) {\n            return this.uiSessions.find(sess => sess.id == id);\n        }\n    }\n    //set functions to not-enumerable\n    //must do so BEFORE extrapolating iterators\n    {   let funcToNotEnum = ( obj ) => {\n            for(let key in obj)\n                if(typeof(obj[key]) == \"function\")\n                    Object.defineProperty(obj, key, { \"enumerable\": false, \"configurable\": true })\n        }\n        funcToNotEnum(uiAbs.views);\n        funcToNotEnum(uiAbs.tree);\n    }\n    //build dictionary and iterators\n    //for tree tabs\n    //for views\n    uiAbs.dictionary.tabs = Object.keys(uiAbs.tree);\n    uiAbs.tree[Symbol.iterator] = utils.makeKeyIterator(uiAbs.dictionary.tabs);\n    uiAbs.dictionary.views = Object.keys(uiAbs.views);\n    uiAbs.views[Symbol.iterator] = utils.makeKeyIterator(uiAbs.dictionary.views);\n    //complete uiAbs tree\n    //extrapolate nameId for all tabs\n    const toNameId = (name) => name.trim().replaceAll(/\\s/g, '_');\n    for (let t in uiAbs.tree) {\n        let tab = uiAbs.tree[t];\n        tab.nameId = toNameId(tab.name);\n        for (let g in tab.groups) {\n            let group = tab.groups[g];\n            group.nameId = tab.nameId + \"_\" + toNameId(group.name);\n        }\n    }\n    //complete uiAbs views\n        //for each view define the missing tab list as the complementary set of the other relatively to uiAbs's tabs.\n            //define disabledTabs as the complementary set of enabledTabs in uiAbs's tabs\n            //or define enabledTabs as the complementary set of disabledTabs in uiAbs's tabs\n    for(let view of uiAbs.views) {\n        let [missingPropName, presentPropName] = (view.enabledTabs ? [\"disabledTabs\", \"enabledTabs\"] : [\"enabledTabs\", \"disabledTabs\"])\n        if (!view[missingPropName]) { //makes sure it is indeed missing //needed because default is a reference to another view.\n            //adds an enumerable missingPropName get/set and a writable, not enumerable missingPropName+_cache\n            utils.defineCachedProp(view, missingPropName,\n                thisArg => (uiAbs.dictionary.tabs).filter(v => !thisArg[presentPropName].includes(v))\n            )\n        }\n    }\n    //look for typos in views\n        //no multiples of the same ip across views\n        //view.home is falsy or a tab (this.tree key)\n        let allIp = [];\n        for(let view of uiAbs.views)\n            allIp.push(...view.ipList);\n        //allIp.sort((a,b) => a<b ? -1 : 1 );\n        for(let i=0;i<allIp.length;i++){\n            for(let j=i+1;j<allIp.length;j++)\n                if(allIp[i] == allIp[j])\n                    node.warn(new Error(`uiAbs() SyntaxError: the ip ${allIp[i]} is associated to more than one dashboard view.`))\n        }\n        //allIp.every( (ip,i) => allIp.slice(i).every( seqIp => ip != seqIp ))\n        \n        //view.home is falsy or a tab (this.tree key)\n        for(let view of uiAbs.views)\n            if(!uiAbs.tree[view.home])\n                node.error(new SyntaxError(`uiAbs() SyntaxError: the home for the view ${vk} is not a tab. home: ${view.home} AbstractTabs: ${uiAbs.dictionary.tabs}`));\n\n    //check tree's syntax\n        //all\n\n\n    class UiSession {\n        //always present\n        id; //any\n        socketId;\n        clientIp;\n        created;    //number //unixTime\n        //undefined untill a view is explicitly set, or inited through constructor\n        currentView;    //string\n        currentViewKey; //string\n        //undefined until used by expiration-related methods\n        lastActive;     //number\n        expirationTout; //tout id\n\n        constructor(id, {clientIp, socketId}, { view = null, viewKey = null, ip=arguments[1].clientIp }, expireAfterMsFromNow = \"never\") {\n            if (arguments.length < 1 || arguments.length > 4) throw new SyntaxError(\"new UiSession() arguments count mismatch! (\" + arguments.length + \")\")\n            this.id = id;\n            this.clientIp = clientIp;\n            this.socketId = socketId;\n            this.created = Date.now();\n            this.initTree();\n            \n            //'optionaly' set this.currentView and currentViewKey\n            if (view || viewKey || clientIp) {\n                //extrapolate view and viewKey from 2nd argument\n                //at least (and at most) one must be defined //nothing breaks otherwise, but you might forget to enforce a view\n                //precedence as source is view -> viewKey -> ip\n                let uiAbs = global.get(\"uiAbs\");\n                this.currentView = view || (viewKey ? uiAbs.views[viewKey] : uiAbs.views.forIp(ip))\n                this.currentViewKey = viewKey || (ip ? uiAbs.views.keyForIp(ip) : (() => { //parse uiAbs.views looking for ===\n                    for (let vk in uiAbs.views)\n                        if (uiAbs.views[vk] === view)\n                            return vk;\n                    node.error(new Error(\"new UiSession() no uiAbs.views[v] === view\"));\n                })())\n            }\n            else {\n                this.setDefaultState();\n                isDbgOn && node.warn(\"UiSession() created a UiSession without a view\");\n            }\n            //'optional' like setting a view\n            //if the server is never closed and you use the socketId as id the connections will pile up\n            if (typeof expireAfterMsFromNow != \"string\")\n                this.setExpiration(expireAfterMsFromNow);\n\n        }\n\n        initTree() {\n            let utils = global.get(\"utils\");\n            let uiAbs = global.get(\"uiAbs\");\n\n            this.tree = utils.mergeRec({}, uiAbs.tree);\n            this.tree[Symbol.iterator] = uiAbs.tree[Symbol.iterator];\n        }\n\n        setDefaultState() {\n            let utils = global.get(\"utils\");\n            let uiAbs = global.get(\"uiAbs\");\n\n            for (let tab of uiAbs.tree) {\n                this.tree.isVisible = tab.isVisible;\n                this.tree.isEnabled = tab.isEnabled;\n            }\n        }\n\n        refreshExpiration() {\n            this.lastActive = Date.now();\n        }\n\n        setExpiration(msFromNow) {\n            this.expirationTout = setTimeout(() => {\n                let diff = (this.lastActive + msFromNow) - Date.now();\n                if (diff > 0)   //set a new timeout to cover the remaining time\n                    this.setExpiration(diff);\n                else    //remove this session from uiAbs\n                    global.get(\"uiAbs\").deleteUiSession(this);\n                isDbgOn && node.warn({txt:\"expired\",del:msFromNow,t: this, lA: this.lastActive, lAstr:new Date().toTimeString(),diff:diff })\n            }, msFromNow)\n            this.lastActive = Date.now();\n            //node.warn({txt:\"expiration set\",del:msFromNow, t: this, lA: this.lastActive, lAstr: new Date().toTimeString() })\n        }\n\n\n    }\n\n\n\n    global.set(\"uiAbs\", uiAbs);\n    node.status({ fill: \"green\", text: Object.keys(uiAbs).join(' & ') });\n    return uiAbs;\n}, \"utils\",\"config\");\n\n//########################################################################\n\n// const commonGetter = function (obj) {\n//     if (!obj.currentNameIdBkp)\n//         obj.currentNameIdBkp = obj.currentName.trim().replaceAll(/\\s/g, '_');\n//     return obj.currentNameIdBkp\n// }\n\n// //a gOod example -> aGOodExample\n// function toCamelCase(str) {\n//     return str.replace(/^(.)/, (m, chr) => chr.toLowerCase()).replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase()).replace(/\\s+/g, '');\n// }\n\nfunction withoutDupes(ipList){\n    return ipList.sort().filter((v,i,arr) => i > arr.length || v !== arr[i+1]);\n}\n\n/** @summary repeatedly tries to fetch all globalNames with global.get(). \n        * @param {function} cb called once ALL globalName are defined\n        * @param {Object} opts object holding optional function params. can be omitted passing the first globalName instead.\n        * @param {number} opts.timeout ms delay after which stop trying and either call opts.errorCb() or log an error. defaults to 15000\n        * @param {number} opts.retryDelay ms between each attempt. defaults to 100\n        * @param {function} opts.errorCb function to call after timeout. defaults to falsy, logging a warning\n        * @param  {...any} globalNames series of strings\n        */\nfunction callWhenDef(cb, opts, ...globalNames) {\n    if (typeof (opts) == \"string\")\n        globalNames.push(opts);\n    let { timeout: timeout = 3000, retryDelay: retryDelay = 100, errorCb: errorCb = null } = (typeof (opts) == \"string\" ? opts : {});\n    var tout, intv;\n    //set timeout unless false or not specified\n    if (timeout) {\n        tout = setTimeout(() => {\n            clearInterval(intv);\n            errorCb ? errorCb() : node.warn({ err: \"callWhenDef_Timeout\", arg: arguments })\n        }, timeout);\n    }\n    //set global-chacking interval\n    intv = setInterval(() => {\n        for (let name of globalNames)\n            if (global.get(name) === undefined || global.get(name) === null)\n                return\n        clearTimeout(tout);\n        clearInterval(intv);\n        cb();\n    }, retryDelay)\n}",
+        "initialize": "// @ts-nocheck (views.uiAbs 'is not an iterable')\n\ncallWhenDef(() => {\n    const utils = global.get(\"utils\");\n    const config = global.get(\"config\");\n    const isDbgOn = false;\n    var uiAbs = {\n        dictionary: {\n            //tabs:extrapolated below from this.tree \n            //views:extrapolated below from this.views\n        },\n        tree: {\n            \"viewsGUI\":{\n                name: \"Viste e Dispositivi\", nameId: \"\",\n                isVisible: false, isEnabled: true, groups: {\n                }    \n            },\n            \"settingsPage\": {\n                name: \"Configurazione Celle\", nameId: \"\",\n                isVisible: false, isEnabled: true, groups: {\n                }\n            },\n            \"ctrlPanel\":{\n                name: \"Comandi Diretti\", nameId: \"\",\n                isVisible: false, isEnabled: true, groups: {\n                }\n            },\n            \"dbg\": {\n                name: \"Debug\", nameId: \"\",\n                isVisible: false, isEnabled: true, groups: {\n                }\n            },\n            \"hidden\": {\n                name: \"Hidden\", nameId: \"\",\n                isVisible: false, isEnabled: false, groups: {\n                }\n            },\n            \"unauth\": {\n                name: \"unauth\", nameId: \"\",\n                isVisible: true, isEnabled: true, groups: {\n                }\n            },\n            //[Symbol.iterator]: //over all CURRENT tree.keys\n            find(predicate){ let i=0; for(let tk in this) if(predicate(this[tk], tk, this)) return this[tk]; return undefined; },\n            findKey(predicate){ let i=0; for(let tk in this) if(predicate(this[tk], tk, this)) return tk; return false; },\n            tabNamed(name){ return this.find( tab => tab.name==name ) },\n        },\n        //define dashboard views\n        //enbledTabs or disabledTabs will be defined if missing, as the complementary set relatively to uiAbs.tree keys\n        //behavior if ip is associated with more than one view is uncertain\n        views: {\n            \"user\": { enabledTabs: [\"settingsPage\",\"viewsGUI\"], home: \"settingsPage\", ipList: config.cfgPageIpList ?? node.warn(\"[uiAbs]cfgPageIpList is undef\") ?? [],/*withoutDupes( [\"192.168.52.1\"].concat( config.views.supervisione.exactIpList ))*/ },\n            \"unauth\": { enabledTabs: [\"unauth\"], home: \"unauth\", ipList: [] },\n            \"superUser\": { disabledTabs: [], home: \"dbg\", ipList: [\"127.0.0.1\",\"192.168.52.1\"] },\n            get default() { return this.unauth },\n            //[Symbol.iterator]: //over all dictionary.views.keys except default\n\n            //----- functions aliases  -----\n            keyForIp(ip) { //not enumerable\n                for (let vk in this)\n                    if (this[vk].ipList.includes(ip))\n                        return vk;\n                return \"default\";\n            },\n            forIp(ip) { return this[this.keyForIp(ip)]; }, //not enumerable\n\n            setViewForIp(viewOrViewKey, ip) {\n                let newView = (typeof viewOrViewKey == \"string\" ? this.views[viewOrViewKey] : viewOrViewKey);\n\n                for (let view of this.views)\n                    if (view === newView)\n                        view.ipList.includes(ip) || view.ipList.push(ip);\n                    else\n                        utils.removeAllOccurences(view.ipList, ip);\n            },\n        },\n        viewKeyForIp(ip) { return this.views.keyForIp(ip) },\n        getViewForIp(ip) { return this.views[this.viewKeyForIp(ip)]; },\n        setViewForIp(viewOrViewKey, ip) { this.views.setViewForIp(viewOrViewKey, ip); },\n\n        prepareMsg_setUiToView(msg, view, redirectToHomeTab = true) {\n            if (!(msg ?? view ?? redirectToHomeTab ?? false)) node.error(new Error(\"uiAbs.prepareMsg_setUiToView(): argument count mismatch.\" + [...arguments].join()))\n            if(!view?.enabledTabs || !view?.disabledTabs) node.error(new Error(\"uiAbs.prepareMsg_setUiToView(): view misses enabledTabs or disabledTabs arrays\"))\n            let tmp;\n            return Object.assign(msg, {\n                payload: {\n                    //switch to the home tab if the view has one\n                    tab: ((redirectToHomeTab && view.home) ? this.tree[view.home].name : undefined),\n                    //tab: ((redirectToHomeTab && view.home) ? this.tabsOrder.indexOf(view.home) : undefined),\n                    //enable/disable tabs as per the view specifications\n                    tabs: {\n                        disable: tmp = view.disabledTabs.map( tab => this.tree[tab].nameId ),\n                        hide: tmp,\n                        show: tmp = view.enabledTabs.map( tab => this.tree[tab].nameId ),\n                        enable: tmp\n                    }\n                }\n            })\n        },\n\n        prepareMsg_setUiToTab(msg, tabKey) {\n            if(arguments.length != 2)   node.error(new Error(\"uiAbs.prepareMsg_setUiToTab(): argument count mismatch.\"+[...arguments].join()))\n            //var idx = this.tabsOrder.indexOf(tabKey);\n            return Object.assign(msg, {\n                payload: {\n                    tab: this.tree[tabKey]?.name ?? node.warn(\"uiAbs.prepareMsg_setUiToTab(): no tabKey ==\"+tabKey)\n                    //tab: (idx >= 0 ? idx : node.warn(\"uiAbs.prepareMsg_setUiToTab(): no tabKey ==\" + tabKey+\" in tabsOrder[]\"))\n                }\n            })\n        },\n\n\n\n        uiSessions: [],\n        newUiSession(id, ...args) {\n            //delete same id if present\n            let idx = this.uiSessions.findIndex(sess => sess.id == id)\n            if (id == -1) {\n                this.uiSessions[idx] = this.uiSessions.pop();\n                node.warn(new Error(\"uiAbs.newUiSession() another session with the same id already existed and was replaced\"))\n            }\n            //create new UiSession\n            this.uiSessions.push(new UiSession(id, ...args))\n            return this.uiSessions[this.uiSessions.length - 1];\n        },\n        deleteUiSession(session_or_id) {\n            //find index comparing the id or performing a strict === comparison\n            let idx = this.uiSessions.findIndex((typeof(session_or_id) == \"string\" ? (s => s.id == session_or_id) : (s => s === session_or_id)))\n            if (idx < 0)\n                node.error(new Error(\"uiAbs.removeUiSession() the session does't exist\"))\n            else{\n                let removeIdx = (arr, i) => (i == arr.length-1) ?  arr.pop() : arr[i] = arr.pop();\n                removeIdx(this.uiSessions, idx);\n            }\n        },\n        getUiSession(id) {\n            return this.uiSessions.find(sess => sess.id == id);\n        }\n    }\n    //set functions to not-enumerable\n    //must do so BEFORE extrapolating iterators\n    {   let funcToNotEnum = ( obj ) => {\n            for(let key in obj)\n                if(typeof(obj[key]) == \"function\")\n                    Object.defineProperty(obj, key, { \"enumerable\": false, \"configurable\": true })\n        }\n        funcToNotEnum(uiAbs.views);\n        funcToNotEnum(uiAbs.tree);\n    }\n    //build dictionary and iterators\n    //for tree tabs\n    //for views\n    uiAbs.dictionary.tabs = Object.keys(uiAbs.tree);\n    uiAbs.tree[Symbol.iterator] = utils.makeKeyIterator(uiAbs.dictionary.tabs);\n    uiAbs.dictionary.views = Object.keys(uiAbs.views);\n    uiAbs.views[Symbol.iterator] = utils.makeKeyIterator(uiAbs.dictionary.views);\n    //complete uiAbs tree\n    //extrapolate nameId for all tabs\n    const toNameId = (name) => name.trim().replaceAll(/\\s/g, '_');\n    for (let t in uiAbs.tree) {\n        let tab = uiAbs.tree[t];\n        tab.nameId = toNameId(tab.name);\n        for (let g in tab.groups) {\n            let group = tab.groups[g];\n            group.nameId = tab.nameId + \"_\" + toNameId(group.name);\n        }\n    }\n    //complete uiAbs views\n        //for each view define the missing tab list as the complementary set of the other relatively to uiAbs's tabs.\n            //define disabledTabs as the complementary set of enabledTabs in uiAbs's tabs\n            //or define enabledTabs as the complementary set of disabledTabs in uiAbs's tabs\n    for(let view of uiAbs.views) {\n        let [missingPropName, presentPropName] = (view.enabledTabs ? [\"disabledTabs\", \"enabledTabs\"] : [\"enabledTabs\", \"disabledTabs\"])\n        if (!view[missingPropName]) { //makes sure it is indeed missing //needed because default is a reference to another view.\n            //adds an enumerable missingPropName get/set and a writable, not enumerable missingPropName+_cache\n            utils.defineCachedProp(view, missingPropName,\n                thisArg => (uiAbs.dictionary.tabs).filter(v => !thisArg[presentPropName].includes(v))\n            )\n        }\n    }\n    //look for typos in views\n        //no multiples of the same ip across views\n        //view.home is falsy or a tab (this.tree key)\n        let allIp = [];\n        for(let view of uiAbs.views)\n            allIp.push(...view.ipList);\n        //allIp.sort((a,b) => a<b ? -1 : 1 );\n        for(let i=0;i<allIp.length;i++){\n            for(let j=i+1;j<allIp.length;j++)\n                if(allIp[i] == allIp[j])\n                    node.warn(new Error(`uiAbs() SyntaxError: the ip ${allIp[i]} is associated to more than one dashboard view.`))\n        }\n        //allIp.every( (ip,i) => allIp.slice(i).every( seqIp => ip != seqIp ))\n        \n        //view.home is falsy or a tab (this.tree key)\n        for(let view of uiAbs.views)\n            if(!uiAbs.tree[view.home])\n                node.error(new SyntaxError(`uiAbs() SyntaxError: the home for the view ${vk} is not a tab. home: ${view.home} AbstractTabs: ${uiAbs.dictionary.tabs}`));\n\n    //check tree's syntax\n        //all\n\n\n    class UiSession {\n        //always present\n        id; //any\n        socketId;\n        clientIp;\n        created;    //number //unixTime\n        //undefined untill a view is explicitly set, or inited through constructor\n        currentView;    //string\n        currentViewKey; //string\n        //undefined until used by expiration-related methods\n        lastActive;     //number\n        expirationTout; //tout id\n\n        constructor(id, {clientIp, socketId}, { view = null, viewKey = null, ip=arguments[1].clientIp }, expireAfterMsFromNow = \"never\") {\n            if (arguments.length < 1 || arguments.length > 4) throw new SyntaxError(\"new UiSession() arguments count mismatch! (\" + arguments.length + \")\")\n            this.id = id;\n            this.clientIp = clientIp;\n            this.socketId = socketId;\n            this.created = Date.now();\n            this.initTree();\n            \n            //'optionaly' set this.currentView and currentViewKey\n            if (view || viewKey || clientIp) {\n                //extrapolate view and viewKey from 2nd argument\n                //at least (and at most) one must be defined //nothing breaks otherwise, but you might forget to enforce a view\n                //precedence as source is view -> viewKey -> ip\n                let uiAbs = global.get(\"uiAbs\");\n                this.currentView = view || (viewKey ? uiAbs.views[viewKey] : uiAbs.views.forIp(ip))\n                this.currentViewKey = viewKey || (ip ? uiAbs.views.keyForIp(ip) : (() => { //parse uiAbs.views looking for ===\n                    for (let vk in uiAbs.views)\n                        if (uiAbs.views[vk] === view)\n                            return vk;\n                    node.error(new Error(\"new UiSession() no uiAbs.views[v] === view\"));\n                })())\n            }\n            else {\n                this.setDefaultState();\n                isDbgOn && node.warn(\"UiSession() created a UiSession without a view\");\n            }\n            //'optional' like setting a view\n            //if the server is never closed and you use the socketId as id the connections will pile up\n            if (typeof expireAfterMsFromNow != \"string\")\n                this.setExpiration(expireAfterMsFromNow);\n\n        }\n\n        initTree() {\n            let utils = global.get(\"utils\");\n            let uiAbs = global.get(\"uiAbs\");\n\n            this.tree = utils.mergeRec({}, uiAbs.tree);\n            this.tree[Symbol.iterator] = uiAbs.tree[Symbol.iterator];\n        }\n\n        setDefaultState() {\n            let utils = global.get(\"utils\");\n            let uiAbs = global.get(\"uiAbs\");\n\n            for (let tab of uiAbs.tree) {\n                this.tree.isVisible = tab.isVisible;\n                this.tree.isEnabled = tab.isEnabled;\n            }\n        }\n\n        refreshExpiration() {\n            this.lastActive = Date.now();\n        }\n\n        setExpiration(msFromNow) {\n            this.expirationTout = setTimeout(() => {\n                let diff = (this.lastActive + msFromNow) - Date.now();\n                if (diff > 0)   //set a new timeout to cover the remaining time\n                    this.setExpiration(diff);\n                else    //remove this session from uiAbs\n                    global.get(\"uiAbs\").deleteUiSession(this);\n                isDbgOn && node.warn({txt:\"expired\",del:msFromNow,t: this, lA: this.lastActive, lAstr:new Date().toTimeString(),diff:diff })\n            }, msFromNow)\n            this.lastActive = Date.now();\n            //node.warn({txt:\"expiration set\",del:msFromNow, t: this, lA: this.lastActive, lAstr: new Date().toTimeString() })\n        }\n\n\n    }\n\n\n\n    global.set(\"uiAbs\", uiAbs);\n    node.status({ fill: \"green\", text: Object.keys(uiAbs).join(' & ') });\n    return uiAbs;\n}, \"utils\",\"config\");\n\n//########################################################################\n\n// const commonGetter = function (obj) {\n//     if (!obj.currentNameIdBkp)\n//         obj.currentNameIdBkp = obj.currentName.trim().replaceAll(/\\s/g, '_');\n//     return obj.currentNameIdBkp\n// }\n\n// //a gOod example -> aGOodExample\n// function toCamelCase(str) {\n//     return str.replace(/^(.)/, (m, chr) => chr.toLowerCase()).replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase()).replace(/\\s+/g, '');\n// }\n\nfunction withoutDupes(ipList){\n    return ipList.sort().filter((v,i,arr) => i > arr.length || v !== arr[i+1]);\n}\n\n/** @summary repeatedly tries to fetch all globalNames with global.get(). \n        * @param {function} cb called once ALL globalName are defined\n        * @param {Object} opts object holding optional function params. can be omitted passing the first globalName instead.\n        * @param {number} opts.timeout ms delay after which stop trying and either call opts.errorCb() or log an error. defaults to 15000\n        * @param {number} opts.retryDelay ms between each attempt. defaults to 100\n        * @param {function} opts.errorCb function to call after timeout. defaults to falsy, logging a warning\n        * @param  {...any} globalNames series of strings\n        */\nfunction callWhenDef(cb, opts, ...globalNames) {\n    if (typeof (opts) == \"string\")\n        globalNames.push(opts);\n    let { timeout: timeout = 3000, retryDelay: retryDelay = 100, errorCb: errorCb = null } = (typeof (opts) == \"string\" ? opts : {});\n    var tout, intv;\n    //set timeout unless false or not specified\n    if (timeout) {\n        tout = setTimeout(() => {\n            clearInterval(intv);\n            errorCb ? errorCb() : node.warn({ err: \"callWhenDef_Timeout\", arg: arguments })\n        }, timeout);\n    }\n    //set global-chacking interval\n    intv = setInterval(() => {\n        for (let name of globalNames)\n            if (global.get(name) === undefined || global.get(name) === null)\n                return\n        clearTimeout(tout);\n        clearInterval(intv);\n        cb();\n    }, retryDelay)\n}",
         "finalize": "",
         "libs": [
             {
