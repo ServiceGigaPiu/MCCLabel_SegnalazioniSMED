@@ -296,7 +296,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
       actionClick(e, actionItemId){
          //var event = e.click ?? (()=>{console.warn("[iconpill-button][handleClick()] wrong event key. ignored."); for(let k in e) return e[k]; })()
          e.actionId = actionItemId;
-         sendToServer("event","setCellSignal",{toSignalKey:"A2", machineName:this.$props.machineName})
+         //sendToServer("event","setCellSignal",{toSignalKey:"A2", machineName:this.$props.machineName})
          this.$emit("action-button-click",e);
       }
    },
@@ -449,6 +449,9 @@ const app = new Vue({
 
     }, // --- End of computed --- //
     methods: {
+         sendToServer(...args){
+            window.sendToServer(...args);
+         },
          /**
              * setups the variables and intervals responsible for the countdown elements animations.
              * - adds to cdObj: timerLenght, end, minutes, seconds, refreshIntv.

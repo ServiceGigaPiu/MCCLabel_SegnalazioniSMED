@@ -104,7 +104,7 @@
                      ></signal-cell>
                      <!-- interactive administration cell -->
                      <admin-cell v-else
-                           class="main-col" @action-button-click="sendToServery('event','cellButtonClick',{cellRow:i,cellCol:j,actionId:$event.actionId})"
+                           class="main-col" @action-button-click="sendToServer('event','cellButtonClick',{cellRow:i,cellCol:j,actionId:$event.actionId})"
                            :machine-Key="mKey" :display-name="signalCells[mKey].displayName" :header-text="signalCells[mKey].headerText" :signal-key="signalCells[mKey].signalKey" :timer-length="signalCells[mKey].cd.timerLength" :remaining-ms="signalCells[mKey].cd.remainingMs" :end="signalCells[mKey].cd.end" :blink-intv-on-ms="signalCells[mKey].blinkIntvOn" :blink-intv-off-ms="signalCells[mKey].blinkIntvOff"
                      ></admin-cell>
                   </template>
