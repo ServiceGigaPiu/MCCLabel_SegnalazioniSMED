@@ -291,7 +291,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
    })(),
    methods:{
       isActBtnDisabled(key){
-         return key < this.signalKey;
+         return key <= this.signalKey;
       },
       actionClick(e, actionItemId){
          //var event = e.click ?? (()=>{console.warn("[iconpill-button][handleClick()] wrong event key. ignored."); for(let k in e) return e[k]; })()
@@ -304,7 +304,7 @@ const __ADMIN_CELL_COMPONENT__ = Vue.component("admin-cell",mergeRec(retSignalCe
       signalKey:{
          handler: function (){
             for(let btn of this.actionList )
-               btn.isDisabled = (this.signalKey!="noop" && "goTo"+this.signalKey > btn.id);
+               btn.isDisabled = (this.signalKey!="noop" && "goTo"+this.signalKey >= btn.id);
             return inherited.signalKey.handler.bind(this)();
          },
          immediate: false || inherited.signalKey.immediate,
