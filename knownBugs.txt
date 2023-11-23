@@ -1,2 +1,3 @@
 13/03 vbeta se dopo che la pagina è stata caricata il server viene spento e riacceso la riconnessione automatica restituisce una pagina bianca (cannot get webapp)
 2023/05/25  le interazioni con le tabelle nella dashboard forzano il ritorno alla prima pagina della tabella.
+2023/11/22 v1.0.3 GUIVars non può essere rigenerato se all'avvio "generateGUIVars" è andato in CalLWhenDef timeout
