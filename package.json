@@ -4,5 +4,18 @@
             "flowFile": "flows.json",
             "credentialsFile": "flows_cred.json"
         }
+    },
+    "dependencies": {
+        "node-red-contrib-modbus": "5.23.3",
+        "node-red-contrib-queue-gate": "1.5.5",
+        "node-red-contrib-s7": "3.1.0",
+        "node-red-contrib-simple-gate": "0.5.2",
+        "node-red-contrib-ui-contextmenu": "2.0.1",
+        "node-red-contrib-ui-etable": "4.6.3",
+        "node-red-contrib-ui-multistate-switch": "1.2.3",
+        "node-red-contrib-ui-state-trail": "0.4.4",
+        "node-red-dashboard": "3.2.3",
+        "node-red-node-mysql": "1.0.3",
+        "node-red-node-ui-table": "0.4.3"
     }
 }
