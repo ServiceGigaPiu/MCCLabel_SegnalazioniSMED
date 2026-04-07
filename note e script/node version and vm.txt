@@ -1,0 +1,8 @@
+C:\Users\Kiosk>node -v
+v16.19.1
+
+C:\Users\Kiosk>npm -v
+8.19.3
+
+vm:
+Win10x64 NodeRed 3.0.2 NodeJs 16.19.1 + Git + VCode + pm2 [general workspace #2]
