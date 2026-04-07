@@ -16,6 +16,7 @@
         "node-red-contrib-ui-state-trail": "0.4.4",
         "node-red-dashboard": "3.2.3",
         "node-red-node-mysql": "1.0.3",
-        "node-red-node-ui-table": "0.4.3"
+        "node-red-node-ui-table": "0.4.3",
+        "node-red-contrib-uibuilder": "5.1.1"
     }
 }
